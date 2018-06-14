@@ -3,23 +3,29 @@ docusora
 
 Documentation Methodology for Musora Media Inc.
 
-* [Guidelines](#guidelines)
-* [Tools, Online](#tools--online)
-* [On Markdown Usage](#on-markdown-usage)
-  + [Title](#title)
-  + [Headers](#headers)
-  + [Tables](#tables)
-  + [RE Table of Contents](#re-table-of-contents)
-  + [Syntax highlighting](#syntax-highlighting)
-* [Documentation Guidelines](#documentation-guidelines)
-  + [Installation, Configuration, and General](#installation--configuration--and-general)
-  + [Classes](#classes)
-  + [Methods](#methods)
-    - [notes](#notes)
-    - [method use example](#method-use-example)
-    - [method parameters](#method-parameters)
-  + [method return value](#method-return-value)
-* [API Reference Guidelines](#api-reference-guidelines)
+- [docusora](#docusora)
+  * [Guidelines](#guidelines)
+  * [Tools, Online](#tools--online)
+  * [On Markdown Usage](#on-markdown-usage)
+    + [Title](#title)
+    + [Headers](#headers)
+    + [Tables](#tables)
+    + [RE Table of Contents](#re-table-of-contents)
+    + [Syntax highlighting](#syntax-highlighting)
+  * [Documentation Guidelines](#documentation-guidelines)
+    + [Installation, Configuration, and General](#installation--configuration--and-general)
+      - [Template](#template)
+    + [Methods](#methods)
+      - [notes](#notes)
+      - [method use example](#method-use-example)
+      - [method parameters](#method-parameters)
+        * [Template (for Easy copypasta)](#template--for-easy-copypasta-)
+        * [Example](#example)
+      - [method return value](#method-return-value)
+        * [Template (for Easy copypasta)](#template--for-easy-copypasta--1)
+        * [Example](#example-1)
+    + [Template](#template-1)
+  * [API Reference Guidelines](#api-reference-guidelines)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 
@@ -105,11 +111,14 @@ baz content
 and so on and so forth...
 ```
 
-Please put a space below each header for reliable rendering, and two spaces above
+Put a space below each header for reliable rendering.
+
+Because of Markdown's lack of a way to properly mark a title, we're using the h1s for the title. There will only ever be one h1 in a document, and the h2s will then act as the *defacto* first order of headers. Not perfect, but oh well.
+
 
 ### Tables
 
-Create Tables in CSV, generate markdown table from that, save CSV version in html comment block.
+Create Tables in CSV, generate markdown table from that, paste markdown version, but keep CSV version for (stored in an html comment block) for easy changes and regeneration of markdown table.
 
 If change(s) required to Markdown table, please **do not edit it directly, but rather edit the CSV accordingly and re-generate the markdown table using the CSV-to-Markdown tool** noted elsewhere. This will ensure the CSV is always available for easy updates and will not become obsolete, leading to leg-work for future developers of creating CSV from Markdown table.
 
@@ -166,18 +175,16 @@ You will get something that looks like this:
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 ```
 
-There are two ways this can be improved before committing.
-
-1. You don't need to include that link (just a link in an html comment to the tool will be sufficient).
-2. you can remove the h1 item and move everything over to lines left. Because if we're using an h1 as a document title then there'll only be one - thus it's not necessary or helpful to have it in the TOC.
+You don't need to include that link (just the tool's URL - in an html comment - will be sufficient). Also, the h1 is unnecessary but just leave it - it's too much a pain to remove and then adjust the indentation every time.
 
 Much better:
  
 ```markdown
-* [Guidelines](#guidelines)
-* [Tools, Online](#tools--online)
-* [Details](#details)
-  + [Tables](#tables)
+- [docusora](#docusora)
+  * [Guidelines](#guidelines)
+  * [Tools, Online](#tools--online)
+  * [Details](#details)
+    + [Tables](#tables)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 ```
@@ -229,14 +236,33 @@ As required:
 1. describe installation instructions, including .env variables and/or configuration.
 1. Create sections to describe any not easily-discoverable features, logic of features, "gotcha"s or things to watch out for. Ideally you just refactor such things out, but sometimes it's not worth it or just might not happen. Give future developers a fighting chance by giving them a heads-up so they don't go down rabbit-holes chasing tricky bugs.
 
-### Classes
-
 For package functionality accessed by injected classes, give each class it's own section. The header is the class's name.
 
 Where applicable note the following:
 
 1. If class is to be extended, or is an interface or abstract class, note this at the top of the classes' section.
 1. If all methods to be noted below are public, note this at the top of the *class's* section.
+
+
+#### Template
+
+    Installation, Configuration, Use
+    --------------------------------
+    
+    ### Installation
+    
+    <!-- put your details here -->
+    
+    ### Configuration
+    
+    <!-- put your details here -->
+    
+    ### Use
+    
+    <!-- put your details here -->
+    
+    ### Classes
+
 
 ### Methods
 
@@ -255,62 +281,56 @@ Describe in a sentence or two what the method does.
 
 If it *might* be helpful, then *definitely* provide a paragraph or two with some illuminating background and explaination of what the method exactly does. Things like "behind-the-scenes" operations, why it was created, and what's generally happening in around the use of this method. Basically help give some context to future developers who may be refering to these docs but are not as aware of everything everything happening with this package and the kinds of systems it might be used for. 
 
-Where applicable note the following:
-
-1. If all methods in the class are public, state that at the top of the class's section.
-1. If method is protected rather than public, state that at the top of that method's section.
+At the top of each method's section, note whether it's public or protected. Omit me if all methods noted are public - in such cases note that all methods described are public (as described above). Do not include private methods.
 
 
 #### method use example
 
-Code samples make for easy comprehension, reminders, and copypasta programming.
+Code samples make for easy comprehension, reminders, and copypasta programming. Include at least one.
 
 
 #### method parameters
 
 Use the following table to describe the parameters for each method:
 
-| # |  name |  required |  default\* |  type |  description | 
-|---|-------|-----------|------------|-------|--------------| 
-|   |       |           |            |       |              | 
-
+| # |  name |  required |  default |  type |  description | 
+|---|-------|-----------|----------|-------|--------------| 
+|   |       |           |          |       |              | 
+ 
 <!--
-#, name, required, default\*, type, description
+#, name, required, default, type, description
  ,  ,  ,  ,  ,
 -->
 
-Example:
-
-| # |  name |  required |  default\* |  type    |  description                    | 
-|---|-------|-----------|------------|----------|---------------------------------| 
-| 1 |  foo  |  yes      |            |  string  |  name to save file as on remote | 
-| 2 |  bar  |  yes      |            |  string  |  path to file to upload         | 
-| 3 |  qux  |           |  true      |  boolean |  something descriptive          | 
- 
-<!--
-#, name, required, default\*, type, description
-1, foo, yes , , string, name to save file as on remote
-2, bar, yes , , string, path to file to upload
-3, qux, , true , boolean, something descriptive
--->
-
-\* when applicable
-
-Easy copypasta CSV template:
+##### Template (for Easy copypasta)
 
 ```markdown
 <!-- replace *this line* with markdown table generated using donatstudios.com/CsvToMarkdownTable -->
 
 <!--
-#, name, required, default\*, type, description
+#, name, required, default, type, description
  ,  ,  ,  ,  , 
  ,  ,  ,  ,  , 
 -->
-
-\* when applicable
 ```
 
-If all params are required, remove the "default\*" column
+
+##### Example
+
+| # |  name |  required |  default |  type    |  description                    | 
+|---|-------|-----------|----------|----------|---------------------------------| 
+| 1 |  foo  |  yes      |          |  string  |  name to save file as on remote | 
+| 2 |  bar  |  yes      |          |  string  |  path to file to upload         | 
+| 3 |  qux  |           |  true    |  boolean |  something descriptive          | 
+ 
+<!--
+#, name, required, default, type, description
+1, foo, yes , , string, name to save file as on remote
+2, bar, yes , , string, path to file to upload
+3, qux, , true , boolean, something descriptive
+-->
+
+If all params are required, remove the "default" column.
 
 | # |  name |  required |  type   |  description                    | 
 |---|-------|-----------|---------|---------------------------------| 
@@ -324,44 +344,94 @@ If all params are required, remove the "default\*" column
 -->
 
 
-### method return value
+
+#### method return value
 
 Detail each possibility in this table:
 
-| result |  type |  data |  description | 
-|--------|-------|-------|--------------| 
-|        |       |       |              | 
-  
-<!--
-result, type, data, description
- ,  ,
--->
-
-example:
-
-| result    |  type    |  data example                                        |  description                                             | 
-|-----------|----------|------------------------------------------------------|----------------------------------------------------------| 
-| succeeded |  string  |  {"foo":"bar"}                                       |  succeeded and returns value of "foo"                    | 
-| failed    |  boolean |  {"failed":"reason failed is because of that thing"} |  failed and has json with explaination in "failed" value | 
+| outcome |  return data type |  return data value (example) |  notes about return data | 
+|---------|-------------------|------------------------------|--------------------------| 
+|         |                   |                              |                          | 
  
 <!--
-result, type, data example, description
-succeeded, string, {"foo":"bar"}, succeeded and returns value of "foo"
-failed, boolean, {"failed":"reason failed is because of that thing"}, failed and has json with explaination in "failed" value
+outcome, return data type, return data value (example), notes about return data
+ ,  ,  , 
+ ,  ,  , 
 -->
 
-Omit the "description" column if it's superfluous.
 
-| result     |  type    |  data  | 
-|------------|----------|--------| 
-| succeeded  |  boolean |  true  | 
-| failed     |  boolean |  false | 
+
+##### Template (for Easy copypasta)
+
+```markdown
+<!-- replace *this line* with markdown table generated using donatstudios.com/CsvToMarkdownTable -->
 
 <!--
-result, type, data
+outcome, return data type, return data value (example), notes about return data
+ ,  ,  , 
+-->
+```
+
+
+##### Example
+
+| outcome   |  return data type |  return data value (example)                           |  notes about return data                   | 
+|-----------|-------------------|--------------------------------------------------------|--------------------------------------------| 
+| succeeded |  string           |  `{"foo":"bar"}`                                       |  json with a value assigned to key "foo"   | 
+| failed    |  boolean          |  `{"failed":"reason failed is because of that thing"}` |  json with explaination in "failed" value | 
+ 
+<!--
+outcome, return data type, return data value (example), notes about return data
+succeeded, string, `{"foo":"bar"}`, json with a value assigned to key "foo"
+failed, boolean, `{"failed":"reason failed is because of that thing"}`, fjson with explaination in "failed" value
+-->
+
+If all return data values are boolean, omit the "* (example)*" from the column label.
+
+Omit the "notes about return data" column if it's superfluous.
+
+| outcome    |  return data type |  return data value | 
+|------------|-------------------|--------------------| 
+| succeeded  |  boolean          |  true              | 
+| failed     |  boolean          |  false             | 
+
+<!--
+outcome, return data type, return data value
 succeeded , boolean, true
 failed , boolean, false
 -->
+
+
+### Template
+    
+    #### Usage Example
+
+    ```php
+    
+    # replace *this line* with example of how to call method
+    
+    ```
+    
+    #### Parameters
+
+    <!-- replace *this line* with markdown table generated using donatstudios.com/CsvToMarkdownTable -->
+    
+    <!--
+    #, name, required, default, type, description
+     ,  ,  ,  ,  , 
+     ,  ,  ,  ,  , 
+    -->
+    
+    #### Responses
+    
+    <!-- replace *this line* with markdown table generated using donatstudios.com/CsvToMarkdownTable -->
+    
+    <!--
+    outcome, return data type, return data value (example), notes about return data
+     ,  ,  , 
+    -->
+
+(assumes method name is h3. If not, adjust above h4s accordingly)
 
 
 
@@ -381,3 +451,6 @@ or
 * unlike 
 
 Or maybe not? That top one actually looks pretty good.
+
+*\[UNDER CONSTRUCTION\]*
+
