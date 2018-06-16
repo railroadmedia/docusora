@@ -26,6 +26,8 @@ Documentation Methodology for Musora Media Inc.
         * [Example](#example-1)
     + [Template](#template-1)
   * [API Reference Guidelines](#api-reference-guidelines)
+    + [Elements to detail for each endpoint](#elements-to-detail-for-each-endpoint)
+    + [Template](#template-2)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 
@@ -438,19 +440,63 @@ failed , boolean, false
 API Reference Guidelines
 ------------------------
 
-Create sections to help logically organize endpoints and functionality. Within sections, each endpoint has it's own header. The title of that header should be as succinct an explanation as is possible of what the endpoint does.
+Give each resource its own section. Give each endpoint of that resource its own subsection. Title the endpoint sections with a descriptive title that is has brief as possible.
 
-For example, if you have a "comment-like" url that can take a request with either a PUT or a DELETE method, you have two endpoints. But it wouldn't make sense to lable that endpoint in the reference by it's url and method because that's not descriptive enough.j
+For example, rather than calling a section "`GET /users/{id}`", call it "Get User"
 
-* comment-like PUT
-* comment-like DELETE
 
-or 
+### Elements to detail for each endpoint
 
-* like
-* unlike 
+1. HTTP request method and URL\*
+1. Notes\*
+1. Request Example
+1. Request Parameters
+1. Response Examples
 
-Or maybe not? That top one actually looks pretty good.
+\* these don't have their own sub-section, they're just under the header for the endpoint section, right before the "Request Example" subsection header.
 
-*\[UNDER CONSTRUCTION\]*
+When noting status for "Responses", include both the number *and* the status name. So that the text used would no just be "200", but rather "200 OK". Also enclose them with inline code backticks (" ` "). So that rather than "200 OK", you would have "`200 OK`" 
+
+For the table in the "Responses" section with details about each possible response, if a content example is too long or unwieldy for the table, then in the table just put a note in brackets saying that the example is below. Then put it below. Putting the examples in 
+
+### Template
+
+    ### {{descriptive but succinct name}} <!-- TODO: complete this then delete this comment -->
+
+    `{ METHOD /foo/{bar} }` <!-- TODO: complete this then delete this comment -->
+    
+    <!-- TODO: put notes here and/or delete this comment -->
+
+    #### Request Example
+
+    ```js   
+    
+    /* replace this line with example of how to call method */
+    
+    ```
+    
+    #### Request Parameters
+    
+    <!-- paste table here -->
+    
+    <!--
+    
+    path|query|body, key, required, default, description\|notes
+     ,  ,  ,  ,
+     ,  ,  ,  ,
+    
+    -->
+    
+    
+    #### Response Examples
+    
+    ##### `{Status code}` <!-- TODO: enter status code and delete this comment -->
+    
+    ```json
+    
+    /* replace *this line* with example */
+     
+    ```
+    
+     
 
