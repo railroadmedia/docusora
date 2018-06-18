@@ -12,7 +12,7 @@ Documentation Methodology for Musora Media Inc.
     + [Tables](#tables)
     + [RE Table of Contents](#re-table-of-contents)
     + [Syntax highlighting](#syntax-highlighting)
-  * [Documentation Guidelines](#documentation-guidelines)
+  * [Writing Documentation for a Package or Application](#writing-documentation-for-a-package-or-application)
     + [Installation, Configuration, and General](#installation--configuration--and-general)
       - [Template](#template)
     + [Methods](#methods)
@@ -25,7 +25,7 @@ Documentation Methodology for Musora Media Inc.
         * [Template (for Easy copypasta)](#template--for-easy-copypasta--1)
         * [Example](#example-1)
     + [Template](#template-1)
-  * [API Reference Guidelines](#api-reference-guidelines)
+  * [Writing Reference Documentation for an HTTP-accessible Web-API](#writing-reference-documentation-for-an-http-accessible-web-api)
     + [Elements to detail for each endpoint](#elements-to-detail-for-each-endpoint)
     + [Template](#template-2)
 
@@ -50,8 +50,7 @@ Tools, Online
     * [very nice](https://jbt.github.io/markdown-editor/) 
     * [nice, but simple](http://markdown.pioul.fr)
     * [integrates with Google Drive](https://stackedit.io/)
-* [CSV To Markdown Table Generator
-](https://donatstudios.com/CsvToMarkdownTable)
+* [CSV To Markdown Table Generator](https://donatstudios.com/CsvToMarkdownTable)
     * select "*Use first line as header*"
     * select "*Comma Separated*"
 * [generate empty tables structures](https://www.tablesgenerator.com/markdown_tables)
@@ -120,7 +119,7 @@ Because of Markdown's lack of a way to properly mark a title, we're using the h1
 
 ### Tables
 
-Create Tables in CSV, generate markdown table from that, paste markdown version, but keep CSV version for (stored in an html comment block) for easy changes and regeneration of markdown table.
+Create Tables in CSV, generate markdown table from that, paste markdown version, but keep CSV version for easy changes and regeneration of markdown table. Store it in an html comment block.
 
 If change(s) required to Markdown table, please **do not edit it directly, but rather edit the CSV accordingly and re-generate the markdown table using the CSV-to-Markdown tool** noted elsewhere. This will ensure the CSV is always available for easy updates and will not become obsolete, leading to leg-work for future developers of creating CSV from Markdown table.
 
@@ -163,7 +162,7 @@ corge, grault,  2839,   maybe
 
 **Please update the TOC before committing.**
 
-Copy your entire markdown file (`ctrl a` + `ctrl +c`) and paste into to the above noted online tool.
+Copy your entire markdown file (`ctrl a` + `ctrl +c`) and paste into to [the above noted online tool](https://donatstudios.com/CsvToMarkdownTable).
 
 You will get something that looks like this:
 
@@ -228,8 +227,10 @@ function(){
 ```
 
 
-Documentation Guidelines
-------------------------
+Writing Documentation for a Package or Application
+--------------------------------------------------
+
+This is for an installed and configurable component or system, that would would typically be implemented by a back-end developer. Whereas an "API Reference" will address how to make HTTP requests to URL endpoints, here you need to write for somebody that will instantiate a class, and call methods on that class. And/or reference properties and constants.
 
 ### Installation, Configuration, and General
 
@@ -248,23 +249,7 @@ Where applicable note the following:
 
 #### Template
 
-    Installation, Configuration, Use
-    --------------------------------
-    
-    ### Installation
-    
-    <!-- put your details here -->
-    
-    ### Configuration
-    
-    <!-- put your details here -->
-    
-    ### Use
-    
-    <!-- put your details here -->
-    
-    ### Classes
-
+See "_template_README.md" file. <!-- todo: link -->
 
 ### Methods
 
@@ -276,6 +261,8 @@ Each method should have these three items:
 1. method use example
 1. method parameters
 1. method return value
+
+See ['RemoteStorage' README.md]() for implemented usage.
 
 #### notes
 
@@ -431,19 +418,23 @@ failed , boolean, false
     <!--
     outcome, return data type, return data value (example), notes about return data
      ,  ,  , 
+     ,  ,  , 
     -->
 
 (assumes method name is h3. If not, adjust above h4s accordingly)
 
 
 
-API Reference Guidelines
-------------------------
+Writing Reference Documentation for an HTTP-accessible Web-API
+--------------------------------------------------------------
+
+This section describes how to write documentation for a HTTP-accessible web-API
 
 Give each resource its own section. Give each endpoint of that resource its own subsection. Title the endpoint sections with a descriptive title that is has brief as possible.
 
 For example, rather than calling a section "`GET /users/{id}`", call it "Get User"
 
+See ['Usora' README.md]() for implemented usage.
 
 ### Elements to detail for each endpoint
 
@@ -455,48 +446,46 @@ For example, rather than calling a section "`GET /users/{id}`", call it "Get Use
 
 \* these don't have their own sub-section, they're just under the header for the endpoint section, right before the "Request Example" subsection header.
 
-When noting status for "Responses", include both the number *and* the status name. So that the text used would no just be "200", but rather "200 OK". Also enclose them with inline code backticks (" ` "). So that rather than "200 OK", you would have "`200 OK`" 
+When noting status for "Responses", include both the number *and* the status name. Ex: not just "200", but "200 OK". Also, enclose them with inline code backticks (" \` ") to get "`200 OK`" rather than just "200 OK".
 
 For the table in the "Responses" section with details about each possible response, if a content example is too long or unwieldy for the table, then in the table just put a note in brackets saying that the example is below. Then put it below. Putting the examples in 
 
 ### Template
 
-    ### {{descriptive but succinct name}} <!-- TODO: complete this then delete this comment -->
+    succinct descriptive name for endpoint
+    --------------------------------------
 
-    `{ METHOD /foo/{bar} }` <!-- TODO: complete this then delete this comment -->
+    `{ METHOD /foo/{bar} }`
     
-    <!-- TODO: put notes here and/or delete this comment -->
-
-    #### Request Example
-
+    Write things here. Notes, comments, instructions, warnings, etc.
+    
+    
+    ### Request Example(s)
+    
     ```js   
     
     /* replace this line with example of how to call method */
     
     ```
     
-    #### Request Parameters
+    ### Request Parameters
     
     <!-- paste table here -->
     
-    <!--
-    
+    <!-- donatstudios.com/CsvToMarkdownTable
     path|query|body, key, required, default, description\|notes
      ,  ,  ,  ,
      ,  ,  ,  ,
-    
     -->
     
     
-    #### Response Examples
+    ### Response Example(s)
     
-    ##### `{Status code}` <!-- TODO: enter status code and delete this comment -->
+    #### `{418 I'm a teapot}`
     
     ```json
     
     /* replace *this line* with example */
-     
-    ```
     
-     
-
+    ```
+ 
