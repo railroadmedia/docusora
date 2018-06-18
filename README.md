@@ -6,13 +6,7 @@ Documentation Methodology for Musora Media Inc.
 - [docusora](#docusora)
   * [Guidelines](#guidelines)
   * [Tools, Online](#tools--online)
-  * [On Markdown Usage](#on-markdown-usage)
-    + [Title](#title)
-    + [Headers](#headers)
-    + [Tables](#tables)
-    + [RE Table of Contents](#re-table-of-contents)
-    + [Syntax highlighting](#syntax-highlighting)
-  * [Writing Documentation for a Package or Application](#writing-documentation-for-a-package-or-application)
+  * [Writing Documentation for an Application or Package](#writing-documentation-for-an-application-or-package)
     + [Installation, Configuration, and General](#installation--configuration--and-general)
       - [Template](#template)
     + [Methods](#methods)
@@ -33,6 +27,12 @@ Documentation Methodology for Musora Media Inc.
         * [`200 OK`](#-200-ok-)
         * [`418 I'm a teapot`](#-418-i-m-a-teapot-)
     + [Template](#template-2)
+  * [On Markdown Usage](#on-markdown-usage)
+    + [Title](#title)
+    + [Headers](#headers)
+    + [Tables](#tables)
+    + [RE Table of Contents](#re-table-of-contents)
+    + [Syntax highlighting](#syntax-highlighting)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 
