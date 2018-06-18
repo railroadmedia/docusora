@@ -62,180 +62,10 @@ Tools, Online
 * [Table of Contents (TOC) Generator](https://ecotrust-canada.github.io/markdown-toc/)
 
 
-On Markdown Usage
------------------
+Writing Documentation for an Application or Package
+---------------------------------------------------
 
-### Title
-
-Markdown doesn't have a way to make a document title. Generally people use the **h1** for that because it creates a document looks like we'd expect. There's two minor issues with this, but they don't concern us here, so we'll just use an **h1** to create the document title.
-
-### Headers
-
-Use 'em. See how to use markdown if you're unsure.
-
-| header type |  if at start of same line |  if on line below            | 
-|-------------|---------------------------|------------------------------| 
-| h1          |  `#`                      |  `===` (continue as desired) | 
-| h2          |  `##`                     |  `---` (continue as desired) | 
-| h3          |  `###`                    |  *n/a*                       | 
-| h4          |  `####`                   |  *n/a*                       | 
-| h5          |  `#####`                  |  *n/a*                       | 
-| h6          |  `######`                 |  *n/a*                       | 
-
-<!--
-header type, if at start of same line, if on line below
-h1, `#`, `===` (continue as desired)
-h2, `##`, `---` (continue as desired)
-h3, `###`, *n/a*
-h4, `####`, *n/a*
-h5, `#####`, *n/a*
-h6, `######`, *n/a*
--->
-
-For example
-
-```markdown
-Header 1
-====================
-
-foo content
-
-
-Header 2
----------------------
-
-bar content
-
-
-## Also Header 2
-
-baz content
-
-
-### Header 3
-
-and so on and so forth...
-```
-
-Put a space below each header for reliable rendering.
-
-Because of Markdown's lack of a way to properly mark a title, we're using the h1s for the title. There will only ever be one h1 in a document, and the h2s will then act as the *defacto* first order of headers. Not perfect, but oh well.
-
-
-### Tables
-
-Create Tables in CSV, generate markdown table from that, paste markdown version, but keep CSV version for easy changes and regeneration of markdown table. Store it in an html comment block.
-
-If change(s) required to Markdown table, please **do not edit it directly, but rather edit the CSV accordingly and re-generate the markdown table using the CSV-to-Markdown tool** noted elsewhere. This will ensure the CSV is always available for easy updates and will not become obsolete, leading to leg-work for future developers of creating CSV from Markdown table.
-
-For example:
-
-```markdown
-| some column |  some other column |  an id maybe? |  sure why not | 
-|-------------|--------------------|---------------|---------------| 
-| foo         |  bar               |  1            |  true         | 
-|             |  baz               |  2            |  false        | 
-| qux         |  quxx              |               |               | 
-|             |                    |               |  quuz         | 
-| corge       |  grault            |  2839         |  maybe        | 
-
-
-<!-- 
-some column, some other column, an id maybe?, sure why not
-foo, bar, 1, true
- , baz, 2, false
-qux, quxx, , 
- ,  ,  , quuz
-corge, grault, 2839, maybe
--->
-```
-
-Feel free to do whatever you want to make your CSVs easier to work with. Below is the exact same as above, just make a little easier to read by adding some spacing:
-
-```
-<!--
-some column, some other column, an id maybe?, sure why not
-foo,    bar,    1,      true
-    ,   baz,    2,      false
-qux,    quxx,    ,      
- ,       ,       ,      quuz
-corge, grault,  2839,   maybe
--->
-```
-
-### RE Table of Contents
-
-**Please update the TOC before committing.**
-
-Copy your entire markdown file (`ctrl a` + `ctrl +c`) and paste into to [the above noted online tool](https://donatstudios.com/CsvToMarkdownTable).
-
-You will get something that looks like this:
-
-```markdown
-- [docusora](#docusora)
-  * [Guidelines](#guidelines)
-  * [Tools, Online](#tools--online)
-  * [Details](#details)
-    + [Tables](#tables)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-```
-
-You don't need to include that link (just the tool's URL - in an html comment - will be sufficient). Also, the h1 is unnecessary but just leave it - it's too much a pain to remove and then adjust the indentation every time.
-
-Much better:
- 
-```markdown
-- [docusora](#docusora)
-  * [Guidelines](#guidelines)
-  * [Tools, Online](#tools--online)
-  * [Details](#details)
-    + [Tables](#tables)
-
-<!-- ecotrust-canada.github.io/markdown-toc -->
-```
-
-### Syntax highlighting
-
-Where possible, please use this for your code blocks.
-
-Example:
-
-	```
-	function(){
-	    $foo = 'bar';
-	}
-	```
-
-produces: 
-
-```
-function(){
-    $foo = 'bar';
-}
-```
-
-whereas
-
-	```php
-	function(){
-	    $foo = 'bar';
-	}
-	```
-  
-produces:
-
-```php
-function(){
-    $foo = 'bar';
-}
-```
-
-
-Writing Documentation for a Package or Application
---------------------------------------------------
-
-This is for an installed and configurable component or system, that would would typically be implemented by a back-end developer. Whereas an "API Reference" will address how to make HTTP requests to URL endpoints, here you need to write for somebody that will instantiate a class, and call methods on that class. And/or reference properties and constants.
+This is for an installed and configurable component or system, that would would typically be implemented by a back-end developer. Whereas an "Web-API" will address how to make HTTP requests to URL endpoints, here you need to write for somebody that will instantiate a class, and call methods on that class. And/or reference properties and constants.
 
 ### Installation, Configuration, and General
 
@@ -254,7 +84,7 @@ Where applicable note the following:
 
 #### Template
 
-See "_template_README.md" file. <!-- todo: link -->
+See "[_template_README.md](https://github.com/railroadmedia/docusora/blob/master/_template_README.md)" file. <!-- todo: link -->
 
 ### Methods
 
@@ -433,7 +263,7 @@ failed , boolean, false
 Writing Reference Documentation for an HTTP-accessible Web-API
 --------------------------------------------------------------
 
-This section describes how to write documentation for a HTTP-accessible web-API
+This section describes how to write documentation for an HTTP-accessible web-API
 
 Give each resource its own section. Give each endpoint of that resource its own subsection. Title the endpoint sections with a descriptive title that is has brief as possible.
 
@@ -544,7 +374,7 @@ query, `order_by_direction`,  , `'desc'`,
 
 ### Template
 
-"_template_README.md" has all the templates on this this page. This is just here for easier readiing.
+"[_template_README.md](https://github.com/railroadmedia/docusora/blob/master/_template_README.md)" has all the templates on this this page. This here is just for easier reading.
 
     succinct descriptive name for endpoint
     --------------------------------------
@@ -582,6 +412,182 @@ query, `order_by_direction`,  , `'desc'`,
     /* replace *this line* with example */
     
     ```
+
+
+
+
+On Markdown Usage
+-----------------
+
+### Title
+
+Markdown doesn't have a way to make a document title. Generally people use the **h1** for that because it creates a document looks like we'd expect. There's two minor issues with this, but they don't concern us here, so we'll just use an **h1** to create the document title.
+
+### Headers
+
+Use 'em. See how to use markdown if you're unsure.
+
+| header type |  if at start of same line |  if on line below            | 
+|-------------|---------------------------|------------------------------| 
+| h1          |  `#`                      |  `===` (continue as desired) | 
+| h2          |  `##`                     |  `---` (continue as desired) | 
+| h3          |  `###`                    |  *n/a*                       | 
+| h4          |  `####`                   |  *n/a*                       | 
+| h5          |  `#####`                  |  *n/a*                       | 
+| h6          |  `######`                 |  *n/a*                       | 
+
+<!--
+header type, if at start of same line, if on line below
+h1, `#`, `===` (continue as desired)
+h2, `##`, `---` (continue as desired)
+h3, `###`, *n/a*
+h4, `####`, *n/a*
+h5, `#####`, *n/a*
+h6, `######`, *n/a*
+-->
+
+For example
+
+```markdown
+Header 1
+====================
+
+foo content
+
+
+Header 2
+---------------------
+
+bar content
+
+
+## Also Header 2
+
+baz content
+
+
+### Header 3
+
+and so on and so forth...
+```
+
+Put a space below each header for reliable rendering.
+
+Because of Markdown's lack of a way to properly mark a title, we're using the h1s for the title. There will only ever be one h1 in a document, and the h2s will then act as the *defacto* first order of headers. Not perfect, but oh well.
+
+
+### Tables
+
+Create Tables in CSV, generate markdown table from that, paste markdown version, but keep CSV version for easy changes and regeneration of markdown table. Store it in an html comment block.
+
+If change(s) required to Markdown table, please **do not edit it directly, but rather edit the CSV accordingly and re-generate the markdown table using the CSV-to-Markdown tool** noted elsewhere. This will ensure the CSV is always available for easy updates and will not become obsolete, leading to leg-work for future developers of creating CSV from Markdown table.
+
+For example:
+
+```markdown
+| some column |  some other column |  an id maybe? |  sure why not | 
+|-------------|--------------------|---------------|---------------| 
+| foo         |  bar               |  1            |  true         | 
+|             |  baz               |  2            |  false        | 
+| qux         |  quxx              |               |               | 
+|             |                    |               |  quuz         | 
+| corge       |  grault            |  2839         |  maybe        | 
+
+
+<!-- 
+some column, some other column, an id maybe?, sure why not
+foo, bar, 1, true
+ , baz, 2, false
+qux, quxx, , 
+ ,  ,  , quuz
+corge, grault, 2839, maybe
+-->
+```
+
+Feel free to do whatever you want to make your CSVs easier to work with. Below is the exact same as above, just make a little easier to read by adding some spacing:
+
+```
+<!--
+some column, some other column, an id maybe?, sure why not
+foo,    bar,    1,      true
+    ,   baz,    2,      false
+qux,    quxx,    ,      
+ ,       ,       ,      quuz
+corge, grault,  2839,   maybe
+-->
+```
+
+### RE Table of Contents
+
+**Please update the TOC before committing.**
+
+Copy your entire markdown file (`ctrl a` + `ctrl +c`) and paste into to [the above noted online tool](https://donatstudios.com/CsvToMarkdownTable).
+
+You will get something that looks like this:
+
+```markdown
+- [docusora](#docusora)
+  * [Guidelines](#guidelines)
+  * [Tools, Online](#tools--online)
+  * [Details](#details)
+    + [Tables](#tables)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+```
+
+You don't need to include that link (just the tool's URL - in an html comment - will be sufficient). Also, the h1 is unnecessary but just leave it - it's too much a pain to remove and then adjust the indentation every time.
+
+Much better:
+ 
+```markdown
+- [docusora](#docusora)
+  * [Guidelines](#guidelines)
+  * [Tools, Online](#tools--online)
+  * [Details](#details)
+    + [Tables](#tables)
+
+<!-- ecotrust-canada.github.io/markdown-toc -->
+```
+
+### Syntax highlighting
+
+Where possible, please use this for your code blocks.
+
+Example:
+
+	```
+	function(){
+	    $foo = 'bar';
+	}
+	```
+
+produces: 
+
+```
+function(){
+    $foo = 'bar';
+}
+```
+
+whereas
+
+	```php
+	function(){
+	    $foo = 'bar';
+	}
+	```
+  
+produces:
+
+```php
+function(){
+    $foo = 'bar';
+}
+```
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 The end
