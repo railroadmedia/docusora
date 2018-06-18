@@ -3,6 +3,8 @@ docusora
 
 Documentation Methodology for Musora Media Inc.
 
+... the ***lite*** version for quick reading! ([full version here](https://github.com/railroadmedia/docusora/blob/master/README.md))
+
 - [docusora](#docusora)
   * [Guidelines & Tools](#guidelines---tools)
   * [for an Application or Package](#for-an-application-or-package)

@@ -4,6 +4,7 @@ docusora
 Documentation Methodology for Musora Media Inc.
 
 - [docusora](#docusora)
+  * [TL;DR](#tl-dr)
   * [Guidelines](#guidelines)
   * [Tools, Online](#tools--online)
   * [Writing Documentation for an Application or Package](#writing-documentation-for-an-application-or-package)
@@ -35,6 +36,11 @@ Documentation Methodology for Musora Media Inc.
     + [Syntax highlighting](#syntax-highlighting)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
+
+TL;DR
+------------
+
+**See the [*lite* version here](https://github.com/railroadmedia/docusora/blob/master/README-lite.md).**
 
 
 Guidelines
