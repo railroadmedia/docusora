@@ -27,6 +27,11 @@ Documentation Methodology for Musora Media Inc.
     + [Template](#template-1)
   * [Writing Reference Documentation for an HTTP-accessible Web-API](#writing-reference-documentation-for-an-http-accessible-web-api)
     + [Elements to detail for each endpoint](#elements-to-detail-for-each-endpoint)
+    + [Request Example](#request-example)
+    + [Request Parameters](#request-parameters)
+    + [Response Examples](#response-examples)
+        * [`200 OK`](#-200-ok-)
+        * [`418 I'm a teapot`](#-418-i-m-a-teapot-)
     + [Template](#template-2)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
@@ -262,7 +267,7 @@ Each method should have these three items:
 1. method parameters
 1. method return value
 
-See ['RemoteStorage' README.md]() for implemented usage.
+See ['RemoteStorage' README.md](https://github.com/railroadmedia/remotestorage) for implemented usage.
 
 #### notes
 
@@ -434,7 +439,7 @@ Give each resource its own section. Give each endpoint of that resource its own 
 
 For example, rather than calling a section "`GET /users/{id}`", call it "Get User"
 
-See ['Usora' README.md]() for implemented usage.
+See ['Usora' README.md](https://github.com/railroadmedia/usora/blob/d5aad09f2e7ba396c690ab448ec975281e5ed170/README.md) for implemented usage.
 
 ### Elements to detail for each endpoint
 
@@ -450,7 +455,96 @@ When noting status for "Responses", include both the number *and* the status nam
 
 For the table in the "Responses" section with details about each possible response, if a content example is too long or unwieldy for the table, then in the table just put a note in brackets saying that the example is below. Then put it below. Putting the examples in 
 
+### Request Example
+
+However the API is most likely going to be targeted. For example, to this section of the template, if a developer writing something to call thi API, perhaps they would just jquery's AJAX function? Add an example of what that call might look like, so that somebody viewing the docs you're writing can just copy-paste it to their stuff, and can see where to start.
+
+Ex:
+
+```js
+var userId = 1;
+
+$.ajax({
+    url: 'https://www.musora.com' +
+        '/usora/user/show/' . userId,
+    type: 'get',
+    dataType: 'json',
+    success: function(response) {
+        // handle success
+    },
+    error: function(response) {
+        // handle error
+    }
+});
+```
+
+
+### Request Parameters
+
+Create a table, with a row for each param. Here is a CSV template:
+
+    <!-- donatstudios.com/CsvToMarkdownTable
+    path|query|body, key, required, default, description\|notes
+     ,  ,  ,  ,
+     ,  ,  ,  ,
+    -->
+
+Ex:
+
+| path\|query\|body |  key                  |  required |  default        |  description\|notes | 
+|-------------------|-----------------------|-----------|-----------------|---------------------| 
+| query             |  `limit`              |           | `25`            |                     | 
+| query             |  `page`               |           |  `1`            |                     | 
+| query             |  `order_by_column`    |           |  `'created_at'` |                     | 
+| query             |  `order_by_direction` |           |  `'desc'`       |                     | 
+
+<!--
+path\|query\|body, key, required, default, description\|notes
+query, `limit`, ,`25`,
+query, `page`,  , `1`, 
+query, `order_by_column`,  , `'created_at'`,
+query, `order_by_direction`,  , `'desc'`,
+-->
+
+
+### Response Examples
+
+##### `200 OK`
+
+```json
+{
+   "status":"ok",
+   "code":200,
+   "results":{
+      "id":217988,
+      "content_id":202313,
+      "key":"difficulty",
+      "value":"1",
+      "type":"integer",
+      "position":1
+   }
+}
+```
+
+##### `418 I'm a teapot`
+
+```json
+{
+   "status":"I'm a teapot",
+   "code":418,
+   "results":{
+      "coffee":0,
+      "coffee-eta": 0,
+      "error":"Am teapot. Cannot make coffee",
+      "position":1
+   }
+}
+```
+
+
 ### Template
+
+"_template_README.md" has all the templates on this this page. This is just here for easier readiing.
 
     succinct descriptive name for endpoint
     --------------------------------------
@@ -488,4 +582,6 @@ For the table in the "Responses" section with details about each possible respon
     /* replace *this line* with example */
     
     ```
- 
+------------------------------------------------------------------------------------------------------------------------
+
+The end
