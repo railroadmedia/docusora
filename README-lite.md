@@ -18,6 +18,8 @@ Documentation Methodology for Musora Media Inc.
     + [Request Example](#request-example)
     + [Request Parameters](#request-parameters)
     + [Response Examples](#response-examples)
+  * [Events](#events)
+      - [Sections for Each Event](#sections-for-each-event)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 
@@ -206,6 +208,55 @@ query, `order_by_direction`,  , `'desc'`,
        }
     }
     ```
+
+Events
+---------------------------
+
+Lest things happen that the reader is not aware about, please let them know what Events are fired or can be caught.
+
+Order this section like this:
+
+```
+    * Events
+        * FooEvent 
+        * BarEvent
+        * BazEvent
+```
+
+List all events that are fired when an application|package method is called.
+
+Use this template to supply information about the all events available. do this at the top of the "Events" section so the reader can get a quick overview without having to dive into the details about each Event.
+
+    <!-- table goes here -->
+    
+    <!--
+    Name, Description, Parameters, Listener exists, Resultant action(s)
+     , , , , 
+     , , , , 
+    -->
+    
+See ['Usora' README.md](https://github.com/railroadmedia/usora/blob/d1a2168f4341e9949ad48bba776992e1831cef8a/README.md) for example of implemented usage.
+
+#### Sections for Each Event
+
+Each Event has it's own section. Follow this structure for each Event's section:
+    
+    <!-- Description here --> 
+    
+    <!-- ultra-important notes|instructions|warnings|etc -->
+ 
+    <!-- If trigger exists, where is it (are they)?--> 
+    <!-- Trigger exists in:... -->
+    <!-- No triggers exist -->
+    
+    <!-- If Listener(s) exist, What are they? What does the code look like (paste code snippets) -->
+    <!-- Listener exists in: -->
+    <!-- No listener exists -->
+   
+    <!-- Examples and code snippets -->
+        
+    <!-- additional notes if needed -->
+    
 
 ------------------------------------------------------------------------------------------------------------------------
 

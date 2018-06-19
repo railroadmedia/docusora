@@ -19,7 +19,7 @@ Documentation Methodology for Musora Media Inc.
       - [method return value](#method-return-value)
         * [Template (for Easy copypasta)](#template--for-easy-copypasta--1)
         * [Example](#example-1)
-    + [Template](#template-1)
+      - [Template](#template-1)
   * [Writing Reference Documentation for an HTTP-accessible Web-API](#writing-reference-documentation-for-an-http-accessible-web-api)
     + [Elements to detail for each endpoint](#elements-to-detail-for-each-endpoint)
     + [Request Example](#request-example)
@@ -28,6 +28,8 @@ Documentation Methodology for Musora Media Inc.
         * [`200 OK`](#-200-ok-)
         * [`418 I'm a teapot`](#-418-i-m-a-teapot-)
     + [Template](#template-2)
+  * [Events](#events)
+      - [Sections for Each Event](#sections-for-each-event)
   * [On Markdown Usage](#on-markdown-usage)
     + [Title](#title)
     + [Headers](#headers)
@@ -68,10 +70,17 @@ Tools, Online
 * [Table of Contents (TOC) Generator](https://ecotrust-canada.github.io/markdown-toc/)
 
 
+<!-- =============================================================================================================== -->
+<!-- =============================================================================================================== -->
+<!-- =============================================================================================================== -->
+
 Writing Documentation for an Application or Package
 ---------------------------------------------------
 
 This is for an installed and configurable component or system, that would would typically be implemented by a back-end developer. Whereas an "Web-API" will address how to make HTTP requests to URL endpoints, here you need to write for somebody that will instantiate a class, and call methods on that class. And/or reference properties and constants.
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Installation, Configuration, and General
 
@@ -91,6 +100,9 @@ Where applicable note the following:
 #### Template
 
 See "[_template_README.md](https://github.com/railroadmedia/docusora/blob/master/_template_README.md)" file. <!-- todo: link -->
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Methods
 
@@ -232,7 +244,7 @@ failed , boolean, false
 -->
 
 
-### Template
+#### Template
     
     #### Usage Example
 
@@ -264,8 +276,6 @@ failed , boolean, false
 
 (assumes method name is h3. If not, adjust above h4s accordingly)
 
-
-
 Writing Reference Documentation for an HTTP-accessible Web-API
 --------------------------------------------------------------
 
@@ -275,7 +285,10 @@ Give each resource its own section. Give each endpoint of that resource its own 
 
 For example, rather than calling a section "`GET /users/{id}`", call it "Get User"
 
-See ['Usora' README.md](https://github.com/railroadmedia/usora/blob/d5aad09f2e7ba396c690ab448ec975281e5ed170/README.md) for implemented usage.
+See ['Usora' README.md](https://github.com/railroadmedia/usora/blob/d1a2168f4341e9949ad48bba776992e1831cef8a/README.md) for example of implemented usage.
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Elements to detail for each endpoint
 
@@ -290,6 +303,9 @@ See ['Usora' README.md](https://github.com/railroadmedia/usora/blob/d5aad09f2e7b
 When noting status for "Responses", include both the number *and* the status name. Ex: not just "200", but "200 OK". Also, enclose them with inline code backticks (" \` ") to get "`200 OK`" rather than just "200 OK".
 
 For the table in the "Responses" section with details about each possible response, if a content example is too long or unwieldy for the table, then in the table just put a note in brackets saying that the example is below. Then put it below. Putting the examples in 
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Request Example
 
@@ -314,6 +330,9 @@ $.ajax({
 });
 ```
 
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Request Parameters
 
@@ -342,6 +361,9 @@ query, `order_by_column`,  , `'created_at'`,
 query, `order_by_direction`,  , `'desc'`,
 -->
 
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Response Examples
 
@@ -377,6 +399,9 @@ query, `order_by_direction`,  , `'desc'`,
 }
 ```
 
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Template
 
@@ -420,14 +445,71 @@ query, `order_by_direction`,  , `'desc'`,
     ```
 
 
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
+Events
+---------------------------
+
+Lest things happen that the reader is not aware about, please let them know what Events are fired or can be caught.
+
+Order this section like this:
+
+```
+    * Events
+        * FooEvent 
+        * BarEvent
+        * BazEvent
+```
+
+List all events that are fired when an application|package method is called.
+
+Use this template to supply information about the all events available. do this at the top of the "Events" section so the reader can get a quick overview without having to dive into the details about each Event.
+
+    <!-- table goes here -->
+    
+    <!--
+    Name, Description, Parameters, Listener exists, Resultant action(s)
+     , , , , 
+     , , , , 
+    -->
+    
+See ['Usora' README.md](https://github.com/railroadmedia/usora/blob/d1a2168f4341e9949ad48bba776992e1831cef8a/README.md) for example of implemented usage.
+
+#### Sections for Each Event
+
+Each Event has it's own section. Follow this structure for each Event's section:
+    
+    <!-- Description here --> 
+    
+    <!-- ultra-important notes|instructions|warnings|etc -->
+ 
+    <!-- If trigger exists, where is it (are they)?--> 
+    <!-- Trigger exists in:... -->
+    <!-- No triggers exist -->
+    
+    <!-- If Listener(s) exist, What are they? What does the code look like (paste code snippets) -->
+    <!-- Listener exists in: -->
+    <!-- No listener exists -->
+   
+    <!-- Examples and code snippets -->
+        
+    <!-- additional notes if needed -->
+    
+    
 
 On Markdown Usage
 -----------------
 
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
+
 ### Title
 
 Markdown doesn't have a way to make a document title. Generally people use the **h1** for that because it creates a document looks like we'd expect. There's two minor issues with this, but they don't concern us here, so we'll just use an **h1** to create the document title.
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Headers
 
@@ -482,6 +564,9 @@ Put a space below each header for reliable rendering.
 Because of Markdown's lack of a way to properly mark a title, we're using the h1s for the title. There will only ever be one h1 in a document, and the h2s will then act as the *defacto* first order of headers. Not perfect, but oh well.
 
 
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
+
 ### Tables
 
 Create Tables in CSV, generate markdown table from that, paste markdown version, but keep CSV version for easy changes and regeneration of markdown table. Store it in an html comment block.
@@ -523,6 +608,9 @@ corge, grault,  2839,   maybe
 -->
 ```
 
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
+
 ### RE Table of Contents
 
 **Please update the TOC before committing.**
@@ -554,6 +642,9 @@ Much better:
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 ```
+
+------------------------------------------------------------------------------------------------------------------------
+<!-- =============================================================================================================== -->
 
 ### Syntax highlighting
 
@@ -591,9 +682,6 @@ function(){
 }
 ```
 
-
-
-
 ------------------------------------------------------------------------------------------------------------------------
 
-The end
+<div style="text-align:center">The end</div>
