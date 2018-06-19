@@ -21,6 +21,9 @@ Write something nice and descriptive here.
     + [Request Parameters](#request-parameters)
     + [Response Example(s)](#response-example-s-)
       - [`{418 I'm a teapot}`](#--418-i-m-a-teapot--)
+  * [Events](#events)
+    + [FooEvent](#fooevent)
+    + [BarEvent](#barevent)
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 
@@ -119,6 +122,56 @@ path|query|body, key, required, default, description\|notes
 /* replace *this line* with example */
 
 ```
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+Events
+--------------------------------------------
+
+<!-- table goes here -->
+    
+<!--
+Name, Description, Parameters, Listener exists, Resultant action(s)
+ , , , , 
+ , , , , 
+-->
+
+### FooEvent
+    
+<!-- Description here --> 
+
+<!-- ultra-important notes|instructions|warnings|etc -->
+
+<!-- If trigger exists, where is it (are they)?--> 
+<!-- Trigger exists in:... -->
+<!-- No triggers exist -->
+
+<!-- If Listener(s) exist, What are they? What does the code look like (paste code snippets) -->
+<!-- Listener exists in: -->
+<!-- No listener exists -->
+
+<!-- Examples and code snippets -->
+    
+<!-- additional notes if needed -->
+
+
+### BarEvent
+    
+<!-- Description here --> 
+
+<!-- ultra-important notes|instructions|warnings|etc -->
+
+<!-- If trigger exists, where is it (are they)?--> 
+<!-- Trigger exists in:... -->
+<!-- No triggers exist -->
+
+<!-- If Listener(s) exist, What are they? What does the code look like (paste code snippets) -->
+<!-- Listener exists in: -->
+<!-- No listener exists -->
+
+<!-- Examples and code snippets -->
+    
+<!-- additional notes if needed -->
 
 <!-- --------------------------------------------------------------------------------------------------------------- -->
 
