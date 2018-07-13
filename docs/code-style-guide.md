@@ -25,7 +25,7 @@ Developers should be able to jump between projects and easily recognize and read
 **Fully read through PSR2 standards. This guide will continue off this document: <https://www.php-fig.org/psr/psr-2/>**
 
 Example Ideal Function Style:
-[Example Ideal Function Style](https://i.imgur.com/aOnJUB4.png)
+![Example Ideal Function Style](https://i.imgur.com/aOnJUB4.png)
 
 # Doc Blocks
 
