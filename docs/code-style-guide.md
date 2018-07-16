@@ -47,9 +47,9 @@ Example Ideal Function Style:
 - Return lines MUST NOT have a new line after them IF the following line is a closing brace }
 ![Return Lines](https://i.imgur.com/wzxqoze.png)
 
-## Chained Function
+## Chained Functions
 
 - If the total chain length is longer than 120 characters, each function MUST be on a new line (chopped down)
- ![Chained Functions](https://i.imgur.com/9XABLpx.png)
+ ![Chained Functions](https://i.imgur.com/JD5Gusj.png)
 
 # PHPStorm Setup
