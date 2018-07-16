@@ -54,6 +54,6 @@ Example Ideal Function Style:
 
 # PHPStorm Setup
 
-1. Download the phpstorm-settings/musora-php-code-style.xml file fro, this repository ()
+1. Download the phpstorm-settings/musora-php-code-style.xml file fro, this repository <https://raw.githubusercontent.com/railroadmedia/docusora/master/phpstorm-settings/musora-php-code-style.xml>
 2. Import it in to PHPStorm by selecting the file from your computer:
-![Import PHPStorm Code Style](https://i.imgur.com/Eox2IxB.png)
+![Import PHPStorm Code Style](https://i.imgur.com/Bey4jRA.png)
