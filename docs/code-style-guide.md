@@ -3,7 +3,7 @@
 This guide is based off all the main PSR standards. Please review each below:
 
 **Code style & rules:**
-<https://www.php-fig.org/psr/psr-1/>
+<https://www.php-fig.org/psr/psr-1/>  
 <https://www.php-fig.org/psr/psr-2/>
 
 Auto loading:
