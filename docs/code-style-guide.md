@@ -34,5 +34,17 @@ Example Ideal Function Style:
 - The doc blocks description MUST be start on the second line of doc block
 - There MUST be a empty line between a doc blocks descriptions and the parameter/return declarations
 - In the doc block: parameter types, return types, and throwable types MUST be declared if necessary
+
+# Lines
+
+- Code lines MUST NOT be longer than 120 characters
+- Code SHOULD be chopped down rather than wrapped to stay under 120 characters
+![Wrapping Style](https://i.imgur.com/DIO1oSR.png)
  
+# Return Statements
+
+- Return lines SHOULD have a new line before them
+- Return lines MUST NOT have a new line after them IF the following line is a closing brace (})
+![Return Lines](https://i.imgur.com/wzxqoze.png)
+
 # PHPStorm Setup
