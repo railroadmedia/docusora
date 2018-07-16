@@ -27,7 +27,7 @@ Developers should be able to jump between projects and easily recognize and read
 Example Ideal Function Style:
 ![Example Ideal Function Style](https://i.imgur.com/aOnJUB4.png)
 
-# Doc Blocks
+## Doc Blocks
 
 - Functions MUST have a doc block
 - The doc block SHOULD have a description, and it should be a in full sentences with periods
@@ -35,13 +35,13 @@ Example Ideal Function Style:
 - There MUST be a empty line between a doc blocks descriptions and the parameter/return declarations
 - In the doc block: parameter types, return types, and throwable types MUST be declared if necessary
 
-# Lines
+## Lines
 
 - Code lines MUST NOT be longer than 120 characters
 - Code SHOULD be chopped down rather than wrapped to stay under 120 characters
 ![Wrapping Style](https://i.imgur.com/DIO1oSR.png)
  
-# Return Statements
+## Return Statements
 
 - Return lines SHOULD have a new line before them
 - Return lines MUST NOT have a new line after them IF the following line is a closing brace (})
