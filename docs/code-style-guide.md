@@ -2,12 +2,12 @@
 
 This guide is based off all the main PSR standards. Please review each below:
 
-Auto loading:
-<https://www.php-fig.org/psr/psr-4/>
-
-Code style & rules:
+**Code style & rules:**
 <https://www.php-fig.org/psr/psr-1/>
 <https://www.php-fig.org/psr/psr-2/>
+
+Auto loading:
+<https://www.php-fig.org/psr/psr-4/>
 
 Logging interface:
 <https://www.php-fig.org/psr/psr-3/>
@@ -44,7 +44,12 @@ Example Ideal Function Style:
 ## Return Statements
 
 - Return lines SHOULD have a new line before them
-- Return lines MUST NOT have a new line after them IF the following line is a closing brace (})
+- Return lines MUST NOT have a new line after them IF the following line is a closing brace }
 ![Return Lines](https://i.imgur.com/wzxqoze.png)
+
+## Chained Function
+
+- If the total chain length is longer than 120 characters, each function MUST be on a new line (chopped down)
+ ![Chained Functions](https://i.imgur.com/9XABLpx.png)
 
 # PHPStorm Setup
