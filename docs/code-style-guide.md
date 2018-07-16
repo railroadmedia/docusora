@@ -1,6 +1,6 @@
 # Code Style Standards
 
-This guide is based off all the main PSR standards. Please review each below:
+This guide is based off all the main PSR standards. Please review each below (emphasis on PSR-1 & PSR-2):
 
 **Code style & rules:**  
 <https://www.php-fig.org/psr/psr-1/>  
