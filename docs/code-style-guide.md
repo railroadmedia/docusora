@@ -53,3 +53,7 @@ Example Ideal Function Style:
  ![Chained Functions](https://i.imgur.com/JD5Gusj.png)
 
 # PHPStorm Setup
+
+1. Download the phpstorm-settings/musora-php-code-style.xml file fro, this repository ()
+2. Import it in to PHPStorm by selecting the file from your computer:
+![Import PHPStorm Code Style](https://i.imgur.com/Eox2IxB.png)
