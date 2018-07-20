@@ -3,7 +3,7 @@
 Each developer has 5 dev days a week. We have 4 back end developers.   
 **We have 20 dev days in a week, or 80 in a a month total.**
 
-**Calculating Deadline Guide:**
+### **Calculating Deadline Guide:**
 
 **1. Add up estimated dev days from stories**  
 2. Since we spend 1 days worth of work a week doing other things, **add 20%**  
@@ -13,14 +13,14 @@ Each developer has 5 dev days a week. We have 4 back end developers.
 **6. You have your total time in working days!**  
 
 
-Formula:
+### **Formula:**
 
 **Total Dev Days Estimate * 1.20 * 1.13 * 1.10 / Total Devs On Project = Total Working Days Till Deadline**
 
 From working days till deadline you can get the total weeks till project completion by taking the start date,   
 and adding **(Total Working Days Till Deadline / 5)** weeks.
 
-**Example:**
+### **Example:**
 
 (**50** * 1.20 * 1.13 * 1.10 / **4**) = **19 total working days duration**
 
