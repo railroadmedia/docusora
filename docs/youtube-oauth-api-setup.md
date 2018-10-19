@@ -1,7 +1,7 @@
 # Youtube OAuth API Setup Guide
 
 ## Getting a Refresh Token
-Basically to access PRIVATE or UNLISTED youtube data for an account you have access to, you must use the OAuth system. A plain API key will not work.
+In order to access PRIVATE or UNLISTED youtube data for an account you have access to, you must use the OAuth system. A plain API key will not work.
 
 1. Login in to the main google account that owns the Youtube channel
 2. Go to the google developer console: [https://console.developers.google.com/apis/dashboard](https://console.developers.google.com/apis/dashboard)
@@ -12,12 +12,14 @@ Basically to access PRIVATE or UNLISTED youtube data for an account you have acc
 7. Add scope: ../auth/youtube
 8. Add authorized domain of your website (ex. drumeo.com)
 9. Click 'Save' (NOT Submit for Verification)
+
 10. Go back to main credentials page
 11. Click 'Create credentials' => OAuth client ID
 12. Select 'Web application' type, click 'Create'
 13. Enter any name you wish
 14. Add a 'Authorized redirect URIs' that is: [https://developers.google.com/oauthplayground](https://developers.google.com/oauthplayground)
 15. Click 'Create', note the client ID and secret somewhere
+
 16. Go to the google OAuth playground: [https://developers.google.com/oauthplayground](https://developers.google.com/oauthplayground)
 17. Click the little gear icon in the top right to open settings config options
 18. Make sure 'Access type:' is set to 'Offline' if it isn't already
