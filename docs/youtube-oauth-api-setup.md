@@ -7,7 +7,8 @@ In order to access PRIVATE or UNLISTED youtube data for an account you have acce
 2. Go to the google developer console: [https://console.developers.google.com/apis/dashboard](https://console.developers.google.com/apis/dashboard)
 3. If you don't already have a project, create one (any name and no organizations is fine)
 4. From that projects dashboard, click 'Enable APIs and Services', then enable the 'YouTube Data API v3'
-5. Go to Credentials, then click 'OAuth consent screen'
+
+5. Go to Credentials, then click 'OAuth consent screen' (if you are on the welcome starting credentials wizard, click cancel first to get to the main credentials page)
 6. Enter any application name and application logo
 7. Add scope: ../auth/youtube
 8. Add authorized domain of your website (ex. drumeo.com)
@@ -17,7 +18,7 @@ In order to access PRIVATE or UNLISTED youtube data for an account you have acce
 11. Click 'Create credentials' => OAuth client ID
 12. Select 'Web application' type, click 'Create'
 13. Enter any name you wish
-14. Add a 'Authorized redirect URIs' that is: [https://developers.google.com/oauthplayground](https://developers.google.com/oauthplayground)
+14. Add a 'Authorized redirect URIs': https://developers.google.com/oauthplayground
 15. Click 'Create', note the client ID and secret somewhere
 
 16. Go to the google OAuth playground: [https://developers.google.com/oauthplayground](https://developers.google.com/oauthplayground)
