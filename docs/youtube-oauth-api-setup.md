@@ -62,3 +62,39 @@ $data = $youtube->liveBroadcasts->listLiveBroadcasts(
 );
 
 ```
+
+An example that caches the access token:
+
+```php
+
+$client = new Google_Client();
+$youtube = new Google_Service_YouTube($client);
+
+if (cache()->has('yt-access-token-data')) {
+    $tokenData = cache()->pull('drumeo-yt-access-token-data');
+} else {
+    $client->setClientId('your-client-id');
+    $client->setClientSecret('your-client-secret');
+
+    $client->setScopes(['https://www.googleapis.com/auth/youtube']);
+    $client->setAccessType("offline");
+
+    $tokenData = $client->refreshToken('you-refresh-token');
+
+    cache()->set('yt-access-token-data', $tokenData, $tokenData['expires_in'] - 500);
+}
+
+$client->setAccessToken(
+    $tokenData['access_token']
+);
+
+$data = $youtube->liveBroadcasts->listLiveBroadcasts(
+    'id,snippet,contentDetails',
+    [
+        'mine' => true,
+        'broadcastType' => 'persistent',
+    ]
+);
+
+
+```
