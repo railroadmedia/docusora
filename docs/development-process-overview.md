@@ -49,9 +49,9 @@ Since some of these 6 steps overlap each other in terms of a project timeline so
 
 In general each type of sprint should have its time allocation split like this:
 
-Planning: 1/4 of total project time
-Implementation: 2/4 of total project time
-Acceptance: 1/4 of total project time
+- Planning: 1/4 of total project time
+- Implementation: 2/4 of total project time
+- Acceptance: 1/4 of total project time
 
 ## Example
 For example a 2 month project may have one 2 week planning sprint, then two 2 week implementation sprints, then one 2 week acceptance sprint. As a general rule of thumb if we conclude it will take X weeks of implementation for a given project, we should also allocate X weeks for Planning and Acceptance.
