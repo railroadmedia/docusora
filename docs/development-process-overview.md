@@ -37,13 +37,13 @@
 Since some of these 6 steps overlap each other in terms of a project timeline so its best to split the project in to a fewer amount of sprint types. We use 3 main types of sprints to split up a project.
 
 ## 1: Planning Sprints
-- Includes steps: **1 Features & Requirements**, **2 Research & Testing**, **3 System & API Specifications**
+- Includes steps: 1 **Features & Requirements**, 2 **Research & Testing**, 3 **System & API Specifications**
 
 ## 2: Implementation Sprints
-- Includes steps: 3 (System & API Specifications), **4 Development**, **5 Quality Assurance**
+- Includes steps: 3 **System & API Specifications**, 4 **Development**, 5 **Quality Assurance**
 
 ## 3: Acceptance Sprints
-- Includes steps: 5 (Quality Assurance), 6 (Deployment & Monitoring)
+- Includes steps: 5 **Quality Assurance**, 6 **Deployment & Monitoring**
 
 ## Timeline
 
