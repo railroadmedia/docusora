@@ -37,10 +37,10 @@
 Since some of these 6 steps overlap each other in terms of a project timeline so its best to split the project in to a fewer amount of sprint types. We use 3 main types of sprints to split up a project.
 
 ## 1: Planning Sprints
-- Includes steps: 1 (Features & Requirements), 2 (Research & Testing), 3 (System & API Specifications)
+- Includes steps: **1 Features & Requirements**, **2 Research & Testing**, **3 System & API Specifications**
 
 ## 2: Implementation Sprints
-- Includes steps: 3 (System & API Specifications), 4 (Development), 5 (Quality Assurance)
+- Includes steps: 3 (System & API Specifications), **4 Development**, **5 Quality Assurance**
 
 ## 3: Acceptance Sprints
 - Includes steps: 5 (Quality Assurance), 6 (Deployment & Monitoring)
@@ -49,9 +49,9 @@ Since some of these 6 steps overlap each other in terms of a project timeline so
 
 In general each type of sprint should have its time allocation split like this:
 
-- Planning: 1/4 of total project time
-- Implementation: 2/4 of total project time
-- Acceptance: 1/4 of total project time
+- **Planning: 1/4 of total project time**
+- **Implementation: 2/4 of total project time**
+- **Acceptance: 1/4 of total project time**
 
 ## Example
 For example a 2 month project may have one 2 week planning sprint, then two 2 week implementation sprints, then one 2 week acceptance sprint. As a general rule of thumb if we conclude it will take X weeks of implementation for a given project, we should also allocate X weeks for Planning and Acceptance.
