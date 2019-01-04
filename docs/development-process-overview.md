@@ -13,10 +13,13 @@
 ## 3: System & API Specifications
 - Plan database and caching schemas
 - Plan and spec out API requirements for front end
+- Figure out any new packages that need to be created and which existing packages need to be used
 
 ## 4: Development
 - Write the code
+- Unit testing
 - Functional testing
+- Code reviews
 
 ## 5: Quality Assurance
 - Acceptance testing
@@ -54,3 +57,4 @@ Acceptance: 1/4 of total project time
 For example a 2 month project may have one 2 week planning sprint, then two 2 week implementation sprints, then one 2 week acceptance sprint. As a general rule of thumb if we conclude it will take X weeks of implementation for a given project, we should also allocate X weeks for Planning and Acceptance.
 
 # Guide To Efficient Backend & Frontend Coordination
+Coming soon.
