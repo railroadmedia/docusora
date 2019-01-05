@@ -38,20 +38,20 @@ Since some of these 6 steps overlap each other in terms of a project timeline so
 
 ## 1: Planning Sprints
 - Includes steps: 
-    - **1 Features & Requirements**
-    - **2 Research & Testing**
-    - **3 System & API Specifications**
+    - **1: Features & Requirements**
+    - **2: Research & Testing**
+    - **3: System & API Specifications**
 
 ## 2: Implementation Sprints
 - Includes steps: 
-    - **3 System & API Specifications**
-    - **4 Development**
-    - **5 Quality Assurance**
+    - **3: System & API Specifications**
+    - **4: Development**
+    - **5: Quality Assurance**
 
 ## 3: Acceptance Sprints
 - Includes steps: 
-    - **5 Quality Assurance**
-    - **6 Deployment & Monitoring**
+    - **5: Quality Assurance**
+    - **6: Deployment & Monitoring**
 
 ## Timeline
 
