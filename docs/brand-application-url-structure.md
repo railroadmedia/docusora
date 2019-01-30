@@ -90,5 +90,23 @@ This is the catalogue for the given content type. This should be pluralized.
 
 </br>
 
-This is the catalogue for the given content type. This should be pluralized.</br>
-> /members/ **{CONTENT TYPE}** 
+This is the lesson page for a content types lesson if it does not have children.
+> /members/ **{CONTENT TYPE}** / **{LESSON SLUG}** / **{LESSON ID}** 
+
+</br>
+
+This is the overview page for the singular content type if it has children.
+> /members/ **{CONTENT TYPE}** / **{PARENT SLUG}** / **{PARENT ID}** / **{LESSON SLUG}** / **{LESSON ID}** 
+
+
+## Live & Schedule
+
+This is the live page which shows the schedule if nothing is live at the current time.
+> /members/live
+
+</br>
+
+This is the schedule page, a list of upcoming live events and content releases
+> /members/schedule
+
+</br>
