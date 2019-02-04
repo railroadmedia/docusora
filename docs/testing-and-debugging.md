@@ -1,5 +1,5 @@
 
-Testing & Debugging</title>
+Testing & Debugging
 ========================================================================================================================
 
 PHPStorm settings for testing and debugging.
@@ -10,7 +10,7 @@ This was moved from [readme.io](https://musora.readme.io/docs/testing-debugging)
 Table of Contents
 ------------------------------------------------------------------------------------------------------------------------
 
-- [Testing & Debugging</title>](#testing---debugging--title-)
+- [Testing & Debugging](#testing---debugging)
   * [Table of Contents](#table-of-contents)
   * [Instructions - Succinct](#instructions---succinct)
     + [1. Deployment](#1-deployment)
