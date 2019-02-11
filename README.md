@@ -1,7 +1,7 @@
 Documentation - Musora Media Inc.
 ========
 
-This is the home of our development documentation.
+This is the home of our development department documentation.
 
 [Documentation Guidelines](https://github.com/railroadmedia/docusora/blob/master/docs/writing-documentation-guidelines.md)
 
