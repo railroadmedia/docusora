@@ -12,3 +12,5 @@ This is the home of our development department documentation.
 [Systems Emergency Guide](https://github.com/railroadmedia/docusora/blob/master/docs/systems-emergency-guide.md)
 
 [Sysops/Server Infrastructure Overview](https://github.com/railroadmedia/docusora/blob/master/docs/sysops-overview.md)
+
+[Slack](https://musora-dev.slack.com)
