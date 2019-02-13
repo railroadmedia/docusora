@@ -1,9 +1,9 @@
-New Content Types Backend Instructions
+New Content Type Backend Instructions
 =========================================================================
 
 Jonathan, February 2019
 
-/* new-content-types-backend-instructions */
+/* new-content-type-backend-instructions */
 
 Adding a new semester-pack that does *not* require an AddEvent Calendar
 ------------------------------------------------------------------------
