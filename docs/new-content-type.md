@@ -9,14 +9,13 @@ Add New Content-Type to AddEvent
     1. */musora/app/Services/**UrlHelperService**.php* (You'll have to figure out exactly where to put it in here)
     1. if brand is Drumeo, also add to Drumeo's UrlHelperService. Commit changes.
 1. Commit and deploy changes to Musora
-1. ssh into Musora (production) container\* and run the following artisan commands:
-    1. `php artisan CreateAllCelendarsForBrand`        
-    1. `php artisan getCalendarIdsProduction` (note that a `getCalendarIdsSandbox` command is available)
+1. ssh into Musora (production) container\* and run the following functions of the `AddEventCommand` artisan command:
+    1. `php artisan AddEventCommand {applicationFoo}` → select "*CreateAllCelendarsForBrand*"
+    1. `php artisan AddEventCommand {applicationFoo}` → select "*getCalendarIdsProduction*" (note that a `getCalendarIdsSandbox` command is also available)
         1. Copy the output of this command
 1. Paste the above copied output into the relevant application's "*config/**add-event.php***" config file.
     * Protip: output is formatted to allow simple replacement of entire array, no need to hunt down and place just the one new item).
-1. Commit and deploy changes to the relevant 
-application
+1. Commit and deploy changes to the relevant application
 1. Does the content for the new type already exist in the CMS?
     * If **NO**, (the content does *not* yet exist) your work here is done—as the content is created it will be synchronized with AddEvent.
     * If **YES**, (the content *does* already exist), then the content was *not* syncronized with AddEvent as it was created, and therefore you must now run a command to update AddEvent's record. 
