@@ -20,7 +20,7 @@ There are an endless amount of resources online for code review processes and pr
 
 I will be scheduling the day and time of review a few weeks ahead of schedule so we can avoid conflicts with deadlines and deploy dates. Code review will be scheduled in Google Calendar. Remote developers are free to do the code review anytime during their work day.
 
-### 2. On each code review day only 2 developers will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will review the 2 scheduled team members work.
+### 2. On each code review day only 2 team members will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will review the 2 scheduled team members work.
 
 This will ensure all code is reviewed by multiple team members and if others are away or on vacation there will always be someone around to do the review.
 
@@ -36,9 +36,9 @@ Participation is key to a healthy code review process. The only exception to thi
 
 ### 6. The review process is designed to help us motivate and reward each other.
 
-Please be respectful and mindful of others. If you believe something should be done a certain way you could still be incorrect. We will make important code decisions as a team, not purely based on 1 persons opinion. If there are any lasting conflicts we will either have a vote, or I will make the final call.
+Please be respectful and mindful of others. If you believe something should be done a certain way you could still be incorrect. We will make important programming decisions as a team, not purely based on 1 team members opinion. If there are any lasting conflicts we will either have a vote, or I will make the final call.
 
-### 7. Please do not reach out to others directly to criticise them or their work, or to assign them tasks or fixes.
+### 7. Please do not reach out to others directly to criticise them or their work, or to assign them tasks or fixes privately.
 
 The goal of this process is to ensure all feedback happens in an open place where everyone can learn and provide value. If you have a problem with someone else's work and you are not willing to mention it to the entire team, please reach out to me directly.
 
@@ -78,3 +78,14 @@ The goal of this process is to ensure all feedback happens in an open place wher
 3. Reviewers post feedback in the Slack, including screenshots or links to github commits
 4. At the end of review team members under review go over the feedback and create/schedule stories for any required changes
 5. Reviewers update code standards documentation as necessary to prevent future quality issues
+
+## References
+
+I am always open to feedback and we will likely shape the process as we try it and learn. For those curious about my reasoning behind this process:
+
+[/home/caleb/web-development/railenvironment/applications/docusora/docs/code-review.md]
+[https://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines]
+[https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-for-catching-bugs/]
+[https://sback.it/publications/icse2018seip.pdf]
+[https://blogs.msdn.microsoft.com/vsappcenter/how-the-visual-studio-mobile-center-team-does-code-review/]
+[https://en.wikipedia.org/wiki/Code_review]
