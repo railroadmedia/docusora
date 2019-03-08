@@ -4,7 +4,7 @@
 
 The goals of our code review process are:
 
-- To promote openness and give the opportunity to provide constructive criticism and praise.
+- To promote openness and give the opportunity to provide constructive criticism and praise
 - To continually increase code/systems quality and maintain our coding standards and styles
 - To reduce bugs and issues in code or systems before they are shipped
 - To give all team members the opportunity to learn and grow from others work
@@ -16,15 +16,15 @@ The goals of our code review process are:
 
 There are an endless amount of resources online for code review processes and practices, including detailed outlines from big companies like Google and Microsoft. I have done my best to combine the best aspects of their processes and modify them in a way that will work for us.
 
-### 1. Code reviews will be scheduled weekly.
+### 1. Code reviews will be scheduled weekly and will last 1-2 hours.
 
-Instead of choosing a single day and sticking to it every week, I will be scheduling the day of review a few weeks ahead of time, so we can avoid conflicts with deadlines and deploy dates. Code review days will be scheduled in Google Calendar.
+I will be scheduling the day and time of review a few weeks ahead of schedule so we can avoid conflicts with deadlines and deploy dates. Code review will be scheduled in Google Calendar. Remote developers are free to do the code review anytime during their work day.
 
-### 2. On each code review day only 2 developers will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will all be reviewing the 2 scheduled peoples work.
+### 2. On each code review day only 2 developers will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will review the 2 scheduled team members work.
 
-This will ensure the code is reviewed by multiple people and if others are away or on vacation there should still always be someone around to perform the review.
+This will ensure all code is reviewed by multiple team members and if others are away or on vacation there will always be someone around to do the review.
 
-### 3. It's up to the scheduled developers to outline how others can easily track down the code they have committed and give a rough overview of what they worked on.
+### 3. It's up to the scheduled team members to outline how others can easily track down the code they have committed and give a rough overview of what they worked on.
 
 This will prevent code that is still in progress or in a refactoring stage from unnecessarily being reviewed. We should not be critiquing code that is still in the early development phase since most of us worry less about cleanliness and quality in the early stages of development.
 
@@ -65,3 +65,4 @@ The goal of this process is to ensure all feedback happens in an open place wher
 **Note: During your scheduled week you are still required to review your partners code. For example during week 1 review Jon M and I will still review each others code along with everyone else.**
 
 ## Tools
+
