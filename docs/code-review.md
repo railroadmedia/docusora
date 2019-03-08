@@ -62,6 +62,6 @@ The goal of this process is to ensure all feedback happens in an open place wher
 - Tee (sysops/devops)
 - Jon C (QA/automated testing)
 
-**Note: During your scheduled week you are still required to review your partners code. So during week 1 review Jon M and I will still review each others code along with everyone else.**
+**Note: During your scheduled week you are still required to review your partners code. For example during week 1 review Jon M and I will still review each others code along with everyone else.**
 
 ## Tools
