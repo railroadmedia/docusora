@@ -44,7 +44,7 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 ## Scheduling
 
-* of every month.
+\* of every month.
 
 **First week:**
 - Caleb (back end dev)
