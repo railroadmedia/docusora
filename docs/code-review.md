@@ -20,25 +20,25 @@ There are an endless amount of resources online for code review processes and pr
 
 Instead of choosing a single day and sticking to it every week, I will be scheduling the day of review a few weeks ahead of time, so we can avoid conflicts with deadlines and deploy dates. Code review days will be scheduled in Google Calendar.
 
-**2. On each code review day only 2 developers will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will all be reviewing the 2 scheduled peoples work.**
+### 2. On each code review day only 2 developers will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will all be reviewing the 2 scheduled peoples work.
 
 This will ensure the code is reviewed by multiple people and if others are away or on vacation there should still always be someone around to perform the review.
 
-**3. It's up to the scheduled developers to outline how others can easily track down the code they have committed and give a rough overview of what they worked on.** 
+### 3. It's up to the scheduled developers to outline how others can easily track down the code they have committed and give a rough overview of what they worked on.
 
 This will prevent code that is still in progress or in a refactoring stage from unnecessarily being reviewed. We should not be critiquing code that is still in the early development phase since most of us worry less about cleanliness and quality in the early stages of development.
 
-**4. Everyone should make their best effort to give at least a some feedback, whether positive or negative.** 
+### 4. Everyone should make their best effort to give at least a some feedback, whether positive or negative.
 
 Participation is key to a healthy code review process. The only exception to this is if you are away or have critical work to do.
 
-**5. When the review is finished its up to the people undergoing review to schedule and plan a time to carry out any necessary changes that were brought forth from the review.**
+### 5. When the review is finished its up to the people undergoing review to schedule and plan a time to carry out any necessary changes that were brought forth from the review.
 
-**6. The review process is designed to help us motivate and reward each other.** 
+### 6. The review process is designed to help us motivate and reward each other.
 
 Please be respectful and mindful of others. If you believe something should be done a certain way you could still be incorrect. We will make important code decisions as a team, not purely based on 1 persons opinion. If there are any lasting conflicts we will either have a vote, or I will make the final call.
 
-**7. please do not reach out to others directly to criticise them or their work, or to assign them tasks or fixes.** 
+### 7. please do not reach out to others directly to criticise them or their work, or to assign them tasks or fixes.
 
 The goal of this process is to ensure all feedback happens in an open place where everyone can learn and provide value. If you have a problem with someone else's work and you are not willing to mention it to the entire team, please reach out to me directly.
 
