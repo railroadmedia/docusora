@@ -28,11 +28,11 @@ This will ensure all code is reviewed by multiple team members and if others are
 
 This will prevent code that is still in progress or in a refactoring stage from unnecessarily being reviewed. We should not be critiquing code that is still in the early development phase since most of us worry less about cleanliness and quality in the early stages of development.
 
-### 4. Everyone should make their best effort to give at least a some feedback, whether positive or negative.
+### 4. Everyone must give their best effort to provide at least a some feedback, whether positive or negative.
 
 Participation is key to a healthy code review process. The only exception to this is if you are away or have critical work to do.
 
-### 5. When the review is finished it is up to the people undergoing review to schedule and plan a time to carry out any necessary changes that were brought forth from the review.
+### 5. When the review is finished it is up to the people undergoing review to schedule and plan a time to carry out any necessary follow up changes.
 
 ### 6. The review process is designed to help us motivate and reward each other.
 
@@ -79,6 +79,14 @@ The goal of this process is to ensure all feedback happens in an open place wher
 4. At the end of review team members under review go over the feedback and create/schedule stories for any required changes
 5. Reviewers update code standards documentation as necessary to prevent future quality issues
 
+## Example Schedule
+
+Week 1: Jon & Caleb scheduled for 1pm on Thursday.
+
+1. Anytime before 1pm Jon and Caleb prepare an outline of what they worked on for the last few months, along with github links or other resources.
+2. At 1pm (or later in the night for the remote devs) all other team members begin reviewing and going through all the work Jon & Caleb have outlined. As they review they write feedback inside slack.
+3. The following day once all review is complete, Jon & Caleb go through all the feedback and create stories/schedule an necessary updates.
+
 ## References
 
 I am always open to feedback and we will likely shape the process as we try it and learn. For those curious about my reasoning behind this process:
@@ -89,11 +97,3 @@ https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-f
 https://sback.it/publications/icse2018seip.pdf
 https://blogs.msdn.microsoft.com/vsappcenter/how-the-visual-studio-mobile-center-team-does-code-review/
 https://en.wikipedia.org/wiki/Code_review
-
-## Example Schedule
-
-Week 1: Jon & Caleb scheduled for 1pm on Thursday.
-
-1. Anytime before 1pm Jon and Caleb prepare an outline of what they worked on for the last few months, along with github links or other resources.
-2. At 1pm (or later in the night for the remote devs) all other team members begin reviewing and going through all the work Jon & Caleb have outlined. As they review they write feedback inside slack.
-3. The following day once all review is complete, Jon & Caleb go through all the feedback and create stories/schedule an necessary updates.
