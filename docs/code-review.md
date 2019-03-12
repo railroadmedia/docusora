@@ -20,7 +20,7 @@ There are an endless amount of resources online for code review processes and pr
 
 I will be scheduling the day and time of review a few weeks ahead of schedule so we can avoid conflicts with deadlines and deploy dates. Code review will be scheduled in Google Calendar. Remote developers are free to do the code review anytime during their work day.
 
-### 2. On each code review day only 2 team members will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will review the 2 scheduled team members work.
+### 2. On each code review day 2 team members will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will review the 2 scheduled team members work independently.
 
 This will ensure all code is reviewed by multiple team members and if others are away or on vacation there will always be someone around to do the review.
 
@@ -89,3 +89,11 @@ https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-f
 https://sback.it/publications/icse2018seip.pdf
 https://blogs.msdn.microsoft.com/vsappcenter/how-the-visual-studio-mobile-center-team-does-code-review/
 https://en.wikipedia.org/wiki/Code_review
+
+## Example Schedule
+
+Week 1: Jon & Caleb scheduled for 1pm on Thursday.
+
+1. Anytime before 1pm Jon and Caleb prepare an outline of what they worked on for the last few months, along with github links or other resources.
+2. At 1pm (or later in the night for the remote devs) all other team members begin reviewing and going through all the work Jon & Caleb have outlined. As they review they write feedback inside slack.
+3. The following day once all review is complete, Jon & Caleb go through all the feedback and create stories/schedule an necessary updates.
