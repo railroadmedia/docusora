@@ -68,6 +68,7 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 - Google Calendar
 - YouTrack
+- Google Docs
 - Slack (code-review channel)
 - Github
 
@@ -75,7 +76,8 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 1. Team members under review list and outline their work and commits over the last month, including github links when necessary
 2. Reviewers review the code/systems in question
-3. Reviewers post feedback in the Slack, including screenshots or links to github commits
+3. Reviewers create a new google document for their feedback, including screenshots or links to github commits
+4. When reviewers are finished they link and share their google doc in the slack #code-review channel
 4. At the end of review team members under review go over the feedback and create/schedule stories for any required changes
 5. Reviewers update code standards documentation as necessary to prevent future quality issues
 
@@ -84,8 +86,9 @@ The goal of this process is to ensure all feedback happens in an open place wher
 Week 1: Jon & Caleb scheduled for 1pm on Thursday.
 
 1. Anytime before 1pm Jon and Caleb prepare an outline of what they worked on for the last few months, along with github links or other resources.
-2. At 1pm (or later in the night for the remote devs) all other team members begin reviewing and going through all the work Jon & Caleb have outlined. As they review they write feedback inside slack.
-3. The following day once all review is complete, Jon & Caleb go through all the feedback and create stories/schedule an necessary updates.
+2. At 1pm (or later in the night for the remote devs) all other team members begin reviewing and going through all the work Jon & Caleb have outlined. As they review they each write feedback inside their own google doc.
+3. When the review is finished all the reviewers post and share links to their feedback doc inside the #code-review slack channel.
+4. The following day once all review is complete, Jon & Caleb go through all the feedback and create stories/schedule an necessary updates.
 
 ## References
 
