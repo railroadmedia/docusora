@@ -1,5 +1,5 @@
 
-Tampermonkey Helpful Environment-Differentiation of Environments to Against Destructive Actions on Production Please. (T.H.E.D.E.A.D.A.P.P.)
+Tampermonkey Helpful Environment-Differentiation of Environments Against Destructive Actions on Production Please. (T.H.E.D.E.A.D.A.P.P.)
 ==========================
 
 See different environments in different colours so you don't accidentally go buck-wild on prod when you meant to be deleting and spamming everything you can see on staging or local instead.

@@ -94,9 +94,9 @@ Week 1: Jon & Caleb scheduled for 1pm on Thursday.
 
 I am always open to feedback and we will likely shape the process as we try it and learn. For those curious about my reasoning behind this process:
 
-https://slack.engineering/how-about-code-reviews-2695fb10d034
-https://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines
-https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-for-catching-bugs/
-https://sback.it/publications/icse2018seip.pdf
-https://blogs.msdn.microsoft.com/vsappcenter/how-the-visual-studio-mobile-center-team-does-code-review/
-https://en.wikipedia.org/wiki/Code_review
+* https://slack.engineering/how-about-code-reviews-2695fb10d034
+* https://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines
+* https://blog.fullstory.com/what-we-learned-from-google-code-reviews-arent-just-for-catching-bugs/
+* https://sback.it/publications/icse2018seip.pdf
+* https://blogs.msdn.microsoft.com/vsappcenter/how-the-visual-studio-mobile-center-team-does-code-review/
+* https://en.wikipedia.org/wiki/Code_review
