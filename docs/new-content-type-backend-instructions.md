@@ -14,8 +14,9 @@ Are you adding a new show, or a semester-pack?
 #### if Show
 
 1. add content slug to these **Musora** files:
-    1. in */config/add-event.php*, add to `'eligible-types'`
-    1. in */config/add-event.php*, add to `'nice-names'` (and "nice name" too obviously)
+    1. in */config/add-event.php*
+        1. add to `'eligible-types'`
+        1. add to `'nice-names'` (and "nice name" too obviously)
     1. in */config/railcontent.php* add to `'types-for-calendars'`
 1. Commit and deploy changes to Musora
     
@@ -32,10 +33,13 @@ If no AddEvent Calendar required, this is all that's needed—you don't need to 
 
 ##### Add to CMS
 
-1. add slug of the parent content to brand-appropriate "*semester-packs-for-calendars*"
+Add to Musora's config/railcontent.php:
+
+1. slug (of the parent content) to brand-appropriate "*semester-packs-for-calendars*"
 1. create item in brand-appropriate "*semester-pack-schedule-labels*"
     * key is parent's slug
-    * value will have dashes replaced by spaces and will be ALL CAPS.    
+    * value will have dashes replaced by spaces and will be ALL CAPS to create a label. Here remove any semester-
+    specific details. Example: `'drum-technique-made-easy-april-2019-semester' => 'drum-technique-made-easy',`    
 1. Commit and deploy changes to Musora
 
 
