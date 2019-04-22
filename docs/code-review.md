@@ -81,6 +81,24 @@ The goal of this process is to ensure all feedback happens in an open place wher
 4. At the end of review team members under review go over the feedback and create/schedule stories for any required changes
 5. Reviewers update code standards documentation as necessary to prevent future quality issues
 
+## Google Docs Organization & Naming Schema
+
+- All docs should sit inside the shared folder: Development Department / Code Reviews / 'X | DATE: DEVS'
+- For example week 1 folder is called: '1 | March 21 - 2019: Caleb & Jon M' a new folder will be created before review starts
+- There are 3 types of review documents: 'overview', 'feedback', 'summary'
+- 'overview' is the document describing the team members work
+- 'feedback' is the document that holds the feedback for the team member being reviewed
+- 'summary' is the full code review summary, which will usually be created by Caleb
+
+- Each **overview** document title should follow the following naming schema: 'TYPE - NAME - MONTH DD YEAR'
+- Examples:  'Overview - Caleb - March 21 2019'
+- Examples:  'Overview - Jon M - March 21 2019'
+
+- Each **feedback** document title should follow the following naming schema: 'TYPE - For X/Y - From Z - MONTH DD YEAR'
+- Examples: 'Feedback - For Caleb - From Jon M - March 21 2019'
+- Examples: 'Feedback - For Caleb/Jon M - From Jon C - March 22 2019' for a combined feedback doc
+
+
 ## Example Schedule
 
 Week 1: Jon & Caleb scheduled for 1pm on Thursday.
