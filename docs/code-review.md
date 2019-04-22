@@ -83,22 +83,24 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 ## Google Docs Organization & Naming Schema
 
-- All docs should sit inside the shared folder: **Development Department / Code Reviews / 'X | DATE: REVIEWEES'**
+All docs should sit inside the shared folder: **Development Department / Code Reviews / 'X | DATE: REVIEWEES'**
 
-For example week 1 folder is called: '1 | March 21 - 2019: Caleb & Jon M' a new folder will be created before review starts  
+- For example week 1 folder is called: '1 | March 21 - 2019: Caleb & Jon M'. A new folder will be created before review starts  
 
-There are 3 types of review documents: 'overview', 'feedback', 'summary'
-- 'overview' is the document describing the team members work
+**There are 3 types of review documents: 'overview', 'feedback', 'summary'**
+- 'overview' is the document describing the team members work to be reviewed
 - 'feedback' is the document that holds the feedback for the team member being reviewed
 - 'summary' is the full code review summary, which will usually be created by Caleb  
 
-Each **overview** document title should follow the following naming schema: 'TYPE - NAME - MONTH DD YEAR'
+Each **overview** document title should follow the following naming schema: 'TYPE - X - MONTH DD YEAR'
 
+- Where X is the name of the team member being reviewed
 - Examples:  'Overview - Caleb - March 21 2019'
 - Examples:  'Overview - Jon M - March 21 2019'  
 
 Each **feedback** document title should follow the following naming schema: 'TYPE - For X/Y - From Z - MONTH DD YEAR'
 
+- Where X/Y are the names of the team members being reviewed, Z is the team member doing the review (the reviewer)
 - Examples: 'Feedback - For Caleb - From Jon M - March 21 2019'
 - Examples: 'Feedback - For Caleb/Jon M - From Jon C - March 22 2019' for a combined feedback doc
 
