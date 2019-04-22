@@ -85,6 +85,8 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 All docs should sit inside the shared folder: **Development Department / Code Reviews / 'X | DATE: REVIEWEES'**
 
+[https://drive.google.com/drive/folders/1jZgkF_UBhwE5n6Ko7CL8q4sWS1y0iq9Y](https://drive.google.com/drive/folders/1jZgkF_UBhwE5n6Ko7CL8q4sWS1y0iq9Y)
+
 - For example week 1 folder is called: '1 | March 21 - 2019: Caleb & Jon M'. A new folder will be created before review starts  
 
 **There are 3 types of review documents: 'overview', 'feedback', 'summary'**
