@@ -48,16 +48,16 @@ Caleb will schedule the review events manually. The goal is to get in 6 code rev
 
 An example could look like this:
 
-January - Backend & Frontend
-March - QA/Devops
-April - Backend & Frontend
-June - Backend & QA/Devops
-July - Frontend
-August - QA/Devops
-September - Backend & Frontend
-October - Backend
-November - Frontend
-December - Backend & Frontend & QA/Devops
+- January: Backend & Frontend
+- March: QA/Devops
+- April: Backend & Frontend
+- June: Backend & QA/Devops
+- July: Frontend
+- August: QA/Devops
+- September: Backend & Frontend
+- October: Backend
+- November: Frontend
+- December: Backend & Frontend & QA/Devops
 
 ## Tools
 
