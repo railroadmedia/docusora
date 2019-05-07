@@ -16,11 +16,11 @@ The goals of our code review process are:
 
 There are an endless amount of resources online for code review processes and practices, including detailed outlines from big companies like Google and Microsoft. I have done my best to combine the best aspects of their processes and modify them in a way that will work for us.
 
-### 1. Code reviews will be scheduled weekly and will last 1-2 hours.
+### 1. Code reviews will be scheduled every few months per department and will last 3-4 hours (or up to a full work day if necessary and time permits).
 
 I will be scheduling the day and time of review a few weeks ahead of schedule so we can avoid conflicts with deadlines and deploy dates. Code review will be scheduled in Google Calendar. Remote developers are free to do the code review anytime during their work day.
 
-### 2. On each code review day 2 team members will be scheduled for review. The entire development team, including QA, devops, and the developers in marketing will review the 2 scheduled team members work independently.
+### 2. On each code review day an entire department of the development team will be scheduled for review. The entire team, including QA, devops, and the developers in marketing will review the departments team members work independently. The departments are: back end, front end, qa/devops.
 
 This will ensure all code is reviewed by multiple team members and if others are away or on vacation there will always be someone around to do the review.
 
@@ -44,25 +44,20 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 ## Scheduling
 
-\* of every month.
+Caleb will schedule the review events manually. The goal is to get in 6 code reviews each per year for front end and back end, and 4 reviews per year for qa/devops.
 
-**First week:**
-- Caleb (back end dev)
-- Jon M (back end dev)
+An example could look like this:
 
-**Second week:**
-- Curtis (front end dev)
-- Bogdan D (front/back end dev)
-
-**Third week:**
-- Roxana (back end dev)
-- Trent (front end dev)
-
-**Forth week:**
-- Tee (sysops/devops)
-- Jon C (QA/automated testing)
-
-**Note: During your scheduled week you are still required to review your partners code. For example during week 1 review Jon M and I will still review each others code along with everyone else.**
+January - Backend & Frontend
+March - QA/Devops
+April - Backend & Frontend
+June - Backend & QA/Devops
+July - Frontend
+August - QA/Devops
+September - Backend & Frontend
+October - Backend
+November - Frontend
+December - Backend & Frontend & QA/Devops
 
 ## Tools
 
@@ -74,7 +69,7 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 ## Review Process
 
-1. Team members under review list and outline their work and commits over the last month, including github links when necessary
+1. Team members under review list and outline their work and commits over the few months, including github links when necessary
 2. Reviewers review the code/systems in question
 3. Reviewers create a new google document for their feedback, including screenshots or links to github commits
 4. When reviewers are finished they link and share their google doc in the slack #code-review channel
@@ -87,7 +82,7 @@ All docs should sit inside the shared folder: **Development Department / Code Re
 
 [https://drive.google.com/drive/folders/1jZgkF_UBhwE5n6Ko7CL8q4sWS1y0iq9Y](https://drive.google.com/drive/folders/1jZgkF_UBhwE5n6Ko7CL8q4sWS1y0iq9Y)
 
-- For example week 1 folder is called: '1 | March 21 - 2019: Caleb & Jon M'. A new folder will be created before review starts  
+- For example folder 1 is called: '1 | March 21 - 2019: Back End Review'. A new folder will be created before review starts  
 
 **There are 3 types of review documents: 'overview', 'feedback', 'summary'**
 - 'overview' is the document describing the team members work to be reviewed
@@ -109,12 +104,12 @@ Each **feedback** document title should follow the following naming schema: 'TYP
 
 ## Example Schedule
 
-Week 1: Jon & Caleb scheduled for 1pm on Thursday.
+Back end scheduled for May 1st.
 
-1. Anytime before 1pm Jon and Caleb prepare an outline of what they worked on for the last few months, along with github links or other resources.
-2. At 1pm (or later in the night for the remote devs) all other team members begin reviewing and going through all the work Jon & Caleb have outlined. As they review they each write feedback inside their own google doc.
+1. Anytime before May 1st the backend team (Jon, Caleb, Roxana, Bogdan D) prepare an outline of what they worked on for the last few months, along with github links or other resources.
+2. On review day all other team members begin reviewing and going through all the work that has been outlined. As they review they each write feedback inside their own google doc.
 3. When the review is finished all the reviewers post and share links to their feedback doc inside the #code-review slack channel.
-4. The following day once all review is complete, Jon & Caleb go through all the feedback and create stories/schedule an necessary updates.
+4. The following day once all review is complete, the backend team goes through all the feedback and create stories/schedule an necessary updates.
 
 ## References
 
