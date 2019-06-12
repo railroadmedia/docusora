@@ -6,7 +6,7 @@ The goals of our code review process are:
 
 - To promote openness and give the opportunity to provide constructive criticism and praise
 - To continually increase code/systems quality and maintain our coding standards and styles
-- To reduce bugs and issues in code or systems before they are shipped
+- To reduce bugs and issues in our code or systems before they are shipped
 - To give all team members the opportunity to learn and grow from others work
 - To help spark new ideas
 - To maintain healthy teamwork
@@ -20,7 +20,7 @@ Caleb will schedule the date and time for the reviews in Google Calendar. For so
 
 ### 2. On each scheduled code review day, the developers invited to the review will go through the projects code and note their feedback in a document.
 
-Please write your feedback anytime during the allotted work day. Information about the project undergoing review and where you can access the code will be inside of the google event details.
+Please write your feedback anytime during the allotted work day. Information about the project undergoing review and where you can access the code will be inside of the google event details. Please spend up to a full day reviewing the project and writing your feedback.
 
 ### 3. After the review day is complete a meeting will be scheduled (usually the next morning) where each developer will present their feedback.
 
@@ -54,8 +54,15 @@ The goal of this process is to ensure all feedback happens in an open place wher
 
 ## How To Prepare For A Code Review Meeting
 
-1. The project undergoing review and where you can access the code will be inside of the google event details.
-2. Review the code and put your feedback in a google doc. Include line numbers and file names, so we can track down the files in the review meeting.
-3. During the meeting present your feedback. We will go file by file or line by line if necessary be during the meeting.
-4. If your code is being reviewed, note any changes or updates that come up as a result of the feedback from other developers.
-5. Ask questions if you do not understand any of the code being presented/reviewed so we can learn from and discuss different engineering decisions.
+1. Review the code and put your feedback in a google doc. Include line numbers and file names, so we can track down the files in the review meeting.
+2. During the meeting, present your feedback. We will go file by file or line by line if necessary be during the meeting.
+3. If your code is being reviewed, note any changes or updates that come up as a result of feedback from other developers.
+4. Ask questions if you do not understand any of the code being presented/reviewed so we can learn from and discuss different engineering decisions.
+
+## Meeting Schedule
+
+1. Greetings and setup.
+2. Caleb or the project owner presents a brief overview of the project undergoing review.
+3. 1 by 1 each developer in question presents their feedback and we discuss it.
+4. An opportunity to share final thoughts.
+5. Meeting ends.
