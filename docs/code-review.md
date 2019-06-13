@@ -56,11 +56,11 @@ During the review meeting the developers who have been working on the project sh
 
 ### 6. The review process is designed to help us motivate and reward each other.
 
-Please be respectful and mindful of others. If you believe something should be done a certain way you could still be incorrect. We will make important programming decisions as a team, not purely based on 1 team members opinion. If there are any lasting conflicts we will either have a vote, or I will make the final call.
+Please be respectful and mindful of others. If you believe something should be done a certain way always be aware that your solution may not be the best solution. We will make important programming decisions as a team, not only based on 1 team members opinion. If there are any lasting conflicts we will either have a vote, or I will make the final call.
 
 ### 7. Please do not reach out to others directly to criticise them or their work, or to assign them tasks or fixes privately.
 
-The goal of this process is to ensure all feedback happens in an open place where everyone can learn and provide value. If you have a problem with someone else's work and you are not willing to mention it to the entire team, please reach out to me directly.
+The goal of this process is to ensure all feedback happens in an open place where everyone can learn and provide value. If you have a problem with someone else's work and you are not willing to mention it to the entire team, please keep it to yourself or reach out to me directly.
 
 ### 8. Caleb posts review summary in the slack code-review channel.
 
