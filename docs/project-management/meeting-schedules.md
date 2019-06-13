@@ -97,7 +97,7 @@ See [https://github.com/railroadmedia/docusora/blob/master/docs/code-review/code
 
 ## Project Retrospective Meetings
 
-Jame or Caleb will arrange these meetings and their agenda manually and notify everyone involved. These meetings may scheduled the same time as other meetings in order to be more time efficient. Usually there are 3 main questions to go over:
+Jame or Caleb will arrange these meetings and their agenda manually and notify everyone involved. These meetings may be scheduled at the same time as other meetings in order to be more time efficient. Usually there are 3 main questions to go over:
 
 - Things that went well
 - Things that went poorly
@@ -107,4 +107,4 @@ Jame or Caleb will arrange these meetings and their agenda manually and notify e
 
 ## Meeting Overload
 
-It's likely we will have months where too many meetings are booked. I do not want any team member to have more than 1 meeting every 2 weeks since these meetings can be a huge time commitment. We may delay or skip quarterly meetings depending on the situation. The only exception to this is project SCRUM meetings, which will be much shorter and happen on a regular basis.
+It's likely we will have months where too many meetings are booked. I do not want any team member to have more than 1 meeting every 2 weeks since these meetings can be a huge time commitment. I want to avoid inefficient meetings or meetings that take longer than they should so we will try and be as tight as possible with scheduling and the meeting agendas. We may delay or skip quarterly meetings depending on the situation. The only exception to this is project SCRUM meetings, which will be much shorter and happen on a regular basis.
