@@ -10,15 +10,15 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
 - In Romania work hours are 8:00 AM -> 5:00 PM.
 
 ### Time Differences
-- Romania time is 10 hours ahead of BC Canada time, except during daylight savings.
+- Romania time is 10 hours ahead of BC Canada time, except during Daylight Saving Time (DST).
 
-- Both Canada and Romania have a daylight saving time (DST) change.
-    - Daylight savings in Romania starts on March 31, and ends on October 27.
-    - Daylight savings in BC Canada starts on March 10, and ends on November 3.
+- Both Canada and Romania have a DST change.
+    - DST in Romania starts on March 31, and ends on October 27.
+    - DST in BC Canada starts on March 10, and ends on November 3.
     - From March 10 -> March 31, there is only a 9 hours difference between our times.
     - From October 27 -> November 3, there is only a 9 hours difference between our times.
 
-We will try and utilize the daylight savings time gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
+We will try and utilize the DST gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
 
 Generally when we do meet outside of the daylight saving gap, the meeting will start at 7:30 AM Canada time, and 4:30 PM Romania time. Developers in both countries are only at work for half an hour extra outside their normal work hours (if the meeting is an hour long). Feel free to start another day 30 minutes later, or end it 30 minutes early to account for the extra time.
 
@@ -51,7 +51,7 @@ Occurs:
 1. March 10th → 31st (22 days)
 2. October 27th → November 3rd (8 days)
 
-*When Daylight Savings Time in BC only, there is a one-hour overlap.*
+*When DST in BC only, there is a one-hour overlap.*
 
 | DST misalignment      | Office hours in BC | Office hours in Romania   | 
 |-----------------------|--------------------|---------------------------| 
