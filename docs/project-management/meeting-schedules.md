@@ -6,8 +6,8 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
 
 ### Work Hours
 
-- In Canada work hours are 8:00 AM -> 4:00 PM.
-- In Romania work hours are 8:00 AM -> 5:00 PM.
+- In Canada work hours are 8:00 AM → 4:00 PM.
+- In Romania work hours are 8:00 AM → 5:00 PM.
 
 ### Time Differences
 - Romania time is 10 hours ahead of BC Canada time, except during Daylight Saving Time (DST).
@@ -15,8 +15,8 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
 - Both Canada and Romania have a DST change.
     - DST in Romania starts on March 31, and ends on October 27.
     - DST in BC Canada starts on March 10, and ends on November 3.
-    - From March 10 -> March 31, there is only a 9 hours difference between our times.
-    - From October 27 -> November 3, there is only a 9 hours difference between our times.
+    - From March 10 → March 31, there is only a 9 hours difference between our times.
+    - From October 27 → November 3, there is only a 9 hours difference between our times.
 
 We will try and utilize the DST gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
 
