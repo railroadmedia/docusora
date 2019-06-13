@@ -12,35 +12,43 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
 ### Time Differences
 - Romania time is 10 hours ahead of BC Canada time, except during daylight savings.
 
-- Both Canada and Romania have a daylight savings time change.
+- Both Canada and Romania have a daylight saving time (DST) change.
     - Daylight savings in Romania starts on March 31, and ends on October 27.
     - Daylight savings in BC Canada starts on March 10, and ends on November 3.
     - From March 10 -> March 31, there is only a 9 hours difference between our times.
     - From October 27 -> November 3, there is only a 9 hours difference between our times.
-    
-### From (November 3 -> March 10) (no daylight savings in either country) <br> From (March 31 -> October 27) (daylight savings in both countries)
-
-- Relative to BC Canada time, work hours are as follows using Monday as an example:
-    - Canada developers start at 8AM and end at 4PM (on Monday)
-    - Romania developers start at 11PM (on Sunday) and end at 8AM (on Monday)
-- Relative to Romania time, work hours are as follows using Monday as an example:
-    - Romania developers start at 8AM and end at 5PM (on Monday)
-    - Canada developers start at 5PM (on Monday) and end at 1AM (on Tuesday)
-    
-### From March 10 -> March 31 (daylight saving in Canada only) <br> October 27 -> November 3 (daylight saving in Canada only)
-
-- Relative to BC Canada time, work hours are as follows using Monday as an example:
-    - Canada developers start at 8AM and end at 4PM (on Monday)
-    - Romania developers start at 12AM (on Sunday) and end at 9AM (on Monday)
-    - There is a 1 hour overlap in our office hours
-- Relative to Romania time, work hours are as follows using Monday as an example:
-    - Romania developers start at 8AM and end at 5PM (on Monday)
-    - Canada developers start at 4PM (on Monday) and end at 12AM (on Tuesday)
-    - There is a 1 hour overlap in our office hours
 
 We will try and utilize the daylight savings time gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
 
 Generally when we do meet outside of the daylight saving gap, the meeting will start at 7:30 AM Canada time, and 4:30 PM Romania time. Developers in both countries are only at work for half an hour extra outside their normal work hours (if the meeting is an hour long). Feel free to start another day 30 minutes later, or end it 30 minutes early to account for the extra time.
+
+#### No DST misalignment: Nov3→Mar10 & Mar31→Oct27
+
+| No DST misalignment | Relative to BC    | Relative to Romania | 
+|---------------------|-------------------|---------------------| 
+| Hours in BC         | 8am → 4pm         | 5pm → 1am Tuesday   | 
+| Hours in Romainia   | 11pm Sunday → 8am | 8am → 5pm           | 
+
+<!-- donatstudios.com/CsvToMarkdownTable
+No DST misalignment,Relative to BC,Relative to Romania
+Hours in BC,8am → 4pm,5pm → 1am Tuesday
+Hours in Romainia,11pm Sunday → 8am,8am → 5pm
+-->
+
+#### DST misalignment: Mar10→31 & Oct27→Nov3
+
+| DST misalignment  | Relative to BC        | Relative to Romania | 
+|-------------------|-----------------------|---------------------| 
+| Hours in BC       | 8am → 4pm             | 4pm → Midnight      | 
+| Hours in Romainia | Midnight → 9am Monday | 8am → 5pm           | 
+
+When Daylight Savings Time in BC only, there is a one-hour overlap.
+
+<!-- donatstudios.com/CsvToMarkdownTable
+DST misalignment,Relative to BC,Relative to Romania
+Hours in BC,8am → 4pm,4pm → Midnight
+Hours in Romainia,Midnight → 9am Monday,8am → 5pm
+-->
 
 --- 
 
