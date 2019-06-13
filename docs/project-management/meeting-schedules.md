@@ -1,6 +1,8 @@
 # Meeting Schedules
 
-## Meeting Times & Timezones
+Please contact Caleb or Jame if you have any questions or see any mistakes.
+
+## Times & Timezones
 
 ### Work Hours
 
@@ -16,7 +18,9 @@
     - From March 10 -> March 31, there is only a 9 hours difference between our times.
     - From October 27 -> November 3, there is only a 9 hours difference between our times.
     
-### From November 3 -> March 10 (no daylight savings in either country) AND from March 31 -> October 27 (daylight savings in both countries)
+#### From (November 3 -> March 10) (no daylight savings in either country) 
+#### From (March 31 -> October 27) (daylight savings in both countries)
+
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
     - Canada developers start at 8AM and end at 4PM (on Monday)
     - Romania developers start at 11PM (on Sunday) and end at 8AM (on Monday)
@@ -24,7 +28,9 @@
     - Romania developers start at 8AM and end at 5PM (on Monday)
     - Canada developers start at 5PM (on Monday) and end at 1AM (on Tuesday)
     
-### From March 10 -> March 31 AND October 27 -> November 3 (daylight saving in Canada only)
+#### From March 10 -> March 31 (daylight saving in Canada only)
+#### October 27 -> November 3 (daylight saving in Canada only)
+
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
     - Canada developers start at 8AM and end at 4PM (on Monday)
     - Romania developers start at 12AM (on Sunday) and end at 9AM (on Monday)
@@ -34,9 +40,9 @@
     - Canada developers start at 4PM (on Monday) and end at 12AM (on Tuesday)
     - There is a 1 hour overlap in our office hours
 
-We will try and utilize the daylight savings time gaps where our office hours overlap as best as possible for meetings.  That way we meet as little as possible outside of regular office hours.
+We will try and utilize the daylight savings time gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
 
-Generally when we do meet outside of the daylight saving gap, the meeting will start at 7:30 AM Canada time, and 4:30 PM Romania time. This way developers in both countries are only meeting half an hour outside their normal work hours (of the meeting is an hour long). 
+Generally when we do meet outside of the daylight saving gap, the meeting will start at 7:30 AM Canada time, and 4:30 PM Romania time. Developers in both countries are only at work for half an hour extra outside their normal work hours (if the meeting is an hour long). Feel free to start another day 30 minutes later, or end it 30 minutes early to account for the extra time.
 
 --- 
 
@@ -48,7 +54,7 @@ Once per quarter the entire developer team will meet for 30 minutes to an hour. 
 2. Each team member shares what they have been working on recently, as well as a work related highlight and a personal highlight.
 3. Caleb & Jame share team accomplishments and future scheduled projects.
 4. We discuss any outstanding issues or share new ideas.
-5. Opportunity to share final thoughts to anything else a team member would like to bring up. 
+5. Opportunity to share final thoughts or anything else a team member would like to bring up. 
 6. Meeting ends.
 
 --- 
@@ -65,7 +71,7 @@ Once per year each development team member will have a 1 on 1 meeting with Caleb
 - What technologies could we adopt improve our work?
 - What improvements or changes could be made to our local development environment to make our lives easier and more efficient?
 - Are there any aspects of your job that you do not like? If so, what can the team and I do to mitigate those aspects?
-- What policies do you think need to be changed in the our team? 
+- What policies do you think need to be changed in our team? 
 - Do you have any concerns that you would like to bring up about your department, or the company? 
 - What are your goals for next year?
 - Any other thoughts?
@@ -87,7 +93,7 @@ See [https://github.com/railroadmedia/docusora/blob/master/docs/code-review/code
 
 ## Project Retrospective Meetings
 
-Jame or Caleb will arrange these meetings and their agenda manually and notify everyone involved. Usually there are 3 main questions to go over:
+Jame or Caleb will arrange these meetings and their agenda manually and notify everyone involved. These meetings may scheduled the same time as other meetings in order to be more time efficient. Usually there are 3 main questions to go over:
 
 - Things that went well
 - Things that went poorly
