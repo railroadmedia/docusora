@@ -24,6 +24,7 @@ From **November 3 -> March 10** and **March 31 -> October 27**
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
     - **Canada developers start at 8AM and end at 4PM** (on Monday)
     - **Romania developers start at 11PM** (on Sunday) **and end at 8AM** (on Monday)
+    
 - Relative to Romania time, work hours are as follows using Monday as an example:
     - **Romania developers start at 8AM and end at 5PM** (on Monday)
     - **Canada developers start at 5PM** (on Monday) **and end at 1AM** (on Tuesday)
@@ -36,6 +37,7 @@ From **March 10 -> March 31** and **October 27 -> November 3**
     - **Canada developers start at 8AM and end at 4PM** (on Monday)
     - **Romania developers start at 12AM** (on Sunday) **and end at 9AM** (on Monday)
     - There is a 1 hour overlap in our office hours
+    
 - Relative to Romania time, work hours are as follows using Monday as an example:
     - **Romania developers start at 8AM and end at 5PM** (on Monday)
     - **Canada developers start at 4PM** (on Monday) **and end at 12AM** (on Tuesday)
