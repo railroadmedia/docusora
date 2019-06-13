@@ -2,7 +2,7 @@
 
 _If there are n developers in the room, then there are n+1 opinions on how things should be done._
 
-## Communication
+### Communication
 
 - Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.
 - Ask good questions; don't make demands. ("What do you think about naming this :user_id?")
@@ -15,7 +15,7 @@ _If there are n developers in the room, then there are n+1 opinions on how thing
 - Don't use hyperbole. ("always", "never", "endlessly", "nothing")
 - Don't use sarcasm.
 
-## Having Your Code Reviewed
+### Having Your Code Reviewed
 
 - Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
 - Be aware of how hard it is to convey emotion and how easy it is to misinterpret feedback. If feedback seems aggressive or angry or otherwise personal, consider if it is intended to be read that way and ask the person for clarification of intent, in person if possible.
@@ -23,7 +23,7 @@ _If there are n developers in the room, then there are n+1 opinions on how thing
 - Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?")
 - Seek to understand the reviewer's perspective.
 
-## Reviewing Other Developers Code
+### Reviewing Other Developers Code
 
 - Communicate which ideas you feel strongly about and those you don't.
 - Identify ways to simplify the code while still solving the problem.
@@ -31,6 +31,8 @@ _If there are n developers in the room, then there are n+1 opinions on how thing
 - Offer alternative implementations, but assume the author already considered them. ("What do you think about using a custom validator here?")
 - Seek to understand the author's perspective.
 - Remember that you are here to provide feedback, not to be a gatekeeper.
+
+---
 
 ## Review Resources
 
@@ -45,6 +47,8 @@ _If there are n developers in the room, then there are n+1 opinions on how thing
 
 ### JS
 - _coming soon_
+
+---
 
 ## The Process
 
