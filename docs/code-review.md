@@ -39,6 +39,9 @@ _If there are n developers in the room, then there are n+1 opinions on how thing
 - [https://code.tutsplus.com/series/the-solid-principles--cms-634](https://code.tutsplus.com/series/the-solid-principles--cms-634)
 - [https://thevaluable.dev/dry-principle-explained/](https://thevaluable.dev/dry-principle-explained/)
 - [http://verraes.net/2014/08/dry-is-about-knowledge/](http://verraes.net/2014/08/dry-is-about-knowledge/)
+- [https://github.com/alexeymezenin/laravel-best-practices](https://github.com/alexeymezenin/laravel-best-practices)
+- [https://github.com/biberlabs/awesome-doctrine](https://github.com/biberlabs/awesome-doctrine)
+
 
 ### JS
 - _coming soon_
