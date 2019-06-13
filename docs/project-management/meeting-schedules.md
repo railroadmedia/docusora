@@ -18,7 +18,8 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
     - From March 10 -> March 31, there is only a 9 hours difference between our times.
     - From October 27 -> November 3, there is only a 9 hours difference between our times.
     
-### From (November 3 -> March 10) (no daylight savings in either country) <br> From (March 31 -> October 27) (daylight savings in both countries)
+#### Daylight savings in both Canada and Romania 
+From (November 3 -> March 10) and (March 31 -> October 27)
 
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
     - Canada developers start at 8AM and end at 4PM (on Monday)
@@ -27,7 +28,9 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
     - Romania developers start at 8AM and end at 5PM (on Monday)
     - Canada developers start at 5PM (on Monday) and end at 1AM (on Tuesday)
     
-### From March 10 -> March 31 (daylight saving in Canada only) <br> October 27 -> November 3 (daylight saving in Canada only)
+#### Daylight saving in Canada only 
+
+From (March 10 -> March 31) and (October 27 -> November 3)
 
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
     - Canada developers start at 8AM and end at 4PM (on Monday)
@@ -37,6 +40,8 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
     - Romania developers start at 8AM and end at 5PM (on Monday)
     - Canada developers start at 4PM (on Monday) and end at 12AM (on Tuesday)
     - There is a 1 hour overlap in our office hours
+
+### Using the Gap & Overtime
 
 We will try and utilize the daylight savings time gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
 
