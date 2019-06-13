@@ -32,6 +32,17 @@ _If there are n developers in the room, then there are n+1 opinions on how thing
 - Seek to understand the author's perspective.
 - Remember that you are here to provide feedback, not to be a gatekeeper.
 
+## Review Resources
+
+### PHP
+- [https://www.php-fig.org/psr/](https://www.php-fig.org/psr/)
+- [https://code.tutsplus.com/series/the-solid-principles--cms-634](https://code.tutsplus.com/series/the-solid-principles--cms-634)
+- [https://thevaluable.dev/dry-principle-explained/](https://thevaluable.dev/dry-principle-explained/)
+- [http://verraes.net/2014/08/dry-is-about-knowledge/](http://verraes.net/2014/08/dry-is-about-knowledge/)
+
+### JS
+- _coming soon_
+
 ## The Process
 
 ### 1. Code reviews will be scheduled by Caleb after a large project is completed. Each review will be for a specific completed project (or partially completed in some cases). The review may or may not include the entire development team.
