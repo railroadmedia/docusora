@@ -1,16 +1,36 @@
 # Code Review
 
-## Goals
+_If there are n developers in the room, then there are n+1 opinions on how things should be done._
 
-The goals of our code review process are:
+## Communication
 
-- To promote openness and give the opportunity to provide constructive criticism and praise
-- To continually increase code/systems quality and maintain our coding standards and styles
-- To reduce bugs and issues in our code or systems before they are shipped
-- To give all team members the opportunity to learn and grow from others work
-- To help spark new ideas
-- To maintain healthy teamwork
-- To reward and promote high quality work
+- Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.
+- Ask good questions; don't make demands. ("What do you think about naming this :user_id?")
+- Good questions avoid judgment and avoid assumptions about the author's perspective.
+- Ask for clarification. ("I didn't understand. Can you clarify?")
+- Avoid selective ownership of code. ("mine", "not mine", "yours")
+- Avoid using terms that could be seen as referring to personal traits. ("dumb", "stupid"). Assume everyone is intelligent and well-meaning.
+- Be explicit. Remember people don't always understand your intentions.
+- Be humble. ("I'm not sure - let's look it up.")
+- Don't use hyperbole. ("always", "never", "endlessly", "nothing")
+- Don't use sarcasm.
+
+## Having Your Code Reviewed
+
+- Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
+- Be aware of how hard it is to convey emotion and how easy it is to misinterpret feedback. If a review seems aggressive or angry or otherwise personal, consider if it is intended to be read that way and ask the person for clarification of intent, in person if possible.
+- Assume the best intention from the reviewer's comments.
+- Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?")
+- Seek to understand the reviewer's perspective.
+
+## Reviewing Other Developers Code
+
+- Communicate which ideas you feel strongly about and those you don't.
+- Identify ways to simplify the code while still solving the problem.
+- If discussions turn too philosophical or academic, move the discussion to another time.
+- Offer alternative implementations, but assume the author already considered them. ("What do you think about using a custom validator here?")
+- Seek to understand the author's perspective.
+- Remember that you are here to provide feedback, not to be a gatekeeper.
 
 ## The Process
 
