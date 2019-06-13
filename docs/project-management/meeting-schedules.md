@@ -29,7 +29,7 @@ From **November 3 -> March 10** and **March 31 -> October 27**
     - **Romania developers start at 8AM and end at 5PM** (on Monday)
     - **Canada developers start at 5PM** (on Monday) **and end at 1AM** (on Tuesday)
     
-### Daylight saving in Canada only 
+### Daylight savings in Canada only 
 
 From **March 10 -> March 31** and **October 27 -> November 3**
 
