@@ -22,32 +22,46 @@ We will try and utilize the daylight savings time gaps where our office hours ov
 
 Generally when we do meet outside of the daylight saving gap, the meeting will start at 7:30 AM Canada time, and 4:30 PM Romania time. Developers in both countries are only at work for half an hour extra outside their normal work hours (if the meeting is an hour long). Feel free to start another day 30 minutes later, or end it 30 minutes early to account for the extra time.
 
-#### No DST misalignment: Nov3→Mar10 & Mar31→Oct27
+#### Usually
 
-| No DST misalignment | Relative to BC    | Relative to Romania | 
-|---------------------|-------------------|---------------------| 
-| Hours in BC         | 8am → 4pm         | 5pm → 1am Tuesday   | 
-| Hours in Romainia   | 11pm Sunday → 8am | 8am → 5pm           | 
+<!-- Nov4→Mar9 & Apr1→Oct26 -->
+
+Applies during the 337\* days of the year without misalignment:
+
+1. November 4th → March 9th (120 days\*)
+1. April 1st → October 26th (209 days)
+
+| Usually               | Office hours in BC    | Office hours in Romania | 
+|-----------------------|-----------------------|-------------------------| 
+| If you're in BC       | 8am → 4pm             | **11pm Sunday → 8am**   | 
+| If you're in Romainia | **5pm → 1am Tuesday** | 8am → 5pm               | 
 
 <!-- donatstudios.com/CsvToMarkdownTable
-No DST misalignment,Relative to BC,Relative to Romania
-Hours in BC,8am → 4pm,5pm → 1am Tuesday
-Hours in Romainia,11pm Sunday → 8am,8am → 5pm
+Usually,Office hours in BC,Office hours in Romania
+If you're in BC,8am → 4pm,**11pm Sunday → 8am**
+If you're in Romainia,**5pm → 1am Tuesday**,8am → 5pm
 -->
 
-#### DST misalignment: Mar10→31 & Oct27→Nov3
+\* leap years are 2020, 2024, 2028, etc.
 
-| DST misalignment  | Relative to BC        | Relative to Romania | 
-|-------------------|-----------------------|---------------------| 
-| Hours in BC       | 8am → 4pm             | 4pm → Midnight      | 
-| Hours in Romainia | Midnight → 9am Monday | 8am → 5pm           | 
+#### DST misalignment (Mar10→31 & Oct27→Nov3)
 
-When Daylight Savings Time in BC only, there is a one-hour overlap.
+Occurs:
+
+1. March 10th → 31st (22 days)
+2. October 27th → November 3rd (8 days)
+
+*When Daylight Savings Time in BC only, there is a one-hour overlap.*
+
+| DST misalignment      | Office hours in BC | Office hours in Romania   | 
+|-----------------------|--------------------|---------------------------| 
+| If you're in BC       | 8am → 4pm          | **Midnight → 9am Monday** | 
+| If you're in Romainia | **4pm → Midnight** | 8am → 5pm                 |  
 
 <!-- donatstudios.com/CsvToMarkdownTable
-DST misalignment,Relative to BC,Relative to Romania
-Hours in BC,8am → 4pm,4pm → Midnight
-Hours in Romainia,Midnight → 9am Monday,8am → 5pm
+DST misalignment,Office hours in BC,Office hours in Romania
+If you're in BC,8am → 4pm,**Midnight → 9am Monday**
+If you're in Romainia,**4pm → Midnight**,8am → 5pm
 -->
 
 --- 
