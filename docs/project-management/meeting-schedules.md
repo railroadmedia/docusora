@@ -18,27 +18,27 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
     - From March 10 -> March 31, there is only a 9 hours difference between our times.
     - From October 27 -> November 3, there is only a 9 hours difference between our times.
     
-#### Daylight savings in both Canada and Romania 
-From (November 3 -> March 10) and (March 31 -> October 27)
+### Daylight savings in both Canada and Romania 
+From **November 3 -> March 10** and **March 31 -> October 27**
 
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
-    - Canada developers start at 8AM and end at 4PM (on Monday)
-    - Romania developers start at 11PM (on Sunday) and end at 8AM (on Monday)
+    - **Canada developers start at 8AM and end at 4PM** (on Monday)
+    - **Romania developers start at 11PM** (on Sunday) **and end at 8AM** (on Monday)
 - Relative to Romania time, work hours are as follows using Monday as an example:
-    - Romania developers start at 8AM and end at 5PM (on Monday)
-    - Canada developers start at 5PM (on Monday) and end at 1AM (on Tuesday)
+    - **Romania developers start at 8AM and end at 5PM** (on Monday)
+    - **Canada developers start at 5PM** (on Monday) **and end at 1AM** (on Tuesday)
     
-#### Daylight saving in Canada only 
+### Daylight saving in Canada only 
 
-From (March 10 -> March 31) and (October 27 -> November 3)
+From **March 10 -> March 31** and **October 27 -> November 3**
 
 - Relative to BC Canada time, work hours are as follows using Monday as an example:
-    - Canada developers start at 8AM and end at 4PM (on Monday)
-    - Romania developers start at 12AM (on Sunday) and end at 9AM (on Monday)
+    - **Canada developers start at 8AM and end at 4PM** (on Monday)
+    - **Romania developers start at 12AM** (on Sunday) **and end at 9AM** (on Monday)
     - There is a 1 hour overlap in our office hours
 - Relative to Romania time, work hours are as follows using Monday as an example:
-    - Romania developers start at 8AM and end at 5PM (on Monday)
-    - Canada developers start at 4PM (on Monday) and end at 12AM (on Tuesday)
+    - **Romania developers start at 8AM and end at 5PM** (on Monday)
+    - **Canada developers start at 4PM** (on Monday) **and end at 12AM** (on Tuesday)
     - There is a 1 hour overlap in our office hours
 
 ### Using the Gap & Overtime
