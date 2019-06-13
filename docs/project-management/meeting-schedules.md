@@ -44,6 +44,12 @@ Generally when we do meet outside of the daylight saving gap, the meeting will s
 
 --- 
 
+## Scrum Meetings
+
+Scrum meetings will be outlined elsewhere and be dependant on each department. More details coming soon.
+
+--- 
+
 ## Quarterly Development Department Meetings
 
 Once per quarter the entire developer team will meet for 30 minutes to an hour. The meeting schedule:
@@ -96,3 +102,9 @@ Jame or Caleb will arrange these meetings and their agenda manually and notify e
 - Things that went well
 - Things that went poorly
 - What we need to do differently
+
+--- 
+
+## Meeting Overload
+
+It's likely we will have months where too many meetings are booked. I do not want any team member to have more than 1 meeting every 2 weeks since these meetings can be a huge time commitment. We may delay or skip quarterly meetings depending on the situation. The only exception to this is project SCRUM meetings, which will be much shorter and happen on a regular basis.
