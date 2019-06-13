@@ -10,7 +10,7 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
 - In Romania work hours are 8:00 AM -> 5:00 PM.
 
 ### Time Differences
-- Romania time is 10 hours behind of BC Canada time, except during daylight savings.
+- Romania time is 10 hours ahead of BC Canada time, except during daylight savings.
 
 - Both Canada and Romania have a daylight savings time change.
     - Daylight savings in Romania starts on March 31, and ends on October 27.
