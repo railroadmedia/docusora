@@ -12,42 +12,57 @@ Please contact Caleb or Jame if you have any questions or see any mistakes.
 ### Time Differences
 - Romania time is 10 hours ahead of BC Canada time, except during daylight savings.
 
-- Both Canada and Romania have a daylight savings time change.
+- Both Canada and Romania have a daylight saving time (DST) change.
     - Daylight savings in Romania starts on March 31, and ends on October 27.
     - Daylight savings in BC Canada starts on March 10, and ends on November 3.
     - From March 10 -> March 31, there is only a 9 hours difference between our times.
     - From October 27 -> November 3, there is only a 9 hours difference between our times.
-    
-### Daylight savings in both Canada and Romania 
-From **November 3 -> March 10** and **March 31 -> October 27**
-
-- Relative to BC Canada time, work hours are as follows using Monday as an example:
-    - **Canada developers start at 8AM and end at 4PM** (on Monday)
-    - **Romania developers start at 11PM** (on Sunday) **and end at 8AM** (on Monday)
-    
-- Relative to Romania time, work hours are as follows using Monday as an example:
-    - **Romania developers start at 8AM and end at 5PM** (on Monday)
-    - **Canada developers start at 5PM** (on Monday) **and end at 1AM** (on Tuesday)
-    
-### Daylight savings in Canada only 
-
-From **March 10 -> March 31** and **October 27 -> November 3**
-
-- Relative to BC Canada time, work hours are as follows using Monday as an example:
-    - **Canada developers start at 8AM and end at 4PM** (on Monday)
-    - **Romania developers start at 12AM** (on Sunday) **and end at 9AM** (on Monday)
-    - There is a 1 hour overlap in our office hours
-    
-- Relative to Romania time, work hours are as follows using Monday as an example:
-    - **Romania developers start at 8AM and end at 5PM** (on Monday)
-    - **Canada developers start at 4PM** (on Monday) **and end at 12AM** (on Tuesday)
-    - There is a 1 hour overlap in our office hours
-
-### Using the Gap & Overtime
 
 We will try and utilize the daylight savings time gaps where our office hours overlap as best as possible for meetings.  The goal is to meet outside of regular office hours as little as possible.
 
 Generally when we do meet outside of the daylight saving gap, the meeting will start at 7:30 AM Canada time, and 4:30 PM Romania time. Developers in both countries are only at work for half an hour extra outside their normal work hours (if the meeting is an hour long). Feel free to start another day 30 minutes later, or end it 30 minutes early to account for the extra time.
+
+#### Usually
+
+<!-- Nov4→Mar9 & Apr1→Oct26 -->
+
+Applies during the 337\* days of the year without misalignment:
+
+1. November 4th → March 9th (120 days\*)
+1. April 1st → October 26th (209 days)
+
+| Usually               | Office hours in BC    | Office hours in Romania | 
+|-----------------------|-----------------------|-------------------------| 
+| If you're in BC       | 8am → 4pm             | **11pm Sunday → 8am**   | 
+| If you're in Romainia | **5pm → 1am Tuesday** | 8am → 5pm               | 
+
+<!-- donatstudios.com/CsvToMarkdownTable
+Usually,Office hours in BC,Office hours in Romania
+If you're in BC,8am → 4pm,**11pm Sunday → 8am**
+If you're in Romainia,**5pm → 1am Tuesday**,8am → 5pm
+-->
+
+\* leap years are 2020, 2024, 2028, etc.
+
+#### DST misalignment (Mar10→31 & Oct27→Nov3)
+
+Occurs:
+
+1. March 10th → 31st (22 days)
+2. October 27th → November 3rd (8 days)
+
+*When Daylight Savings Time in BC only, there is a one-hour overlap.*
+
+| DST misalignment      | Office hours in BC | Office hours in Romania   | 
+|-----------------------|--------------------|---------------------------| 
+| If you're in BC       | 8am → 4pm          | **Midnight → 9am Monday** | 
+| If you're in Romainia | **4pm → Midnight** | 8am → 5pm                 |  
+
+<!-- donatstudios.com/CsvToMarkdownTable
+DST misalignment,Office hours in BC,Office hours in Romania
+If you're in BC,8am → 4pm,**Midnight → 9am Monday**
+If you're in Romainia,**4pm → Midnight**,8am → 5pm
+-->
 
 --- 
 
