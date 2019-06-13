@@ -44,7 +44,7 @@ If you're in Romainia,**5pm → 1am Tuesday**,8am → 5pm
 
 \* leap years are 2020, 2024, 2028, etc.
 
-#### DST misalignment (Mar10→31 & Oct27→Nov3)
+#### DST misalignment
 
 Occurs:
 
