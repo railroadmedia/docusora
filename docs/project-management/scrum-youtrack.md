@@ -1,5 +1,6 @@
 # Scrum & YouTrack Overview
 
+
 ## Projects
 
 Projects are generally split in to 2 categories: 'PM' (brand/project management) projects, and 'DEV' (developer) projects.
@@ -7,9 +8,13 @@ Projects are generally split in to 2 categories: 'PM' (brand/project management)
 - **DEV** projects represent a PHP package which can be installed with composer, such as 'railcontent'. These projects are powered by a kanban style board, which does not have sprints but is instead powered by versioning.
 - **PM** projects represent a brand specific application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
 
-## PM Project YouTrack Workflow
 
-_Note: YouTrack refers to 'stories' and 'issues', they are the same thing. An issue can be a feature, bug, or task._
+## Notes:
+
+_YouTrack refers to 'stories' and 'issues', they are the same thing. 'issue' is a general term which could represent a feature, bug, task, etc._
+
+
+## PM Web Project YouTrack Workflow
 
 1. **Issue is created in the 'To Do' column.**   
 Or the issue is moved from the project backlog to the 'To Do' column for a given sprint.  
@@ -17,7 +22,7 @@ Or the issue is moved from the project backlog to the 'To Do' column for a given
 1. **The developer moves the issue to the 'In Development' column and begin working on it.**  
 
 1. **The developer moves the issue to the 'Submitted To QA' column.**  
-Once the issue is ready for manual or automated browser testing.
+Once the issue is ready for manual or automated browser testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
 
 1. **QA tests the issue and if its ready, moves the issue to the 'Ready For Staging' column.**  
 If the issue is not fully complete or it has bugs/problems, it should be moved to the 'Rejected' column, to be reviewed by the developers.
@@ -36,7 +41,28 @@ When they are confirmed to be working properly,
 
 Note: At any point during the workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing.
 
-## DEV Project YouTrack Workflow
+
+## PM Mobile App Project YouTrack Workflow
+
+1. **Issue is created in the 'To Do' column.**   
+Or the issue is moved from the project backlog to the 'To Do' column for a given sprint.  
+
+1. **The developer moves the issue to the 'In Development' column and begin working on it.**  
+
+1. **The developer moves the issue to the 'Submitted To QA' column.**  
+Once the issue is ready for manual or automated testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
+
+1. **QA tests the issue and if its ready, moves the issue to the 'Ready For Production' column.**  
+If the issue is not fully complete or it has bugs/problems, it should be moved to the 'Rejected' column, to be reviewed by the developers.
+
+1. **The issues are all moved to the 'On Production' column by the developers in charge of deployment.**  
+Once the project/update is complete and all necessary issues are in the 'Ready For Production' column, it is deployed to production by the developers, or a new app version is built and sent to users.
+
+1. **Issues under a final testing stage on production by QA, then QA moves them to the 'Complete' column.**  
+When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete. At any point during the workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing.
+
+
+## DEV PHP Project YouTrack Workflow
 
 1. **Issue is created in the 'To Do' column for the specified version.**  
 Or the issue is moved from the project backlog to the 'To Do' column for a given sprint.
