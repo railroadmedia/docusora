@@ -20,7 +20,7 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 ## PM Web Project YouTrack Workflow
 
-**Columns:**
+### Columns:
 
 - To Do
 - Rejected
@@ -31,6 +31,8 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 - Ready For Production
 - On Production
 - Complete
+
+### Steps
 
 1. **Todo: Issue is created.**   
 Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
@@ -62,7 +64,7 @@ When they are confirmed to be working properly in production or on real devices 
 
 ## PM Mobile App Project YouTrack Workflow
 
-**Columns:**
+### Columns:
 
 - To Do
 - Rejected
@@ -71,6 +73,8 @@ When they are confirmed to be working properly in production or on real devices 
 - Ready For Production
 - On Production
 - Complete
+
+### Steps
 
 1. **Todo: Issue is created.**   
 Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
@@ -98,12 +102,14 @@ When they are confirmed to be working properly in production or on real devices 
 
 ## DEV PHP Project YouTrack Workflow
 
-**Columns:**
+### Columns:
 
 - To Do
 - In Development
 - Ready For Production
 - Complete
+
+### Steps
 
 1. **Todo: Issue is created.**   
 The appropriate developer is set as the assignee.
