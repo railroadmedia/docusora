@@ -18,7 +18,7 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 <br> 
 
-## Web Projects
+## Web Projects (PM)
 
 ### Columns:
 
@@ -62,7 +62,7 @@ When they are confirmed to be working properly in production or on real devices 
 
 <br> 
 
-## Mobile App Projects
+## Mobile App Projects (PM)
 
 ### Columns:
 
@@ -100,7 +100,7 @@ When they are confirmed to be working properly in production or on real devices 
 
 <br> 
 
-## PHP Backend Projects
+## PHP Backend Projects (DEV)
 
 ### Columns:
 
