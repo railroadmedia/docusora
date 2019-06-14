@@ -20,63 +20,97 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 ## PM Web Project YouTrack Workflow
 
-1. **Issue is created in the 'To Do' column.**   
-Or the issue is moved from the project backlog to the 'To Do' column for a given sprint.  
+**Columns:**
 
-1. **The developer moves the issue to the 'In Development' column and begin working on it.**  
+- To Do
+- Rejected
+- In Development
+- Submitted To QA
+- Ready For Staging
+- On Staging
+- Ready For Production
+- On Production
+- Complete
 
-1. **The developer moves the issue to the 'Submitted To QA' column.**  
-Once the issue is ready for manual or automated browser testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
+1. **Todo: Issue is created.**   
+Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
 
-1. **QA tests the issue and if its ready, moves the issue to the 'Ready For Staging' column.**  
-If the issue is not fully complete or it has bugs/problems, it should be moved to the 'Rejected' column, to be reviewed by the developers.
+1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**   
+A developer needs to review and do more work on the issue.
 
-1. **A developer or QA deploys all 'Ready For Staging' issues to staging and moves the issues to the 'On Staging' column.**  
-Once issues are built up in 'Ready For Staging' and ready to be deployed to our staging server. At this point issues can be sent off for review from project management or others involved in the project, such as support, content managers, or 'upper' management.
+1. **In Development: Developer starts working on the issue.** 
+Assignees should be set to whoever starts working on the issue.
 
-1. **Issues are tested again by QA on staging, then QA moves the issues to 'Ready For Production'.**  
-Once they are confirmed to be working and outside review is complete, 
+1. **Submitted To QA: Issue is ready to be tested by the QA team.**  
+This column means the issue is ready for manual or automated testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
 
-1. **The issues are all moved to the 'On Production' column by the developers in charge of deployment.**  
-Once the project/update is complete and all necessary issues are in the 'Ready For Production' column, it is deployed to production by the developers.
+1. **Ready For Staging: QA does not find any issues locally and the issue is ready to be deployed to staging.**  
 
-1. **Issues under a final testing stage on production by QA, then QA moves them to the 'Complete' column.**  
-When they are confirmed to be working properly, 
+1. **On Staging: Issues from 'Ready For Staging' are deployed to staging and may need further QA testing.**  
+Issues that are built up in 'Ready For Staging' are deployed to our staging server. At this point issues can be sent off for review from project management or others involved in the project, such as support, content managers, or 'upper' management. QA may also test at this stage.
+
+1. **Ready For Production: QA/other determines after testing that the issue is ready to be deployed to users.**  
+
+1. **On Production: Issues from 'Ready For Production' have been deployed to users and may need production testing.**  
+Once the project/update is complete and all necessary issues are in the 'Ready For Production' column, it is deployed to production by the developers, or a new app version is built and sent to users. QA may further test these issues on production.
+
+1. **Complete: Issue is complete and bug free.**  
+When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete.
 
 
 <br> 
 
 ## PM Mobile App Project YouTrack Workflow
 
-1. **Issue is created in the 'To Do' column.**   
-Or the issue is moved from the project backlog to the 'To Do' column for a given sprint.  
+**Columns:**
 
-1. **The developer moves the issue to the 'In Development' column and begin working on it.**  
+- To Do
+- Rejected
+- In Development
+- Submitted To QA
+- Ready For Production
+- On Production
+- Complete
 
-1. **The developer moves the issue to the 'Submitted To QA' column.**  
-Once the issue is ready for manual or automated testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
+1. **Todo: Issue is created.**   
+Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
 
-1. **QA tests the issue and if its ready, moves the issue to the 'Ready For Production' column.**  
+1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**   
+A developer needs to review and do more work on the issue.
+
+1. **In Development: Developer starts working on the issue.** 
+Assignees should be set to whoever starts working on the issue.
+
+1. **Submitted To QA: Issue is ready to be tested by the QA team.**  
+This column means the issue is ready for manual or automated testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
+
+1. **Ready For Production: QA determines after testing that the issue is ready to be deployed to users.**  
 If the issue is not fully complete or it has bugs/problems, it should be moved to the 'Rejected' column, to be reviewed by the developers.
 
-1. **The issues are all moved to the 'On Production' column by the developers in charge of deployment.**  
-Once the project/update is complete and all necessary issues are in the 'Ready For Production' column, it is deployed to production by the developers, or a new app version is built and sent to users.
+1. **On Production: Issues from 'Ready For Production' have been deployed to users and may need production testing.**  
+Once the project/update is complete and all necessary issues are in the 'Ready For Production' column, it is deployed to production by the developers, or a new app version is built and sent to users. QA may further test these issues on production.
 
-1. **Issues under a final testing stage on production by QA, then QA moves them to the 'Complete' column.**  
-When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete. At any point during the workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing.
+1. **Complete: Issue is complete and bug free.**  
+When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete.
 
 
 <br> 
 
 ## DEV PHP Project YouTrack Workflow
 
-1. **Issue is created in the 'To Do' column for the specified version.**  
-Or the issue is moved from the project backlog to the 'To Do' column for a given sprint.
+**Columns:**
 
-1. **A Developer moves the issue to the 'In Development' column and begin working on it.**  
+- To Do
+- In Development
+- Ready For Production
+- Complete
 
-1. **Once the issue is complete, the developer moves the issue the 'Ready For Production' column,**  
+1. **Todo: Issue is created.**   
+The appropriate developer is set as the assignee.
+
+1. **In Development: Developer starts working on the issue.** 
+
+1. **Ready For Production: Issue is live under a new package tag.**  
 Which means the issue is ready to have its code pushed under a new package tag version.
 
-1. **the developer moves all that versions issues to the 'complete' column.**  
- Once the new package version is implemented and tested successfully in an application,
+1. **Complete: Issue is complete and bug free, and it live in an application.**  
