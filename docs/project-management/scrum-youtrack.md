@@ -18,7 +18,7 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 <br> 
 
-## PM Web Project YouTrack Workflow
+## Web Projects
 
 ### Columns:
 
@@ -34,13 +34,13 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 ### Steps
 
-1. **Todo: Issue is created.**   
+1. **Todo: Issue is created.**  
 Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
 
-1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**   
+1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**  
 A developer needs to review and do more work on the issue.
 
-1. **In Development: Developer starts working on the issue.** 
+1. **In Development: Developer starts working on the issue.**  
 Assignees should be set to whoever starts working on the issue.
 
 1. **Submitted To QA: Issue is ready to be tested by the QA team.**  
@@ -62,7 +62,7 @@ When they are confirmed to be working properly in production or on real devices 
 
 <br> 
 
-## PM Mobile App Project YouTrack Workflow
+## Mobile App Projects
 
 ### Columns:
 
@@ -76,13 +76,13 @@ When they are confirmed to be working properly in production or on real devices 
 
 ### Steps
 
-1. **Todo: Issue is created.**   
+1. **Todo: Issue is created.**  
 Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
 
-1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**   
+1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**  
 A developer needs to review and do more work on the issue.
 
-1. **In Development: Developer starts working on the issue.** 
+1. **In Development: Developer starts working on the issue.**  
 Assignees should be set to whoever starts working on the issue.
 
 1. **Submitted To QA: Issue is ready to be tested by the QA team.**  
@@ -100,7 +100,7 @@ When they are confirmed to be working properly in production or on real devices 
 
 <br> 
 
-## DEV PHP Project YouTrack Workflow
+## PHP Backend Projects
 
 ### Columns:
 
@@ -111,10 +111,10 @@ When they are confirmed to be working properly in production or on real devices 
 
 ### Steps
 
-1. **Todo: Issue is created.**   
+1. **Todo: Issue is created.**  
 The appropriate developer is set as the assignee.
 
-1. **In Development: Developer starts working on the issue.** 
+1. **In Development: Developer starts working on the issue.**  
 
 1. **Ready For Production: Issue is live under a new package tag.**  
 Which means the issue is ready to have its code pushed under a new package tag version.
