@@ -13,6 +13,10 @@ Projects are generally split in to 2 categories: 'PM' (brand/project management)
 
 _YouTrack refers to 'stories' and 'issues', they are the same thing. 'issue' is a general term which could represent a feature, bug, task, etc._
 
+_At any point during this workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing._
+
+
+<br> 
 
 ## PM Web Project YouTrack Workflow
 
@@ -39,8 +43,8 @@ Once the project/update is complete and all necessary issues are in the 'Ready F
 1. **Issues under a final testing stage on production by QA, then QA moves them to the 'Complete' column.**  
 When they are confirmed to be working properly, 
 
-Note: At any point during the workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing.
 
+<br> 
 
 ## PM Mobile App Project YouTrack Workflow
 
@@ -61,6 +65,8 @@ Once the project/update is complete and all necessary issues are in the 'Ready F
 1. **Issues under a final testing stage on production by QA, then QA moves them to the 'Complete' column.**  
 When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete. At any point during the workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing.
 
+
+<br> 
 
 ## DEV PHP Project YouTrack Workflow
 
