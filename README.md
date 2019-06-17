@@ -1,6 +1,6 @@
 # Development Department Documentation - Musora
 
-## Quick Links
+## Directory
 
 ### External
 
@@ -12,29 +12,42 @@
 
 [GitHub](https://github.com/railroadmedia)
 
+<br>
+
 ### Project Management
 
-[Meeting Schedules]()
+[Meeting Schedules](project-management/meeting-schedules.md)
 
-[SCRUM & YouTrack Documentation]()
+[SCRUM & YouTrack Documentation](docs/project-management/scrum-youtrack.md)
 
-[Project Estimation Guide]()
+[Project Estimation Guide](docs/project-management/project-estimation-system-dev-days.md)
 
-[Development Process Outline]()
+[Development Process Outline](docs/project-management/development-process-overview.md)
 
-[Bug Reporting Guide]()
+[Bug Reporting Guide](docs/project-management/bug-reporting-guide-and-examples.md)
 
 [Bug Fixing Workflow](docs/project-management/bug-fixing-workflow.md)
 
+<br>
 
-This is the home of our development department documentation.
+### Code Review
 
-[Code Review Process](https://github.com/railroadmedia/docusora/blob/master/docs/code-review/code-review.md)
+[Code Review Process](docs/code-review/code-review.md)
 
-[Documentation Guidelines](https://github.com/railroadmedia/docusora/blob/master/docs/technical/writing-documentation-guidelines.md)
+[Code Style Guide](docs/code-review/code-style-guide.md)
 
-[SCRUM](https://github.com/railroadmedia/docusora/blob/master/docs/project-management/scrum-youtrack.md)
+<br>
+
+### Sysops/Devops
+
+[Sysops Overview](docs/sysops-devops/sysops-overview.md)
+
+[Systems Emergency Guide](docs/sysops-devops/systems-emergency-guide.md)
+
+<br>
+
+### Technical
 
 [Tools & Systems Overview](https://github.com/railroadmedia/docusora/blob/master/docs/technical/tools-and-systems-overview.md)
 
-[Slack](https://musora-dev.slack.com)
+[Documentation Guidelines](https://github.com/railroadmedia/docusora/blob/master/docs/technical/writing-documentation-guidelines.md)
