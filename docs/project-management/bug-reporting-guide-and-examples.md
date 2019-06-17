@@ -1,5 +1,14 @@
 # Bug Reporting Guide
 
+## Reporting: Who And Where
+
+- **If the severity is HIGH:**
+    - Contact Caleb or another available developer immediately over gchat/email, or in person
+    - Create a basecamp thread and todo using the template above, notify the entire 'Dev Team' in the 'Let me choose who should get an email…' section
+- **If the severity is MEDIUM or LOW:**
+    - Create a basecamp thread and todo using the template above, notify only 'Jonathan Chiu' in the 'Let me choose who should get an email…' section
+    
+
 ## Bug Report Template
 1. **Title:**
     - A single sentence description of the issue
@@ -89,11 +98,3 @@
 7. notify user caleb@drumeo.com over email when the problem is fixed
 
 --- 
-
-## Reporting: Who And Where
-
-- **If the severity is HIGH:**
-    - Contact Caleb or another available developer immediately over gchat/email, or in person
-    - Create a basecamp thread and todo using the template above, notify the entire 'Dev Team' in the 'Let me choose who should get an email…' section
-- **If the severity is MEDIUM or LOW:**
-    - Create a basecamp thread and todo using the template above, notify only 'Jonathan Chiu' in the 'Let me choose who should get an email…' section
