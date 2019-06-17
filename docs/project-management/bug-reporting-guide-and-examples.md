@@ -5,6 +5,8 @@
 - **If the severity is HIGH:**
     - Contact Caleb or another available developer immediately over gchat/email, or in person
     - Create a basecamp thread and todo using the template above, notify the entire 'Dev Team' in the 'Let me choose who should get an email…' section
+<br>
+
 - **If the severity is MEDIUM or LOW:**
     - Create a basecamp thread and todo using the template above, notify only 'Jonathan Chiu' in the 'Let me choose who should get an email…' section
     
