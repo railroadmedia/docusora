@@ -3,14 +3,18 @@
 
 ## Support Bug Report Guideline
 
-1. Title: (REQUIRED)
+1. **Title:**
     - A single sentence description of the issue
     - Ex: Refunding a users subscription returns an error
-    - Ex: Users get error when placing a comment 
-2. Brand/App: (REQUIRED)
+    - Ex: Users get error when placing a comment
+<br>
+
+2. **Brand/App:**
     - Which brand or website does this bug apply to?
     - drumeo, pianote, musora, etc
-3. Severity: HIGH, MEDIUM, LOW (choose one) (REQUIRED)
+<br>
+
+3. **Severity: HIGH, MEDIUM, LOW (choose one)**
     - HIGH: bug is effecting business critical features and has been reported by multiple users
         - Ex: Customers getting error when ordering
         - Ex: Incorrect pricing issues on the order form
@@ -27,13 +31,19 @@
     - LOW: support cannot perform an action for 1 specific user:
         - Ex: I cannot refund payment X for user Y, however other users payments can be refunded successfully
         - Ex: Order placed for user X has problems
-4. Preconditions: (REQUIRED)
+<br>
+
+4. **Preconditions:**
     - Information about the user in question, such as email, address, or order number
     - Information about the users device or browser
-5. Reproduction:
+<br>
+
+5. **Reproduction:**
     - Step by step guide on how to reproduce the issue, or how the user described they ran in to the problem
     - This is the most important part of a bug report so the more information the better
-6. Post-fix Tasks:
+<br>
+
+6. **Post-Fix Tasks:**
     - Once the bug is fixed, what task needs to be completed if any?
         - Ex: Refund user X payment Y
         - Ex: Place order for user X and products Y and price Z
