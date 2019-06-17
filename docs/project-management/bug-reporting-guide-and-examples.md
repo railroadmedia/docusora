@@ -4,11 +4,11 @@
 
 - **If the severity is HIGH:**
     - Contact Caleb or another available developer immediately over gchat/email, or in person
-    - Create a basecamp thread and todo using the template above, notify the entire 'Dev Team' in the 'Let me choose who should get an email…' section
+    - Create a basecamp thread and todo using the template below, notify the entire 'Dev Team' and 'Customer Support' teams in the 'Let me choose who should get an email…' section
 <br>
 
 - **If the severity is MEDIUM or LOW:**
-    - Create a basecamp thread and todo using the template above, notify only 'Jonathan Chiu' in the 'Let me choose who should get an email…' section
+    - Create a basecamp thread and todo using the template below, notify only 'Jonathan Chiu' and the 'Customer Support' team in the 'Let me choose who should get an email…' section
     - Please try to avoid gchatting or discussing with a developer in person if the issue severity is not high. If an issue needs to be discussed in person or it would be much more efficient chat in person please schedule a meeting time to do so where both parties agree on the date/time. The only exception to this is if the dev team specifically requests you reach out to them directly for a given project or launch.
     
 
