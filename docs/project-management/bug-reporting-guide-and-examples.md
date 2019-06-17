@@ -9,6 +9,7 @@
 
 - **If the severity is MEDIUM or LOW:**
     - Create a basecamp thread and todo using the template above, notify only 'Jonathan Chiu' in the 'Let me choose who should get an email…' section
+    - Please try to avoid gchatting or discussing with a developer in person if the issue severity is not high. If an issue needs to be discussed in person or it would be much more efficient chat in person please schedule a meeting time to do so where both parties agree on the date/time. The only exception to this is if the dev team specifically requests you reach out to them directly for a given project or launch.
     
 
 ## Bug Report Template
@@ -56,7 +57,7 @@
 <br>
 
 6. **Other:**
-    - Anything else which may be helpful for the developers
+    - Anything else which may be helpful to the developers
 <br>
 
 7. **Post-Fix Tasks:**
@@ -71,32 +72,30 @@
 
 --- 
 
-1. getting an error when trying to expire a users product access
-2. musora
-3. medium
-4. users email: caleb@drumeo.com, user product: pianote-1-month-membership
-5. click edit button, changed date to today, clicked save, saw error message saying "Error editing user product"
-6. 
-7. users pianote-1-month-membership product needs to be expired when this bug is fixed
+- Title: getting an error when trying to expire a users product access
+- Brand: musora
+- Severity: medium
+- Preconditions: users email: caleb@drumeo.com, user product: pianote-1-month-membership
+- Reproduction: click edit button, changed date to today, clicked save, saw error message saying "Error editing user product"
+- Other:
+- Post-Fix Tasks: users pianote-1-month-membership product needs to be expired when this bug is fixed
 
 ---
  
-1. many users reporting getting an error when trying to place an order
-2. pianote
-3. high
-4. users emails who reported to us: caleb@drumeo.com, curtis@drumeo.com
-5. user clicks submit button and see an error screen saying '500 Something when wrong'
-6. the first report came in on 1pm saturday the 16th
-7. 
+- Title: many users reporting getting an error when trying to place an order
+- Brand: pianote
+- Severity: high
+- Preconditions: users emails who reported to us: caleb@drumeo.com, curtis@drumeo.com
+- Reproduction: user clicks submit button and see an error screen saying '500 Something when wrong'
+- Other: the first report came in on 1pm saturday the 16th
+- Post-Fix Tasks: 
 
 --- 
 
-1. a user cannot play any videos, they see a message such as 'This video cannot load'
-2. drumeo
-3. low
-4. users email: caleb@drumeo.com, browser: safari, device: ipad 10
-5. when the user loads any lesson page the video player is black and says 'Video cannot be loaded'
-6. 
-7. notify user caleb@drumeo.com over email when the problem is fixed
-
---- 
+- Title: a user cannot play any videos, they see a message such as 'This video cannot load'
+- Brand: drumeo
+- Severity: low
+- Preconditions: users email: caleb@drumeo.com, browser: safari, device: ipad 10
+- Reproduction: when the user loads any lesson page the video player is black and says 'Video cannot be loaded'
+- Other:
+- Post-Fix Tasks: notify user caleb@drumeo.com over email when the problem is fixed
