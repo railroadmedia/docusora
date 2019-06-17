@@ -25,7 +25,7 @@
     - LOW: In the new few weeks or months depending on the issue
 <br>
 
-5. **Issue progresses through the normal SCRUM states: To Do, In Development, ...,, On Production, Complete**
+5. **Issue progresses through the normal SCRUM states: To Do, In Development, ..., On Production, Complete**
 <br>
 
 6. **Once an issue is On Production or Complete, QA reports back to support in the basecamp thread**
