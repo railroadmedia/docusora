@@ -41,7 +41,7 @@
     - LOW: support cannot perform an action for 1 specific user:
         - Ex: I cannot refund payment X for user Y, however other users payments can be refunded successfully
         - Ex: Order placed for user X has problems
-    - If you are unsure about which severity level an issue should be reported under feel free to message a developer directly anytime
+    - If you are unsure about which severity level an issue should be reported under feel free to ask your nearest developer
 <br>
 
 4. **Preconditions:**
