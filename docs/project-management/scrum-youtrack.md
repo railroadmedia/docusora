@@ -7,6 +7,7 @@ Projects are generally split in to 2 categories: 'PM' (brand/project management)
 
 - **DEV** projects represent a PHP package which can be installed with composer, such as 'railcontent'. These projects are powered by a kanban style board, which does not have sprints but is instead powered by versioning.
 - **PM** projects represent a brand specific application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
+- **PMZ** specialized boards for brand specific applications.
 
 
 ## Notes:
@@ -96,6 +97,39 @@ Once the project/update is complete and all necessary issues are in the 'Ready F
 
 1. **Complete: Issue is complete and bug free.**  
 When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete.
+
+
+<br> 
+
+## Special Boards (PMZ)
+
+### Current Boards
+
+- **PMZ - Bug Reports**
+    - For bugs that go through our support team [See Outline](https://github.com/railroadmedia/docusora/blob/master/docs/project-management/bug-reporting-guide-and-examples.md)
+    - Must have Type = Bug
+    - Must have attribute Backlogged = true
+- **PMZ - Task Requests** (previously known as PM - Backlog)
+    - Misc features/tasks that are not scheduled as part of another projects sprints
+    - This is basically our old normal backlog but without bugs, since they were moved to the bug board
+    - Must have Type != Bug
+    - Must have attribute Backlogged = true 
+
+### Columns: (can sometimes differ)
+
+- To Do
+- Rejected
+- In Development
+- Submitted To QA
+- Ready For Staging
+- On Staging
+- Ready For Production
+- On Production
+- Complete
+
+### Steps
+
+Same as PM boards.
 
 
 <br> 
