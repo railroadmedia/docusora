@@ -12,16 +12,19 @@
     - Youtrack type field -> 'Bug'
     - Paste entire report from basecamp to the youtrack description
     - Paste thread URL in the youtrack description
-    - Assign to Caleb or whoever you see fit
+    - QA assigns issue to them self
 <br>
 
-3. **Developers look in to and try to fix the bug depending on the severity**
+3. **QA tests and tried to replicate issue, adds details to the issue** 
+    - QA assigns to Caleb or the relevant developer after its been tested
+
+4. **Developers look in to and try to fix the bug depending on the severity**
     - HIGH: Immediately!
     - MEDIUM: In the next few days, usually the following Friday
     - LOW: In the new few weeks or months depending on the issue
 <br>
 
-4. **Issue progresses through the normal SCRUM states: To Do, In Development, ...,, On Production, Complete**
+5. **Issue progresses through the normal SCRUM states: To Do, In Development, ...,, On Production, Complete**
 <br>
 
-5. **Once an issue is On Production or Complete, QA reports back to support in the basecamp thread**
+6. **Once an issue is On Production or Complete, QA reports back to support in the basecamp thread**
