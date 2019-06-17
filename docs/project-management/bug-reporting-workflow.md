@@ -22,10 +22,10 @@
     - MEDIUM: support has received multiple reports, but its a non business critical issue
         - Ex: Course X gives an error and does not load
         - Ex: Users get error when trying to comment on any lesson
-    - MEDIUM: support is unable to do an requested action for any user
+    - MEDIUM: support is unable to do a requested action for any user
         - Ex: Getting an error when trying to refund any payment
         - Ex: Button to view any users payments is not functional
-    - LOW: only 1 user reported an issue and its not related to business critical features (mainly ordering)
+    - LOW: only 1 user reported an issue and its not related to business critical features
         - Ex: User X cannot load video Y on his Z machine
         - Ex: User X reports getting an error when trying to cancel his subscription
     - LOW: support cannot perform an action for 1 specific user:
@@ -34,18 +34,20 @@
 <br>
 
 4. **Preconditions:**
-    - Information about the user in question, such as email, address, or order number
-    - Information about the users device or browser
+    - Information about the user in question, such as email, shipping address, or order number
+    - Information about the users device and browser
 <br>
 
 5. **Reproduction:**
-    - Step by step guide on how to reproduce the issue, or how the user described they ran in to the problem
+    - A description of what the bug reporter was doing when they ran in to the issue
+        - Ex: went to lesson page, scrolled to down to comment X, clicked reply, typed in reply, clicked submit, saw error message
+        - Ex: went to users overview page, clicked to load a subscriptions payments, clicked refund button, entered amount, clicked submit, saw error message
     - This is the most important part of a bug report so the more information the better
 <br>
 
 6. **Post-Fix Tasks:**
     - Once the bug is fixed, what task needs to be completed if any?
-        - Ex: Refund user X payment Y
-        - Ex: Place order for user X and products Y and price Z
+        - Ex: Refund user X payment Y for amount Z
+        - Ex: Place order for user X with products Y and price Z
         - Ex: Delete comment X for user Y
-        - Ex: Notify user of fix
+        - Ex: Notify user X when this fixed
