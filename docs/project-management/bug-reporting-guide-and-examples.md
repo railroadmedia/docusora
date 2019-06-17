@@ -65,7 +65,7 @@
 3. medium
 4. users email: caleb@drumeo.com, user product: pianote-1-month-membership
 5. click edit button, changed date to today, clicked save, saw error message saying "Error editing user product"
-6. -
+6. 
 7. users pianote-1-month-membership product needs to be expired when this bug is fixed
 
 ---
@@ -76,7 +76,7 @@
 4. users emails who reported to us: caleb@drumeo.com, curtis@drumeo.com
 5. user clicks submit button and see an error screen saying '500 Something when wrong'
 6. the first report came in on 1pm saturday the 16th
-7. -
+7. 
 
 --- 
 
@@ -85,13 +85,15 @@
 3. low
 4. users email: caleb@drumeo.com, browser: safari, device: ipad 10
 5. when the user loads any lesson page the video player is black and says 'Video cannot be loaded'
-6. -
+6. 
 7. notify user caleb@drumeo.com over email when the problem is fixed
+
+--- 
 
 ## Reporting: Who And Where
 
-- If the severity is HIGH:
+- **If the severity is HIGH:**
     - Contact Caleb or another available developer immediately over gchat/email, or in person
     - Create a basecamp thread and todo using the template above, notify the entire 'Dev Team' in the 'Let me choose who should get an email…' section
-- If the severity is MEDIUM or LOW:
+- **If the severity is MEDIUM or LOW:**
     - Create a basecamp thread and todo using the template above, notify only 'Jonathan Chiu' in the 'Let me choose who should get an email…' section
