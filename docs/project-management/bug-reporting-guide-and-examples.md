@@ -1,6 +1,6 @@
 # Bug Reporting Guide
 
-## Reporting: Who And Where
+## Who And Where
 
 - **If the severity is HIGH:**
     - Contact Caleb or another available developer immediately over gchat/email, or in person
