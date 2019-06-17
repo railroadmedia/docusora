@@ -32,18 +32,18 @@
     - LOW: support cannot perform an action for 1 specific user:
         - Ex: I cannot refund payment X for user Y, however other users payments can be refunded successfully
         - Ex: Order placed for user X has problems
-    - If you are unsure about which severity and issue should be under feel free to message a developer directly anytime
+    - If you are unsure about which severity level an issue should be reported under feel free to message a developer directly anytime
 <br>
 
 4. **Preconditions:**
     - Information about the user in question, such as email, shipping address, or order number
-    - Information about the users device and browser
+    - Information about the users device and browser (not required for musora center related issues)
 <br>
 
 5. **Reproduction:**
     - A description of what the bug reporter was doing when they ran in to the issue
         - Ex: went to lesson page, scrolled to down to comment X, clicked reply, typed in reply, clicked submit, saw error message
-        - Ex: went to users overview page, clicked to load a subscriptions payments, clicked refund button, entered amount, clicked submit, saw error message
+        - Ex: went to a users overview page, clicked to load a subscriptions payments, clicked refund button, entered amount, clicked submit, saw error message
     - This is the most important part of a bug report so the more information the better
 <br>
 
