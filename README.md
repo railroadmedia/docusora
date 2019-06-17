@@ -1,5 +1,31 @@
-Documentation - Musora Media Inc.
-========
+# Development Department Documentation - Musora
+
+## Quick Links
+
+### External
+
+[Slack](https://musora-dev.slack.com)
+
+[YouTrack](https://musoradevelopment.myjetbrains.com)
+
+[Basecamp](https://basecamp.com/1792144/)
+
+[GitHub](https://github.com/railroadmedia)
+
+### Project Management
+
+[Meeting Schedules]()
+
+[SCRUM & YouTrack Documentation]()
+
+[Project Estimation Guide]()
+
+[Development Process Outline]()
+
+[Bug Reporting Guide]()
+
+[Bug Fixing Workflow](docs/project-management/bug-fixing-workflow.md)
+
 
 This is the home of our development department documentation.
 
