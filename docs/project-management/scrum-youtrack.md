@@ -106,16 +106,16 @@ When they are confirmed to be working properly in production or on real devices 
 ### Current Boards
 
 - **PMZ - Bug Reports**
-    - For bugs that go through our support team [See Outline](https://github.com/railroadmedia/docusora/blob/master/docs/project-management/bug-reporting-guide-and-examples.md)
-    - Must have Type = Bug
+    - For bugs that go through our support team: [see outline](https://github.com/railroadmedia/docusora/blob/master/docs/project-management/bug-reporting-guide-and-examples.md)
+    - Must have attribute Type = Bug
     - Must have attribute Backlogged = true
 - **PMZ - Task Requests** (previously known as PM - Backlog)
-    - Misc features/tasks that are not scheduled as part of another projects sprints
-    - This is basically our old normal backlog but without bugs, since they were moved to the bug board
-    - Must have Type != Bug
+    - Misc features/tasks that are not scheduled as part of another project sprint
+    - This is basically our old normal backlog but without bugs, since they are moved to the bug board
+    - Must have attribute Type != Bug
     - Must have attribute Backlogged = true 
 
-### Columns: (can sometimes differ)
+### Columns: (may sometimes differ)
 
 - To Do
 - Rejected
