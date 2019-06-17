@@ -17,6 +17,7 @@
 
 3. **QA tests and tried to replicate issue, adds details to the issue** 
     - QA assigns to Caleb or the relevant developer after its been tested
+    - QA may need to change the priority on how they best see fit
 <br>
 
 4. **Developers look in to and try to fix the bug depending on the severity**
