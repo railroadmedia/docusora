@@ -1,6 +1,8 @@
 # Development Department Documentation - Musora
 
-## Directory
+## Table Of Contents
+
+<br>
 
 ### External
 
@@ -48,6 +50,20 @@
 
 ### Technical
 
-[Tools & Systems Overview](https://github.com/railroadmedia/docusora/blob/master/docs/technical/tools-and-systems-overview.md)
+[Automated Testing](docs/technical/automated-testing.md)
 
-[Documentation Guidelines](https://github.com/railroadmedia/docusora/blob/master/docs/technical/writing-documentation-guidelines.md)
+[URL Structures](docs/technical/brand-application-url-structure.md)
+
+[Testing & Debugging](docs/technical/testing-and-debugging.md)
+
+[Tools & Systems Overview](docs/technical/tools-and-systems-overview.md)
+
+[Documentation Writing Guidelines](docs/technical/writing-documentation-guidelines.md)
+
+[YouTube OAuth Setup](docs/technical/youtube-oauth-api-setup.md)
+
+[Artisan Command Debugging](docs/technical/artisan-command-debug.md)
+
+[New Content Type Guide](docs/technical/new-content-type-backend-instructions.md)
+
+[Tampermonkey Setup](docs/technical/tampermonkey.md)
