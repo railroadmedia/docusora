@@ -14,7 +14,8 @@
 
 - **Escalating bugs:**
     - You may get a single user report for an issue and post about it in basecamp as medium or low severity. If you later get more user reports about the same bug, please post in the relevant basecamp thread to escalate it. A bug for 1 user is usually pretty benign. A bug for 10 users generally means something major is wrong.
-    
+    <br>
+
 
 ## Bug Report Template
 1. **Title:**
@@ -70,7 +71,8 @@
         - Ex: Place order for user X with products Y and price Z
         - Ex: Delete comment X for user Y
         - Ex: Notify user X when this fixed
-        
+        <br>
+
 
 ## Full Examples
 
