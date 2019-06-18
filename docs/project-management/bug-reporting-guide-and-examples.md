@@ -4,6 +4,7 @@
 
 - **If the severity is HIGH:**
     - Contact Caleb or another available developer immediately over gchat/email, or in person
+    
     - Create a basecamp thread and todo using the template below, notify the entire 'Dev Team' and 'Customer Support' teams in the 'Let me choose who should get an email…' section
 <br>
 
