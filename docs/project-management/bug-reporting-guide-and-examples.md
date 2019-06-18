@@ -10,7 +10,7 @@
 - **If the severity is MEDIUM or LOW:**
     - Create a basecamp thread and todo using the template below, notify only 'Jonathan Chiu' and the 'Customer Support' team in the 'Let me choose who should get an email…' section
     - Please try to avoid gchatting or discussing with a developer in person if the issue severity is not high. If an issue needs to be discussed in person or it would be much more efficient chat in person please schedule a meeting time to do so where both parties agree on the date/time. The only exception to this is if the dev team specifically requests you reach out to them directly for a given project or launch.
-    - Please do reach out to Jon C (QA) anytime over gchat or in person! He is in charge of handling how bugs are managed between support and dev and would love to chat or help you through an issue.
+    - Please do reach out to Jon C (QA) about a bug/problem anytime over gchat or in person! He is in charge of handling how bugs are managed between support and dev and would love to chat or help you through an issue.
     <br>
 
 - **Escalating bugs:**
