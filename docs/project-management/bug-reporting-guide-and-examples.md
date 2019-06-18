@@ -76,8 +76,6 @@
 
 ## Full Examples
 
---- 
-
 - Title: getting an error when trying to expire a users product access
 - Brand: musora
 - Severity: medium
