@@ -56,8 +56,6 @@
 
 [Testing & Debugging](docs/technical/testing-and-debugging.md)
 
-[Tools & Systems Overview](docs/technical/tools-and-systems-overview.md)
-
 [Documentation Writing Guidelines](docs/technical/writing-documentation-guidelines.md)
 
 [YouTube OAuth Setup](docs/technical/youtube-oauth-api-setup.md)
@@ -67,3 +65,5 @@
 [New Content Type Guide](docs/technical/new-content-type-backend-instructions.md)
 
 [Tampermonkey Setup](docs/technical/tampermonkey.md)
+
+[Cache CLI](docs/cache-cli.md)
