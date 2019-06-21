@@ -25,11 +25,12 @@ run `r ssh`, and select the Redis container.
 Running Redis Commands
 -------------------------------------------
 
-[Redis commands documentation](https://redis.io/commands)
+Some commands you might want to run:
 
-
-* `dbsize`: show number of keys () ([docs](https://redis.io/commands/dbsize)).
+* `dbsize`: show number of keys ([docs](https://redis.io/commands/dbsize)).
 * `flushall`: **Clears entire cache** ([docs](https://redis.io/commands/flushall)).
+
+Click [here](https://redis.io/commands) to see all available Redis commands.
 
 ### Using bash
 
