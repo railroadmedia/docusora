@@ -66,4 +66,4 @@
 
 [Tampermonkey Setup](docs/technical/tampermonkey.md)
 
-[Cache CLI](docs/cache-cli.md)
+[Cache CLI](docs/technical/cache-cli.md)
