@@ -35,7 +35,7 @@ Click [here](https://redis.io/commands) to see all available Redis commands.
 ### Using bash
 
 
-#### simple
+#### simple - single command
 
 ```
 redis-cli keys foo-prefix-*
@@ -50,7 +50,7 @@ redis-cli -h musora-production-m4.l3iqij.0001.use2.cache.amazonaws.com keys foo-
 Also Note that you need to specify it each time you call `redis-cli`—thus on *both* sides of the pipe.
 
 
-### get results and pass to another command
+#### complex - get results and pass to another command
 
 Pipe to *xargs*, passing output of first command to second command:
 
