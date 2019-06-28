@@ -1,3 +1,8 @@
+# Quick Links
+
+Basecamp Project: [https://basecamp.com/1792144/projects/16655061](https://basecamp.com/1792144/projects/16655061)
+Emergency Contact Info: [https://basecamp.com/1792144/projects/16655061/documents/14383392](https://basecamp.com/1792144/projects/16655061/documents/14383392)
+
 # Bug Reporting Guide
 
 ## Who, Where, and What To Do
@@ -106,3 +111,7 @@
 - Reproduction: when the user loads any lesson page the video player is black and says 'Video cannot be loaded'
 - Other:
 - Post-Fix Tasks: notify user caleb@drumeo.com over email when the problem is fixed
+
+# Feature Requests
+
+Please put all feature requests in the 'Feature or Update Requests' basecamp todo list. Feel free to create as many as you like and format them however you prefer. We will use this main todo list in our timeline planning to figure out which features we can add and when. 
