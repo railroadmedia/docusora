@@ -5,11 +5,11 @@
 - **If the severity is HIGH:**
     - Contact Caleb or another available developer immediately over gchat/email, or in person
     
-    - Create a basecamp thread and todo using the template below, notify the entire 'Dev Team' and 'Customer Support' teams in the 'Let me choose who should get an email…' section
+    - Create a basecamp todo using the template below in the 'High Priority' todo list, notify the entire 'Dev Team' and 'Customer Support' teams in the 'Let me choose who should get an email…' section
 <br>
 
 - **If the severity is MEDIUM or LOW:**
-    - Create a basecamp thread and todo using the template below, notify only 'Jonathan Chiu' and the 'Customer Support' team in the 'Let me choose who should get an email…' section
+    - Create a basecamp todo using the template below in the 'Medium Priority' or 'Low Priority' todo list, notify only 'Jonathan Chiu' and the 'Customer Support' team in the 'Let me choose who should get an email…' section
     - Try to avoid gchatting or discussing with a developer in person if the issue severity is not high. If an issue needs to be discussed in person or it would be much more efficient to chat in person please schedule a meeting time to do so where both parties agree on the date/time. If the dev team specifically requests you reach out to them directly for a given project or launch, definitely reach out directly anytime you see fit.
     
     - Feel free to reach out to Jon C (QA) about a bug/problem anytime over gchat or in person! He is in charge of handling how bugs are managed between support and dev and would love to chat or help you through an issue.
@@ -33,7 +33,7 @@
 <br>
 
 3. **Severity: HIGH, MEDIUM, LOW (choose one)**
-    - HIGH: bug is effecting business critical features and has been reported by multiple users
+    - HIGH: bug is effecting business critical features and has been reported by multiple users, and its user facing
         - Ex: Customers getting error when ordering
         - Ex: Incorrect pricing issues on the order form
         - Ex: Large sections or the entire members area are not working
