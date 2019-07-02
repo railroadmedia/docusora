@@ -20,6 +20,8 @@
     - Drumeo backend logs in the user and returns an auth token to the app
 5. If the payment fails:
     - Drumeo backend returns errors to the app
+    
+Docs: [https://developer.apple.com/documentation/storekit/in-app_purchase/validating_receipts_with_the_app_store](https://developer.apple.com/documentation/storekit/in-app_purchase/validating_receipts_with_the_app_store)
 
 ### Android
 
@@ -41,6 +43,9 @@
     - Drumeo backend logs in the user and returns an auth token to the app
 5. If the payment fails:
     - Drumeo backend returns errors to the app
+    
+Docs: [https://developer.android.com/google/play/billing/billing_library_overview](https://developer.android.com/google/play/billing/billing_library_overview)
+    
 
 <!-- --- -->
 
@@ -48,4 +53,19 @@
 
 ### IOS
 
+1. Apple store-kit API sends request to our server using a configured endpoint
+    - Request url: /laravel/public/mobile-app/apple/handle-server-notification
+2. Drumeo backend uses data in request to process the renewal or cancellation and adjusts the users access
+3. Drumeo returns empty 200 response to store-kit API
+
+Docs: [https://developer.apple.com/documentation/storekit/in-app_purchase/enabling_server-to-server_notifications](https://developer.apple.com/documentation/storekit/in-app_purchase/enabling_server-to-server_notifications)
+
 ### Android
+
+1. Google play RTDN API sends request to our server using a configured endpoint
+    - Request url: /laravel/public/mobile-app/google/handle-server-notification
+2. Drumeo backend uses data in request to process the renewal or cancellation and adjusts the users access
+3. Drumeo returns empty 200 response to RTDN API
+
+Docs: [https://developer.android.com/google/play/billing/realtime_developer_notifications](https://developer.android.com/google/play/billing/realtime_developer_notifications)
+Helpful Guide: [https://medium.com/androiddevelopers/subscriptions-101-for-android-apps-b7005a7e93a6](https://medium.com/androiddevelopers/subscriptions-101-for-android-apps-b7005a7e93a6)
