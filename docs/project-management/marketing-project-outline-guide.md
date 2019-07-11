@@ -31,7 +31,7 @@ We call the sub-parts of a project stories. Each outlined story should follow th
     - Not always needed but if you need to add more details or add pictures/screenshots they should go here
     - Please try and link the related design file in the description, it saves us a ton of time
 - **Current Functionality**
-    - If the story is an update to an existing feature, please outline how it it currently working so we can more accurately gage how complex the update is
+    - If the story is an update to an existing feature, please outline how it it currently working so we can more accurately gauge how complex the update is
     - If you are not sure how the current feature works that it totally fine, just let us know that you are unsure
     - Ex: Currently the search only accounts for post titles and descriptions
     - Ex: Currently the main banner pulls the first latest post from each category
