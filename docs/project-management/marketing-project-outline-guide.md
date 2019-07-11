@@ -1,12 +1,12 @@
-# Guide: Outlining Marketing Projects For Development
+# Outlining Marketing Projects For Development
 
 ## Define Scope
 
 Describe the general scope of the project in a few sentences. Examples of questions to answer in the scope description:
  
-- Which system is this project for?
+- Which system/brand is this project for?
 - Would you consider this project an update to an existing system, or the creation of a brand new system?
-- Will there be back and forth time with regards to front-end and back-end development? Once the backend work is done, will front-end need to do more work based on the changes made by back-end? Or will the project be ready to deploy as soon as backend is done their work?
+- Will there be back and forth time with regards to front-end and back-end development? Once the back-end work is done, will front-end need to do more work based on the changes made by back-end? Or will the project be ready to deploy as soon as backend is done their work?
 - Does this update also include bug fixes for existing systems/features?
 
 ## Share Designs
@@ -32,6 +32,7 @@ We call the sub-parts of a project stories. Each outlined story should follow th
     - Please try and link the related design file in the description, it saves us a ton of time
 - **Current Functionality**
     - If the story is an update to an existing feature, please outline how it it currently working so we can more accurately gage how complex the update is
+    - If you are not sure how the current feature works that it totally fine, just let us know that you are unsure
     - Ex: Currently the search only accounts for post titles and descriptions
     - Ex: Currently the main banner pulls the first latest post from each category
 - **Requires BE/FE Collaboration**
@@ -40,4 +41,4 @@ We call the sub-parts of a project stories. Each outlined story should follow th
 
 ## The Project Is Ready For Development
 
-Present the outline to the BE team. Hopefully if the outline follows this guide we can easily and accurately give estimates for how long a project will take!
+Present the outline to the BE team. If the outline follows this guide we should be able to easily and accurately give estimates for how long a project will take!
