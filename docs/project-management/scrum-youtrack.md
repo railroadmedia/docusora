@@ -164,6 +164,6 @@ need to fix it.
 This stops work from being done multiple times on the same issue, reduces detective work needed
 to track down tasks. And hold's everyone accountable for their own contribution to the project.
 
-Developers shouldn't have to touch stories in the `On Staging`, `On Prod`, or `Complete Columns`
+Developers shouldn't have to touch stories in the `On Staging`, `On Prod`, or `Complete` columns.
 
-QA shouldn't have to touch stories in the `In Development`, `Awaiting Review`
+QA shouldn't have to touch stories in the `In Development`, `Awaiting Review` columns.
