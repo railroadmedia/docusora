@@ -47,13 +47,13 @@ Assignees should be set to whoever starts working on the issue.
 Generally multiple issues are all deployed to staging at the same time. QA should not be reviewing issues in this state.
 
 1. **On Staging | Needs QA: Issue is ready to be tested by the QA team.**  
-This column means the issue is ready for manual or automated testing by the QA team. This column can be skipped if the QA team does not need to look at the issue.
+This column means the issue is ready for manual or automated testing by the QA team. This column can be skipped if the QA team does not need to look at the issue. If there are problems with the issue it should be moved to 'Rejected' so a developer can review it.
 
 1. **Ready For Prod | Built: QA/other determines after testing that the issue is ready to be deployed to users.**  
 Or in the context of mobile app development, the issue has been resolved and put in to a fresh build and is ready to be released to users.
 
 1. **On Prod | Deployed To Users: Issues from 'Ready For Prod | Built' have been deployed to users and may need production testing.**  
-Once the project/update is complete and all necessary issues are in the 'Ready For Prod | Built' column, it is deployed to production by the developers, or a new app version is built and sent to users. QA may further test these issues on production.
+Once the project/update is complete and all necessary issues are in the 'Ready For Prod | Built' column, it is deployed to production by the developers, or a new app version is built and sent to users. QA may further test these issues on production. If there are problems with the issue it should be moved to 'Rejected' so a developer can review it.
 
 1. **Complete: Issue is complete and bug free.**  
 When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete.
