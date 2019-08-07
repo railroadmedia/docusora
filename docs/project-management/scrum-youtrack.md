@@ -114,7 +114,7 @@ Which means the issue is ready to have its code pushed under a new package tag v
 
 1. **Complete: Issue is complete and bug free, and it live in an application.**  
 
-### Example
+## Example
 
 > Developer/QA create a story _"As a user Courses will have a blue theme color"_. They then leave 
 > the story in the `To Do` column.
