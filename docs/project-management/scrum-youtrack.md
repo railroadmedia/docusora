@@ -113,3 +113,57 @@ The appropriate developer is set as the assignee.
 Which means the issue is ready to have its code pushed under a new package tag version.
 
 1. **Complete: Issue is complete and bug free, and it live in an application.**  
+
+### Example
+
+> Developer/QA create a story _"As a user Courses will have a blue theme color"_. They then leave 
+> the story in the `To Do` column.
+
+↓
+
+> Developer moves the story into the `In Development` column and begins work on it
+
+↓
+
+> Developer finishes the work on the story and moves to card into the `Awaiting Review` column
+
+↓
+
+> When the Developer is ready they deploy the fix to staging, and move the card into the 
+> `On Staging` column
+
+↓
+
+> QA goes to test the work on staging and determines the bug/issue was not properly addressed. They 
+> then move the card into the `Rejected` column.
+
+↓
+
+> Developer moves the card out of the `Rejected` column and back into the `In Development` column. 
+> Earlier steps are then repeated until deployed to staging again.
+
+↓
+
+> QA determines the bug/issue was properly addressed and moves the card into the `Ready for Prod` column.
+
+↓
+
+> Whenever the developer or development team is ready they can now ship the work and move the card into the 
+> `On Production` column.
+
+↓
+
+> QA confirms at a later date whether the work was properly shipped to production and lastly moves the card into the 
+> `Complete` column.
+
+**Note:** It is very important that cards are in the proper columns for their current state. If work is pushed 
+to staging, but the card is not moved into the `On Staging` column, QA should NOT test the feature. Inversely, 
+if a feature is broken, and not properly moved into the `Rejected` column, the developer does NOT know that they 
+need to fix it. 
+
+This stops work from being done multiple times on the same issue, reduces detective work needed
+to track down tasks. And hold's everyone accountable for their own contribution to the project.
+
+Developers shouldn't have to touch stories in the `On Staging`, `On Prod`, or `Complete Columns`
+
+QA shouldn't have to touch stories in the `In Development`, `Awaiting Review`
