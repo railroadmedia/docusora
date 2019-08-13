@@ -11,7 +11,7 @@ Projects are generally split in to 3 categories: 'WEB' projects, 'MOBILE' projec
 
 <br> 
 
-- **Z** specialized boards.
+- **Z** specialised boards.
 - **IT** different department.
 
 ## Notes:
