@@ -7,7 +7,7 @@ Projects are generally split in to 3 categories: 'WEB' projects, 'MOBILE' projec
 
 - **WEB** projects represent a brand specific website, such as Drumeo. These projects have sprints and follow normal scrum principles.
 - **DEV** projects represent a PHP or NPM package which can be installed with composer or npm, such as 'railcontent' or 'vuesora'. These projects are powered by a kanban style board, which does not have sprints but is instead organised by versioning.
-- **MOBILE** projects represent a mobile android/ios application. These projects have sprints and follow the normal scrum principles.
+- **APP** projects represent a mobile android/ios application. These projects have sprints and follow the normal scrum principles.
 
 <br> 
 
@@ -64,7 +64,7 @@ When they are confirmed to be working properly in production or on real devices 
 <br> 
 
 
-## Mobile App Projects (MOBILE)
+## Mobile App Projects (APP)
 
 ### Columns:
 
