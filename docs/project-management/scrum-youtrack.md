@@ -153,7 +153,9 @@ Which means the issue is ready to have its code pushed under a new package tag v
 
 1. **Complete: Issue is complete and bug free, and it live in an application.**  
 
-## Example
+<br> 
+
+## WEB Example
 
 > Developer/QA create a story _"As a user Courses will have a blue theme color"_. They then leave 
 > the story in the `To Do` column.
@@ -194,6 +196,8 @@ Which means the issue is ready to have its code pushed under a new package tag v
 
 > QA confirms at a later date whether the work was properly shipped to production and lastly moves the card into the 
 > `Complete` column.
+
+<br> 
 
 **Note:** It is very important that cards are in the proper columns for their current state. If work is pushed 
 to staging, but the card is not moved into the `On Staging` column, QA should NOT test the feature. Inversely, 
