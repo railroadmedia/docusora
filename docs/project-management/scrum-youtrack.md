@@ -3,10 +3,11 @@
 
 ## Projects
 
-Projects are generally split in to 2 categories: 'PM' (brand/project management) projects, and 'DEV' (developer) projects.
+Projects are generally split in to 3 categories: 'WEB' projects, 'MOBILE' projects, and 'DEV' projects.
 
+- **WEB** projects represent a brand specific website application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
 - **DEV** projects represent a PHP or NPM package which can be installed with composer or npm, such as 'railcontent' or 'vuesora'. These projects are powered by a kanban style board, which does not have sprints but is instead powered by versioning.
-- **PM** projects represent a brand specific application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
+- **MOBILE** projects represent a brand specific website application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
 - **PMZ** specialized boards for brand specific applications.
 
 
@@ -19,7 +20,7 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 <br> 
 
-## Web/Mobile App Projects (PM)
+## Web Projects (WEB)
 
 ### Columns:
 
@@ -34,7 +35,7 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 
 ### Steps
 
-1. **Todo: Issue is created.**  
+1. **To Do: Issue is created.**  
 Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
 
 1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**  
@@ -58,8 +59,44 @@ Once the project/update is complete and all necessary issues are in the 'Ready F
 1. **Complete: Issue is complete and bug free.**  
 When they are confirmed to be working properly in production or on real devices with the app downloaded from the app store it can be moved to complete.
 
+<br> 
+
+
+## Mobile App Projects (MOBILE)
+
+### Columns:
+
+- To Do
+- Rejected
+- In Development
+- Is Built & Needs QA
+- Ready For Release To Users
+- Deployed To Users
+- Complete
+
+### Steps
+
+1. **To Do: Issue is created.**  
+Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
+
+1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**  
+A developer needs to review and do more work on the issue.
+
+1. **In Development: Developer starts working on the issue.**  
+Assignees should be set to whoever starts working on the issue.
+
+1. **Is Built & Needs QA: The issue is developed, is included in a new build, and is ready for QA.**
+
+1. **Ready For Release To Users: The issue has been tested by QA and is ready to be released to users.**  
+
+1. **Deployed To Users: The issue has been released to users.**  
+QA may further test these issues using the live build. If there are problems with the issue it should be moved to 'Rejected' so a developer can review it. If there are no problems or the issue does not require live/production testing then it should be moved to complete.
+
+1. **Complete: Issue is complete and bug free.**  
+Issue is confirmed to be working properly on real devices with the app release downloaded from the public app store.
 
 <br> 
+
 
 ## Special Boards (PMZ)
 
@@ -104,7 +141,7 @@ Same as PM boards.
 
 ### Steps
 
-1. **Todo: Issue is created.**  
+1. **To Do: Issue is created.**  
 The appropriate developer is set as the assignee.
 
 1. **In Development: Developer starts working on the issue.**  
