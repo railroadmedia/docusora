@@ -5,17 +5,19 @@
 
 Projects are generally split in to 3 categories: 'WEB' projects, 'MOBILE' projects, and 'DEV' projects.
 
-- **WEB** projects represent a brand specific website application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
-- **DEV** projects represent a PHP or NPM package which can be installed with composer or npm, such as 'railcontent' or 'vuesora'. These projects are powered by a kanban style board, which does not have sprints but is instead powered by versioning.
-- **MOBILE** projects represent a brand specific website application, such as Drumeo. These projects have sprints and follow the normal scrum principles.
-- **PMZ** specialized boards for brand specific applications.
+- **WEB** projects represent a brand specific website, such as Drumeo. These projects have sprints and follow normal scrum principles.
+- **DEV** projects represent a PHP or NPM package which can be installed with composer or npm, such as 'railcontent' or 'vuesora'. These projects are powered by a kanban style board, which does not have sprints but is instead organised by versioning.
+- **MOBILE** projects represent a mobile android/ios application. These projects have sprints and follow the normal scrum principles.
 
+<br> 
+
+- **PMZ** specialized boards.
 
 ## Notes:
 
 _YouTrack refers to 'stories' and 'issues', they are the same thing. 'issue' is a general term which could represent a feature, bug, task, etc._
 
-_At any point during this workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes. They can also be moved back to 'Submitted To QA' if they require further testing._
+_At any point during this workflow issues can be moved back to the 'Rejected' column if they requires changes or fixes._
 
 
 <br> 
@@ -36,7 +38,7 @@ _At any point during this workflow issues can be moved back to the 'Rejected' co
 ### Steps
 
 1. **To Do: Issue is created.**  
-Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Production' (is not required to be set).
+Or the issue is moved from the project backlog to the this column for a given sprint. Developers or appropriate team members are set as the issues assignees. Reviewer is set to whoever should review the issues once its in 'On Prod' (is not required to be set).
 
 1. **Rejected: Issue has bugs or is not fully complete, or more work is required.**  
 A developer needs to review and do more work on the issue.
@@ -89,7 +91,7 @@ Assignees should be set to whoever starts working on the issue.
 
 1. **Ready For Release To Users: The issue has been tested by QA and is ready to be released to users.**  
 
-1. **Deployed To Users: The issue has been released to users.**  
+1. **Deployed To Users: The issue has been released to users via an app store or via a beta program.**  
 QA may further test these issues using the live build. If there are problems with the issue it should be moved to 'Rejected' so a developer can review it. If there are no problems or the issue does not require live/production testing then it should be moved to complete.
 
 1. **Complete: Issue is complete and bug free.**  
