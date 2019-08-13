@@ -11,7 +11,7 @@ Projects are generally split in to 3 categories: 'WEB' projects, 'MOBILE' projec
 
 <br> 
 
-- **PMZ** specialized boards.
+- **Z** specialized boards.
 - **IT** different department.
 
 ## Notes:
@@ -101,15 +101,15 @@ Issue is confirmed to be working properly on real devices with the app release d
 <br> 
 
 
-## Special Boards (PMZ)
+## Special Boards (Z)
 
 ### Current Boards
 
-- **PMZ - Bug Reports**
+- **Z - Bug Reports**
     - For bugs that go through our support team: [see outline](https://github.com/railroadmedia/docusora/blob/master/docs/project-management/bug-reporting-guide-and-examples.md)
     - Must have attribute Type = Bug
     - Must have attribute Backlogged = true
-- **PMZ - Task Requests** (previously known as PM - Backlog)
+- **Z - Task Requests** (previously known as PM - Backlog)
     - Misc features/tasks that are not scheduled as part of another project sprint
     - This is basically our old normal backlog but without bugs, since they are moved to the bug board
     - Must have attribute Type != Bug
