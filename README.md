@@ -18,7 +18,7 @@
 
 ### Project Management
 
-[Meeting Schedules](project-management/meeting-schedules.md)
+[Meeting Schedules](docs/project-management/meeting-schedules.md)
 
 [SCRUM & YouTrack Documentation](docs/project-management/scrum-youtrack.md)
 
