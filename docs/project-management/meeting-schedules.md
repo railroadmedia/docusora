@@ -79,7 +79,6 @@ Once per quarter the entire developer team will meet for 30 minutes to an hour. 
 1. Setup/greetings.
 2. Each team member shares what they have been working on recently, as well as a work related highlight and a personal highlight.
 3. Caleb & Jame share team accomplishments and future scheduled projects.
-4. We discuss any outstanding issues or share new ideas.
 5. Opportunity to share final thoughts or anything else a team member would like to bring up. 
 6. Meeting ends.
 
