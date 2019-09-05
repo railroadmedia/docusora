@@ -2,6 +2,8 @@
 
 _If there are n developers in the room, then there are n+1 opinions on how things should be done._
 
+https://google.github.io/eng-practices/review/reviewer/
+
 ### Communication
 
 - Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.
