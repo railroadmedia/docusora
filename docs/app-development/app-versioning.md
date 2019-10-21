@@ -34,6 +34,10 @@ The concepts and incrementing rules are the same as android. The only difference
 
 It's the responsibility of the developers and QA team to track which version codes align with what version names. For example 10 different builds with incrementing version codes may go through QA before we push a single new build with a new version name to users. The version name and version code should not be related in their numbering.
 
+NOTE: It's not necessary for the **version/build codes** across IOS and Android to line up or be related to each other. They can and should be treated completely separately.
+
+NOTE: For the **version name/number**, X and Y should always line up across platforms since they are related to project and features. Z can be incremented per platform.
+
 Here is an example of how version codes and version names will progress over time with a weekly release cycle:
 
 <br>
