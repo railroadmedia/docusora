@@ -36,7 +36,9 @@ It's the responsibility of the developers and QA team to track which version cod
 
 Here is an example of how version codes and version names will progress over time with a weekly release cycle:
 
-Day 1 - we launch a new version to users:
+<br>
+
+**Day 1 - we launch a new version to users:**
 - Version code: 26 (0.0.26 on IOS)
 - Version name: 1.0.13
 
@@ -57,8 +59,9 @@ Day 5 - a new build is sent to QA with:
 - Version name: 1.0.14
 
 ... can go on indefinitely.
+<br>
 
-Day 10 - previous build passes QA and is launched to users with versions set to:
+**Day 10 - previous build passes QA and is launched to users with versions set to:**
 - Version code: 36 (0.0.36 on IOS)
 - Version name: 1.0.14
 
@@ -75,8 +78,9 @@ Day 13 - a new build is sent to QA with:
 - Version name: 1.0.15
 
 ... can go on indefinitely.
+<br>
  
-Day 100 - previous build passes QA and its a large project launch. It's launched to users with version set to:
+**Day 100 - previous build passes QA and its a large project launch. It's launched to users with version set to:**
 - Version code: 126 (0.1.26 on IOS)
 - Version name: 1.1.0
 
