@@ -58,7 +58,8 @@ Day 5 - a new build is sent to QA with:
 - Version code: 30 (0.0.30 on IOS)
 - Version name: 1.0.14
 
-... can go on indefinitely.
+*... can go on indefinitely.*
+<br>
 <br>
 
 **Day 10 - previous build passes QA and is launched to users with versions set to:**
@@ -77,7 +78,8 @@ Day 13 - a new build is sent to QA with:
 - Version code: 39 (0.0.39 on IOS)
 - Version name: 1.0.15
 
-... can go on indefinitely.
+*... can go on indefinitely.*
+<br>
 <br>
  
 **Day 100 - previous build passes QA and its a large project launch. It's launched to users with version set to:**
@@ -96,4 +98,4 @@ Day 103 - a new build is sent to QA with:
 - Version code: 129 (0.1.29 on IOS)
 - Version name: 1.1.1
 
-etc...
+*etc...*
