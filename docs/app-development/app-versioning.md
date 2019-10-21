@@ -42,7 +42,7 @@ Day 1 - we launch a new version to users:
 
 Day 2 - a new build is sent to QA with:
 - Version code: 27 (0.0.27 on IOS)
-**- Version name: 1.0.14**
+- **Version name: 1.0.14**
 
 Day 3 - a new build is sent to QA with:
 - Version code: 28 (0.0.28 on IOS)
@@ -64,7 +64,7 @@ Day 10 - previous build passes QA and is launched to users with versions set to:
 
 Day 11 - a new build is sent to QA with:
 - Version code: 37 (0.0.37 on IOS)
-**- Version name: 1.0.15**
+- **Version name: 1.0.15**
 
 Day 12 - a new build is sent to QA with:
 - Version code: 38 (0.0.38 on IOS)
@@ -82,7 +82,7 @@ Day 100 - previous build passes QA and its a large project launch. It's launched
 
 Day 101 - a new build is sent to QA with:
 - Version code: 127 (0.1.27 on IOS)
-**- Version name: 1.1.1**
+- **Version name: 1.1.1**
 
 Day 102 - a new build is sent to QA with:
 - Version code: 128 (0.1.28 on IOS)
