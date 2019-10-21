@@ -19,7 +19,18 @@ Y: will be incremented with small project launches and feature updates. The proj
 
 Z: will be incremented for each new patch of bug fix build that is sent to users through the app store. For example, if we push a new build to users once a week this number should increment by 1 every week.
 
-**Workflow**
+## IOS
+
+*Reference: [https://developer.android.com/studio/publish/versioning](https://developer.android.com/studio/publish/versioning)*
+
+There are 2 types of versions for an IOS mobile app:
+
+- **Build Code** == (Version Code)
+- **Version Number** == (Version Name)
+
+The concepts and incrementing rules are the same as android. The only difference is they are named differently.
+
+## Workflow
 
 It's the responsibility of the developers and QA team to track which version codes align with what version names. For example 10 different builds with incrementing version codes may go through QA before we push a single new build with a new version name to users. The version name and version code should not be related in their numbering.
 
