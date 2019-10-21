@@ -28,7 +28,7 @@ There are 2 types of versions for an IOS mobile app:
 - **Build Code** == (Version Code)
 - **Version Number** == (Version Name)
 
-The concepts and incrementing rules are the same as android. The only difference is they are named differently.
+The concepts and incrementing rules are the same as android. The only differences are they are named differently and the build code uses the X.Y.Z format instead of just a single number. We should treat the build codes just like the single number on android and ignore the dot notation. For example version code 193 for android should be build code 0.1.93 for IOS. Version code 8377 would be 0.83.77 build code on IOS.
 
 ## Workflow
 
@@ -37,59 +37,59 @@ It's the responsibility of the developers and QA team to track which version cod
 Here is an example of how version codes and version names will progress over time with a weekly release cycle:
 
 Day 1 - we launch a new version to users:
-- Version code: 26
+- Version code: 26 (0.0.26 on IOS)
 - Version name: 1.0.13
 
 Day 2 - a new build is sent to QA with:
-- Version code: 27
-- Version name: 1.0.14
+- Version code: 27 (0.0.27 on IOS)
+**- Version name: 1.0.14**
 
 Day 3 - a new build is sent to QA with:
-- Version code: 28
+- Version code: 28 (0.0.28 on IOS)
 - Version name: 1.0.14
 
 Day 4 - a new build is sent to QA with:
-- Version code: 29
+- Version code: 29 (0.0.29 on IOS)
 - Version name: 1.0.14
 
 Day 5 - a new build is sent to QA with:
-- Version code: 30
+- Version code: 30 (0.0.30 on IOS)
 - Version name: 1.0.14
 
 ... can go on indefinitely.
 
 Day 10 - previous build passes QA and is launched to users with versions set to:
-- Version code: 36
+- Version code: 36 (0.0.36 on IOS)
 - Version name: 1.0.14
 
 Day 11 - a new build is sent to QA with:
-- Version code: 37
-- Version name: 1.0.15
+- Version code: 37 (0.0.37 on IOS)
+**- Version name: 1.0.15**
 
 Day 12 - a new build is sent to QA with:
-- Version code: 38
+- Version code: 38 (0.0.38 on IOS)
 - Version name: 1.0.15
 
 Day 13 - a new build is sent to QA with:
-- Version code: 39
+- Version code: 39 (0.0.39 on IOS)
 - Version name: 1.0.15
 
 ... can go on indefinitely.
  
 Day 100 - previous build passes QA and its a large project launch. It's launched to users with version set to:
-- Version code: 126
+- Version code: 126 (0.1.26 on IOS)
 - Version name: 1.1.0
 
 Day 101 - a new build is sent to QA with:
-- Version code: 127
-- Version name: 1.1.1
+- Version code: 127 (0.1.27 on IOS)
+**- Version name: 1.1.1**
 
 Day 102 - a new build is sent to QA with:
-- Version code: 128
+- Version code: 128 (0.1.28 on IOS)
 - Version name: 1.1.1
 
 Day 103 - a new build is sent to QA with:
-- Version code: 129
+- Version code: 129 (0.1.29 on IOS)
 - Version name: 1.1.1
 
 etc...
