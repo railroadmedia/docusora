@@ -21,7 +21,7 @@ Z: will be incremented for each new patch of bug fix build that is sent to users
 
 ## IOS
 
-*Reference: [https://developer.android.com/studio/publish/versioning](https://developer.android.com/studio/publish/versioning)*
+*Reference: [https://developer.apple.com/library/archive/technotes/tn2420/_index.html#//apple_ref/doc/uid/DTS40016603-CH1-TWO_NAMING_CONVENTIONS_FOR_VERSION_NUMBERS_AND_BUILD_NUMBERS](https://developer.apple.com/library/archive/technotes/tn2420/_index.html#//apple_ref/doc/uid/DTS40016603-CH1-TWO_NAMING_CONVENTIONS_FOR_VERSION_NUMBERS_AND_BUILD_NUMBERS)*
 
 There are 2 types of versions for an IOS mobile app:
 
