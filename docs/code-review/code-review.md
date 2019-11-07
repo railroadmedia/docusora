@@ -3,6 +3,7 @@
 _If there are n developers in the room, then there are n+1 opinions on how things should be done._
 
 https://google.github.io/eng-practices/review/reviewer/
+https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html
 
 ### Communication
 
