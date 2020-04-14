@@ -16,7 +16,7 @@ This tool is under the 'Retention Stats' menu item in Musora Center.
 **The columns are:**
 
 - Brand
-- Subscription type: interval type)
+- Subscription type: interval type
 - Total subscribers: total users with an active subscription of this interval type at start of period
 - Total users who repurchased or upgraded: if a user upgrades from monthly to yearly or re-purchases a subscription to 
 get a better deal, they are counted as retained and move to the appropriate interval type
