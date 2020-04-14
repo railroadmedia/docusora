@@ -3,6 +3,7 @@
 This tool is under the 'Membership Stats' menu item in Musora Center. Numbers are represented **per user**, not per 
 subscription since users can have multiple subscriptions.
 
+<br>
 
 # The UI
 
@@ -14,6 +15,8 @@ subscription since users can have multiple subscriptions.
 
 **You can also export the current results to a CSV using the cloud download icon in the top right hand corner of the 
 table.**  
+
+<br>
 
 ## Rows & Interval Types
 
@@ -39,6 +42,7 @@ access product.
 **all**  
 All the other "Interval Type" rows for the given "Stats Date" and "Brand" summed.
 
+<br>
 
 ## Columns
 
@@ -79,6 +83,7 @@ their profile or through our support channels.
 
 **Note: "Other" and "Lifetime" interval types only have "New In Day" and "Total Active State" statistics.**
 
+<br>
 
 # How The Numbers & Statistics Work Together
 
@@ -90,6 +95,7 @@ This idea gets exponentially worse as the user base expands and because users of
 day. The purpose of these stats is not to keep a historical record of peoples subscriptions over time, but rather give a 
 snapshot of the what the membership numbers are for a given day at that point in time.
 
+<br>
 
 # Examples Of Usage
 
@@ -103,6 +109,8 @@ snapshot of the what the membership numbers are for a given day at that point in
 6. Subtract the numbers: 12429 - 10257 = 2172
 
 The drumeo membership grew by 2172 over January 2020. We can do this same thing for any "Interval Type" if you wish.
+
+<br>
 
 ## How Many New Drumeo Members Signed Up Over January of 2020?
 
