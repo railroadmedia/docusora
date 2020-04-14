@@ -4,9 +4,9 @@ This tool is under the 'Membership Stats' menu item in Musora Center. Numbers ar
 subscription since users can have multiple subscriptions.
 
 
-## The UI
+# The UI
 
-### Filters
+## Filters
 
 - Brand
 - Interval type (the renewal schedule)
@@ -15,8 +15,7 @@ subscription since users can have multiple subscriptions.
 **You can also export the current results to a CSV using the cloud download icon in the top right hand corner of the 
 table.**  
 
-
-### Rows & Interval Types
+## Rows & Interval Types
 
 Each day has a set of associated rows. One row per individual Interval Type and one row with all the Interval Types 
 added together for that day.
@@ -41,7 +40,7 @@ access product.
 All the other "Interval Type" rows for the given "Stats Date" and "Brand" summed.
 
 
-### Columns
+## Columns
 
 **Brand**  
 
@@ -81,7 +80,7 @@ their profile or through our support channels.
 **Note: "Other" and "Lifetime" interval types only have "New In Day" and "Total Active State" statistics.**
 
 
-## How The Numbers & Statistics Work Together
+# How The Numbers & Statistics Work Together
 
 The numbers cannot always be added together to get the following days numbers. This is because depending on when the 
 stats for that given day are calculated will only affect the data for that point in time. For example if we calculate 
@@ -92,9 +91,9 @@ day. The purpose of these stats is not to keep a historical record of peoples su
 snapshot of the what the membership numbers are for a given day at that point in time.
 
 
-## Examples Of Usage
+# Examples Of Usage
 
-### How Much Did The Drumeo Membership Grow Over January of 2020?
+## How Much Did The Drumeo Membership Grow Over January of 2020?
  
 1. Set "Brand" to "drumeo"
 2. Set "Interval Type" to "Sum of the membership types"
@@ -105,7 +104,7 @@ snapshot of the what the membership numbers are for a given day at that point in
 
 The drumeo membership grew by 2172 over January 2020. We can do this same thing for any "Interval Type" if you wish.
 
-### How Many New Drumeo Members Signed Up Over January of 2020?
+## How Many New Drumeo Members Signed Up Over January of 2020?
 
 1-3. Same as above
 4. Copy data to spread sheet or export to csv
