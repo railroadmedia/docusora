@@ -114,9 +114,9 @@ The drumeo membership grew by 2172 over January 2020. We can do this same thing 
 
 ## How Many New Drumeo Members Signed Up Over January of 2020?
 
-1-3. Same as above
-4. Copy data to spread sheet or export to csv
-5. Sum the "New In Day" column
-6. 2893 new memberships were started during January 2020
+1-3. Same as above  
+4. Copy data to spread sheet or export to csv  
+5. Sum the "New In Day" column  
+6. 2893 new memberships were started during January 2020  
 
 We can do this for any of the "* In Day" columns and for any "Interval Type".
