@@ -49,26 +49,27 @@ working upward is typically the best way to start planning. The core questions t
 
 **Example:**
 
-- 'Account Details' page load GET request  
+- 'Account Details' page load GET request:  
 The response will need to return the view itself and all the data about the users  
 subscription necessary to render the different use cases outlined in the project documentation and design. 
 Specifically we'll need to send the 'state' of the users membership, along with the renewal date, price, etc.  
   
-- Main cancellation page load GET request  
+- Main cancellation page load GET request:  
 When a user decides to go through with the cancellation, past the initial modal, we bring them to a new blank white page 
 with only the cancellation form as per the design. This should be its own page, not a giant full screen 
 modal like the design suggests. It should return the view, no special info is required, everyone sees the same options.
 
-- Main cancellation form submit POST request  
+- Main cancellation form submit POST request:    
 When the user submits the main cancellation page form we need to redirect them depending on the option chosen. See docs
 for which page to send them to.
 
-- Other  
+- Other:  
 Each of the other cancellation win back pages need requests to render them. 
 There are also some other POST endpoints required for upgrading, delaying billing, etc. Planning those is outside the 
 scope of this guide.
   
-  
+<br>
+
 ### How much and what kind of **automated testing** should be used?
 
 Some projects need many layers of automated testing, others only need 1 or even zero. Deciding this is a subjective and 
@@ -85,7 +86,8 @@ For the cancellation project I recommend only functional testing. Unit testing d
 there is no complex logic or mathematics. Acceptance testing would be nice, but it will take too long, and we have other
 projects to move on to.
   
-  
+<br>
+
 ### How will this project be deployed to the live production server?
 
 It's useful to understand how complex the deployment process will be for pushing the project to production. Some 
@@ -98,5 +100,7 @@ questions to answer are:
 **Example:**
 There likely won't be any special deployments steps request for the cancellation project. A regular deployment should do 
 it!
+  
+<br>
 
 ### Send It
