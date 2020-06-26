@@ -34,9 +34,10 @@ Our drumeo cancellation revamp project will need:
 - VueJS - none required, there are no complex or dynamic UI elements in the design
 - Any third party APIs - none required
 
-We'll need at least 1 BE dev and one FE dev to complete this project.  
+We'll need at least 1 BE dev and one FE dev to complete this project.
   
-  
+<br>
+
 ### Which **requests** are required?
 
 HTTPS requests and responses are the lowest level elements of any web or app project. Planning from the request level and
