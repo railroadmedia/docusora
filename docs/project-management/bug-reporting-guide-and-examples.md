@@ -1,6 +1,6 @@
 # Quick Links
 
-Basecamp Project: [https://basecamp.com/1792144/projects/16655061](https://basecamp.com/1792144/projects/16655061)  
+Basecamp Project: [https://app.asana.com/0/1186319650975745/board](https://app.asana.com/0/1186319650975745/board)  
 Emergency Contact Info: [https://basecamp.com/1792144/projects/16655061/documents/14383392](https://basecamp.com/1792144/projects/16655061/documents/14383392)
 
 # Bug Reporting Guide
@@ -8,112 +8,119 @@ Emergency Contact Info: [https://basecamp.com/1792144/projects/16655061/document
 ## Who, Where, and What To Do
 
 - **If the severity is HIGH:**
-    - Contact Caleb or another available developer immediately over gchat/email, or in person
+    - Contact Caleb or another available developer immediately over Slack/email, or in person
     
-    - Create a basecamp todo using the template below in the 'High Priority' todo list, notify the entire 'Dev Team' and 'Customer Support' teams in the 'Let me choose who should get an email…' section
+    - Create a new task in Asana under the "Initial Report" column following the template below. Under the "Priority" field, select "High".
 <br>
 
 - **If the severity is MEDIUM or LOW:**
-    - Create a basecamp todo using the template below in the 'Medium Priority' or 'Low Priority' todo list, notify only 'Jonathan Chiu' and the 'Customer Support' team in the 'Let me choose who should get an email…' section
-    - Try to avoid gchatting or discussing with a developer in person if the issue severity is not high. If an issue needs to be discussed in person or it would be much more efficient to chat in person please schedule a meeting time to do so where both parties agree on the date/time. If the dev team specifically requests you reach out to them directly for a given project or launch, definitely reach out directly anytime you see fit.
+    - Create a new task in Asana under the "Initial Report" column following the template below. Under the "Priority" field, select "Medium" or "Low".
+    - Try to avoid reaching out to or discussing with a developer in person if the issue severity is not high. If an issue needs to be discussed in person or it would be much more efficient to chat in person please schedule a meeting time to do so where both parties agree on the date/time. If the dev team specifically requests you reach out to them directly for a given project or launch, definitely reach out directly anytime you see fit.
     
-    - Feel free to reach out to Jon C (QA) about a bug/problem anytime over gchat or in person! He is in charge of handling how bugs are managed between support and dev and would love to chat or help you through an issue.
+    - Feel free to reach out to Jon C (QA) about a bug/problem anytime over Slack or in person! He is in charge of handling how bugs are managed between support and dev and would love to chat or help you through an issue.
     <br>
 
 - **Escalating bugs:**
-    - You may get a single user report for an issue and post about it in basecamp as medium or low severity. If you later get more user reports about the same bug, please post in the relevant basecamp thread to escalate it. A bug for 1 user is usually pretty benign. A bug for 10 users generally means something major is wrong.
+    - You may get a single user report for an issue and post about it in basecamp as medium or low severity. If you later get more user reports about the same bug, please make note in the appropriate task to escalate it, and feel free to edit the "Priority" field at any point. A bug for 1 user is usually pretty benign. A bug for 10 users generally means something major is wrong.
     <br>
 
 
 ## Bug Report Template
 1. **Title:**
     - A single sentence description of the issue
-    - Ex: Refunding a users subscription returns an error
-    - Ex: Users get an error when placing a comment
+    - Ex: Refunding a user's subscription returns an error
+    - Ex: Users get an error when submitting a comment
 <br>
 
-2. **Brand/App:**
-    - Which brand or website does this bug apply to?
-    - drumeo, pianote, musora, drumeo mobile app, etc
+2. **Assignee:**
+    - This field will be automatically filled in upon creation of a new task.
 <br>
 
-3. **Severity: HIGH, MEDIUM, LOW (choose one)**
-    - HIGH: bug is effecting business critical features and has been reported by multiple users, and its user facing
+3. **Due Date:**
+    - This field for developer use only and can be ignored.
+<br>
+
+4. **Projects:**
+    - This field for developer use only and can be ignored.
+<br>
+
+5. **Priority: HIGH, MEDIUM, LOW (choose one)**
+    - HIGH: bug is effecting business critical features and has been reported by multiple users, and it's user facing
         - Ex: Customers getting error when ordering
         - Ex: Incorrect pricing issues on the order form
-        - Ex: Large sections or the entire members area are not working
-    - MEDIUM: support has received multiple reports, but its a non business critical issue
+        - Ex: Large sections or the entire members' area not working
+    - MEDIUM: support has received multiple reports, but it's a non business critical issue
         - Ex: Course X gives an error and does not load
         - Ex: Users get error when trying to comment on any lesson
     - MEDIUM: support is unable to do a requested action for any user
         - Ex: Getting an error when trying to refund any payment
         - Ex: Button to view any users payments is not functional
-    - LOW: only 1 user reported an issue and its not related to business critical features
+    - LOW: only 1 user reported the issue, and it's not related to business critical features
         - Ex: User X cannot load video Y on his Z machine
         - Ex: User X reports getting an error when trying to cancel his subscription
     - LOW: support cannot perform an action for 1 specific user:
         - Ex: I cannot refund payment X for user Y, however other users payments can be refunded successfully
         - Ex: Order placed for user X has problems
-    - If you are unsure about which severity level an issue should be reported under feel free to ask your nearest developer
+    - If you are unsure about which priority an issue should be assigned, feel free to reach out to Jonathan C.
 <br>
 
-4. **Preconditions:**
-    - Information about the user in question, such as email, shipping address, or order number
-    - Information about the users device and browser (not required for musora center related issues)
+6. **Affected Brand:**
+    - Please select the brand the issue affects/applies to. Please note that issues for the Drumeo/Pianote apps will have their own option here. If an issue exists across multiple brands, please select the "Musora/Crossbrand" option.
 <br>
 
-5. **Reproduction:**
-    - A description of what the bug reporter was doing when they ran in to the issue
-        - Ex: went to lesson page, scrolled to down to comment X, clicked reply, typed in reply, clicked submit, saw error message
-        - Ex: went to a users overview page, clicked to load a subscriptions payments, clicked refund button, entered amount, clicked submit, saw error message
-    - This is the most important part of a bug report so the more information the better
+7. **Platform:**
+    - What the customer was using to access out content when the initial issue was encountered, eg: iOS version number, Device make and model, App version, Browser version, Operating System, etc.
+    - Depending on the type of bug, this field may be left blank when issue clearly exists across all platforms. 
+    - If subsequent users encounter an issue after the initial report, their platform details should be included in the comments when the additional cases are reported.
 <br>
 
-6. **Other:**
-    - Anything else which may be helpful to the developers
+8. **Number of reports/Affected Users:**
+    - If the issue reported seems isolated to a certain subset of users, please indicate the number of people who have encountered it.
+    - If issue is obviously widespread and affects everyone, field can be left blank.
 <br>
 
-7. **Post-Fix Tasks:**
-    - Once the bug is fixed, what task needs to be completed if any?
-        - Ex: Refund user X payment Y for amount Z
-        - Ex: Place order for user X with products Y and price Z
-        - Ex: Delete comment X for user Y
-        - Ex: Notify user X when this fixed
+9. **Description:**
+    - This field is for all information not already covered by the fields above, including:
+        - Detailed description of the issue
+        - Steps taken to reproduce the issue
+        - Musora ID/Email of user/s who encountered the issue, as well as all other relevant details including order numbers, specific payment methods, specific subscription, etc.
+        - Any images/videos/screenshots demonstrating or pertaining to the issue at hand
+        - Any other relevant information provided by user or encountered during reproduction
+        - Any post-fix tasks that need to be completed once issue is resolved.
+        <br>
+
+7. **Collaborators:**
+    - People tagged in this section will be notified of the creation of, as well as any updates to the task. By default, the creator, Jon C. and Caleb will be added, anyone else who would like to be notified can opt-in here. Likewise, remove yourself at any point to stop receiving updates and status changes related to this task.
         <br>
 
 
 ## Full Examples
 
-- Title: getting an error when trying to expire a users product access
-- Brand: musora
-- Severity: medium
-- Preconditions: users email: caleb@drumeo.com, user product: pianote-1-month-membership
-- Reproduction: click edit button, changed date to today, clicked save, saw error message saying "Error editing user product"
-- Other:
-- Post-Fix Tasks: users pianote-1-month-membership product needs to be expired when this bug is fixed
+- Title: Getting an error when trying to expire a user's product access
+- Priority: Medium
+- Affected Brand: Musora/Crossbrand
+- Platform: -
+- Number of reports/Affected Users: All Pianote products 
+- Description: User has product "pianote-1-month-membership", expiry date cannot be edited. Attempting to change date results in "Error editing user product".
+users email: caleb@drumeo.com, user product: pianote-1-month-membership. User product needs top be expired once bug is fixed.
+
 
 ---
  
-- Title: many users reporting getting an error when trying to place an order
-- Brand: pianote
-- Severity: high
-- Preconditions: users emails who reported to us: caleb@drumeo.com, curtis@drumeo.com
-- Reproduction: user clicks submit button and see an error screen saying '500 Something when wrong'
-- Other: the first report came in on 1pm saturday the 16th
-- Post-Fix Tasks: 
+- Title: Users receiving "Oops, something went wrong." error when trying to place order through app
+- Priority: High
+- Affected Brand: Drumeo App
+- Platform: Seems to all be iOS users
+- Number of Reports/Affected Users: lots
+- Description: A whole bunch of users are just getting an error after confirming their signup through apple's payment confirmation window. caleb@drumeo.com, jonc@drumeo.com, jonc+2@drumeo.com, jonc+3@drumeo.com and others reported not being to sign up. Musora accounts were created with their emails, but there is no payment history or valid subscription. The above users have been manually granted 7 days of access for the time being. Users received no receipt from Apple. Screenshot of error attached below.
 
 --- 
 
-- Title: a user cannot play any videos, they see a message such as 'This video cannot load'
-- Brand: drumeo
-- Severity: low
-- Preconditions: users email: caleb@drumeo.com, browser: safari, device: ipad 10
-- Reproduction: when the user loads any lesson page the video player is black and says 'Video cannot be loaded'
-- Other:
-- Post-Fix Tasks: notify user caleb@drumeo.com over email when the problem is fixed
+- Title: User claims video playback freezes a couple minutes into every video
+- Priority: Low
+- Affected Brand: Pianote
+- Platform: iPad 2, iOS 6.1.5, Safari, Legacy player (New player not supported)
+- Number of Reports/Affected Users: 1
+- Description: User jonc+myiPadis13yearsold@drumeo.com claims that all videos will freeze playback at 4:20 in and cannot be started again. Refreshing the page does not help, but they can proceed further by scrubbing past that point in the lesson manually. User has tried other browsers with the same result, but also says issue is not present on their iPhone 14XSRMaxPlusSE2. Could not reproduce on my own iPad(Air 2).
 
 <br>
-
-# Feature Requests
-
-Please put all feature requests in the 'Feature or Update Requests' basecamp todo list. Feel free to create as many as you like and format them however you prefer. We will use this main todo list in our timeline planning to figure out which features we can add and when. 
