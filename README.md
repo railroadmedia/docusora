@@ -67,3 +67,5 @@
 [Tampermonkey Setup](docs/technical/tampermonkey.md)
 
 [Cache CLI](docs/technical/cache-cli.md)
+
+[Notes from attempting to update and fix migrations, September 2020](docs/technical/notes_update_fix_migrations_sep2020.md)
