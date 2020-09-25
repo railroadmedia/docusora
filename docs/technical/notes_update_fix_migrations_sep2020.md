@@ -5,16 +5,26 @@ Jonathan M, September 2020
 * [migrations error details, drumeo](#migrations-error-details--drumeo)
   + [note (2020-09-22)](#note--2020-09-22-)
   + [errors (2020-09-04)](#errors--2020-09-04-)
-* [fixing some package migrations](#fixing-some-package-migrations)
-  + [ecommerce](#ecommerce)
+* [fixing some application migrations](#fixing-some-application-migrations)
+  + [drumeo](#drumeo)
     - [One](#one)
     - [Two](#two)
     - [Three](#three)
-  + [railcontent](#railcontent)
+    - [Four](#four)
+  + [guitareo](#guitareo)
     - [One](#one-1)
     - [Two](#two-1)
+* [fixing some package migrations](#fixing-some-package-migrations)
+  + [ecommerce](#ecommerce)
+    - [One](#one-2)
+    - [Two](#two-2)
+    - [Three](#three-1)
+  + [railcontent](#railcontent)
+    - [One](#one-3)
+    - [Two](#two-3)
   + [railnotification](#railnotification)
 * [Problematic files on drumeo](#problematic-files-on-drumeo)
+
 
 <!-- ecotrust-canada.github.io/markdown-toc -->
 
@@ -149,6 +159,161 @@ Run migrate:rollback for drumeo and you get these at each step…
 
 <!-- --------------------------------------------------------------------------------------------------- -->
 
+## fixing some application migrations
+
+### drumeo
+
+#### One
+
+laravel/database/migrations/2018_07_24_171439_add_created_at_index_to_members_area_events.php
+
+("down" method) needs
+
+```
+$table->dropIndex('created_at');
+$table->dropIndex('updated_at');
+```
+
+replaced with
+
+```
+$table->dropIndex(['created_at']);
+$table->dropIndex(['updated_at']);
+```
+
+
+#### Two
+
+laravel/database/migrations/2018_09_25_221908_add_unique_index_to_user_levels.php
+
+In the "down" method, before `$table->dropIndex('u_l');` add this index creation: `$table->index('user_id', 'level_id');`, so that this:
+
+```
+public function down()
+{
+    Schema::table(
+        'railcenter_user_levels',
+        function ($table) {
+            /**
+             * @var $table \Illuminate\Database\Schema\Blueprint
+             */
+            $table->dropIndex('u_l');
+        }
+    );
+}
+```
+
+becomes
+
+```
+public function down()
+{
+    Schema::table(
+        'railcenter_user_levels',
+        function ($table) {
+            /**
+             * @var $table \Illuminate\Database\Schema\Blueprint
+             */
+            $table->index('user_id', 'level_id');
+            $table->dropIndex('u_l');
+        }
+    );
+}
+```
+
+Also, consider throwing in this comment above that new line too:
+
+```
+/*
+ * Index creation is needed here else we get an error "Cannot drop index 'u_l': needed in a foreign key
+ * constraint" when running dropIndex method
+ * see https://github.com/laravel/framework/issues/13873#issuecomment-326138123
+ * (tl;dr: https://stackoverflow.com/a/52768106/1409396)
+ */
+```
+
+
+#### Three
+
+laravel/database/migrations/2020_01_16_194637_create_sessions_table.php
+
+~~needs~~ might benefit from (in "up method")
+
+`Schema::drop('sessions');`
+
+being replaced by
+
+`Schema::dropIfExists('sessions');`
+
+
+#### Four
+
+laravel/database/migrations/2020_03_26_205710_add_index_to_sessions_table.php
+
+needs
+
+`$table->dropIndex('last_activity');`
+
+replaced with
+
+`$table->dropIndex(['last_activity']);`
+
+
+### guitareo
+
+#### One
+
+replace:
+
+```
+public function down()
+{
+    Schema::drop('users');
+}
+```
+
+with:
+
+```
+public function down()
+{
+    Schema::table('subscriptions', function (Blueprint $table) {
+        $table->dropForeign(['user_id']);
+    });
+
+    Schema::drop('users');
+}
+```
+
+#### Two
+
+Replace:
+
+```
+public function down()
+{
+    Schema::drop('billing_plans');
+}
+```
+
+with:
+
+```
+public function down()
+{
+    Schema::table('subscriptions', function (Blueprint $table) {
+        $table->dropForeign(['billing_plan_id']);
+    });
+
+    Schema::table('billing_plans', function (Blueprint $table) {
+        $table->drop();
+    });
+}
+```
+
+
+<!-- --------------------------------------------------------------------------------------------------- -->
+
 ## fixing some package migrations
 
 ### ecommerce
@@ -192,7 +357,7 @@ public function down()
     }
 ```
 
-#### Three 
+#### Three
 
 migrations/2020_07_28_847732_change_action_reason_to_string_membership_actions_table.php
 
@@ -221,7 +386,7 @@ replaced with
 
 as of [commit cc93d747d521783ae9799fc13732a1acbe481b7c ("Now triggering crud content events after response is sent.", branch "0.5-")](https://github.com/railroadmedia/railcontent/commit/cc93d747d521783ae9799fc13732a1acbe481b7c)
 
-#### One 
+#### One
 
 migrations/2018_04_30_185531_add_updated_on_index_to_user_content_progress_table.php
 
@@ -229,7 +394,7 @@ needs (in "down" method)
 
 `$table->dropIndex('updated_on');`
 
-replaced with:                
+replaced with:
 
 `$table->dropIndex(['updated_on']);`
 
