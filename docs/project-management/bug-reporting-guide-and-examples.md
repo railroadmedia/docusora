@@ -78,8 +78,13 @@ Emergency Contact Info: [https://basecamp.com/1792144/projects/16655061/document
     - If the issue reported seems isolated to a certain subset of users, please indicate the number of people who have encountered it.
     - If issue is obviously widespread and affects everyone, field can be left blank.
 <br>
+      
+9. **Support Notes:**
+    - This field should be used for any information useful soley to the support department, and does not assist in the investigation or fixing of a bug report.
+    - For example, any users who require follow-up post-fix (re-sent transaction receipts, updates access, etc.) should be stated here. 
+      <br>
 
-9. **Description:**
+10. **Description:**
     - This field is for all information not already covered by the fields above, including:
         - Detailed description of the issue
         - Steps taken to reproduce the issue
@@ -89,7 +94,7 @@ Emergency Contact Info: [https://basecamp.com/1792144/projects/16655061/document
         - Any post-fix tasks that need to be completed once issue is resolved.
         <br>
 
-7. **Collaborators:**
+11. **Collaborators:**
     - People tagged in this section will be notified of the creation of, as well as any updates to the task. By default, the creator, Jon C. and Caleb will be added, anyone else who would like to be notified can opt-in here. Likewise, remove yourself at any point to stop receiving updates and status changes related to this task.
         <br>
 
