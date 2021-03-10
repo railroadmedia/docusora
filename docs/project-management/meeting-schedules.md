@@ -1,6 +1,6 @@
 # Meeting Schedules
 
-Please contact Caleb or Jame if you have any questions or see any mistakes.
+Please contact Caleb if you have any questions or see any mistakes.
 
 ## Times & Timezones
 
