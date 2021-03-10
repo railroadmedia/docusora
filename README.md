@@ -1,47 +1,61 @@
 # Development Department Documentation - Musora
 
-Primary contact: [Caleb Favor (caleb@drumeo.com)](caleb@drumeo.com) - [https://github.com/calebfavor](https://github.com/calebfavor)
+## Contact
+
+Primary Contact: [Caleb Favor (caleb@drumeo.com)](caleb@drumeo.com) - 
+[https://github.com/calebfavor](https://github.com/calebfavor)
+
+Websites: [Drumeo](https://www.drumeo.com/) - 
+[Pianote](https://www.pianote.com/) - 
+[Guitareo](https://www.guitareo.com/) - 
+[Musora](https://www.musora.com/)
+
+Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 
-### External Communication & Management Tool Links
+## Communication & Management Tools Links
 
-[GitHub](https://github.com/railroadmedia)  
-[Slack](https://musora.slack.com/)  
+[GitHub](https://github.com/railroadmedia) - 
+[Slack](https://musora.slack.com/) - 
 [Asana](https://app.asana.com/0/1182507146429289/overview)
 
+
+## Cross Department Process & Workflow Documents
+
+[Marketing-Dev Project Planning & Review](docs/cross-department-process-and-workflow-documents/marketing-dev-project-planning-and-review.md)
 
 ---
 # Legacy (< 2021)
 ### Project Management
 
-[Meeting Schedules](docs/project-management/meeting-schedules.md)  
-[SCRUM & YouTrack Documentation](docs/project-management/scrum-youtrack.md)  
-[Project Estimation Guide](docs/project-management/project-estimation-system-dev-days.md)  
-[Development Process Outline](docs/project-management/development-process-overview.md)  
-[Bug Reporting Guide](docs/project-management/bug-reporting-guide-and-examples.md)  
-[Bug Fixing Workflow](docs/project-management/bug-fixing-workflow.md)  
+[Meeting Schedules](docs/legacy/project-management/meeting-schedules.md)  
+[SCRUM & YouTrack Documentation](docs/legacy/project-management/scrum-youtrack.md)  
+[Project Estimation Guide](docs/legacy/project-management/project-estimation-system-dev-days.md)  
+[Development Process Outline](docs/legacy/project-management/development-process-overview.md)  
+[Bug Reporting Guide](docs/legacy/project-management/bug-reporting-guide-and-examples.md)  
+[Bug Fixing Workflow](docs/legacy/project-management/bug-fixing-workflow.md)  
 
 
 ### Code Review
 
-[Code Review Process](docs/code-review/code-review.md)  
-[Code Style Guide](docs/code-review/code-style-guide.md)  
+[Code Review Process](docs/legacy/code-review/code-review.md)  
+[Code Style Guide](docs/legacy/code-review/code-style-guide.md)  
 
 
 ### Sysops/Devops
 
-[Sysops Overview](docs/sysops-devops/sysops-overview.md)  
-[Systems Emergency Guide](docs/sysops-devops/systems-emergency-guide.md)  
+[Sysops Overview](docs/legacy/sysops-devops/sysops-overview.md)  
+[Systems Emergency Guide](docs/legacy/sysops-devops/systems-emergency-guide.md)  
 
 
 ### Technical
 
-[Automated Testing](docs/technical/automated-testing.md)  
-[URL Structures](docs/technical/brand-application-url-structure.md)  
-[Testing & Debugging](docs/technical/testing-and-debugging.md)  
-[Documentation Writing Guidelines](docs/technical/writing-documentation-guidelines.md)  
-[YouTube OAuth Setup](docs/technical/youtube-oauth-api-setup.md)  
-[Artisan Command Debugging](docs/technical/artisan-command-debug.md)  
-[New Content Type Guide](docs/technical/new-content-type-backend-instructions.md)  
-[Tampermonkey Setup](docs/technical/tampermonkey.md)  
-[Cache CLI](docs/technical/cache-cli.md)  
+[Automated Testing](docs/legacy/technical/automated-testing.md)  
+[URL Structures](docs/legacy/technical/brand-application-url-structure.md)  
+[Testing & Debugging](docs/legacy/technical/testing-and-debugging.md)  
+[Documentation Writing Guidelines](docs/legacy/technical/writing-documentation-guidelines.md)  
+[YouTube OAuth Setup](docs/legacy/technical/youtube-oauth-api-setup.md)  
+[Artisan Command Debugging](docs/legacy/technical/artisan-command-debug.md)  
+[New Content Type Guide](docs/legacy/technical/new-content-type-backend-instructions.md)  
+[Tampermonkey Setup](docs/legacy/technical/tampermonkey.md)  
+[Cache CLI](docs/legacy/technical/cache-cli.md)  
