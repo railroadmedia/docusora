@@ -22,8 +22,16 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 ## Cross Department Process & Workflow Documents
 
+### Marketing
+
 [Marketing-Dev Project Planning & Review](docs/cross-department-process-and-workflow-documents/marketing-dev-project-planning-and-review.md)
 
+### Content
+
+### Finance
+
+<br><br><br>
+<br><br><br>
 ---
 # Legacy (< 2021)
 ### Project Management
