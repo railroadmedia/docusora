@@ -62,34 +62,34 @@ To be assigned to and completed by the assigned creative team member.
 To be assigned to and completed by project owning marketer.
 
 1. **Finish coding the front end**  
-To be assigned to and completed by the relevant FE developer
+To be assigned to and completed by the relevant FE developer.
 
 1. **Finish coding the back end**  
-To be assigned to and completed by the relevant BE developer
+To be assigned to and completed by the relevant BE developer.
    
 1. **Launch to a testing URL**  
-- To be assigned to and completed by the relevant project owning developer
+To be assigned to and completed by the relevant project owning developer.
    
 1. **Complete QA checklist**  
-To be assigned to and completed by the relevant developer OR QA team member
+To be assigned to and completed by the relevant developer OR QA team member.
    
 1. **Finish QA testing**  
-To be assigned to and completed by the relevant developer OR QA team member
+To be assigned to and completed by the relevant developer OR QA team member.
    
 1. **Launch to a review URL**  
-To be assigned to and completed by the relevant project owning developer
+To be assigned to and completed by the relevant project owning developer.
    
 1. **Notify marketing team & design team members that this project is ready for review**  
-To be assigned to and completed by the relevant project owning developer
+To be assigned to and completed by the relevant project owning developer.
    
 1. **Finish review by marketing/creative team and get approval for launch**  
-To be assigned to and completed by project owning marketer and involved creative team members
+To be assigned to and completed by project owning marketer and involved creative team members.
 
 1. **Launch this project to production**  
-To be assigned to and completed by the relevant project owning developer
+To be assigned to and completed by the relevant project owning developer.
    
 1. **Notify marketing and creative teams that this project is live on production**  
-To be assigned to and completed by the relevant project owning developer
+To be assigned to and completed by the relevant project owning developer.
 
 <br>
 
@@ -106,7 +106,9 @@ To be assigned to and completed by the relevant project owning developer
 ### It's a full project that needs the entire workflow:  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
-   template. Please choose the relevant color for the brand
+   template. Please choose the relevant color for the brand.
+   
+![Brand Asana Colors](../images/brand-asana-colors.jpg)
    
 2. If you are not already familiar, review the top guide task for your department 
    'How to use this project template & plan projects - **marketers** - DELETE ME' or 
