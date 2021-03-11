@@ -50,14 +50,16 @@ modify the default tasks or change their dependencies if you wish however there 
 
 ## Our Default Stories & Dependency Graph
 
-1. **Finish marketing project planning**
-   - To be assigned to and completed by project owning marketer
-     
-1. **Finish designs & creative assets**
-   - To be assigned to and completed by the assigned creative team member
+_Each task is dependent on the previous one in the list._    
 
-1. **Finish design review & design feedback cycle**
-   - To be assigned to and completed by project owning marketer
+1. **Finish marketing project planning**  
+To be assigned to and completed by project owning marketer
+     
+1. **Finish designs & creative assets**  
+To be assigned to and completed by the assigned creative team member
+
+1. **Finish design review & design feedback cycle**  
+To be assigned to and completed by project owning marketer
 
 1. **Finish coding the front end**
    - To be assigned to and completed by the relevant FE developer
@@ -116,23 +118,27 @@ workflow.
 4. Place all planning documentation, outlines, assets, etc inside the
    'Project overview, documents, design assets, etc - go here' task description.
    
-5. If the marketers project planning is complete and ready for design or dev, complete the 
+5. Choose a final deadline when this project must be complete and live on production. Enter this date as the Due Date
+for the '_Launch this project to production_' task in the 'Launch' section. The dev team will let you know if the 
+   deadline is possible. The dev team will set the review date.
+   
+6. If the marketers project planning is complete and ready for design or dev, complete the 
    'Finish marketing project planning' task. 
    This task is set up as a dependency which means that other tasks 
    related to design and development will not be triggered to be ready to be started 
    until this planning task is marked complete.
    
-6. Notify the dev and creative team about the project and that it's been set up using slack.
+7. Notify the dev and creative team about the project and that it's been set up using slack.
 
 ...
 
-7. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
+8. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
 url for review. A dev will notify the marketing team via slack that the project is ready for review. An Asana task
    will also automatically be un-blocked.
    
-8. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
+9. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
 
-9. Once the review is complete, and the project is ready for launch, complete the 
+10. Once the review is complete, and the project is ready for launch, complete the 
    '_Finish review by marketing/creative team and get approval for launch_' task so the developers know when to launch
    the project. Please also set a date for the '_Launch this project to production_' task if the project is not already
    live on production. The dev team will launch the project at the specified date and notify the marketing team right 
@@ -140,5 +146,5 @@ url for review. A dev will notify the marketing team via slack that the project 
    
 ...
 
-10. After the project is completely launched, please put all future feedback, change requests, 
-   promo closuers and updates, etc, in the '_Post Launch Tasks, Monitoring, Review_' section and assign to Trent.
+11. After the project is completely launched, please put all future feedback, change requests, 
+   promo closures and updates, etc, in the '_Post Launch Tasks, Monitoring, Review_' section and assign to Trent.
