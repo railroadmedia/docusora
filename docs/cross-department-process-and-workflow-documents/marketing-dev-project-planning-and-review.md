@@ -46,68 +46,46 @@ The purpose of default tasks is to easily track the state of a project and pass 
 and departments seamlessly and with notifications. Default tasks are linked together as dependencies. Feel free to 
 modify the default tasks or change their dependencies if you wish however there should be a good reason to do so.
 
-**Our Default Stories & Dependency Graph:**
+<br>
+
+## Our Default Stories & Dependency Graph
 
 1. **Finish marketing project planning**
    - To be assigned to and completed by project owning marketer
      
-<br>
-     
 1. **Finish designs & creative assets**
    - To be assigned to and completed by the assigned creative team member
-
-<br>
 
 1. **Finish design review & design feedback cycle**
    - To be assigned to and completed by project owning marketer
 
-<br>
-
 1. **Finish coding the front end**
    - To be assigned to and completed by the relevant FE developer
 
-<br>
-
 1. **Finish coding the back end**
    - To be assigned to and completed by the relevant BE developer
-
-<br>
-
+   
 1. **Launch to a testing URL**
    - To be assigned to and completed by the relevant project owning developer
-
-<br>
-
+   
 1. **Complete QA checklist**
    - To be assigned to and completed by the relevant developer OR QA team member
-
-<br>
-
+   
 1. **Finish QA testing**
    - To be assigned to and completed by the relevant developer OR QA team member
-
-<br>
-
+   
 1. **Launch to a review URL**
    - To be assigned to and completed by the relevant project owning developer
-
-<br>
-
+   
 1. **Notify marketing team & design team members that this project is ready for review**
    - To be assigned to and completed by the relevant project owning developer
-
-<br>
-
+   
 1. **Finish review by marketing/creative team and get approval for launch**
    - To be assigned to and completed by project owning marketer and involved creative team members
 
-<br>
-
 1. **Launch this project to production**
    - To be assigned to and completed by the relevant project owning developer
-
-<br>
-
+   
 1. **Notify marketing and creative teams that this project is live on production**
    - To be assigned to and completed by the relevant project owning developer
 
