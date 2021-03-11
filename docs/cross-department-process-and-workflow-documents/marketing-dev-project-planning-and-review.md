@@ -48,7 +48,70 @@ modify the default tasks or change their dependencies if you wish however there 
 
 **Our Default Stories & Dependency Graph:**
 
+1. **Finish marketing project planning**
+   - To be assigned to and completed by project owning marketer
+     
+<br>
+     
+1. **Finish designs & creative assets**
+   - To be assigned to and completed by the assigned creative team member
 
+<br>
+
+1. **Finish design review & design feedback cycle**
+   - To be assigned to and completed by project owning marketer
+
+<br>
+
+1. **Finish coding the front end**
+   - To be assigned to and completed by the relevant FE developer
+
+<br>
+
+1. **Finish coding the back end**
+   - To be assigned to and completed by the relevant BE developer
+
+<br>
+
+1. **Launch to a testing URL**
+   - To be assigned to and completed by the relevant project owning developer
+
+<br>
+
+1. **Complete QA checklist**
+   - To be assigned to and completed by the relevant developer OR QA team member
+
+<br>
+
+1. **Finish QA testing**
+   - To be assigned to and completed by the relevant developer OR QA team member
+
+<br>
+
+1. **Launch to a review URL**
+   - To be assigned to and completed by the relevant project owning developer
+
+<br>
+
+1. **Notify marketing team & design team members that this project is ready for review**
+   - To be assigned to and completed by the relevant project owning developer
+
+<br>
+
+1. **Finish review by marketing/creative team and get approval for launch**
+   - To be assigned to and completed by project owning marketer and involved creative team members
+
+<br>
+
+1. **Launch this project to production**
+   - To be assigned to and completed by the relevant project owning developer
+
+<br>
+
+1. **Notify marketing and creative teams that this project is live on production**
+   - To be assigned to and completed by the relevant project owning developer
+
+<br>
 
 ## Is it a project or a small update?  
 
@@ -58,44 +121,46 @@ modify the default tasks or change their dependencies if you wish however there 
 - Otherwise, if there is no existing project, please create a new task in the Asana project named 
 'Misc Tasks'.
   
-  
+<br>  
+
 **It's a full project that needs the entire workflow:**  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
    template. Please choose the relevant color for the brand
    
-1. If you are not already familiar, review the top guide task for your department 
+2. If you are not already familiar, review the top guide task for your department 
    'How to use this project template & plan projects - **marketers** - DELETE ME' or 
    'How to use this project template - **devs** - DELETE ME'
    
-1. Delete the 'DELETE ME' tasks at the top. Do not delete the other default tasks since they are used in the rest of the
+3. Delete the 'DELETE ME' tasks at the top. Do not delete the other default tasks since they are used in the rest of the
 workflow.
    
-1. Place all planning documentation, outlines, assets, etc inside the
+4. Place all planning documentation, outlines, assets, etc inside the
    'Project overview, documents, design assets, etc - go here' task description.
    
-1. If the marketers project planning is complete and ready for design or dev, complete the 
+5. If the marketers project planning is complete and ready for design or dev, complete the 
    'Finish marketing project planning' task. 
-   This task is set up as a blocking task which means that other tasks 
-   such as design and development will not be triggered to be ready to be started 
+   This task is set up as a dependency which means that other tasks 
+   related to design and development will not be triggered to be ready to be started 
    until this planning task is marked complete.
    
-1. Notify the dev and creative team about the project using slack.
+6. Notify the dev and creative team about the project and that it's been set up using slack.
 
 ...
 
-1. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
+7. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
 url for review. A dev will notify the marketing team via slack that the project is ready for review. An Asana task
    will also automatically be un-blocked.
    
-1. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
+8. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
 
-1. Once the review is complete, and the project is ready for launch, complete the 
+9. Once the review is complete, and the project is ready for launch, complete the 
    '_Finish review by marketing/creative team and get approval for launch_' task so the developers know when to launch
    the project. Please also set a date for the '_Launch this project to production_' task if the project is not already
-   live on production. The dev team will launch the project at the specified date.
+   live on production. The dev team will launch the project at the specified date and notify the marketing team right 
+   after its live.
    
 ...
 
-1. After the project is completely launched, please put all future feedback, change requests, 
+10. After the project is completely launched, please put all future feedback, change requests, 
    promo closuers and updates, etc, in the '_Post Launch Tasks, Monitoring, Review_' section and assign to Trent.
