@@ -106,7 +106,7 @@ To be assigned to and completed by the relevant project owning developer.
 ### It's a full project that needs the entire workflow:  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
-   template. Please choose the relevant color for the brand.
+   template. Please choose the relevant color for the brand. Please use the project name format: 'PROJECT NAME - BRAND'.
    
 ![Brand Asana Colors](../images/brand-asana-colors.jpg)
    
