@@ -53,49 +53,49 @@ modify the default tasks or change their dependencies if you wish however there 
 _Each task is dependent on the previous one in the list._    
 
 1. **Finish marketing project planning**  
-To be assigned to and completed by project owning marketer
+To be assigned to and completed by project owning marketer.
      
 1. **Finish designs & creative assets**  
-To be assigned to and completed by the assigned creative team member
+To be assigned to and completed by the assigned creative team member.
 
 1. **Finish design review & design feedback cycle**  
-To be assigned to and completed by project owning marketer
+To be assigned to and completed by project owning marketer.
 
-1. **Finish coding the front end**
-   - To be assigned to and completed by the relevant FE developer
+1. **Finish coding the front end**  
+To be assigned to and completed by the relevant FE developer
 
-1. **Finish coding the back end**
-   - To be assigned to and completed by the relevant BE developer
+1. **Finish coding the back end**  
+To be assigned to and completed by the relevant BE developer
    
-1. **Launch to a testing URL**
-   - To be assigned to and completed by the relevant project owning developer
+1. **Launch to a testing URL**  
+- To be assigned to and completed by the relevant project owning developer
    
-1. **Complete QA checklist**
-   - To be assigned to and completed by the relevant developer OR QA team member
+1. **Complete QA checklist**  
+To be assigned to and completed by the relevant developer OR QA team member
    
-1. **Finish QA testing**
-   - To be assigned to and completed by the relevant developer OR QA team member
+1. **Finish QA testing**  
+To be assigned to and completed by the relevant developer OR QA team member
    
-1. **Launch to a review URL**
-   - To be assigned to and completed by the relevant project owning developer
+1. **Launch to a review URL**  
+To be assigned to and completed by the relevant project owning developer
    
-1. **Notify marketing team & design team members that this project is ready for review**
-   - To be assigned to and completed by the relevant project owning developer
+1. **Notify marketing team & design team members that this project is ready for review**  
+To be assigned to and completed by the relevant project owning developer
    
-1. **Finish review by marketing/creative team and get approval for launch**
-   - To be assigned to and completed by project owning marketer and involved creative team members
+1. **Finish review by marketing/creative team and get approval for launch**  
+To be assigned to and completed by project owning marketer and involved creative team members
 
-1. **Launch this project to production**
-   - To be assigned to and completed by the relevant project owning developer
+1. **Launch this project to production**  
+To be assigned to and completed by the relevant project owning developer
    
-1. **Notify marketing and creative teams that this project is live on production**
-   - To be assigned to and completed by the relevant project owning developer
+1. **Notify marketing and creative teams that this project is live on production**  
+To be assigned to and completed by the relevant project owning developer
 
 <br>
 
 ## Is it a project or a small update?  
 
-**It's a small update that will take less than a few hours and doesn't require the full workflow:**
+### It's a small update that will take less than a few hours and doesn't require the full workflow:
 - Check if there is an existing Asana project for wherever you would like to make the update.
   If so, please create a new task in the 'Post Launch Tasks, Monitoring, Review' section.
 - Otherwise, if there is no existing project, please create a new task in the Asana project named 
@@ -103,7 +103,7 @@ To be assigned to and completed by project owning marketer
   
 <br>  
 
-**It's a full project that needs the entire workflow:**  
+### It's a full project that needs the entire workflow:  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
    template. Please choose the relevant color for the brand
