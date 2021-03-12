@@ -124,7 +124,9 @@ workflow.
 5. Assign all the default tasks that are relevant to your department. For example the 
    '_Finish marketing project planning_' task should be assigned to the marketer who owns the project. Generally,
    dev tasks should be assigned to Trent H. Design tasks should be assigned to Jord D. If you are not sure who to 
-   assign leave the task unassigned.
+   assign leave the task unassigned. Please also assign multiple collaborators if necessary. For example the 
+   '_Finish review by marketing/creative team and get approval for launch_' task may often have multiple marketers
+   set as collaborators if they would like to also review the project before launch.
    
 6. Choose a final deadline when this project must be complete and live on production. Enter this date as the Due Date
 for the '_Launch this project to production_' task in the 'Launch' section. The dev team will let you know if the 
