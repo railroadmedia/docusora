@@ -37,7 +37,8 @@ is notified they can begin coding.
 
 **Default Tasks**  
 Default tasks are marked with a gray 'Default Task' priority. These tasks are a critical part of the workflow and should
-not be deleted unless an entire section of the workflow is unnecessary. A default task represents the state of an entire
+not be deleted. If an entire section or default task is unnecessary those tasks should be marked complete rather than
+be deleted. A default task represents the state of an entire
 part of the workflow. For example if the '_Finish design review & design feedback cycle_' task is not yet completed 
 that means the project is still in the design phase and not ready for the devs to start coding. 
 Once that task is completed, the latter dev tasks will be automatically unblocked and be ready to be started.  
