@@ -121,27 +121,32 @@ workflow.
 4. Place all planning documentation, outlines, assets, etc inside the
    'Project overview, documents, design assets, etc - go here' task description.
    
-5. Choose a final deadline when this project must be complete and live on production. Enter this date as the Due Date
+5. Assign all the default tasks that are relevant to your department. For example the 
+   '_Finish marketing project planning_' task should be assigned to the marketer who owns the project. Generally,
+   dev tasks should be assigned to Trent H. Design tasks should be assigned to Jord D. If you are not sure who to 
+   assign leave the task unassigned.
+   
+6. Choose a final deadline when this project must be complete and live on production. Enter this date as the Due Date
 for the '_Launch this project to production_' task in the 'Launch' section. The dev team will let you know if the 
    deadline is possible. The dev team will set the review date.
    
-6. If the marketers project planning is complete and ready for design or dev, complete the 
+7. If the marketers project planning is complete and ready for design or dev, complete the 
    'Finish marketing project planning' task. 
    This task is set up as a dependency which means that other tasks 
    related to design and development will not be triggered to be ready to be started 
    until this planning task is marked complete.
    
-7. Notify the dev and creative team about the project and that it's been set up using slack.
+8. Notify the dev and creative team about the project and that it's been set up using slack.
 
 ...
 
-8. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
+9. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
 url for review. A dev will notify the marketing team via slack that the project is ready for review. An Asana task
    will also automatically be un-blocked.
    
-9. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
+10. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
 
-10. Once the review is complete, and the project is ready for launch, complete the 
+11. Once the review is complete, and the project is ready for launch, complete the 
    '_Finish review by marketing/creative team and get approval for launch_' task so the developers know when to launch
    the project. Please also set a date for the '_Launch this project to production_' task if the project is not already
    live on production. The dev team will launch the project at the specified date and notify the marketing team right 
@@ -149,5 +154,5 @@ url for review. A dev will notify the marketing team via slack that the project 
    
 ...
 
-11. After the project is completely launched, please put all future feedback, change requests, 
+12. After the project is completely launched, please put all future feedback, change requests, 
    promo closures and updates, etc, in the '_Post Launch Tasks, Monitoring, Review_' section and assign to Trent.
