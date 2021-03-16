@@ -48,3 +48,11 @@ device or all devices with the app installed.
    properly.
 1. Create a 2nd custom data field with the key 'type', send the value to 'deeplink'
 1. Set the 'Sound', 'IOS badge', and 'Expires' fields accordingly.
+1. **It's highly highly recommended to send a test notification to your own device first before publishing.**
+1. Open up the first step again 'Notification'
+1. Click 'Send test message'
+1. Inside the 'Add an FCM registration token' input, enter your device ID you got from Caleb
+1. Click the plus to add your device to the list
+1. Select your device from the list, click 'test'
+1. View the notification on your phone, tap it to make sure it opens to the right screen
+1. If everything looks good, you are ready to publish!
