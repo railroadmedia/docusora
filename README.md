@@ -24,7 +24,8 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 ### Marketing
 
-[Marketing-Dev Project Planning & Review](docs/cross-department-process-and-workflow-documents/marketing-dev-project-planning-and-review.md)
+[Marketing-Dev Project Planning & Review](docs/cross-department-process-and-workflow-documents/marketing-dev-project-planning-and-review.md)  
+[Sending App Push Notifications From Firebase](docs/cross-department-process-and-workflow-documents/sending-app-push-notifications-in-firebase.md)
 
 ### Content
 
