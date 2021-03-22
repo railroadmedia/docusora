@@ -29,6 +29,8 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 ### Content
 
+### Finance
+
 
 ## Internal Dev Department Docs
 
@@ -36,8 +38,6 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 [Development Team Meeting Schedules](docs/meetings/dev-meeting-schedules.md)
 
-
-### Finance
 
 <br><br><br>
 <br><br><br>
