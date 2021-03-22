@@ -60,7 +60,7 @@ Bogdan D to either join the FE or BE meetings (or both) at his discretion depend
 - 30 - 60 minutes long
 
 **Attendees**
-- Miguel F *(meeting leader)*
+- Miguel F **(meeting leader)**
 - Trent H
 - Bogdan D (optional)
 - Jon C (optional)
