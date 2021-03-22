@@ -102,12 +102,27 @@ To be assigned to and completed by the relevant project owning developer.
 - Otherwise, if there is no existing project, please create a new task in the Asana project named 
 'Misc Tasks'.
   
+The most important question to ask when determining whether you need a full project or just a misc task is: 
+**Does this require work and coordination from multiple departments?** If so, you should likely use a project.  
+
+For example: 'Trent can you please update the top banner on this page to say X instead of Y' is a misc task because
+it doesn't need any design work. Some tasks which only require a small amount of design work may still only warrant
+a misc task.
+
+'We need a new design and new pages for our trial offers.' This should be a project since it will require design,
+design review, coding, qa, etc.
+
+When in doubt, create a misc task with the details of your project and post in the
+dev-marketing-creative channel, and we'll figure it out together.
+  
 <br>  
 
 ### It's a full project that needs the entire workflow:  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
    template. Please choose the relevant color for the brand. Please use the project name format: 'PROJECT NAME - BRAND'.
+   Please segment projects from the top level per brand. For example if every brand needs a 'April Promo Updates' 
+   project, please make 1 project for each brand assuming the updates are large enough to justify a project 
    
 ![Brand Asana Colors](../images/brand-asana-colors.jpg)
    
@@ -115,7 +130,7 @@ To be assigned to and completed by the relevant project owning developer.
    'How to use this project template & plan projects - **marketers** - DELETE ME' or 
    'How to use this project template - **devs** - DELETE ME'
    
-3. Delete the 'DELETE ME' tasks at the top. Do not delete the other default tasks since they are used in the rest of the
+3. If you wish, delete the 'DELETE ME' tasks at the top. Do not delete the other default tasks since they are used in the rest of the
 workflow.
    
 4. Place all planning documentation, outlines, assets, etc inside the
