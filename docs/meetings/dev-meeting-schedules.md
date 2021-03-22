@@ -4,7 +4,7 @@
 
 Our meeting schedules/outlines are continually improving and evolving. If you prefer other DatesTimes() or have
 ideas regarding our meeting schedules or structure please let Caleb or your meeting leader know. 
-If there is anything specific you would like to present or discuss
+If there is anything you would like to present or discuss
 in a specific meeting please let your meeting leader know. Meeting leaders may change over time depending 
 on scheduling and responsibilities. I would like to give everyone chances to run their perspective 
 meetings at various points.  
