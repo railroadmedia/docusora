@@ -143,9 +143,12 @@ workflow.
    '_Finish review by marketing/creative team and get approval for launch_' task may often have multiple marketers
    set as collaborators if they would like to also review the project before launch.
    
-6. Choose a final deadline when this project must be complete and live on production. Enter this date as the Due Date
-for the '_Launch this project to production_' task in the 'Launch' section. The dev team will let you know if the 
-   deadline is possible. The dev team will set the review date.
+6. Choose a final deadline when this project must be completed and live on production. Enter this date as the Due Date
+for the '_Launch this project to production_' task in the 'Launch' section. Please also enter the deadline date as the 
+   project due date. You can do this under the down arrow beside the project name under 'Edit project details' 
+   or when you create the project. Setting the date for the project will make it show up in the overall team calendar
+   view here: [Asana Dev-Marketing Team Calendar](https://app.asana.com/0/1199995198037877/calendar)
+   The dev team will let you know if the deadline is possible. The dev team will set the review dates.
    
 7. If the marketers project planning is complete and ready for design or dev, complete the 
    'Finish marketing project planning' task. 
