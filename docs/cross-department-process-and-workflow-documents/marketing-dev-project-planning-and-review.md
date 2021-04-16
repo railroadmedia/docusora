@@ -140,7 +140,7 @@ workflow.
    '_Finish marketing project planning_' task should be assigned to the marketer who owns the project. Generally,
    dev tasks should be assigned to Trent H. Design tasks should be assigned to Jord D. If you are not sure who to 
    assign leave the task unassigned. Please also assign multiple collaborators if necessary. For example the 
-   '_Finish review by marketing/creative team and get approval for launch_' task may often have multiple marketers
+   '_Finish review by marketing/creative team, this project is approved for final launch_' task may often have multiple marketers
    set as collaborators if they would like to also review the project before launch.
    
 6. Choose a final deadline when this project must be completed and live on production. Enter the Due Date for 
@@ -161,14 +161,15 @@ workflow.
 ...
 
 9. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
-url for review. A dev will notify the marketing team via slack that the project is ready for review. An Asana task
+url for review. A dev will notify the marketing & creative team via the slack channel **'devc-marketing-creative'** that the project is ready for review. An Asana task
    will also automatically be un-blocked.
    
 10. Put your feedback and changes under the 'Review' section near the task called '_Review feedback goes here_'
 
-11. Once the review is complete, and the project is ready for launch, complete the 
-   '_Finish review by marketing/creative team and get approval for launch_' task so the developers know when to launch
-   the project. Please also set a date for the '_Launch this project to production_' task if the project is not already
+11. Once the review is complete, and the project has been given approval for launch 
+    by the project owners and the marketing team, complete the 
+   '_Finish review by marketing/creative team, this project is approved for final launch_' task so the developers know when to launch
+   the project. This task must be completed by the project owner, not a developer. Please also set a date for the '_Launch this project to production_' task if the project is not already
    live on production. The dev team will launch the project at the specified date and notify the marketing team right 
    after its live.
    
