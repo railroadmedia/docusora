@@ -1,21 +1,23 @@
-# Drumeo
+# Platform Changelog: Feb 01 -> April 30
+
+## Drumeo
 - Design/UX improvements for website and app navigation.
 - Song In An Hour Challenge
 - UX improvements for the video player in the mobile app.
 - Drumeo Coaches UX overhaul.
 
-# Pianote
+## Pianote
 - Pianote live streams & chat now supported in the mobile app.
 - UX improvements for the mobile app navigation.
 - UX improvements for the video player in the mobile app.
 
-# Guitareo
+## Guitareo
 - New blog.
 
-# Singeo
+## Singeo
 - New blog.
 
-# All
+## All
 - New live chat system that supports student questions, up-voting, emojies & reactions.
 - New back-end system for ensuring our list of supported countries is up to date across all platforms.
 - World wide currency support for our mobile apps.
