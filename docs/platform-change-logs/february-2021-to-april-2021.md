@@ -17,5 +17,5 @@
 
 # All
 - New live chat system that supports student questions, up-voting, emojies & reactions.
-- New system of for ensuring our list of supported countries is up to date across all platforms.
+- New back-end system for ensuring our list of supported countries is up to date across all platforms.
 - World side currency support for our mobile apps.
