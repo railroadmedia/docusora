@@ -17,6 +17,5 @@
 
 # All
 - New live chat system that supports student questions, up-voting, emojies & reactions.
-- Cookie policy, tracking policy, and terms of service updated.
 - New system of for ensuring our list of supported countries is up to date across all platforms.
 - World side currency support for our mobile apps.
