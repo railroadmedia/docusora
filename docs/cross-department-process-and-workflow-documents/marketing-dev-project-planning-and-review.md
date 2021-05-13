@@ -7,6 +7,12 @@ should use the same project in Asana. A new Asana project should be created if t
 will take more than a few hours to complete or if the project requires the full workflow 
 of design, development, QA, review, deployment. The Asana project is created using the 
 [X - Project Template 2021](https://app.asana.com/0/1199995198037881/list) template.
+The asana project should always be added to the 
+[Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/list) once its created.
+
+Anyone can get an overview of all ongoing and scheduled projects and see their priority
+in the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/list). Checkout the 'List'
+ and 'Timeline' tabs.
 
 # Project Stages By Department
 
@@ -28,39 +34,36 @@ this workflow properly. If you are unfamiliar please read about how they work he
   
 **Dependencies TLDR:**   
 When a task is dependent on another task it is marked as 'blocked' 
-until that other task is completed. This is very useful for passing work along between team members
-and departments. For example, once the default task '_Finish marketing project planning_' is completed,
+until that other task is completed. This feature is useful for passing work between team members
+and departments. For example, once the milestone '_Finish marketing project planning_' is completed,
 the '_Finish the designs & creative assets_' task is set as ready to be started and the creative team is 
 notified to begin work on the design. In the same manner once the '_Finish the designs & creative assets_' task
 is completed, the '_Finish coding the front end_' task is marked as ready to be started, and the dev
 is notified they can begin coding.
 
-**Default Tasks**  
-Default tasks are marked with a gray 'Default Task' priority. These tasks are a critical part of the workflow and should
-not be deleted. If an entire section or default task is unnecessary those tasks should be marked complete rather than
-be deleted. A default task represents the state of an entire
-part of the workflow. For example if the '_Finish design review & design feedback cycle_' task is not yet completed 
-that means the project is still in the design phase and not ready for the devs to start coding. 
-Once that task is completed, the latter dev tasks will be automatically unblocked and be ready to be started.  
+**Milestones**  
+Milestones are a critical part of the workflow and should not be deleted. 
+If an entire section or milestone is unnecessary, those tasks should be marked complete rather than
+be deleted. A milestone represents the state of an entire
+part of the workflow. For example if the '_Finish designs & assets, get approval from project owners_' milestone is
+not yet completed that means the project is still in the design phase and not ready for the devs to start coding. 
+Once that milestone is completed, the latter dev tasks will be automatically unblocked and assigned.  
   
-The purpose of default tasks is to easily track the state of a project and pass the project between team members 
-and departments seamlessly and with notifications. Default tasks are linked together as dependencies. Feel free to 
-modify the default tasks or change their dependencies if you wish however there should be a good reason to do so.
+The purpose of milestones is to easily track the state of a project and pass the project between team members 
+and departments seamlessly and with notifications. Milestones are linked together as dependencies. Feel free to 
+modify the milestones or change their dependencies if you wish however there should be a good reason to do so.
 
 <br>
 
-## Our Default Stories & Dependency Graph
+## Our Default Milestones & Dependency Graph
 
-_Each task is dependent on the previous one in the list._    
+_Each milestone is dependent on the previous one in the list._    
 
 1. **Finish marketing project planning**  
 To be assigned to and completed by project owning marketer.
      
-1. **Finish designs & creative assets**  
+1. **Finish designs & assets, get approval from project owners**  
 To be assigned to and completed by the assigned creative team member.
-
-1. **Finish design review & design feedback cycle**  
-To be assigned to and completed by project owning marketer.
 
 1. **Finish coding the front end**  
 To be assigned to and completed by the relevant FE developer.
@@ -68,29 +71,18 @@ To be assigned to and completed by the relevant FE developer.
 1. **Finish coding the back end**  
 To be assigned to and completed by the relevant BE developer.
    
-1. **Launch to a testing URL**  
-To be assigned to and completed by the relevant project owning developer.
-   
-1. **Complete QA checklist**  
-To be assigned to and completed by the relevant developer OR QA team member.
-   
 1. **Finish QA testing**  
 To be assigned to and completed by the relevant developer OR QA team member.
    
-1. **Launch to a review URL**  
-To be assigned to and completed by the relevant project owning developer.
-   
-1. **Notify marketing team & design team members that this project is ready for review**  
-To be assigned to and completed by the relevant project owning developer.
-   
-1. **Finish review by marketing/creative team and get approval for launch**  
+1. **Finish review by marketing/creative team, get approval for final launch from project owners**  
 To be assigned to and completed by project owning marketer and involved creative team members.
 
-1. **Launch this project to production**  
+1. **Launch this project to students, notify marketing and creative teams (using slack)**  
 To be assigned to and completed by the relevant project owning developer.
    
-1. **Notify marketing and creative teams that this project is live on production**  
-To be assigned to and completed by the relevant project owning developer.
+1. **Project is totally complete and can be archived in Asana**  
+To be assigned to and completed by the relevant project owning marketer or the relevant developer. Once this milestone 
+is complete the project should be archived in Asana.
 
 <br>
 
@@ -120,23 +112,29 @@ dev-marketing-creative channel, and we'll figure it out together.
 ### It's a full project that needs the entire workflow:  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
-   template. Please choose the relevant color for the brand. Please use the project name format: 'PROJECT NAME - BRAND'.
+   template. Please use the project name format: 'PROJECT NAME - BRAND'.
    Please segment projects from the top level per brand. For example if every brand needs a 'April Promo Updates' 
-   project, please make 1 project for each brand assuming the updates are large enough to justify a project 
+   project, please make 1 project for each brand assuming the updates are large enough to justify a project
    
+2. Choose a start and end date for the project. Typically, we operate on a monthly schedule so 
+if the project is for a promotion that needs to launch July 1st, the start date can be June 1st, 
+   and the end date July 1st. Please review the Asana portfolio timeline and project priority list when choosing a
+   timeline. We will tackle priority issues and questions in our monthly dev-marketing meetings or in slack.
+
+![Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/timeline)
+
+3. Please choose the relevant color for the brand and set it accordingly for the project.
+
 ![Brand Asana Colors](../images/brand-asana-colors.jpg)
-   
+
 2. If you are not already familiar, review the top guide task for your department 
    'How to use this project template & plan projects - **marketers** - DELETE ME' or 
    'How to use this project template - **devs** - DELETE ME'
    
-3. If you wish, delete the 'DELETE ME' tasks at the top. Do not delete the other default tasks since they are used in the rest of the
-workflow.
-   
 4. Place all planning documentation, outlines, assets, etc inside the
    'Project overview, documents, design assets, etc - go here' task description.
    
-5. Assign all the default tasks that are relevant to your department. For example the 
+5. Assign all the milestones that are relevant to your department. For example the 
    '_Finish marketing project planning_' task should be assigned to the marketer who owns the project. Generally,
    dev tasks should be assigned to Trent H. Design tasks should be assigned to Jord D. If you are not sure who to 
    assign leave the task unassigned. Please also assign multiple collaborators if necessary. For example the 
