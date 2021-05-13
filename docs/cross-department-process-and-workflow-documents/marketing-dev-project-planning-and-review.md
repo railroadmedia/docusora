@@ -16,14 +16,13 @@ in the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330
 
 # Project Stages By Department
 
-1. **Ideation & Planning** - (marketing, creative, dev)
-1. **Design/Creative Work** - (creative)
+1. **Ideation, Planning, Docs & Links** - (marketing, creative, dev)
+1. **Design/Creative** - (creative)
 1. **Front-End Development** - (dev)
 1. **Back-End Development** - (dev)
 1. **QA Testing** - (qa, dev)
 1. **Review** - (marketing, creative)
-1. **Launch** - (dev)
-1. **Post Launch Tasks, Monitoring, Review** - (dev, marketing)
+1. **Launch, Monitoring, Review** - (dev, marketing)
 
 # Asana Setup & Guide
 
