@@ -1,9 +1,9 @@
 # Overview
 
-All marketing dev projects are created inside 
+All marketing dev projects exist inside 
 the musora Asana team [Marketing-Dev](https://app.Asana.com/0/1199995198037877/overview).
-The developers, creative team members, and markers associated with the project 
-should use the same project in Asana. A new Asana project should be created if the project
+Developers, creative team members, and marketers associated with the project 
+should use this same project in Asana. A new Asana project should be created if the project
 will take more than a few hours to complete or if the project requires the full workflow 
 of design, development, QA, review, deployment. The Asana project is created using the 
 [X - Project Template 2021](https://app.asana.com/0/1199995198037881/list) template.
@@ -14,74 +14,60 @@ Anyone can get an overview of all ongoing and scheduled projects and see their p
 in the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/list). Checkout the 'List'
  and 'Timeline' tabs.
 
-# Project Stages By Department
+## Project Stages & Milestones
 
-1. **Ideation, Planning, Docs & Links** - (marketing, creative, dev)
-1. **Design/Creative** - (creative)
-1. **Front-End Development** - (dev)
-1. **Back-End Development** - (dev)
-1. **QA Testing** - (qa, dev)
-1. **Review** - (marketing, creative)
-1. **Launch, Monitoring, Review** - (dev, marketing)
+Each state of a project has a section (in bold) and and associated milestone (underneath).
 
-# Asana Setup & Guide
+1. **Ideation, Planning, Docs & Links**
+    - Finish marketing project planning
+1. **Design/Creative Tasks**
+    - Finish designs/assets and design review, get approval from project owners
+1. **Front-End Development Tasks**
+    - Finish coding the front end
+1. **Back-End Development Tasks**
+    - Finish coding the back end
+1. **QA Testing Tasks**
+    - Finish QA testing
+1. **Review Tasks**
+    - Finish review by marketing/creative team, get approval for final launch from project owners
+1. **Launch & Post-Launch Review Tasks**
+    - Launch this project to students, notify marketing and creative teams (using slack)
 
-## Important Notes About Asana & Dependencies
-You need a basic understanding of how dependencies work in Asana to use 
-this workflow properly. If you are unfamiliar please read about how they work here: 
-[https://asana.com/guide/help/tasks/dependencies](https://asana.com/guide/help/tasks/dependencies).  
-  
-**Dependencies TLDR:**   
-When a task is dependent on another task it is marked as 'blocked' 
-until that other task is completed. This feature is useful for passing work between team members
-and departments. For example, once the milestone '_Finish marketing project planning_' is completed,
-the '_Finish the designs & creative assets_' task is set as ready to be started and the creative team is 
-notified to begin work on the design. In the same manner once the '_Finish the designs & creative assets_' task
-is completed, the '_Finish coding the front end_' task is marked as ready to be started, and the dev
-is notified they can begin coding.
+## Milestones Explained
 
-**Milestones**  
-Milestones are a critical part of the workflow and should not be deleted. 
-If an entire section or milestone is unnecessary, those tasks should be marked complete rather than
-be deleted. A milestone represents the state of an entire
-part of the workflow. For example if the '_Finish designs & assets, get approval from project owners_' milestone is
-not yet completed that means the project is still in the design phase and not ready for the devs to start coding. 
-Once that milestone is completed, the latter dev tasks will be automatically unblocked and assigned.  
-  
-The purpose of milestones is to easily track the state of a project and pass the project between team members 
-and departments seamlessly and with notifications. Milestones are linked together as dependencies. Feel free to 
-modify the milestones or change their dependencies if you wish however there should be a good reason to do so.
-
-<br>
-
-## Our Default Milestones & Dependency Graph
-
-_Each milestone is dependent on the previous one in the list._    
+Each milestone is dependent on the previous one in the list. Once the first milestone is marked complete,
+the next milestone will get automatically unblocked and change from 'Blocked' status to 'Unbegun'.
+Once a milestone is unblocked, it will be automatically assigned to the relevant person. 
+this is to prevent peoples my tasks lists from getting cluttered with tasks that they are not yet able to
+work on.  
 
 1. **Finish marketing project planning**  
-To be assigned to and completed by project owning marketer.
+Assigned to and completed by project owner.  
+The project owner should assign this milestone to themself.
      
-1. **Finish designs & assets, get approval from project owners**  
-To be assigned to and completed by the assigned creative team member.
+1. **Finish designs/assets and design review, get approval from project owners**  
+Assigned to and completed by the assigned creative team member.  
+Currently tasks in here are automatically assigned to Jord P.
 
 1. **Finish coding the front end**  
-To be assigned to and completed by the relevant FE developer.
+Assigned to and completed by the relevant FE developer.  
+Currently tasks in here are automatically assigned to Trent H.
 
 1. **Finish coding the back end**  
-To be assigned to and completed by the relevant BE developer.
+Assigned to and completed by the relevant BE developer.  
+Currently tasks in here are automatically assigned to Caleb F.
    
 1. **Finish QA testing**  
-To be assigned to and completed by the relevant developer OR QA team member.
-   
-1. **Finish review by marketing/creative team, get approval for final launch from project owners**  
-To be assigned to and completed by project owning marketer and involved creative team members.
+Assigned to and completed by the relevant developer OR QA team member.  
+Currently tasks in here are automatically assigned to Trent H.
+  
+1. **Finish review by marketing/creative team, get approval for final launch from project owner**  
+Assigned to and completed by project owner and involved creative team members.  
+The project owner should assign this milestone to themself.
 
 1. **Launch this project to students, notify marketing and creative teams (using slack)**  
-To be assigned to and completed by the relevant project owning developer.
-   
-1. **Project is totally complete and can be archived in Asana**  
-To be assigned to and completed by the relevant project owning marketer or the relevant developer. Once this milestone 
-is complete the project should be archived in Asana.
+Assigned to and completed by the relevant project owner.  
+Currently tasks in here are automatically assigned to Trent H.
 
 <br>
 
