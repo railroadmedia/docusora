@@ -21,25 +21,25 @@ Each state of a project has a section (in bold) and and associated milestone (un
 <br>
 
 ### 1. Ideation, Planning, Docs & Links
-**Finish marketing project planning**
+- Finish marketing project planning
   
 ### 2. Design/Creative Tasks
-**Finish designs/assets and design review, get approval from project owners**
+- Finish designs/assets and design review, get approval from project owners
 
 ### 3. Front-End Development Tasks
-**Finish coding the front end**
+- Finish coding the front end
 
 ### 4. Back-End Development Tasks
-**Finish coding the back end**
+- Finish coding the back end
 
 ### 5. QA Testing Tasks
-**Finish QA testing**
+- Finish QA testing
 
 ### 6. Review Tasks
-**Finish review by marketing/creative team, get approval for final launch from project owners**
+- Finish review by marketing/creative team, get approval for final launch from project owners
 
 ### 7. Launch & Post-Launch Review Tasks
-**Launch this project to students, notify marketing and creative teams (using slack)**
+- Launch this project to students, notify marketing and creative teams (using slack)
 
 <br>
 
