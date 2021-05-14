@@ -14,26 +14,36 @@ Anyone can get an overview of all ongoing and scheduled projects and see their p
 in the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/list). Checkout the 'List'
  and 'Timeline' tabs.
 
-## Project Stages & Milestones
+# Project Stages & Milestones
 
 Each state of a project has a section (in bold) and and associated milestone (underneath).
 
-1. **Ideation, Planning, Docs & Links**
-    - Finish marketing project planning
-1. **Design/Creative Tasks**
-    - Finish designs/assets and design review, get approval from project owners
-1. **Front-End Development Tasks**
-    - Finish coding the front end
-1. **Back-End Development Tasks**
-    - Finish coding the back end
-1. **QA Testing Tasks**
-    - Finish QA testing
-1. **Review Tasks**
-    - Finish review by marketing/creative team, get approval for final launch from project owners
-1. **Launch & Post-Launch Review Tasks**
-    - Launch this project to students, notify marketing and creative teams (using slack)
+<br>
 
-## Milestones Explained
+### 1. Ideation, Planning, Docs & Links
+**Finish marketing project planning**
+  
+### 2. Design/Creative Tasks
+**Finish designs/assets and design review, get approval from project owners**
+
+### 3. Front-End Development Tasks
+**Finish coding the front end**
+
+### 4. Back-End Development Tasks
+**Finish coding the back end**
+
+### 5. QA Testing Tasks
+**Finish QA testing**
+
+### 6. Review Tasks
+**Finish review by marketing/creative team, get approval for final launch from project owners**
+
+### 7. Launch & Post-Launch Review Tasks
+**Launch this project to students, notify marketing and creative teams (using slack)**
+
+<br>
+
+# Milestones Explained
 
 Each milestone is dependent on the previous one in the list. Once the first milestone is marked complete,
 the next milestone will get automatically unblocked and change from 'Blocked' status to 'Unbegun'.
