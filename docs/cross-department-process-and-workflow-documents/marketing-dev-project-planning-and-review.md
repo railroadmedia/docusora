@@ -126,7 +126,7 @@ dev-marketing-creative channel, and we'll figure it out together.
 
 2. Create a new Asana project in the [Dev-Marketing](https://app.asana.com/0/1199995198037877/overview)
    team using the **'X - Project Template 2021.2'** template. 
-   Please use the project name format: **'PROJECT NAME - BRAND'**.
+   Please use the project name format: **'Project Name - Brand'**.
    Segment projects from the top level per brand. For example if every brand needs a 'April Promo Updates' 
    project, please make 1 project for each brand assuming the updates are large enough to justify a project.
    
@@ -135,16 +135,16 @@ dev-marketing-creative channel, and we'll figure it out together.
    Please review the Asana portfolio timeline and project priority list before choosing an end date.
    Asana will set the start date automatically to around 1 month before your set end date.
 
-[Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/timeline)
+    [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/timeline)
 
 4. Please choose the relevant color for the brand and set it accordingly for the project.
 
-[Brand Asana Colors](../images/brand-asana-colors.jpg)
+    [Brand Asana Colors](../images/brand-asana-colors.jpg)
 
 5. Assign yourself as the project owner. Assign yourself to the following milestones:
     - **Finish marketing project planning**
     - **Finish review by marketing/creative team, get approval for final launch from project owner**
-      Please also assign multiple collaborators if necessary.
+    - Please also assign any collaborators if necessary.
       
 6. Add this project to the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/timeline)
    using the '**+ Add work**' button.
@@ -153,12 +153,12 @@ dev-marketing-creative channel, and we'll figure it out together.
    '**Planning docs, design links, overviews, etc, go here**' task description.
    
 8. If the marketers project planning is complete and ready for design or dev, complete the 
-   'Finish marketing project planning' task. 
+   '**Finish marketing project planning**' milestone. 
    This task is set up as a dependency which means that other tasks 
    related to design and development will not be triggered to be ready to be started 
    until this planning task is marked complete.
    
-9. Notify the dev and creative team about the project and that it's been set up using slack.
+9. Notify the dev and creative team in slack that the project has been set up.
 
 ...
 
@@ -170,15 +170,15 @@ url for review. A dev will notify the marketing & creative team via the slack ch
 
 12. Once the review is complete, and the project has been given approval for launch 
     by the project owners and the marketing team, complete the 
-   '_Finish review by marketing/creative team, get approval for final launch from project owner_' milestone 
-    so the developers know when to launch the project. 
+   '**Finish review by marketing/creative team, get approval for final launch from project owner**' milestone 
+    so the developers know to launch the project. 
     This milestone must be completed by the project owner, not a developer. 
-    Please also set a date for the 
-    '_Launch this project to students, notify marketing and creative teams (using slack)_' milestone if the project is 
+    Please also confirm the date for the 
+    '**Launch this project to students, notify marketing and creative teams (using slack)**' milestone if the project is 
     not already live on production. 
     The dev team will launch the project at the specified date and notify the marketing team right after its live.
    
 ...
 
 13. After the project is completely launched, please put all future feedback, change requests, 
-   promo closures and updates, etc, in the '_Launch & Post-Launch Review Tasks_' section.
+   promo closures and updates, etc, in the '**Launch & Post-Launch Review Tasks**' section.
