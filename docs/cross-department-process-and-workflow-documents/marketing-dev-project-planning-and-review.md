@@ -148,7 +148,11 @@ dev-marketing-creative channel, and we'll figure it out together.
     - Please also assign any collaborators if necessary.
       
 6. Add this project to the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/timeline)
-   using the '**+ Add work**' button.
+   using the '**+ Add work**' button.  
+   **Set a priority for this project in the portfolio:**
+   - Must Have - High (this must be completed by the set end date)
+   - Should Have - Medium (prefer this is completed by the set end date, but it can be pushed by high priority project)
+   - Optional - Low (would be nice to have by the set end date, but it's not time sensitive)
    
 7. Place all planning documentation, outlines, assets, etc inside the
    '**Planning docs, design links, overviews, etc, go here**' task description.
