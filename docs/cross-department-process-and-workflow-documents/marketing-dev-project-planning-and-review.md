@@ -14,31 +14,33 @@ Anyone can get an overview of all ongoing and scheduled projects and see their p
 in the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/list). Checkout the 'List'
  and 'Timeline' tabs.
 
-# Project Stages & Milestones
+# Project Stages, Milestones, & Scheduling
 
-Each state of a project has a section (in bold) and and associated milestone (underneath).
+Each state of a project has a section (in bold) and associated milestone (underneath).  
+The project schedule is based off a 1-month cycle, 22 working days total. Based on the configured start and end date
+Asana will automatically set the dates for each milestone automatically using the percentages.
 
 <br>
 
-### 1. Ideation, Planning, Docs & Links
+### 1. Ideation, Planning, Docs & Links (4 working days - 18%)
 - Finish marketing project planning
   
-### 2. Design/Creative Tasks
+### 2. Design/Creative Tasks (5 working days - 23%)
 - Finish designs/assets and design review, get approval from project owners
 
-### 3. Front-End Development Tasks
+### 3. Front-End Development Tasks (6 working days - 27%)
 - Finish coding the front end
 
-### 4. Back-End Development Tasks
+### 4. Back-End Development Tasks (1 working days - 5%)
 - Finish coding the back end
 
-### 5. QA Testing Tasks
+### 5. QA Testing Tasks (1 working days - 5%)
 - Finish QA testing
 
-### 6. Review Tasks
+### 6. Review Tasks (4 working days - 23%)
 - Finish review by marketing/creative team, get approval for final launch from project owners
 
-### 7. Launch & Post-Launch Review Tasks
+### 7. Launch & Post-Launch Review Tasks (1 working days - 5%, can go on for 2 weeks past launch date)
 - Launch this project to students, notify marketing and creative teams (using slack)
 
 <br>
@@ -48,7 +50,7 @@ Each state of a project has a section (in bold) and and associated milestone (un
 Each milestone is dependent on the previous one in the list. Once the first milestone is marked complete,
 the next milestone will get automatically unblocked and change from 'Blocked' status to 'Unbegun'.
 Once a milestone is unblocked, it will be automatically assigned to the relevant person. 
-this is to prevent peoples my tasks lists from getting cluttered with tasks that they are not yet able to
+This prevents peoples my tasks lists from getting cluttered with tasks that they are not yet able to
 work on.  
 
 1. **Finish marketing project planning**  
