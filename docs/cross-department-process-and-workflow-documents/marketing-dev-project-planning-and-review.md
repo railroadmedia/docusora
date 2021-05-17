@@ -17,8 +17,10 @@ in the [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330
 # Project Stages, Milestones, & Scheduling
 
 Each state of a project has a section (in bold) and associated milestone (underneath).  
-The project schedule is based off a 1-month cycle, 22 working days total. Based on the configured start and end date
-Asana will automatically set the dates for each milestone automatically using the percentages.
+
+The project schedule is based off a 1-month cycle, 22 working days total. Based on the configured project start and
+end date, Asana will automatically set the dates for each milestone using the percentages. For example if you set
+the project to be over a 2-month period, the amount of working days per milestone will be double what is shown below.
 
 <br>
 
@@ -31,16 +33,16 @@ Asana will automatically set the dates for each milestone automatically using th
 ### 3. Front-End Development Tasks (6 working days - 27%)
 - Finish coding the front end
 
-### 4. Back-End Development Tasks (1 working days - 5%)
+### 4. Back-End Development Tasks (1 working day - 5%)
 - Finish coding the back end
 
-### 5. QA Testing Tasks (1 working days - 5%)
-- Finish QA testing
+### 5. QA Testing Tasks & Review Launch (1 working days - 5%)
+- Notify marketing & design team that this project is ready for review
 
 ### 6. Review Tasks (4 working days - 23%)
 - Finish review by marketing/creative team, get approval for final launch from project owners
 
-### 7. Launch & Post-Launch Review Tasks (1 working days - 5%, can go on for 2 weeks past launch date)
+### 7. Launch & Post-Launch Review Tasks (1+ working day - 5%)
 - Launch this project to students, notify marketing and creative teams (using slack)
 
 <br>
@@ -55,44 +57,42 @@ work on.
 
 1. **Finish marketing project planning**  
 Assigned to and completed by project owner.  
-The project owner should assign this milestone to themself.
+The project owner should assign this milestone to themselves.
      
 1. **Finish designs/assets and design review, get approval from project owners**  
 Assigned to and completed by the assigned creative team member.  
-Currently tasks in here are automatically assigned to Jord P.
+Currently, tasks in here are automatically assigned to Jord P.
 
 1. **Finish coding the front end**  
 Assigned to and completed by the relevant FE developer.  
-Currently tasks in here are automatically assigned to Trent H.
+Currently, tasks in here are automatically assigned to Trent H.
 
 1. **Finish coding the back end**  
 Assigned to and completed by the relevant BE developer.  
-Currently tasks in here are automatically assigned to Caleb F.
+Currently, tasks in here are automatically assigned to Caleb F.
    
-1. **Finish QA testing**  
+1. **Notify marketing & design team that this project is ready for review**  
 Assigned to and completed by the relevant developer OR QA team member.  
-Currently tasks in here are automatically assigned to Trent H.
+Currently, tasks in here are automatically assigned to Trent H.
   
 1. **Finish review by marketing/creative team, get approval for final launch from project owner**  
 Assigned to and completed by project owner and involved creative team members.  
-The project owner should assign this milestone to themself.
+The project owner should assign this milestone to themselves.
 
 1. **Launch this project to students, notify marketing and creative teams (using slack)**  
 Assigned to and completed by the relevant project owner.  
-Currently tasks in here are automatically assigned to Trent H.
+Currently, tasks in here are automatically assigned to Trent H.  
+Once a project is fully launched, there are often tasks that come up in the following few weeks. Those tasks should 
+go here.
 
 <br>
 
-## Is it a project or a small update?  
+# How To Create a New Project or Task
 
-### It's a small update that will take less than a few hours and doesn't require the full workflow:
-- Check if there is an existing Asana project for wherever you would like to make the update.
-  If so, please create a new task in the 'Post Launch Tasks, Monitoring, Review' section.
-- Otherwise, if there is no existing project, please create a new task in the Asana project named 
-'Misc Tasks'.
-  
-The most important question to ask when determining whether you need a full project or just a misc task is: 
-**Does this require work and coordination from multiple departments?** If so, you should likely use a project.  
+**Is this a project or a small single task?**  
+
+The most important question to ask when determining whether you need a full project or just a misc task is:
+**Does this require work and coordination from multiple departments?** If so, you should likely use a project.
 
 For example: 'Trent can you please update the top banner on this page to say X instead of Y' is a misc task because
 it doesn't need any design work. Some tasks which only require a small amount of design work may still only warrant
@@ -103,10 +103,18 @@ design review, coding, qa, etc.
 
 When in doubt, create a misc task with the details of your project and post in the
 dev-marketing-creative channel, and we'll figure it out together.
+
+### If it's a small task that will take less than a few hours and does not require the full workflow:
+- Check if there is an existing Asana project for wherever you would like to make the update.
+  If so, please create a new task in the 'Launch & Post-Launch Review Tasks' section.
+- Otherwise, if there is no existing project, please create a new task in the Asana project named 
+'Misc Tasks'. Please set a due date or ask the relevant developer to set a due date.
+  
+[Misc Tasks Asana Board](https://app.asana.com/0/1200002900194085/list)
   
 <br>  
 
-### It's a full project that needs the entire workflow:  
+### If it's a full project that needs the entire workflow:  
 
 1. Create a new Asana project in the 'Dev-Marketing' team using the 'X - Project Template 2021' 
    template. Please use the project name format: 'PROJECT NAME - BRAND'.
@@ -171,4 +179,4 @@ url for review. A dev will notify the marketing & creative team via the slack ch
 ...
 
 12. After the project is completely launched, please put all future feedback, change requests, 
-   promo closures and updates, etc, in the '_Post Launch Tasks, Monitoring, Review_' section and assign to Trent.
+   promo closures and updates, etc, in the '_Launch & Post-Launch Review Tasks_' section and assign to Trent.
