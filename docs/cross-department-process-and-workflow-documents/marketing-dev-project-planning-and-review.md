@@ -89,16 +89,16 @@ go here.
 
 # How To Create a New Project or Task
 
-**Is this a project or a small single task?**  
+### Is this a project or a small single task?  
 
 The most important question to ask when determining whether you need a full project or just a misc task is:
 **Does this require work and coordination from multiple departments?** If so, you should likely use a project.
 
-For example: 'Trent can you please update the top banner on this page to say X instead of Y' is a misc task because
+For example: _'Trent can you please update the top banner on this page to say X instead of Y'_ is a misc task because
 it doesn't need any design work. Some tasks which only require a small amount of design work may still only warrant
 a misc task.
 
-'We need a new design and new pages for our trial offers.' This should be a project since it will require design,
+_'We need a new design and new pages for our trial offers.'_ This should be a project since it will require design,
 design review, coding, qa, etc.
 
 When in doubt, create a misc task with the details of your project and post in the
