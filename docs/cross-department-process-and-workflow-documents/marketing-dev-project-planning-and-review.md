@@ -36,7 +36,7 @@ the project to be over a 2-month period, the amount of working days per mileston
 ### 4. Back-End Development Tasks (1 working day - 5%)
 - Finish coding the back end
 
-### 5. QA Testing Tasks & Review Launch (1 working days - 5%)
+### 5. QA Testing Tasks & Review Launch (1 working day - 5%)
 - Notify marketing & design team that this project is ready for review
 
 ### 6. Review Tasks (4 working days - 23%)
@@ -133,7 +133,8 @@ dev-marketing-creative channel, and we'll figure it out together.
 3. Select 'End date' and choose an end date for the project. Typically, we operate on a monthly schedule so 
    if the project is for a promotion that needs to launch to students July 1st, set the end date to July 1st. 
    Please review the Asana portfolio timeline and project priority list before choosing an end date.
-   Asana will set the start date automatically to around 1 month before your set end date.
+   Asana will set the start date automatically to around 1 month before your set end date. If a 1-month timeline
+   will not work for this project please let a developer know in the slack channel so they can adjust the dates.
 
     [Dev-Marketing Asana Portfolio](https://app.asana.com/0/portfolio/1200330095730280/timeline)
 
@@ -154,7 +155,7 @@ dev-marketing-creative channel, and we'll figure it out together.
    
 8. If the marketers project planning is complete and ready for design or dev, complete the 
    '**Finish marketing project planning**' milestone. 
-   This task is set up as a dependency which means that other tasks 
+   This milestone is set up as a dependency which means that other tasks 
    related to design and development will not be triggered to be ready to be started 
    until this planning task is marked complete.
    
@@ -162,9 +163,9 @@ dev-marketing-creative channel, and we'll figure it out together.
 
 ...
 
-10. Once the design and development is complete, the project will be put on a testing, staging, or hidden production
+10. Once design and development is complete, the project will be put on a testing, staging, or hidden production
 url for review. A dev will notify the marketing & creative team via the slack channel **'devc-marketing-creative'** 
-   that the project is ready for review. An Asana task will also automatically be un-blocked.
+   that the project is ready for review. The Asana milestone will also automatically be un-blocked.
    
 11. Put your feedback and changes in the '**Review Tasks**' section.
 
