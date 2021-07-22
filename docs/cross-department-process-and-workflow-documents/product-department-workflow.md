@@ -12,9 +12,7 @@ The product department at musora has 6 teams:
 Each team generally represents a specific field and has its own functional hierarchy.
 
 ## Product Team
-The product team is primarily responsible for ideation, product development, and company
-level project management.
-
+The product team is primarily responsible for ideation, product development, and top level project management.  
 Below is an overview of each product team milestone for any given project.
 
 
