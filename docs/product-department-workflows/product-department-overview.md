@@ -54,4 +54,4 @@ The back end development team is responsible for coding APIs, data systems, and 
 The qa team is responsible for testing, reporting on, and maintaining the quality of our 
 websites and mobile apps.
 
-[Mobile Team Workflow Documentation](mobile-team-workflow.md)
+[QA Team Workflow Documentation](qa-team-workflow.md)

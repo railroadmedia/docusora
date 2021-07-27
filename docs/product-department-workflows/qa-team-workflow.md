@@ -6,10 +6,8 @@ Task states:
 
 ### Requirement Gathering & Outlining Project
 
-### Task Planning & Architecture Documentation
+### Manual Testing
 
-### Coding & Developer Testing
-
-### Code Review
+### Automated Testing
 
 ### Deployment

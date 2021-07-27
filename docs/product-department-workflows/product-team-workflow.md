@@ -1,20 +1,6 @@
-# Overview & Teams
+# Overview
 
-The product department at musora has 6 teams:
-
-- **Product**
-- **UX Design**
-- **Front End Development**
-- **Mobile Development**
-- **Back End Development**
-- **QA**
-
-Each team represents a specific field and has its own functional hierarchy.
-
-## Product Team
-The product team is primarily responsible for ideation, product development, and top level project management.  
-Below is an overview of each product team milestone for any given project.
-
+# Project Milestones
 
 ### Goals & Initiatives
 This milestone is complete when we have answered such questions as:
