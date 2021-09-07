@@ -7,6 +7,8 @@ Track projects and tasks, use agile boards, plan sprints and releases, keep a kn
 reports and dashboards, create workflows that follow your business processes. Never force your process
 to fit the limits of a tool again. Unlike other project management tools, YouTrack can be customized to your needs!_
 
+<br>
+
 ## General YT Basics
 
 YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug, etc.
@@ -14,6 +16,8 @@ YouTrack's most basic element is an **issue**. An issue can be thought of as a t
 YouTrack also has **projects**. Projects contain issues and generally represent a specific project.
 
 **Hierarchy: projects -> issues**
+
+<br>
 
 YouTrack also has **boards**. A board is a tabular way to visualise issues using rows and columns. Typically, 
 the column name is the state of an issue such as 'to do', 'in progress', 'completed'. Issues can easily be moved between
@@ -28,5 +32,7 @@ the upcoming 2 weeks, then complete those issues. Any issues that were not compl
 what was completed in previous sprints.
 
 **Hierarchy: boards -> sprints**
+
+<br>
 
 ## Musora's YT Setup
