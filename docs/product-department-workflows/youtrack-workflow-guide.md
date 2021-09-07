@@ -26,10 +26,10 @@ Often times, the row names are the priority or project name. Rows and columns ca
 A board can be used for multiple projects.
 
 Boards can contain **sprints** (if configured). A sprint represents a specific set of issues that are relevant to 
-a specific time period. Typically, if a team runs on a 2-week sprint, they would choose which issues to tackle in
-the upcoming 2 weeks, then complete those issues. Any issues that were not completed would get moved in to the following
-2-week sprint. This makes it easy for team members to know what they should be working on and it makes it easy to see
-what was completed in previous sprints.
+a specific time period. Typically, if a team runs on a 2-week sprint cycle, they would choose which issues to tackle in
+the upcoming 2 weeks, then complete those issues. After 2 weeks, any issues that were not completed would get moved
+in to the following 2-week sprint. This makes it easy for team members to know what they should be working on and 
+it makes it easy to see what was completed in previous sprints.
 
 **Hierarchy: boards -> sprints**
 
