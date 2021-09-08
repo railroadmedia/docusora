@@ -83,18 +83,19 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 
 **How to add a new project to the board:**
 1. Create a new issue in the 'Projects' YouTrack project.
-2. Add a relevant title for the project. Please use a version number when possible such as: Student Lists v2.0.
-3. Set the project priority based on the above priority field options.
-4. Set the project state which should most likely be Ideation if the project has no been started.
-5. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be 
+1. Add a relevant title for the project. Please use a version number when possible such as: Student Lists v2.0.
+1. Add a description for the project which should include any relevant information, documentation, or links.
+1. Set the project priority based on the above priority field options.
+1. Set the project state which should most likely be Ideation if the project has no been started.
+1. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be 
    rough estimates if the dates are way out in the future.
-6. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
-7. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
+1. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
+1. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
    board. If the project should not be in the current years sprint please move it to another years sprint.
-8. If this project is to be started on soon and ready for project planning, create a new YouTrack project for it. The 
+1. If this project is to be started on soon and is ready for project planning, create a new YouTrack project for it. The 
    title of the YouTrack project should be the same as the issue. When creating a new YouTrack project please use the 
-   'Template Project v1.0' template.
-9. Add a link to the YouTrack project inside the issues' description.
+   'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
+1. Add a link to the YouTrack project inside the representing issues' description.
 
 Board link:
 **[https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general)**
