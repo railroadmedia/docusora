@@ -13,7 +13,8 @@ to fit the limits of a tool again. Unlike other project management tools, YouTra
 
 ## General YT Basics
 
-YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug, etc.
+YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug, 
+(or sometimes and entire projects), etc.
 
 YouTrack also has **projects**. Projects contain issues and generally represent a specific project.
 
@@ -47,9 +48,11 @@ managing which work should be done when, and what state the work is in.
 ### 'A - Projects' Project & Board
 
 This project and relevant board holds issues which represent entire projects. Project managers and product directors will
-manage these boards. The issues contain information, links, and documentation about the projects.
+manage these boards. The issues (which represent entire projects) contain information, links, and documentation 
+about the projects. Any issue that is in progress or to be start soon will have a proper associated YouTrack project. 
+The project should be linked in the description of the issue which represents it on this board.
 
-Each issue (which represents an entire project) has the following fields:
+Each issue has the following fields:
 
 **Priority:**
 - High: projects that we are currently working on or will move on to next
@@ -88,6 +91,10 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 6. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
 7. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
    board. If the project should not be in the current years sprint please move it to another years sprint.
+8. If this project is to be started on soon and ready for project planning, create a new YouTrack project for it. The 
+   title of the YouTrack project should be the same as the issue. When creating a new YouTrack project please use the 
+   'Template Project v1.0' template.
+9. Add a link to the YouTrack project inside the issues' description.
 
 Board link:
 **[https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general)**
