@@ -40,12 +40,14 @@ it makes it easy to see what was completed in previous sprints.
 In summary, projects and issues represent work that needs to be done. Boards and sprints are for
 managing which work should be done when, and what state the work is in.
 
+<br>
+
 ## Musora's YT Setup
 
 ### 'A - Projects' Project & Board
 
 This project and relevant board holds issues which represent entire projects. Project managers and product directors will
-manage these boards.
+manage these boards. The issues contain information, links, and documentation about the projects.
 
 Each issue (which represents an entire project) has the following fields:
 
@@ -73,6 +75,19 @@ The person who owns this project and is responsible for its timeline and outcome
 <br>
 
 This board also has sprints, 1 for each year, which are primarily for organisation purposes.
+
+<br>
+
+**How to add a new project to the board:**
+1. Create a new issue in the 'Projects' YouTrack project.
+2. Add a relevant title for the project. Please use a version number when possible such as: Student Lists v2.0.
+3. Set the project priority based on the above priority field options.
+4. Set the project state which should most likely be Ideation if the project has no been started.
+5. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be 
+   rough estimates if the dates are way out in the future.
+6. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
+7. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
+   board. If the project should not be in the current years sprint please move it to another years sprint.
 
 Board link:
 **[https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general)**
