@@ -54,9 +54,9 @@ The project should be linked in the description of the issue which represents it
 
 Each issue has the following fields:
 
-**Priority:**
-- High: projects that we are currently working on or will move on to next
-- Medium: projects that are prime candidates to become high priority in the near future
+**Project Priority:**
+- High: projects that are in progress or will be started next
+- Medium: projects that are candidates to become high priority in the near future
 - Low: projects that may become medium or high priority in the far future
 
 **Project State:**
