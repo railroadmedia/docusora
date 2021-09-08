@@ -14,7 +14,7 @@ to fit the limits of a tool again. Unlike other project management tools, YouTra
 ## General YT Basics
 
 YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug, 
-(or sometimes and entire projects), etc.
+(or sometimes an entire project), etc.
 
 YouTrack also has **projects**. Projects contain issues and generally represent a specific project.
 
@@ -23,10 +23,10 @@ YouTrack also has **projects**. Projects contain issues and generally represent 
 <br>
 
 YouTrack also has **boards**. A board is a tabular way to visualise issues using rows and columns. Typically, 
-the column name is the state of an issue such as 'to do', 'in progress', 'completed'. Issues can easily be moved between
-rows and columns by clicking and dragging. This can be used to change the issue state or any other field/data.
-Often times, the row names are the priority or project name. Rows and columns can be configured to any field or value. 
-A board can be used for multiple projects.
+the column names are the state of an issue such as 'to do', 'in progress', 'completed'. Issues can easily be moved between
+rows and columns by clicking and dragging. This can be used to change the issues state or any other field/data.
+Often times, the row names are the issues priority or project name. Rows and columns can be configured to be any 
+field or value. A board can be used for multiple projects.
 
 Boards contain **sprints** (if configured). A sprint is a way to encapsulate a set of issues that are relevant to 
 a specific time period. Typically, if a team runs on a 2-week sprint cycle, they would choose which issues to tackle in
@@ -43,9 +43,8 @@ managing which work should be done when, and what state the work is in.
 
 <br>
 
-## Musora's YT Setup
 
-### 'A - Projects' Project & Board
+## Musora's YT Setup - 'Projects' Project & Board
 
 This project and relevant board holds issues which represent entire projects. Project managers and product directors will
 manage these boards. The issues (which represent entire projects) contain information, links, and documentation 
@@ -86,16 +85,21 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 1. Add a relevant title for the project. Please use a version number when possible such as: Student Lists v2.0.
 1. Add a description for the project which should include any relevant information, documentation, or links.
 1. Set the project priority based on the above priority field options.
-1. Set the project state which should most likely be Ideation if the project has no been started.
+1. Set the project state which should most likely be Ideation if the project has not been started.
 1. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be 
    rough estimates if the dates are way out in the future.
 1. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
 1. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
    board. If the project should not be in the current years sprint please move it to another years sprint.
-1. If this project is to be started on soon and is ready for project planning, create a new YouTrack project for it. The 
-   title of the YouTrack project should be the same as the issue. When creating a new YouTrack project please use the 
+1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The 
+   title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the 
    'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
 1. Add a link to the YouTrack project inside the representing issues' description.
 
 Board link:
 **[https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general)**
+
+
+<br>
+
+## Musora's YT Setup - Team Sprint Projects & Boards
