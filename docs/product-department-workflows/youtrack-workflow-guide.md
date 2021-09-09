@@ -181,4 +181,4 @@ The blocked requirements work like this:
 'QA' is blocked until all previous states are complete.
 
 Workflow Chart:
-[Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021.jpg)
+![Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021.jpg)
