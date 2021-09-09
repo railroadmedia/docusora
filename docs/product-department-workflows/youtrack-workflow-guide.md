@@ -102,4 +102,83 @@ Board link:
 
 <br>
 
-## Musora's YT Setup - Team Sprint Projects & Boards
+## Musora's YT Setup - Team Sprint Boards
+
+Each team has a board dedicated to their sprints. Here are their names and links:
+- [S - Product Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-3/current)
+- [S - UX Design Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-5/current)
+- [S - FEW Dev Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-6/current)
+- [S - MA Dev Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-7/current)
+- [S - BE Dev Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-8/current)
+- [S - QA Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-9/current)
+
+Each team will use a 2-week sprint cycle (I am very open to flexibility on that however). The board rows
+represent the project in which the issues exist. Generally, the 'in progress' and 'upcoming' projects should be kept at the
+top of the board. You can move the rows/projects up and down by clicking and dragging the 3 dots in the right left of 
+the row.
+
+Each board has its own columns that are specific to each team. The columns represent the state of the work for issues.
+The states are as follows:
+
+**S - Product Team Sprints**
+- Backlogged
+- To Do
+- Planning & Documentation
+- Pass-Off
+- Complete
+
+**S - UX Design Team Sprints**
+- Blocked
+- Backlogged
+- To Do
+- Low Fidelity Design
+- High Fidelity Design
+- Complete
+
+**S - FEW Dev Team Sprints**
+- Blocked
+- Backlogged
+- To Do
+- In Progress
+- Complete
+
+**S - MA Dev Team Sprints**
+- Blocked
+- Backlogged
+- To Do
+- In Progress
+- Complete
+
+**S - BE Dev Team Sprints**
+- Blocked
+- Backlogged
+- To Do
+- In Progress
+- Complete
+
+**S - QA Team Sprints**
+- Blocked
+- Backlogged
+- To Do
+- In Progress
+- Complete
+
+### States Explained
+**Backlogged**
+This means the issues is ready to be worked on by the relevant team, but it has not yet been added to a sprint.
+Teams will take issues from their queue of backlogged issues and move them to their current or next sprint. 
+
+**Blocked**
+This means that the issue requires work from another team before the relevant team can start working on it. Once the 
+required work is complete by the required team, the issue will automatically move from 'Blocked' to 'Backlogged' or
+'To Do'. Blocked issues can still be moved in to a sprint if its likely they will become unblocked during the sprint.
+
+The blocked requirements work like this:
+'UX Design State' is blocked until 'Product State' is complete.
+'FEW Dev State' is blocked until 'UX Design State' is complete.
+'MA Dev State' is blocked until 'UX Design State' is complete.
+'BE Dev State' is blocked until 'UX Design State' is complete.
+'QA' is blocked until all previous states are complete.
+
+Workflow Chart:
+[Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021.jpg)
