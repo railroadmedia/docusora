@@ -112,10 +112,43 @@ Each team has a board dedicated to their sprints. Here are their names and links
 - [S - BE Dev Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-8/current)
 - [S - QA Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-9/current)
 
-Each team will use a 2-week sprint cycle (I am very open to flexibility on that however). The board rows
+Each team uses a 2-week sprint cycle (open to flexibility). The board rows
 represent the project in which the issues exist. Generally, the 'in progress' and 'upcoming' projects should be kept at the
 top of the board. You can move the rows/projects up and down by clicking and dragging the 3 dots in the right left of 
 the row.
+
+Each sprint board also has a 'Backlog' sprint at the bottom. This backlog sprint, which is static, is the queue from 
+which issues are taken and added to the active sprints. An issue can be moved from the backlog to a sprint when it is either
+in the 'Blocked' state OR the 'Backlogged' state. If an issue is moved in to a sprint but still Blocked, it will be 
+automatically unblocked when the required work is complete.
+
+Each teams sprints have some basic states in common. Here is a description of how they work:
+
+**Blocked**
+This means the issue requires work from other teams before your team can work on it. For example if a task requires
+UX Design work and FEW Dev work, the FEW Dev Work state will be 'Blocked' until the UX Design state is marked 'Complete'.
+
+The blocked requirements work like this:
+'UX Design State' is blocked until 'Product State' is complete.
+'FEW Dev State' is blocked until 'UX Design State' is complete.
+'MA Dev State' is blocked until 'UX Design State' is complete.
+'BE Dev State' is blocked until 'UX Design State' is complete.
+'QA' is blocked until all previous states are complete.
+
+**Backlogged**
+This means the task is in the team boards 'Backlog'. Items in the backlog are a queue which issues can be pulled from 
+in to sprints. It means that the issues require work from the relevant team.
+
+**To Do**
+The issue is ready for a team member to work on it if its in the current sprint.
+
+**_Implementation States_**
+Each team has their own implementation states which are self-explanatory and open to flexibility.
+
+**Complete**
+The work for the relevant team on this issue is complete, and any further work from other teams can begin. Completing
+an issue will generally automatically change the issue from Blocked to 'To Do' or 'Backlogged' for teams further down in
+the workflow.
 
 Each board has its own columns that are specific to each team. The columns represent the state of the work for issues.
 The states are as follows:
@@ -163,22 +196,11 @@ The states are as follows:
 - In Progress
 - Complete
 
-### States Explained
-**Backlogged**
-This means the issues is ready to be worked on by the relevant team, but it has not yet been added to a sprint.
-Teams will take issues from their queue of backlogged issues and move them to their current or next sprint. 
+<br>
 
-**Blocked**
-This means that the issue requires work from another team before the relevant team can start working on it. Once the 
-required work is complete by the required team, the issue will automatically move from 'Blocked' to 'Backlogged' or
-'To Do'. Blocked issues can still be moved in to a sprint if its likely they will become unblocked during the sprint.
-
-The blocked requirements work like this:
-'UX Design State' is blocked until 'Product State' is complete.
-'FEW Dev State' is blocked until 'UX Design State' is complete.
-'MA Dev State' is blocked until 'UX Design State' is complete.
-'BE Dev State' is blocked until 'UX Design State' is complete.
-'QA' is blocked until all previous states are complete.
-
-Workflow Chart:
+**Workflow Chart:**  
 ![Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021.jpg)
+
+<br>
+
+## Meetings & Sprints 
