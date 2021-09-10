@@ -129,11 +129,11 @@ This means the issue requires work from other teams before your team can work on
 UX Design work and FEW Dev work, the FEW Dev Work state will be 'Blocked' until the UX Design state is marked 'Complete'.
 
 The blocked requirements work like this:  
-'UX Design State' is blocked until 'Product State' is complete.  
-'FEW Dev State' is blocked until 'UX Design State' is complete.  
-'MA Dev State' is blocked until 'UX Design State' is complete.  
-'BE Dev State' is blocked until 'UX Design State' is complete.  
-'QA' is blocked until all previous states are complete.  
+- 'UX Design State' is blocked until 'Product State' is complete.  
+- 'FEW Dev State' is blocked until 'UX Design State' is complete.  
+- 'MA Dev State' is blocked until 'UX Design State' is complete.  
+- 'BE Dev State' is blocked until 'UX Design State' is complete.  
+- 'QA' is blocked until all previous states are complete.  
 
 **Backlogged**  
 This means the task is in the team boards 'Backlog'. The backlog is a queue which issues can be pulled from 
