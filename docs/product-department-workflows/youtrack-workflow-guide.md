@@ -110,12 +110,13 @@ high issue should be worked on first, followed by medium, then low if there is t
 
 **Required Work** _default: [Deployment]_    
 Each issue has a 'Required Work' field which is a multi select.
-Each option represents a team inside the product department. If an issue requires work from a specific team, it should
+Each option represents a team inside the product department. If an issue requires work from a specific team it should
 be checked off in this field.  
-**Once a team is checked-off under required work, the issue is automatically added to that teams backlog.**  
+  
+**- Once a team is checked-off under required work, the issue is automatically added to that teams backlog. -**  
 Deployment should generally always be marked as required unless it's a special case.
 
-**_Work States_** _default: all not required_  
+**_\*Work States_** _default: all not required_  
 See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what they are.
 
 **Deployment State** _default: [None]_  
@@ -129,7 +130,7 @@ The values are as follows:
 - **On App-Staging**: the issue is deployed to our app-staging server (just like staging but mainly used for testing app BE)
 - **On Production**: the issue is deployed to our production server meaning its live to students
 
-Please make sure all fields are correctly when creating a new issue, especially the required work. If you do not set
+Please make sure all fields are set correctly when creating a new issue, especially the required work. If you do not set
 the required work for a given team they will not become aware of the issue.
 
 
