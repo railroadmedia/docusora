@@ -128,16 +128,17 @@ Each teams sprints have some basic states in common. Here is a description of ho
 This means the issue requires work from other teams before your team can work on it. For example if a task requires
 UX Design work and FEW Dev work, the FEW Dev Work state will be 'Blocked' until the UX Design state is marked 'Complete'.
 
-The blocked requirements work like this:
-'UX Design State' is blocked until 'Product State' is complete.
-'FEW Dev State' is blocked until 'UX Design State' is complete.
-'MA Dev State' is blocked until 'UX Design State' is complete.
-'BE Dev State' is blocked until 'UX Design State' is complete.
-'QA' is blocked until all previous states are complete.
+The blocked requirements work like this:  
+'UX Design State' is blocked until 'Product State' is complete.  
+'FEW Dev State' is blocked until 'UX Design State' is complete.  
+'MA Dev State' is blocked until 'UX Design State' is complete.  
+'BE Dev State' is blocked until 'UX Design State' is complete.  
+'QA' is blocked until all previous states are complete.  
 
 **Backlogged**  
-This means the task is in the team boards 'Backlog'. Items in the backlog are a queue which issues can be pulled from 
-in to sprints. It means that the issues require work from the relevant team.
+This means the task is in the team boards 'Backlog'. The backlog is a queue which issues can be pulled from 
+in to the sprints. If an issue is in the 'Backlog' state for a team it means that the issue 
+requires work from the that team and should be added to the current sprint or future sprints.
 
 **To Do**  
 The issue is ready for a team member to work on it if its in the current sprint.
