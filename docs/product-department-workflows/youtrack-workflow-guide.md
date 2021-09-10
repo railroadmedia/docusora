@@ -206,4 +206,29 @@ The states are as follows:
 
 <br>
 
-## Meetings & Sprints 
+## Musora's YT Setup - Fields
+
+**Priority** _default: low_  
+Each issue has a priority field with 'High', 'Medium', and 'Low'. This is a somewhat generic field but generally 
+high issue should be worked on first, followed by medium, then low if there is time.
+
+**Required Work** _default: [Deployment]_    
+Each issue has a 'Required Work' field which is a multi select. 
+Each option represents a team inside the product department. If an issue requires work from a specific team, it should
+be checked off in this field.  
+**Once a team is checked-off under required work, the issue is automatically added to that teams backlog.**  
+Deployment should generally always be marked as required unless it's a special case.
+
+**Deployment State** _default: [None]_  
+This is for tracking where an issue is accessible. Other devs can review this fields value to see where they can 
+interact with or test the issue. Please always ensure to update this field when an issue is updated.  
+The values are as follows:
+
+- **None**: the issue is not anywhere and has likely not started dev yet
+- **On Local Dev**: the issue can only be accessed in a local dev environment on a specific branch
+- **On Staging**: the issue is deployed to our staging server
+- **On App-Staging**: the issue is deployed to our app-staging server (just like staging but mainly used for testing app BE)
+- **On Production**: the issue is deployed to our production server meaning its live to students
+
+Please make sure all fields are correctly when creating a new issue, especially the required work. If you do not set
+the required work for a given team they will not become aware of the issue.
