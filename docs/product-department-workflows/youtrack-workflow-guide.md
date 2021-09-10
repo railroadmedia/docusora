@@ -245,3 +245,36 @@ The states are as follows:
 
 **Workflow Chart:**  
 ![Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021.jpg)
+
+
+<br>
+
+## Musora's YT Setup - Bug Reporting & Fixing
+
+There is a separate (but integrated) workflow for incoming bug reports. These reports typically come from other 
+departments or from external sources. This workflow is under the **Bug Reports** project and **B - Bug Reports** board.
+
+The 'B - Bug Reports' board uses monthly sprints (pending refinement).
+
+This project and board has a unique field for it called **Bug State**. This field tracks the status 
+of bugs after they are reported. It can have the following values:
+
+- **Initial Report**: (default/inital state)
+- **Reproduction/Investigation**: (its being reviewed and tested by a qa team member)
+- **Pending Fix**: (its being fixed by the implementation teams)
+- **Stopped/Unreplicable**: (it could not be reproduced or fixed, this is a 'resolved' state)
+- **Resolved**: (its fixed and deployed to users)
+
+The board also uses this field and values as the columns.  The board uses the Priority field values as the 
+rows/swimlanes.
+
+When a QA team member moves a bug to 'Pending Fix', they must set the 'Required Work' field according to which team will
+need to fix the bug. If the QA team member is unsure what work may be required to fix the bug, 
+it should be set to require work from Product and have a commented added to let them know to take a look.
+
+Once thee Required Work field is set, and the task is moved to 'Pending Fix', it will automatically be added to
+the required teams Backlogs. Those teams can then add the bug to their sprints at their own discretion. If the bug 
+is super high priority or an emergency, please let the teams know directly, so they can add it to their current sprint.
+
+Once all the required work is complete, and the bug has been deployed (Deployment state set to On Production), 
+the issue will automatically be moved to the Deployed/Completed section/state of the Bug Reports board. (this is a WIP)
