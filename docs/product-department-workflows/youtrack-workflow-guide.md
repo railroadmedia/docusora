@@ -95,6 +95,14 @@ This board also has sprints, 1 for each year, which are primarily for organisati
    title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the 
    'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
 1. Add a link to the YouTrack project inside the representing issues' description.
+1. Unfortunately, you must add the project to each of the follow agile boards manually from their settings area or issues won't work:
+   - D - Deployment
+   - S - BE Dev Team Sprints
+   - S - FEW Dev Team Sprints
+   - S - MA Dev Team Sprints
+   - S - Product Team Sprints
+   - S - QA Team Sprints
+   - S - UX Design Team Sprints
 
 Board link:
 **[https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general)**
