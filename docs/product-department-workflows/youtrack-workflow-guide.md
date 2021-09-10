@@ -146,8 +146,8 @@ The issue is ready for a team member to work on it if its in the current sprint.
 Each team has their own implementation states which are self-explanatory and open to flexibility.
 
 **Complete**  
-The work for the relevant team on this issue is complete, and any further work from other teams can begin. Completing
-an issue will generally automatically change the issue from Blocked to 'To Do' or 'Backlogged' for teams further down in
+The work for the relevant team on this issue is complete and any further work from other teams can begin. Completing
+an issue will generally automatically change the issue from 'Blocked' to 'To Do' or 'Backlogged' for teams further down in
 the workflow.
 
 <br>
