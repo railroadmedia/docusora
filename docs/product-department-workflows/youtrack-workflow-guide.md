@@ -91,7 +91,11 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 1. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
 1. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
    board. If the project should not be in the current years sprint please move it to another years sprint.
-1. Unfortunately, you must add the project to each of the follow agile boards manually from their settings area or issues won't work:
+1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The 
+   title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the 
+   'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
+1. Add a link to the YouTrack project inside the representing issues' description.
+1. Unfortunately, you must add the YT project to each of the follow agile boards manually from their settings area or issues won't work:
    - D - Deployment
    - S - BE Dev Team Sprints
    - S - FEW Dev Team Sprints
@@ -99,10 +103,6 @@ This board also has sprints, 1 for each year, which are primarily for organisati
    - S - Product Team Sprints
    - S - QA Team Sprints
    - S - UX Design Team Sprints
-1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The 
-   title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the 
-   'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
-1. Add a link to the YouTrack project inside the representing issues' description.
 
 Board link:
 **[https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-11/122-18?tab=general)**
