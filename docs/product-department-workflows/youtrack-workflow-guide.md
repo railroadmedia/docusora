@@ -54,16 +54,16 @@ The project should be linked in the description of the issue which represents it
 Each issue has the following fields:
 
 **Project Priority:**
-- High: projects that are in progress or will be started next
-- Medium: projects that are candidates to become high priority in the near future
-- Low: projects that may become medium or high priority in the far future
+- **High**: projects that are in progress or will be started next
+- **Medium**: projects that are candidates to become high priority in the near future
+- **Low**: projects that may become medium or high priority in the far future
 
 **Project State:**
-- Ideation: the project is still an idea that is being formed
-- Project Planning: the project is a fully formed idea and the planning for how and when we can complete it has begun
-- In Progress: the project has begun undergoing implementation such as ux design or development
-- On Production: the project is live to students and may require follow-up work
-- Complete: the project is totally complete and does not require further work from any product team member
+- **Ideation**: the project is still an idea that is being formed
+- **Project Planning**: the project is a fully formed idea and the planning for how and when we can complete it has begun
+- **In Progress**: the project has begun undergoing implementation such as ux design or development
+- **On Production**: the project is live to students and may require follow-up work
+- **Complete**: the project is totally complete and does not require further work from any product team member
 
 **Start Date:**
 When the project should be or was started.
