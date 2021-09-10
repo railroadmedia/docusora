@@ -120,11 +120,11 @@ the row.
 Each sprint board also has a 'Backlog' sprint at the bottom. This backlog sprint, which is static, is the queue from 
 which issues are taken and added to the active sprints. An issue can be moved from the backlog to a sprint when it is either
 in the 'Blocked' state OR the 'Backlogged' state. If an issue is moved in to a sprint but still Blocked, it will be 
-automatically unblocked when the required work is complete.
+automatically unblocked when the required work is complete. _Note: we do not use the built-in YT backlog tool._
 
 Each teams sprints have some basic states in common. Here is a description of how they work:
 
-**Blocked**
+**Blocked**  
 This means the issue requires work from other teams before your team can work on it. For example if a task requires
 UX Design work and FEW Dev work, the FEW Dev Work state will be 'Blocked' until the UX Design state is marked 'Complete'.
 
@@ -135,20 +135,22 @@ The blocked requirements work like this:
 'BE Dev State' is blocked until 'UX Design State' is complete.
 'QA' is blocked until all previous states are complete.
 
-**Backlogged**
+**Backlogged**  
 This means the task is in the team boards 'Backlog'. Items in the backlog are a queue which issues can be pulled from 
 in to sprints. It means that the issues require work from the relevant team.
 
-**To Do**
+**To Do**  
 The issue is ready for a team member to work on it if its in the current sprint.
 
-**_Implementation States_**
+**_Implementation States_**  
 Each team has their own implementation states which are self-explanatory and open to flexibility.
 
-**Complete**
+**Complete**  
 The work for the relevant team on this issue is complete, and any further work from other teams can begin. Completing
 an issue will generally automatically change the issue from Blocked to 'To Do' or 'Backlogged' for teams further down in
 the workflow.
+
+<br>
 
 Each board has its own columns that are specific to each team. The columns represent the state of the work for issues.
 The states are as follows:
