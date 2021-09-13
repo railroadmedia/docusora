@@ -24,7 +24,7 @@ YouTrack also has **projects**. Projects contain issues and generally represent 
 
 YouTrack also has **boards**. A board is a tabular way to visualise issues using rows and columns. Typically,
 the column names are the state of an issue such as 'to do', 'in progress', 'completed'. Issues can easily be moved between
-rows and columns by clicking and dragging. This can be used to change the issues state or any other field/data.
+rows and columns by clicking and dragging. This can be used to change the issue's state or any other field/data.
 Often times the row names are the issues priority or project name. Rows and columns can be configured to be any
 field or value. A board can be used for multiple projects.
 
@@ -61,7 +61,7 @@ Each issue has the following fields:
 **Project State:**
 - **Ideation**: the project is still an idea that is being formed
 - **Project Planning**: the project is a fully formed idea and the planning for how and when we can complete it has begun
-- **In Progress**: the project has begun undergoing implementation such as ux design, development, qa
+- **In Progress**: the project has begun undergoing implementation such as UX design, development, QA
 - **On Production**: the project is live to students and may require follow-up work
 - **Complete**: the project is totally complete and does not require further work from any product team member
 
@@ -76,7 +76,7 @@ The person who owns this project and is responsible for its timeline and outcome
 
 <br>
 
-This board also has sprints, 1 for each year, which are primarily for organisation purposes.
+This board also has sprints, 1 for each year, which is primarily for organisation purposes.
 
 <br>
 
@@ -89,13 +89,13 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 1. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be
    rough estimates if the dates are way out in the future.
 1. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
-1. Click create. Once the issue is created it will automatically be added to the latest years sprint in the 'A - Projects'
-   board. If the project should not be in the current years sprint please move it to another years sprint.
+1. Click create. Once the issue is created it will automatically be added to the latest year's sprint in the 'A - Projects'
+   board. If the project should not be in the current year's sprint please move it to another year's sprint.
 1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The
    title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the
    'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
 1. Add a link to the YouTrack project inside the representing issues' description.
-1. Unfortunately, you must add the YT project to each of the follow agile boards manually from their settings area or issues won't work:
+1. Unfortunately, you must add the YT project to each of the following agile boards manually from their settings area or issues won't work:
    - D - Deployment
    - S - BE Dev Team Sprints
    - S - FEW Dev Team Sprints
@@ -119,18 +119,18 @@ Each issue has a priority field with 'High', 'Medium', and 'Low'. This is a some
 high issue should be worked on first, followed by medium, then low if there is time.
 
 **Required Work** _default: [Deployment]_    
-Each issue has a 'Required Work' field which is a multi select.
+Each issue has a 'Required Work' field which is a multi-select.
 Each option represents a team inside the product department. If an issue requires work from a specific team it should
 be checked off in this field.  
 
-**- Once a team is checked-off under required work, the issue is automatically added to that teams backlog. -**  
+**- Once a team is checked off under required work, the issue is automatically added to that team's backlog. -**  
 Deployment should generally always be marked as required unless it's a special case.
 
 **_\*Work States_** _default: all not required_  
 See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what they are.
 
 **Deployment State** _default: [None]_  
-This is for tracking where an issue is accessible. Other devs can review this fields value to see where they can
+This is for tracking where an issue is accessible. Other devs can review this field's value to see where they can
 interact with or test the issue. Please always ensure to update this field when an issue is updated.  
 The values are as follows:
 
@@ -158,7 +158,7 @@ Each team has a board dedicated to their sprints. Here are their names and links
 
 Each team uses a 2-week sprint cycle (open to flexibility). The board rows
 represent the project in which the issues exist. Generally, the 'in progress' and 'upcoming' projects should be kept at the
-top of the board. You can move the rows/projects up and down by clicking and dragging the 3 dots in the right left of
+top of the board. You can move the rows/projects up and down by clicking and dragging the 3 dots in the left of
 the row.
 
 Each sprint board also has a 'Backlog' sprint at the bottom. This backlog sprint, which is static, is the queue from
@@ -166,10 +166,10 @@ which issues are taken and added to the active sprints. An issue can be moved fr
 in the 'Blocked' state OR the 'Backlogged' state. If an issue is moved into a sprint but still Blocked, it will be
 automatically unblocked when the required work is complete. _Note: we do not use the built-in YT backlog tool._
 
-Each teams sprints have some basic states in common. Here is a description of how they work:
+Each team's sprints have some basic states in common. Here is a description of how they work:
 
 **Blocked**  
-This means the issue requires work from other teams before your team can work on it. For example if a task requires
+This means the issue requires work from other teams before your team can work on it. For example, if a task requires
 UX Design work and FEW Dev work, the FEW Dev Work state will be 'Blocked' until the UX Design state is marked 'Complete'.
 
 The blocked requirements work like this:  
@@ -180,7 +180,7 @@ The blocked requirements work like this:
 - 'QA' is blocked until all previous states are complete.  
 
 **Backlogged**  
-This means the task is in the team boards 'Backlog'. The backlog is a queue which issues can be pulled from
+This means the task is in the team boards 'Backlog'. The backlog is a queue from which issues can be pulled 
 into the sprints. If an issue is in the 'Backlog' state for a team it means that the issue
 requires work from the that team and should be added to the current sprint or future sprints.
 
@@ -188,7 +188,7 @@ requires work from the that team and should be added to the current sprint or fu
 The issue is ready for a team member to work on it if its in the current sprint.
 
 **_Implementation States_**  
-Each team has their own implementation states which are self-explanatory and open to flexibility.
+Each team has its own implementation states which are self-explanatory and open to flexibility.
 
 **Complete**  
 The work for the relevant team on this issue is complete and any further work from other teams can begin. Completing
