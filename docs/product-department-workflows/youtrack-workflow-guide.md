@@ -4,8 +4,8 @@
 
 ## What Is YouTrack
 
-_A project management tool that can be adapted to your processes to help you deliver great products. 
-Track projects and tasks, use agile boards, plan sprints and releases, keep a knowledge base, work with 
+_A project management tool that can be adapted to your processes to help you deliver great products.
+Track projects and tasks, use agile boards, plan sprints and releases, keep a knowledge base, work with
 reports and dashboards, create workflows that follow your business processes. Never force your process
 to fit the limits of a tool again. Unlike other project management tools, YouTrack can be customized to your needs!_
 
@@ -13,7 +13,7 @@ to fit the limits of a tool again. Unlike other project management tools, YouTra
 
 ## General YT Basics
 
-YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug, 
+YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug,
 (or sometimes an entire project), etc.
 
 YouTrack also has **projects**. Projects contain issues and generally represent a specific project.
@@ -22,16 +22,16 @@ YouTrack also has **projects**. Projects contain issues and generally represent 
 
 <br>
 
-YouTrack also has **boards**. A board is a tabular way to visualise issues using rows and columns. Typically, 
+YouTrack also has **boards**. A board is a tabular way to visualise issues using rows and columns. Typically,
 the column names are the state of an issue such as 'to do', 'in progress', 'completed'. Issues can easily be moved between
 rows and columns by clicking and dragging. This can be used to change the issues state or any other field/data.
-Often times the row names are the issues priority or project name. Rows and columns can be configured to be any 
+Often times the row names are the issues priority or project name. Rows and columns can be configured to be any
 field or value. A board can be used for multiple projects.
 
-Boards contain **sprints** (if configured). A sprint is a way to encapsulate a set of issues inside 
+Boards contain **sprints** (if configured). A sprint is a way to encapsulate a set of issues inside
 a specific time period. Typically, if a team runs on a 2-week sprint cycle, they would choose which issues to tackle in
 the upcoming 2 weeks then complete those issues. After 2 weeks any issues that were not completed would get moved
-in to the following 2-week sprint. This makes it easy for team members to know what they should be working on and to 
+into the following 2-week sprint. This makes it easy for team members to know what they should be working on and to
 see what was completed in previous sprints.
 
 **Hierarchy: boards -> sprints**
@@ -46,9 +46,9 @@ managing which work should be done when, and what state the work is in.
 
 ## Musora's YT Setup - 'Projects' Project & Board
 
-This project and relevant board holds issues which represent entire projects. Project managers and product directors will
-manage this board. The issues (which represent entire projects) contain information, links, and documentation 
-about the projects. Any issue on this board that is in progress or will be started soon will have an associated YouTrack project. 
+This project and the relevant board hold issues that represent entire projects. Project managers and product directors will
+manage this board. The issues (which represent entire projects) contain information, links, and documentation
+about the projects. Any issue on this board that is in progress or will be started soon will have an associated YouTrack project.
 The YT project should be linked in the description of the issue which represents it on this board.
 
 Each issue has the following fields:
@@ -86,13 +86,13 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 1. Add a description for the project which should include any relevant information, documentation, or links.
 1. Set the project priority based on the above priority field options.
 1. Set the project state which should most likely be Ideation if the project has not been started.
-1. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be 
+1. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be
    rough estimates if the dates are way out in the future.
 1. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
 1. Click create. Once the issue is created it will automatically be added to the latest years sprint in the 'A - Projects'
    board. If the project should not be in the current years sprint please move it to another years sprint.
-1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The 
-   title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the 
+1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The
+   title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the
    'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
 1. Add a link to the YouTrack project inside the representing issues' description.
 1. Unfortunately, you must add the YT project to each of the follow agile boards manually from their settings area or issues won't work:
@@ -122,7 +122,7 @@ high issue should be worked on first, followed by medium, then low if there is t
 Each issue has a 'Required Work' field which is a multi select.
 Each option represents a team inside the product department. If an issue requires work from a specific team it should
 be checked off in this field.  
-  
+
 **- Once a team is checked-off under required work, the issue is automatically added to that teams backlog. -**  
 Deployment should generally always be marked as required unless it's a special case.
 
@@ -158,12 +158,12 @@ Each team has a board dedicated to their sprints. Here are their names and links
 
 Each team uses a 2-week sprint cycle (open to flexibility). The board rows
 represent the project in which the issues exist. Generally, the 'in progress' and 'upcoming' projects should be kept at the
-top of the board. You can move the rows/projects up and down by clicking and dragging the 3 dots in the right left of 
+top of the board. You can move the rows/projects up and down by clicking and dragging the 3 dots in the right left of
 the row.
 
-Each sprint board also has a 'Backlog' sprint at the bottom. This backlog sprint, which is static, is the queue from 
+Each sprint board also has a 'Backlog' sprint at the bottom. This backlog sprint, which is static, is the queue from
 which issues are taken and added to the active sprints. An issue can be moved from the backlog to a sprint when it is either
-in the 'Blocked' state OR the 'Backlogged' state. If an issue is moved in to a sprint but still Blocked, it will be 
+in the 'Blocked' state OR the 'Backlogged' state. If an issue is moved into a sprint but still Blocked, it will be
 automatically unblocked when the required work is complete. _Note: we do not use the built-in YT backlog tool._
 
 Each teams sprints have some basic states in common. Here is a description of how they work:
@@ -180,8 +180,8 @@ The blocked requirements work like this:
 - 'QA' is blocked until all previous states are complete.  
 
 **Backlogged**  
-This means the task is in the team boards 'Backlog'. The backlog is a queue which issues can be pulled from 
-in to the sprints. If an issue is in the 'Backlog' state for a team it means that the issue 
+This means the task is in the team boards 'Backlog'. The backlog is a queue which issues can be pulled from
+into the sprints. If an issue is in the 'Backlog' state for a team it means that the issue
 requires work from the that team and should be added to the current sprint or future sprints.
 
 **To Do**  
@@ -253,12 +253,12 @@ The states are as follows:
 
 ## Musora's YT Setup - Bug Reporting & Fixing
 
-There is a separate (but integrated) workflow for incoming bug reports. These reports typically come from other 
+There is a separate (but integrated) workflow for incoming bug reports. These reports typically come from other
 departments or from external sources. This workflow is under the **Bug Reports** project and **B - Bug Reports** board.
 
 The 'B - Bug Reports' board uses monthly sprints (pending refinement).
 
-This project and board has a unique field for it called **Bug State**. This field tracks the status 
+This project and board has a unique field for it called **Bug State**. This field tracks the status
 of bugs after they are reported. It can have the following values:
 
 - **Initial Report**: (default/initial state)
@@ -267,16 +267,16 @@ of bugs after they are reported. It can have the following values:
 - **Stopped/Unreplicable**: (it could not be reproduced or fixed, this is a 'resolved' state)
 - **Resolved**: (its fixed and deployed to users, this is a 'resolved' state)
 
-The board also uses the Bug State field and values as the columns.  The board uses the Priority field values as the 
+The board also uses the Bug State field and values as the columns.  The board uses the Priority field values as the
 rows/swimlanes.
 
 When a QA team member moves a bug to 'Pending Fix', they must set the 'Required Work' field according to which team will
-need to fix the bug. If the QA team member is unsure what work may be required to fix the bug, 
+need to fix the bug. If the QA team member is unsure what work may be required to fix the bug,
 it should be set to require work from Product and have a commented added to let them know to take a look.
 
 Once thee Required Work field is set and the task is moved to 'Pending Fix' it will automatically be added to
-the required teams Backlogs. Those teams can then add the bug to their sprints at their own discretion. If the bug 
+the required teams Backlogs. Those teams can then add the bug to their sprints at their own discretion. If the bug
 is super high priority or an emergency, please let the teams know directly, so they can add it to their current sprint.
 
-Once all the required work is complete, and the bug has been deployed (Deployment state set to On Production), 
+Once all the required work is complete, and the bug has been deployed (Deployment state set to On Production),
 the issue will automatically be moved to the Deployed/Completed section/state of the 'Bug Reports' board. (this is a WIP)
