@@ -274,9 +274,9 @@ When a QA team member moves a bug to 'Pending Fix', they must set the 'Required 
 need to fix the bug. If the QA team member is unsure what work may be required to fix the bug, 
 it should be set to require work from Product and have a commented added to let them know to take a look.
 
-Once thee Required Work field is set, and the task is moved to 'Pending Fix', it will automatically be added to
+Once thee Required Work field is set and the task is moved to 'Pending Fix' it will automatically be added to
 the required teams Backlogs. Those teams can then add the bug to their sprints at their own discretion. If the bug 
 is super high priority or an emergency, please let the teams know directly, so they can add it to their current sprint.
 
 Once all the required work is complete, and the bug has been deployed (Deployment state set to On Production), 
-the issue will automatically be moved to the Deployed/Completed section/state of the Bug Reports board. (this is a WIP)
+the issue will automatically be moved to the Deployed/Completed section/state of the 'Bug Reports' board. (this is a WIP)
