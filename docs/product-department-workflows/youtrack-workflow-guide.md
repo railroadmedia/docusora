@@ -246,7 +246,7 @@ The states are as follows:
 <br>
 
 **Workflow Chart:**  
-![Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021.jpg)
+![Workflow Chart](../images/product-division-project-tasks-workflow-sept-2021-1.jpg)
 
 
 <br>
