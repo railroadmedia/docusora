@@ -25,14 +25,14 @@ YouTrack also has **projects**. Projects contain issues and generally represent 
 YouTrack also has **boards**. A board is a tabular way to visualise issues using rows and columns. Typically, 
 the column names are the state of an issue such as 'to do', 'in progress', 'completed'. Issues can easily be moved between
 rows and columns by clicking and dragging. This can be used to change the issues state or any other field/data.
-Often times, the row names are the issues priority or project name. Rows and columns can be configured to be any 
+Often times the row names are the issues priority or project name. Rows and columns can be configured to be any 
 field or value. A board can be used for multiple projects.
 
-Boards contain **sprints** (if configured). A sprint is a way to encapsulate a set of issues that are relevant to 
+Boards contain **sprints** (if configured). A sprint is a way to encapsulate a set of issues inside 
 a specific time period. Typically, if a team runs on a 2-week sprint cycle, they would choose which issues to tackle in
-the upcoming 2 weeks, then complete those issues. After 2 weeks, any issues that were not completed would get moved
-in to the following 2-week sprint. This makes it easy for team members to know what they should be working on, and 
-it makes it easy to see what was completed in previous sprints.
+the upcoming 2 weeks then complete those issues. After 2 weeks any issues that were not completed would get moved
+in to the following 2-week sprint. This makes it easy for team members to know what they should be working on and to 
+see what was completed in previous sprints.
 
 **Hierarchy: boards -> sprints**
 
@@ -47,9 +47,9 @@ managing which work should be done when, and what state the work is in.
 ## Musora's YT Setup - 'Projects' Project & Board
 
 This project and relevant board holds issues which represent entire projects. Project managers and product directors will
-manage these boards. The issues (which represent entire projects) contain information, links, and documentation 
-about the projects. Any issue that is in progress or to be start soon will have a proper associated YouTrack project. 
-The project should be linked in the description of the issue which represents it on this board.
+manage this board. The issues (which represent entire projects) contain information, links, and documentation 
+about the projects. Any issue on this board that is in progress or will be started soon will have an associated YouTrack project. 
+The YT project should be linked in the description of the issue which represents it on this board.
 
 Each issue has the following fields:
 
@@ -61,7 +61,7 @@ Each issue has the following fields:
 **Project State:**
 - **Ideation**: the project is still an idea that is being formed
 - **Project Planning**: the project is a fully formed idea and the planning for how and when we can complete it has begun
-- **In Progress**: the project has begun undergoing implementation such as ux design or development
+- **In Progress**: the project has begun undergoing implementation such as ux design, development, qa
 - **On Production**: the project is live to students and may require follow-up work
 - **Complete**: the project is totally complete and does not require further work from any product team member
 
@@ -89,7 +89,7 @@ This board also has sprints, 1 for each year, which are primarily for organisati
 1. If the project is going to be medium or high priority, set the Start Date and Deploy Date fields. These can be 
    rough estimates if the dates are way out in the future.
 1. Choose a project owner. Often times this will be a PM or PD (Randy, Caleb), or a developer.
-1. Click create. Once the issue is created, it will automatically be added to the latest years sprint in the 'A - Projects'
+1. Click create. Once the issue is created it will automatically be added to the latest years sprint in the 'A - Projects'
    board. If the project should not be in the current years sprint please move it to another years sprint.
 1. If this project is to be started soon, and it is ready for project planning, create a new YouTrack project for it. The 
    title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the 
@@ -110,7 +110,9 @@ Board link:
 
 <br>
 
-## Musora's YT Setup - Fields
+## Musora's YT Setup - Standard Issue Fields
+
+Regular issues inside of a YT project have the following fields:
 
 **Priority** _default: low_  
 Each issue has a priority field with 'High', 'Medium', and 'Low'. This is a somewhat generic field but generally
@@ -259,13 +261,13 @@ The 'B - Bug Reports' board uses monthly sprints (pending refinement).
 This project and board has a unique field for it called **Bug State**. This field tracks the status 
 of bugs after they are reported. It can have the following values:
 
-- **Initial Report**: (default/inital state)
+- **Initial Report**: (default/initial state)
 - **Reproduction/Investigation**: (its being reviewed and tested by a qa team member)
 - **Pending Fix**: (its being fixed by the implementation teams)
 - **Stopped/Unreplicable**: (it could not be reproduced or fixed, this is a 'resolved' state)
-- **Resolved**: (its fixed and deployed to users)
+- **Resolved**: (its fixed and deployed to users, this is a 'resolved' state)
 
-The board also uses this field and values as the columns.  The board uses the Priority field values as the 
+The board also uses the Bug State field and values as the columns.  The board uses the Priority field values as the 
 rows/swimlanes.
 
 When a QA team member moves a bug to 'Pending Fix', they must set the 'Required Work' field according to which team will
