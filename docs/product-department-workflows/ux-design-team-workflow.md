@@ -25,14 +25,14 @@ Are there new features, or is this a brand new experience? If yes, we use the lo
 3. Create a YouTrack update requesting asynchronous review in Figma with a due date
 4. If it’s a time-sensitive task (review required within 5 business days) message team members required for review in Slack
 
-# Checkpoint: #
+### Checkpoint: ###
 _Stakeholders: Jord, Mitch, Project Owner_
 Stakeholders review the project and submit change requests.
 
 5. Complete the change requests
 6. Enter a request for final review in YouTrack
 
-# Checkpoint: #
+### Checkpoint: ###
 _Stakeholders: Jord, Mitch, Project Owner_
 Design Lead marks the task as completed, or requests another round of edits. Once a project has approval the designer moves the task’s status to “complete” status and the Product Manager moves the task on to the next team.
 
