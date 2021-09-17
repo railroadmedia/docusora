@@ -20,20 +20,24 @@ Task states:
 Are there new features, or is this a brand new experience? If yes, we use the long form design review process. If not, use the short form design review process.
 
 ## Short Form Design Review Process: ##
-- ** Review the design brief and clarify any points of confusion with the project owner **
-- ** Create the design in Figma or Live Prototype format based on designer discretion **
-- ** Create a YouTrack update requesting asynchronous review in Figma with a due date **
-- ** If it’s a time-sensitive task (review required within 5 business days) message team members required for review in Slack **
+1. Review the design brief and clarify any points of confusion with the project owner
+2. Create the design in Figma or Live Prototype format based on designer discretion
+3. Create a YouTrack update requesting asynchronous review in Figma with a due date
+4. If it’s a time-sensitive task (review required within 5 business days) message team members required for review in Slack
 
 # Checkpoint: #
-Stakeholders: Jord, Mitch, Project Owner
+_Stakeholders: Jord, Mitch, Project Owner_
 Stakeholders review the project and submit change requests.
-Complete the change requests
-Enter a request for final review in YouTrack
-Checkpoint:
-Stakeholders: Jord, Mitch, Project Owner
+
+5. Complete the change requests
+6. Enter a request for final review in YouTrack
+
+# Checkpoint: #
+_Stakeholders: Jord, Mitch, Project Owner_
 Design Lead marks the task as completed, or requests another round of edits. Once a project has approval the designer moves the task’s status to “complete” status and the Product Manager moves the task on to the next team.
-Long Form Design Review Process:
+
+
+## Long Form Design Review Process: ##
 Review the design brief and clarify any points of confusion with the project owner
 Create a static design in Figma
 Create a YouTrack update requesting asynchronous review in Figma with a due date
