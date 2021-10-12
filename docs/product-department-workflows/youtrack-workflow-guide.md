@@ -95,6 +95,8 @@ This board also has sprints, 1 for each year, which is primarily for organisatio
    title of the YouTrack project should be the same as this issue. When creating a new YouTrack project, please use the
    'Template Project v1.0' template. Tasks, user stories, etc can now be created in this new YouTrack project.
 1. Add a link to the YouTrack project inside the representing issues' description.
+1. Under the projects Administration, choose Team. Click 'Add Members' and add the 'Product Teams' group so everyone
+   can access the project.
 1. Unfortunately, you must add the YT project to each of the following agile boards manually from their settings area or issues won't work:
    - D - Deployment
    - S - BE Dev Team Sprints
