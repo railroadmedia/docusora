@@ -127,6 +127,7 @@ dev-marketing-creative channel, and we'll figure it out together.
 2. Create a new Asana project in the [Dev-Marketing](https://app.asana.com/0/1199995198037877/overview)
    team using the **'X - Project Template 2021.2'** template. 
    Please use the project name format: **'Project Name - Brand'**.
+   **Ensure that the 'Team' dropdown is set to 'Dev-Marketing'.**
    Segment projects from the top level per brand. For example if every brand needs a 'April Promo Updates' 
    project, please make 1 project for each brand assuming the updates are large enough to justify a project.
    
