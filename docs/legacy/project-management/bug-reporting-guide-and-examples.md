@@ -23,7 +23,7 @@ Bug Reporting Form: [https://musoraproduct.myjetbrains.com/youtrack/newIssue?pro
     <br>
 
 - **Escalating bugs:**
-    - You may get a single user report for an issue and post about it in basecamp as medium or low severity. If you later get more user reports about the same bug, please make note in the appropriate task to escalate it, and feel free to edit the "Priority" field at any point. A bug for 1 user is usually pretty benign. A bug for 10 users generally means something major is wrong.
+    - At any pont as further information comes in, an Issue reported as Low or Medium priority can be escalated to Medium or High priority as needed.
     <br>
     
 ## What Priority Do I Choose?
@@ -74,7 +74,7 @@ Bug Reporting Form: [https://musoraproduct.myjetbrains.com/youtrack/newIssue?pro
       - Reproduction. Were you or anyone else able to reproduce the issue? What steps were taken? What was the result of your testing? 
       - All media depicting the issue from the user, or captured during reproduction can be pasted here. Screenshots, videos, etc. Media can also be dragged into the UI as standalone files, or as a part of comments.
       - Any post-fix tasks required of development
-    - Note that any data not included in the initial report can be posted as a comment inside the issue, and media can be dragged into the issue U.I. as well.
+    - Note that any data not included in the initial report can be posted as a comment inside the issue, and media can be dragged into the input box for uploading.
 
     <br>
 
@@ -152,7 +152,7 @@ users email: caleb@drumeo.com, user product: pianote-1-month-membership. User pr
    2. Description
    3. Support Notes
    
-    Then on the right-hand side, select options from the following fields:
+   Then on the right-hand side, select options from the following fields:
    4. Priority
    5. Brand
    6. Enter a number for report count, or leave blank
