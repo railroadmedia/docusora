@@ -123,9 +123,15 @@ how they should interpret the issue. A 'User Story' or 'Task' is an issue that t
 through our standard workflow. 'Reference/Info' can just be an issue meant to provide information to the team.
 
 ### Priority 
-_default: low_  
+_default: Low_  
 Each issue has a priority field with 'High', 'Medium', and 'Low'. This is a somewhat generic field but generally
 high issue should be worked on first, followed by medium, then low if there is time.
+
+### Story Points
+_default: 1_  
+The options for this field are numbers following the Fibonacci sequence. 1, 2, 3, 5, 8. This implies exponentially 
+increasing complexity for large issues. This field represents the standard agile story points system. One could 
+speculate that 1 = less than a day, 2 = a full day, 3 = 2-3 days, 5 = a week, 8 = 1 week+.
 
 ### Required Work
 _default: [Deployment]_      
@@ -133,10 +139,10 @@ Each issue has a 'Required Work' field which is a multi-select.
 Each option represents a team inside the product department. If an issue requires work from a specific team it should
 be checked off in this field.  
 
-**- Once a team is checked off under required work, the issue is automatically added to that team's backlog. -**  
+Once a team is checked off under required work the issue is automatically added to that team's backlog.  
 Deployment should generally always be marked as required unless it's a special case.
 
-### _\*Work States_
+### _\* Work States_
 _default: all not required_    
 See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what they are.
 
