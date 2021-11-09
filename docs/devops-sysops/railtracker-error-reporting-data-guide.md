@@ -3,7 +3,8 @@
 We use railtracker to collect and store data about all requests that enter our system. The data can be used to track
 down errors. This guide includes some helpful queries for finding errors for specific cases.
 
-
+<br>
+ 
 ## Connecting To The Database
 
 We typically use MySQL Workbench to connect to our MySQL servers. **When querying railtracker data please always use 
@@ -11,6 +12,7 @@ the read replica endpoint/instance otherwise your queries may impact loading per
 The connection details are in 1pass under **'MySQL Musora Prod Database Stats Reader Replica'**, the endpoint url should
 start with: 'extra-power-read-rep'
 
+<br>
 
 ## Data & Queries
 
