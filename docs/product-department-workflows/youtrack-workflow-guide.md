@@ -120,7 +120,7 @@ If you do not set the required work for a given team they will not become aware 
 _default: Task_  
 _options: User Story, Task, Reference/Info, Misc_  
 
-This field is used to tell team members how they should interpret and issue. A 'User Story' or 'Task' is an issue 
+This field is used to tell team members how they should interpret an issue. A 'User Story' or 'Task' is an issue 
 that typically need to be completed by going through our standard workflow. 
 'Reference/Info' can just be an issue meant to provide information to the team.
 
@@ -130,7 +130,7 @@ that typically need to be completed by going through our standard workflow.
 _default: Low_  
 _options: High, Medium, Low_  
 
-This is a somewhat generic and self evident field but generally high issue should be worked on first, 
+This is a somewhat generic and self-evident field but generally high issues should be worked on first, 
 followed by medium, then low if there is time.
 
 <br>
@@ -149,7 +149,7 @@ speculate that 1 = less than a day, 2 = a full day, 3 = 2-3 days, 5 = a week, 8 
 _default: -_  
 _options: any string_  
 
-This field is for delegating which website page or app screen this issue is for. It's primarily user for organizational
+This field is for delegating which website page or app screen this issue is for. It's primarily used for organizational
 purposes in project boards. It can be helpful when trying to track down where to find or test and issue.
 
 <br>
