@@ -31,15 +31,18 @@ rows to show the error and stack trace:
 
 ```mysql
 SELECT * 
+
 FROM (
     SELECT * FROM drumeo_laravel.railtracker4_requests  
     WHERE railtracker4_requests.exception_message_hash IS NOT NULL 
     ORDER BY railtracker4_requests.id DESC
     LIMIT 250
 ) AS req
-LEFT JOIN drumeo_laravel.railtracker4_exception_messages ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
-LEFT JOIN drumeo_laravel.railtracker4_exception_traces ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 
+LEFT JOIN drumeo_laravel.railtracker4_exception_messages 
+    ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
+LEFT JOIN drumeo_laravel.railtracker4_exception_traces 
+    ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 ```
 
 If you want to do this query for other brands you need to swap out the 'drumeo_laravel' database for the 'brand_laravel' 
@@ -47,15 +50,18 @@ you want. For example pianote:
 
 ```mysql
 SELECT * 
+
 FROM (
     SELECT * FROM pianote_laravel.railtracker4_requests  
     WHERE railtracker4_requests.exception_message_hash IS NOT NULL 
     ORDER BY railtracker4_requests.id DESC
     LIMIT 250
 ) AS req
-LEFT JOIN pianote_laravel.railtracker4_exception_messages ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
-LEFT JOIN pianote_laravel.railtracker4_exception_traces ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 
+LEFT JOIN pianote_laravel.railtracker4_exception_messages 
+    ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
+LEFT JOIN pianote_laravel.railtracker4_exception_traces 
+    ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 ```
 
 <br>
@@ -67,6 +73,7 @@ find the last 250 errors for a specific requested url path:
 
 ```mysql
 SELECT * 
+
 FROM (
     SELECT * FROM drumeo_laravel.railtracker4_requests  
     WHERE railtracker4_requests.exception_message_hash IS NOT NULL 
@@ -74,14 +81,17 @@ FROM (
     ORDER BY railtracker4_requests.id DESC
     LIMIT 250
 ) AS req
-LEFT JOIN drumeo_laravel.railtracker4_exception_messages ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
-LEFT JOIN drumeo_laravel.railtracker4_exception_traces ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 
+LEFT JOIN drumeo_laravel.railtracker4_exception_messages 
+    ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
+LEFT JOIN drumeo_laravel.railtracker4_exception_traces 
+    ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 ```
 
 Or if you want to find the last 250 errors for a given logged in user:
 ```mysql
 SELECT * 
+
 FROM (
     SELECT * FROM drumeo_laravel.railtracker4_requests  
     WHERE railtracker4_requests.exception_message_hash IS NOT NULL 
@@ -89,9 +99,11 @@ FROM (
     ORDER BY railtracker4_requests.id DESC
     LIMIT 250
 ) AS req
-LEFT JOIN drumeo_laravel.railtracker4_exception_messages ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
-LEFT JOIN drumeo_laravel.railtracker4_exception_traces ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 
+LEFT JOIN drumeo_laravel.railtracker4_exception_messages 
+    ON railtracker4_exception_messages.exception_message_hash = req.exception_message_hash
+LEFT JOIN drumeo_laravel.railtracker4_exception_traces 
+    ON railtracker4_exception_traces.exception_trace_hash = req.exception_trace_hash
 ```
 
 You can filter by any column in the railtracker4_requests table!
