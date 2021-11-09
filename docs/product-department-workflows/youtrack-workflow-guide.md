@@ -114,8 +114,6 @@ Board link:
 
 ## Musora's YT Setup - Standard Issue Fields
 
-Regular issues inside of a YT project have the following fields:
-
 ### Type
 _default: Task_  
 _options: User Story, Task, Reference/Info, Misc_  
@@ -124,32 +122,51 @@ This field is used to tell team members how they should interpret and issue. A '
 that typically need to be completed by going through our standard workflow. 
 'Reference/Info' can just be an issue meant to provide information to the team.
 
+---
+
 ### Priority 
 _default: Low_  
-Each issue has a priority field with 'High', 'Medium', and 'Low'. This is a somewhat generic field but generally
-high issue should be worked on first, followed by medium, then low if there is time.
+_options: High, Medium, Low_  
+
+This is a somewhat generic and self evident field but generally high issue should be worked on first, 
+followed by medium, then low if there is time.
+
+---
 
 ### Story Points
 _default: 1_  
-The options for this field are numbers following the Fibonacci sequence. 1, 2, 3, 5, 8. This implies exponentially 
-increasing complexity for large issues. This field represents the standard agile story points system. One could 
+_options: 1, 2, 3, 5, 8_  
+
+The options for this field follow the Fibonacci number sequence. This implies exponentially 
+increasing complexity. This field represents the standard agile story points system. One could 
 speculate that 1 = less than a day, 2 = a full day, 3 = 2-3 days, 5 = a week, 8 = 1 week+.
+
+---
 
 ### Required Work
 _default: [Deployment]_      
-Each issue has a 'Required Work' field which is a multi-select.
-Each option represents a team inside the product department. If an issue requires work from a specific team it should
-be checked off in this field.  
+_options: FEW Development, Product, UX Design, BE Development, MA Development, QA, Deployment_  
 
-Once a team is checked off under required work the issue is automatically added to that team's backlog.  
+This field which is a multi-select. Each option represents a team inside the product department. 
+If an issue requires work from a specific team it should be checked off in this field.  
+
+When a team is checked off under required work the issue is automatically added to that team's backlog.  
 Deployment should generally always be marked as required unless it's a special case.
 
+---
+
 ### _\* Work States_
-_default: all not required_    
+_default: not required_  
+_options: \*_  
+
 See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what they are.
 
+---
+
 ### Deployment State
-_default: [None]_    
+_default: [None]_  
+_options: None, On Local Dev, On Staging, On App-Staging, Pending App Deployment, On Production_  
+
 This is for tracking where an issue is accessible. Other devs can review this field's value to see where they can
 interact with or test the issue. Please always ensure to update this field when an issue is updated.  
 The values are as follows:
@@ -160,6 +177,8 @@ The values are as follows:
 - **On App-Staging**: the issue is deployed to our app-staging server (just like staging but mainly used for testing app BE)
 - **Pending App Deployment**: the issue is in a new app build and is waiting to be launched in to the app store
 - **On Production**: the issue is deployed to our production server meaning its live to students
+
+--- 
 
 Please make sure all fields are set correctly when creating a new issue, especially the required work. If you do not set
 the required work for a given team they will not become aware of the issue.
