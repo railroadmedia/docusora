@@ -118,9 +118,11 @@ Regular issues inside of a YT project have the following fields:
 
 ### Type
 _default: Task_  
-This fields options are 'User Story', 'Task', 'Reference/Info', 'Misc'. This field is used to tell the team member
-how they should interpret the issue. A 'User Story' or 'Task' is an issue that typically need to be completed by going
-through our standard workflow. 'Reference/Info' can just be an issue meant to provide information to the team.
+_options: User Story, Task, Reference/Info, Misc_  
+
+This field is used to tell team members how they should interpret and issue. A 'User Story' or 'Task' is an issue 
+that typically need to be completed by going through our standard workflow. 
+'Reference/Info' can just be an issue meant to provide information to the team.
 
 ### Priority 
 _default: Low_  
