@@ -12,6 +12,8 @@ Websites: [Drumeo](https://www.drumeo.com/) -
 
 Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
+<br>
+
 
 ## Communication & Management Tools Links
 
@@ -19,11 +21,8 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 [Slack](https://musora.slack.com/) - 
 [Asana](https://app.asana.com/0/1182507146429289/overview)
 
+<br>
 
-## Product Team Docs
-
-### Sysops/Devops
-[Railtracker Error Reporting Data Guide](docs/devops-sysops/railtracker-error-reporting-data-guide.md)
 
 ## Cross Department Process & Workflow Documents
 
@@ -36,8 +35,13 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 ### Finance
 
+<br>
 
-## Internal Dev Department Docs
+
+## Internal Product Team Docs
+
+### Sysops/Devops
+[Railtracker Error Reporting Data Guide](docs/devops-sysops/railtracker-error-reporting-data-guide.md)
 
 ### Meetings & Scheduling
 
