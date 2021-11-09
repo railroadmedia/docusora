@@ -110,6 +110,8 @@ Board link:
 
 # Musora's YT Setup - Standard Issue Fields
 
+<br>
+
 ## Type
 _default: Task_  
 _options: User Story, Task, Reference/Info, Misc_  
@@ -136,6 +138,34 @@ _options: 1, 2, 3, 5, 8_
 The options for this field follow the Fibonacci number sequence. This implies exponentially 
 increasing complexity. This field represents the standard agile story points system. One could 
 speculate that 1 = less than a day, 2 = a full day, 3 = 2-3 days, 5 = a week, 8 = 1 week+.
+
+<br>
+
+## Page/Screen
+_default: -_  
+_options: any string_  
+
+This field is for delegating which website page or app screen this issue is for. It's primarily user for organizational
+purposes in project boards. It can be helpful when trying to track down where to find or test and issue.
+
+<br>
+
+## Git Branch
+_default: _  
+_options: any string_  
+
+This field is for showing which git branch this issue exists on. This field is extremely helpful for tracking down 
+which branches need to be merged where and creating deployment guides for launches.
+
+<br>
+
+## Deploy Due Date
+_default: _  
+_options: any date_  
+
+This is when the project owner or planner would like the issue to be deployed to production. It's the deadline. This 
+date represents when the issue should be on production and live to students. It does not represent the date when
+just when the coding should be complete.
 
 <br>
 
@@ -173,6 +203,15 @@ The values are as follows:
 - **On App-Staging**: the issue is deployed to our app-staging server (just like staging but mainly used for testing app BE)
 - **Pending App Deployment**: the issue is in a new app build and is waiting to be launched in to the app store
 - **On Production**: the issue is deployed to our production server meaning its live to students
+
+<br>
+
+## _Assignees - \*TEAM_
+_default: -_  
+_options: \[any team members within the given team\]_
+
+These are assignee fields which can each be set to multiple team members inside the given team. This is used to 
+assign the issue to a particular team member for each type of work.
 
 <br>
   
