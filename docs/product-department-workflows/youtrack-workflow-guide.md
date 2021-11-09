@@ -1,8 +1,4 @@
-# YouTrack Setup Basics
-
-<br>
-
-## What Is YouTrack
+# What Is YouTrack
 
 _A project management tool that can be adapted to your processes to help you deliver great products.
 Track projects and tasks, use agile boards, plan sprints and releases, keep a knowledge base, work with
@@ -11,7 +7,7 @@ to fit the limits of a tool again. Unlike other project management tools, YouTra
 
 <br>
 
-## General YT Basics
+# General YT Basics
 
 YouTrack's most basic element is an **issue**. An issue can be thought of as a task, user story, issue, bug,
 (or sometimes an entire project), etc.
@@ -44,7 +40,7 @@ managing which work should be done when, and what state the work is in.
 <br>
 
 
-## Musora's YT Setup - 'Projects' Project & Board
+# Musora's YT Setup - 'Projects' Project & Board
 
 This project and the relevant board hold issues that represent entire projects. Project managers and product directors will
 manage this board. The issues (which represent entire projects) contain information, links, and documentation
@@ -112,9 +108,9 @@ Board link:
 
 <br>
 
-## Musora's YT Setup - Standard Issue Fields
+# Musora's YT Setup - Standard Issue Fields
 
-### Type
+## Type
 _default: Task_  
 _options: User Story, Task, Reference/Info, Misc_  
 
@@ -124,7 +120,7 @@ that typically need to be completed by going through our standard workflow.
 
 ---
 
-### Priority 
+## Priority 
 _default: Low_  
 _options: High, Medium, Low_  
 
@@ -133,7 +129,7 @@ followed by medium, then low if there is time.
 
 ---
 
-### Story Points
+## Story Points
 _default: 1_  
 _options: 1, 2, 3, 5, 8_  
 
@@ -143,7 +139,7 @@ speculate that 1 = less than a day, 2 = a full day, 3 = 2-3 days, 5 = a week, 8 
 
 ---
 
-### Required Work
+## Required Work
 _default: [Deployment]_      
 _options: FEW Development, Product, UX Design, BE Development, MA Development, QA, Deployment_  
 
@@ -155,7 +151,7 @@ Deployment should generally always be marked as required unless it's a special c
 
 ---
 
-### _\* Work States_
+## _\* Work States_
 _default: not required_  
 _options: \*_  
 
@@ -163,7 +159,7 @@ See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what
 
 ---
 
-### Deployment State
+## Deployment State
 _default: [None]_  
 _options: None, On Local Dev, On Staging, On App-Staging, Pending App Deployment, On Production_  
 
@@ -186,7 +182,7 @@ the required work for a given team they will not become aware of the issue.
 
 <br>
 
-## Musora's YT Setup - Team Sprint Boards
+# Musora's YT Setup - Team Sprint Boards
 
 Each team has a board dedicated to their sprints. Here are their names and links:
 - [S - Product Team Sprints](https://musoraproduct.myjetbrains.com/youtrack/agiles/121-3/current)
@@ -291,7 +287,7 @@ The states are as follows:
 
 <br>
 
-## Musora's YT Setup - Bug Reporting & Fixing
+# Musora's YT Setup - Bug Reporting & Fixing
 
 There is a separate (but integrated) workflow for incoming bug reports. These reports typically come from other
 departments or from external sources. This workflow is under the **Bug Reports** project and **B - Bug Reports** board.
