@@ -116,11 +116,19 @@ Board link:
 
 Regular issues inside of a YT project have the following fields:
 
-**Priority** _default: low_  
+### Type
+_default: Task_  
+This fields options are 'User Story', 'Task', 'Reference/Info', 'Misc'. This field is used to tell the team member
+how they should interpret the issue. A 'User Story' or 'Task' is an issue that typically need to be completed by going
+through our standard workflow. 'Reference/Info' can just be an issue meant to provide information to the team.
+
+### Priority 
+_default: low_  
 Each issue has a priority field with 'High', 'Medium', and 'Low'. This is a somewhat generic field but generally
 high issue should be worked on first, followed by medium, then low if there is time.
 
-**Required Work** _default: [Deployment]_    
+### Required Work
+_default: [Deployment]_      
 Each issue has a 'Required Work' field which is a multi-select.
 Each option represents a team inside the product department. If an issue requires work from a specific team it should
 be checked off in this field.  
@@ -128,10 +136,12 @@ be checked off in this field.
 **- Once a team is checked off under required work, the issue is automatically added to that team's backlog. -**  
 Deployment should generally always be marked as required unless it's a special case.
 
-**_\*Work States_** _default: all not required_  
+### _\*Work States_
+_default: all not required_    
 See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what they are.
 
-**Deployment State** _default: [None]_  
+### Deployment State
+_default: [None]_    
 This is for tracking where an issue is accessible. Other devs can review this field's value to see where they can
 interact with or test the issue. Please always ensure to update this field when an issue is updated.  
 The values are as follows:
@@ -140,6 +150,7 @@ The values are as follows:
 - **On Local Dev**: the issue can only be accessed in a local dev environment on a specific branch
 - **On Staging**: the issue is deployed to our staging server
 - **On App-Staging**: the issue is deployed to our app-staging server (just like staging but mainly used for testing app BE)
+- **Pending App Deployment**: the issue is in a new app build and is waiting to be launched in to the app store
 - **On Production**: the issue is deployed to our production server meaning its live to students
 
 Please make sure all fields are set correctly when creating a new issue, especially the required work. If you do not set
