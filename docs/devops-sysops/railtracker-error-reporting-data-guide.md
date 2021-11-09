@@ -1,29 +1,32 @@
 # Finding Errors In Railtracker
 
-We use railtracker to collect and store data about all requests that enter our system. This data can be used to track
+We use railtracker to collect and store data about all requests that enter our system. The data can be used to track
 down errors. This guide includes some helpful queries for finding errors for specific cases.
 
 
 ## Connecting To The Database
 
-We typically user MySQL Workbench to connect to our MySQL servers. *When querying railtracker data please always use 
-the read replica endpoint/instance otherwise your queries may impact loading performance for our users.*  
-The connection details are in 1pass under 'MySQL Musora Prod Database Stats Reader Replica', the endpoint url should
+We typically use MySQL Workbench to connect to our MySQL servers. **When querying railtracker data please always use 
+the read replica endpoint/instance otherwise your queries may impact loading performance for our users.**  
+The connection details are in 1pass under **'MySQL Musora Prod Database Stats Reader Replica'**, the endpoint url should
 start with: 'extra-power-read-rep'
 
 
 ## Data & Queries
 
 Each brand has its own railtracker tables, they are prefixed with: 'railtracker4_'. If there is an error on drumeo
-for example, you will need to look inside the drumeo_laravel.railtracker4_ tables.  
+for example, you will need to look inside the 'drumeo_laravel.railtracker4_TABLE' tables.  
 
-The primary table for investigating errors is the railtracker4_requests table. This logs all requests that entered 
-our system. This table is really massive (hundreds of millions of rows) so it needs to be queried carefully. Sub-table 
-joins are your friend since they limit the possible returned rows before making large joins.  
-
+The primary table for investigating errors is the railtracker4_requests table. This table logs all requests that entered 
+our system. The table is really massive (hundreds of millions of rows) so it needs to be queried carefully. Sub-table 
+joins are your friend since they limit the number of possible returned rows before making large joins.
+  
+<br>
+ 
 ### Last 250 Requests With Exceptions/Errors
-Each row has a few join columns for exception data. You can query these columns to find requests that lead to an error.
-here is a generic query for drumeo that will find the last 250 requests that had an error. It joins the exception data 
+Each row has a few joined columns for showing the exception data. 
+You can query these columns to find requests that lead to an error.
+Here is a generic query for drumeo that will find the last 250 requests that had an error. It joins the exception data 
 rows to show the error and stack trace:  
 
 ```mysql
@@ -39,7 +42,7 @@ LEFT JOIN drumeo_laravel.railtracker4_exception_traces ON railtracker4_exception
 
 ```
 
-If you want to do this query for other brands you need to swap out the 'drumeo_laravel' for the 'brand_laravel' 
+If you want to do this query for other brands you need to swap out the 'drumeo_laravel' database for the 'brand_laravel' 
 you want. For example pianote:
 
 ```mysql
@@ -55,6 +58,8 @@ LEFT JOIN pianote_laravel.railtracker4_exception_traces ON railtracker4_exceptio
 
 ```
 
+<br>
+ 
 ### Refining The Query
 
 You can filter this query further by adding more WHERE/AND statements in to the sub query. For example if you want to
