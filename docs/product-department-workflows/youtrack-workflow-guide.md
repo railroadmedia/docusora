@@ -110,6 +110,10 @@ Board link:
 
 # Musora's YT Setup - Standard Issue Fields
 
+Here is a list of all our standard YT issue fields along with some details of how they are designed to be used. 
+Please make sure all relevant fields are set correctly when creating a new issue, especially the required work field. 
+If you do not set the required work for a given team they will not become aware of the issue.
+
 <br>
 
 ## Type
@@ -182,7 +186,7 @@ Deployment should generally always be marked as required unless it's a special c
 <br>
 
 ## _\* Work States_
-_default: not required_  
+_default: Not Required_  
 _options: \*_  
 
 See 'Musora's YT Setup - Team Sprint Boards' section for how these work and what they are.
@@ -206,17 +210,12 @@ The values are as follows:
 
 <br>
 
-## _Assignees - \*TEAM_
+## _Assignees - \*TEAM\*_
 _default: -_  
 _options: \[any team members within the given team\]_
 
 These are assignee fields which can each be set to multiple team members inside the given team. This is used to 
 assign the issue to a particular team member for each type of work.
-
-<br>
-  
-Please make sure all fields are set correctly when creating a new issue, especially the required work. If you do not set
-the required work for a given team they will not become aware of the issue.
 
 
 <br>
