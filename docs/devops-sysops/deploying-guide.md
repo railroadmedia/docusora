@@ -46,3 +46,80 @@ The life of a request to one of our websites:
     
 Typically, when something goes wrong it's at the PHP/Laravel Application layer however things can go wrong at any point
 in the requests' path through our system.
+
+
+## Logs & Common Malfunction Areas
+
+### Outage Alerting
+We use a service called Pingdom to monitor our websites main pages every 30 seconds. This service sends out an alerts if
+any of our websites start returning an error. This monitoring only reports for the public home pages, it will not catch
+outages that only affect the members' area.  
+
+Alerts will automatically be emailed to some team members and also be posted in the 'dev-uptime-reporting' slack.
+
+### Kibana & Logs
+Our kubernetes pods report all their software logs (PHP/Apache/nginx) to our Kibana/Elastic Search cluster running 
+on a hosted cloud service called logit.io. Log in credentials should be in 1pass.
+
+[Logit.io Dashboard](https://dashboard.logit.io/a/f60c21b4-781c-4c1a-ac70-1c906af3ad55)  
+[Logit.io Kibana Direct Link](https://dashboard.logit.io/a/f60c21b4-781c-4c1a-ac70-1c906af3ad55/s/993f2ebf-75ae-490c-9bd4-c0ebd7141b8f/kibana/access)
+
+To see a general error list click 'Open' in the top right to select a saved search. Use the 'General Error' saved search.
+You can choose a relative time to show logs from. The last 4 hours is a common report. When something is going wrong 
+that is affecting users it will almost always cause some kind of error reporting in Kibana.
+
+### Database Overload
+A common source of problems is an overload in our mysql database servers. We use AWS Aurora (MySQL version) to host 
+our main databases. Team members with access can monitor database usage and stats here:
+
+(AWS Aurora Cluster)[https://us-east-2.console.aws.amazon.com/rds/home?region=us-east-2#database:id=rescue-snap-restore-cluster;is-cluster=true;tab=connectivity]
+
+The performance insights tool and also very useful for finding queries that are using large amounts of CPU. Choose 
+'Performance Insights' from the sidebar in the AWS Aurora area and choose the 'rescue-snap-restore' instance. Choose 
+'Slice By SQL' from the drop down menu near the stats to see which queries are the problem.
+
+### Deployment or K8 Pod Failure
+Sometimes something will go wrong with the kubernetes pods and their deployment process. You can view any brands pods
+in our local dev manager environment with the 'r' tool.
+
+1. Set your local cli k8 namespace to the right brand with the following commands: ```kset``` -> choose brand -> choose environment (likely production)
+2. Run: ```k get pods```
+3. If you see any pods with a failed Status or many Restarts, something is probably going wrong. You can watch a 
+   specific pods logs in real time from the cli using: ```k logs -f NAME```. For example: 
+   ``` k logs -f drumeo-production-deployment-755fb77d8c-2kzfv```
+   
+### Quickly Reverting Deployments
+When you deploy, a new docker image is generated, and our deployment tool tells our k8 cluster to switch that brands 
+pods to the new image. 
+New pods are spun up using the new docker image. Once they are running, the existing pods are terminated.  
+
+If a deployment happens and it starts causing problem such as an outage, mass new errors in the logs, or a database 
+overload, you can tell the k8 cluster to switch the brand back to its previous images quickly using these commands:
+
+1. Set your local cli k8 namespace to the right brand with the following commands: ```kset``` -> choose brand -> choose environment (likely production)
+2. ```k rollout undo deployment/BRAND-production-deployment``` 
+   for example ```k rollout undo deployment/drumeo-production-deployment```
+   
+NOTE: This will not solve issues if they are migration related. Once a migration is deployed, and it updates the 
+database schema, reverting the deployment will not revert the migration.  
+
+Once you have reverted a deployment, keep in mind if you deploy again k8 will still build the docker image based on 
+the latest git branch state so you may also need to revert the relevant commits until the issue is resolved.
+
+
+## How To Deploy
+To deploy your must have our local 'railenvironment' set up on your machine. Our 'r' tool from the manager docker 
+container is used for deployment.
+
+1. ```r deploy BRAND```
+2. Choose the environment you wish to deploy. Production is always the brand git repo master branch. 
+   Staging is the staging branch.
+3. Wait for the image to build and deploy. You will get a success or failure message. 
+   Deployment typically takes 5-10 minutes.
+4. Once your CLI finished the build and gives you a success message keep in mind that the new docker images still have 
+   to propagate among the k8 pods. This can take 3-10 minutes, so you may not see changes on the production sites until
+   5-10 minutes after deployment. You can check the state of the pod image propagation with ```k get pods```
+5. Always double-check the production websites to make sure your changes were deployed successfully and are not causing
+   problems for users.
+6. If you deployed backend changes, please monitor our server logs in Kibana for a few minutes to make sure nothing
+   is going wrong after the deployment was complete. (See Kibana & Logs section above).
