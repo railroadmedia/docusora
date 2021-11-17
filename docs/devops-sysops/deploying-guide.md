@@ -145,5 +145,6 @@ container is used for deployment.
 3. Once feature branch has been tested in staging, merge feature branch into the release branch.
     - Current branch is `0.17-`
 4. In release branch, make sure your local git directory is clean, and run `./publish.sh`.
-    - If you have changes that have not been commited, publish script will throw an error.
-5. Once your new version of Vuesora is published, you will be able to install in the respective environments with `yarn add vuesora@latest`.
+    - If you have changes that have not been commited, the publish script will throw an error.
+5. Once your new version of Vuesora is published, you will be able to install it in the respective environments with `yarn add vuesora@latest`.
+6. If your environment can not complete the `yarn build` task, you may need to remove your node_modules directory `rm -rf node_modules` and reinstall `yarn install` before deploying your new Vuesora updates. 
