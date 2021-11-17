@@ -138,12 +138,12 @@ container is used for deployment.
 
 #### Publishing Vuesora
 1. To publish a staging version (for testing): 
-  - merge the feature branch into staging
-  - run `git status` to make sure you git directory is clean
-  - run `./prerelease.sh` (this will create a staging release of Vuesora for testing)
-  - Once the published, you can install in the staging branch of the respective environment with `yarn add vuesora@staging`
+    - merge the feature branch into staging
+    - run `git status` to make sure you git directory is clean
+    - run `./prerelease.sh` (this will create a staging release of Vuesora for testing)
+    - Once the published, you can install in the staging branch of the respective environment with `yarn add vuesora@staging`
 3. Once feature branch has been tested in staging, merge feature branch into the release branch.
-  - Current branch is `0.17-`
+    - Current branch is `0.17-`
 4. In release branch, make sure your local git directory is clean, and run `./publish.sh`.
-  - If you have changes that have not been commited, publish script will throw an error.
+    - If you have changes that have not been commited, publish script will throw an error.
 5. Once your new version of Vuesora is published, you will be able to install in the respective environments with `yarn add vuesora@latest`.
