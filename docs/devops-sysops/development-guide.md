@@ -1,6 +1,6 @@
 # Development Guide
 
-This guide provides a comprehensive guide on our development process from creating tickets to contributing code.
+A comprehensive guide on our development process from creating tickets to contributing code.
 
 ## Sprint Cycle and Task Management
 - All Development work should be Tracked in YouTrack
