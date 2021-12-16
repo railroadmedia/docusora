@@ -2,10 +2,11 @@
 Testing & Debugging
 ========================================================================================================================
 
-PHPStorm settings for testing and debugging.
+[**UPDATED VERSION HERE**](../../dev/debugging-with-phpstorm.md)
 
-This was moved from [readme.io](https://musora.readme.io/docs/testing-debugging) on Feb 4th 2019.
+~~PHPStorm settings for testing and debugging.~~
 
+~~This was moved from [readme.io](https://musora.readme.io/docs/testing-debugging) on Feb 4th 2019.~~
 
 Table of Contents
 ------------------------------------------------------------------------------------------------------------------------

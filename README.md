@@ -47,6 +47,10 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 [Development Team Meeting Schedules](docs/meetings/dev-meeting-schedules.md)
 
+### Dev
+
+[Debugging with PHPStorm](docs/dev/debugging-with-phpstorm.md)
+
 
 <br><br><br>
 <br><br><br>
