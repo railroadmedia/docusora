@@ -3,11 +3,23 @@
 
 [back](../../README.md)
 
-## Notes
+* [File Structure](#file-structure)
+* [Step 1, "Deployment" settings](#step-1---deployment--settings)
+* [Step 2, "PHP" settings](#step-2---php--settings)
+* [Step 3, debugging](#step-3--debugging)
+  + [Basic](#basic)
+  + [Debugging controls](#debugging-controls)
+  + [A little more help](#a-little-more-help)
+  + [Debugging packages](#debugging-packages)
+* [More Docs](#more-docs)
+
+<!-- http://ecotrust-canada.github.io/markdown-toc/ -->
+
+## File Structure 
 
 The instructions below assume a kind of "super" PHPStorm project. That is, rather than opening just a single repo (application or package) in PHPStorm, you instead open the root directory of your railenvironment repo, which will contain an "applications" directory which is where all cloned copies of the applications and packages live.
 
-I have also previously created the "super" project with the railenv/applications/ dir as the root, but that's note the case in the examples below, so try that one at your own peril.
+I have also previously created the "super" project with the railenv/applications/ dir as the root, but that's not the case in the examples below, so try that one at your own peril.
 
 In PHPStorm it looks like this:
 
@@ -60,9 +72,9 @@ And enter these details:
 
 Test with the "Test Connection" button.
 
-Save that you'll be back at the "Deployments" settings page.
+Save those settings by selecting "OK". This will also take you back at the "Deployments" settings page.
 
-Define "Root path:" as the directory that contains your application and package repositories in your virtual railenvironment manager container. It is likely just `/app`.
+Define "Root path" as the directory that contains your application and package repositories in your virtual railenvironment manager container. It is likely just `/app`.
 
 You can verify this and even select this by clicking on the little "folder" icon at the right of the field:
 
@@ -74,7 +86,7 @@ And you'll see something like this:
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:19:25 620x658.png"/>
 
-You'll know you're in your railenv managater container if you go and poke around with `cd` and `ls -l`
+Note that those files are the same as what you'd see in your railenv manager container if you go and poke around with `cd` and `ls -l`
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:25:49 587x373.png"/>
 
@@ -92,7 +104,9 @@ Go to "PHP":
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:33:12 1042x755.png"/>
 
-Set version accordingly, right now it's 7.3.
+(Note that in newer versions of PHPStorm, this is it's own top-level category in the settings, but in earlier versions it's nested in "Languages & Frameworks". This can troll you recently updated and if you try just navigating there instead of using the search)
+
+Set version accordingly, right now we're on 7.3.
 
 Select the 3-lil-dots for the "CLI Interpreter" field
 
@@ -131,7 +145,7 @@ Click "ok" for everything as you exit the menus and then go and see if this work
 
 ### Basic
 
-Pick a page you can visit locally, for example dev.drumeo.com/members:
+Pick a page you can visit locally, for example `dev.drumeo.com/members`
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:50:36 957x1089.png"/>
 
@@ -151,7 +165,7 @@ Locate the debugging controls in you IDE...
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:56:29 198x60.png"/>
 
-If you can't see it there, it's available in the "Run" menu (alt + u) and as the "Start listening for PHP Debug Connctions".
+If you can't see it there, it's available in the "Run" menu (alt + u) as the "Start listening for PHP Debug Connections".
 
 Regardless of where you find this, you can toggle it between on and off.
 
@@ -192,7 +206,7 @@ Press "F8" to step forward once and you'll see the value of the `$foo` variable 
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 15:27:21 1185x1074.png"/>
 
-## Debugging packages
+### Debugging packages
 
 This assumes the "super" project setup described above.
 
