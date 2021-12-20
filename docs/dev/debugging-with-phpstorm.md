@@ -15,6 +15,9 @@
 
 <!-- http://ecotrust-canada.github.io/markdown-toc/ -->
 
+Also see "[PHPUnit Testing Configuration in PHPStorm](docs/dev/phpunit-testing-config-in-phpstorm.md)"
+
+
 ## File Structure 
 
 The instructions below assume a kind of "super" PHPStorm project. That is, rather than opening just a single repo (application or package) in PHPStorm, you instead open the root directory of your railenvironment repo, which will contain an "applications" directory which is where all cloned copies of the applications and packages live.
@@ -61,14 +64,13 @@ Click the "+" icon (or just hit your `insert` key):
 
 And enter these details:
 
-
-| label               | value you set or select                                         |
-|---------------------|-----------------------------------------------------------------|
-| Host                | `127.0.0.1`                                                     |
-| Port                | `222`                                                           |
-| Username            | `root`                                                          |
-| Authentication type | Password                                                        |
-| Password            | (anything including blank, but select "Save Password" checkbox) |
+| label               | value you set or select                                                                          |
+|---------------------|--------------------------------------------------------------------------------------------------|
+| Host                | `127.0.0.1`                                                                                      |
+| Port                | `222`                                                                                            |
+| Username            | `root`                                                                                           |
+| Authentication type | Password                                                                                         |
+| Password            | (can be anything, including blank, but "pass" or "root" is best for reasons mentioned elsewhere) |
 
 Test with the "Test Connection" button.
 

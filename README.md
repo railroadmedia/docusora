@@ -49,7 +49,8 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 
 ### Dev
 
-[Debugging with PHPStorm](docs/dev/debugging-with-phpstorm.md)
+[Debugging with PHPStorm](docs/dev/debugging-with-phpstorm.md)  
+[PHPUnit Testing Configuration in PHPStorm](docs/dev/phpunit-testing-config-in-phpstorm.md)
 
 
 <br><br><br>
