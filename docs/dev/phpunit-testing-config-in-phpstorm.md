@@ -6,7 +6,7 @@
 <!-- [put the table of contents here if there's enough sections to warrant one] -->
 <!-- http://ecotrust-canada.github.io/markdown-toc/ -->
 
-1. Set up debugging as per "[Debugging with PHPStorm](docs/dev/debugging-with-phpstorm.md)"
+1. Set up debugging as per "[Debugging with PHPStorm](/docs/dev/debugging-with-phpstorm.md)"
 2. It's a good idea to have something that probably has working tests that you can check this setup when complete. Consider cloning railroad/ecommerce.
 3. Go to PHPStorm settings (*ctrl+alt+a*)
 4. Go to "PHP -> Test Frameworks" in the settings

@@ -15,7 +15,7 @@
 
 <!-- http://ecotrust-canada.github.io/markdown-toc/ -->
 
-Also see "[PHPUnit Testing Configuration in PHPStorm](docs/dev/phpunit-testing-config-in-phpstorm.md)"
+Also see "[PHPUnit Testing Configuration in PHPStorm](/docs/dev/phpunit-testing-config-in-phpstorm.md)"
 
 
 ## File Structure 
