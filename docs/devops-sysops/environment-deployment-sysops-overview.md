@@ -29,3 +29,11 @@ it would be useless without the encryption key.
 
 When new build are deployed to our kubernetes cluster, the deployment bash command 
 (inside the kubernetes yaml file for the deployment) decrypts the .env file so laravel can read it.
+
+
+## How To Set Up A New Environment
+
+1. Come up with a name such as: app-staging, testing-staging-3, etc. We'll use this name consistently 
+   when setting everything up in the various tools and scripts. For this example we'll use 'app-staging'.
+2. Create a new AWS Code Build project.
+   - Name it BRAND-app-staging.
