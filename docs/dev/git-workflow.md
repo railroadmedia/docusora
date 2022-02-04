@@ -81,6 +81,7 @@ _(subject to change soon, Feb 2022)_
 ---
 
 ## Mobile App Repositories
+_updates pending_  
 **Short workflow overview:** 
 1. Bug is found and posted
 2. New branch is created from 'staging' branch, 'BR-number'
