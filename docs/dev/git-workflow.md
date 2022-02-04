@@ -6,32 +6,33 @@ Musora development sometimes requires long-lived feature branches that take long
 To solve this we can adopt a version of Gitflow where the main branch stores the official release history, 
 and the staging branch serves as an integration branch for features.
 
----
+
 
 ## Repository Types
 
 ### **Implementation Repositories**  
-These are for entire brands, tools, websites, or apps. They represent a final implementation for a product that is
-used by customers. Often times these repositories are Laravel projects, WordPress blogs, or development tools.  
+Implementation repositories are for entire brands, tools, websites, or apps. They represent a final implementation for a product that is
+used by customers. Often times these repositories are Laravel projects, React Native projects, 
+WordPress blogs, or development tools.  
 
 
 ### **Package Repositories**
-These are for reusable packages such as PHP packages or JS packages. They are versioned and often published to 
+Package repositories are for reusable packages such as PHP packages or JS packages. They are versioned and often published to 
 packagist or NPM. These packages are installed and utilised inside the implementation repositories.
 
----
+
 
 ## Branch Types & Prefixes
 
 ### **Hotfix Branches**  
-These are for a small changes that will can be reviewed and deployed quickly.
+Hotfix branches are for a small changes that will can be reviewed and deployed quickly.
 
 - Prefix: **hotfix-**
 - Example branch names: hotfix-fix-layout-bug, hotfix-remove-test-code, hotfix-change-image
 
 
 ### **Feature Branches**  
-These are for features and updates that require a significant amount of time and commits to finish. Typically, these
+Feature branches are for features and updates that require a significant amount of time and commits to finish. Typically, these
 updates need to be code reviewed and tested by QA.
 
 - Prefix: **feature-**
@@ -39,7 +40,7 @@ updates need to be code reviewed and tested by QA.
 
 
 ### **Project Branches**  
-These are for full projects that will involve multiple other branches and multiple developers.
+Project branches are for full projects that will involve multiple other branches and multiple developers.
 Typically, these branches live for the entire length of a project which can be multiple months.
 These branches are merged in to master for final deployment.
 
@@ -48,7 +49,7 @@ These branches are merged in to master for final deployment.
 
 
 ### **Version Branches**  
-These are for package repositories which are version controlled. These repositories have core branches
+Version branches are for package repositories which are version controlled. These repositories have core branches
 which represent an entire version. For example a PHP package repository might have the branches, v1.0, v2.0, etc.
 These core version branches are considered the 'master' branch for that version.  
 The same types of branches above apply when developing on version branches (hotfix, feature, project). 
@@ -59,7 +60,7 @@ The only difference is that branches in these package repositories should always
 
 
 ### **Deployment Branches**
-These branches are for sending code to a specific server environment. Here is a list of our current deployment branches:
+Deployment branches are for sending code to a specific server environment. Here is a list of our current deployment branches:
 _(subject to change soon, Feb 2022)_
 
 - **master**
@@ -78,7 +79,7 @@ _(subject to change soon, Feb 2022)_
 - **app-staging**
     - Same as staging, but generally used for back end updates for our mobile app APIs.
 
----
+
 
 ## Mobile App Repositories
 _updates pending_  
