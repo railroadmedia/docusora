@@ -82,12 +82,47 @@ _(subject to change soon, Feb 2022)_
 
 
 ## Mobile App Repositories
-_updates pending_  
-**Short workflow overview:** 
-1. Bug is found and posted
-2. New branch is created from 'staging' branch, 'BR-number'
-3. Bug is fixed on new branch and is ready for code review
-4. Once reviewed, it goes into QA pipeline
-5. QA test bug fix on feature/bug branch
-6. If approved, it is merged into staging else fixes in the feature/bug branch
-7. Make the builds from the staging branch and only merge the staging branch to the production branch when the prod builds are released to the apps
+
+## Branch Types & Prefixes
+
+### **Hotfix Branches**  
+Hotfix branches are for a small changes that will be reviewed and deployed quickly.
+
+- Prefix: **hotfix-taskNumber**
+- Example branch names: hotfix-BR-121, hotfix-MCV20-216, hotfix-MT-82
+
+### **Bug fixing Branches**  
+Bug fixing branches are for bugs that will be code reviewed, tested and merged into staging. After a bug is found a new branch is 
+created from 'staging' branch, 'BR-number'. Bug is fixed on new branch and is ready for code review. Once reviewed, it goes into QA pipeline. 
+If approved, it is merged into staging else fixed on the bug branch.
+
+- Prefix: **BR-**
+- Example branch names: BR-121
+
+### **Feature Branches**  
+Feature branches are for features and updates that require a significant amount of time and commits to finish. Typically, these
+updates need to be code reviewed and tested by QA. These get merged into a Project Branch when working on a new project or into staging
+when a small new feature needs to be done.
+
+- Prefix: **feature-taskNumber**
+- Example branch names: feature-MCV20-1, feature-MT-8
+
+### **Project Branches**  
+Project branches are for full projects that will involve multiple other branches and multiple developers.
+Typically, these branches live for the entire length of a project which can be multiple months.
+These branches are merged in to staging for final deployment.
+
+- Prefix: **project-**
+- Example branch names: project-coaches-2.0, project-unified-platform
+
+### **Deployment Branches**
+Deployment branches are for creating builds that can be deployed on Google Play/App Store. Here is a list of our current deployment branches:
+
+- **production**
+  - This branch always represents our live production environment. Development should never be done directly on the 
+  prod branch. Staging branch is merged into prod when the prod builds are released to the apps.
+
+- **staging**
+  - Staging is used for testing and review. Development should never be done directly on a staging branch. Staging is 
+  only for merging other branches in to. Generally it's safe to push any updates to staging if this update is approved through 
+  code review and testing, unless there are conflicts with other developers updates.
