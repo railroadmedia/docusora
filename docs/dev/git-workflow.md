@@ -120,9 +120,11 @@ Deployment branches are for creating builds that can be deployed on Google Play/
 
 - **production**
   - This branch always represents our live production environment. Development should never be done directly on the 
-  prod branch. Staging branch is merged into prod when the prod builds are released to the apps.
+  prod branch. Staging branch is merged into prod when the prod builds are released to the apps. Production builds should be create
+  from this branch.
 
 - **staging**
   - Staging is used for testing and review. Development should never be done directly on a staging branch. Staging is 
   only for merging other branches in to. Generally it's safe to push any updates to staging if this update is approved through 
-  code review and testing, unless there are conflicts with other developers updates.
+  code review and testing, unless there are conflicts with other developers updates. Staging builds should be create
+  from this branch.
