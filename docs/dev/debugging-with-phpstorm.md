@@ -11,6 +11,7 @@
   + [Debugging controls](#debugging-controls)
   + [A little more help](#a-little-more-help)
   + [Debugging packages](#debugging-packages)
+* [Increase timeout](#increase-timeout)
 * [More Docs](#more-docs)
 
 <!-- http://ecotrust-canada.github.io/markdown-toc/ -->
@@ -218,6 +219,17 @@ This assumes the "super" project setup described above.
 4. debug the package by running the application.
 
 Note that you'll want to make sure you're on the right branch, that is the one that corresponds to the version contraints in your application.
+
+## Increase timeout
+
+In [railenvironment/railenvironment_docker/alpine-apache-php-fpm-7/application.conf](https://github.com/railroadmedia/railenvironment/blob/master/railenvironment_docker/alpine-apache-php-fpm-7/application.conf), edit the number of seconds specified for "request_terminate_timeout".
+
+```
+request_terminate_timeout = 60
+```
+
+Change that to some reasonably large number, rebuild containers with r_rebuildWithoutCache.sh, and you should be good.
+
 
 ## More Docs
 
