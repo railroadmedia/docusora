@@ -24,11 +24,13 @@ packagist or NPM. These packages are installed and utilised inside the implement
 
 ## Branch Types & Prefixes
 
+_Note: using YouTrack issue numbers is encouraged for all branch names and types._
+
 ### **Hotfix Branches**  
 Hotfix branches are for a small changes that will can be reviewed and deployed quickly.
 
 - Prefix: **hotfix-**
-- Example branch names: hotfix-fix-layout-bug, hotfix-remove-test-code, hotfix-change-image
+- Example branch names: hotfix-fix-layout-bug, hotfix-VCR-4642, hotfix-change-image
 
 
 ### **Feature Branches**  
@@ -36,7 +38,7 @@ Feature branches are for features and updates that require a significant amount 
 updates need to be code reviewed and tested by QA.
 
 - Prefix: **feature-**
-- Example branch names: feature-improved-sorting, feature-header-redesign, feature-new-content-api-endpoint
+- Example branch names: feature-name-edit-functionality-YT0294, feature-header-redesign, feature-new-content-api-endpoint
 
 
 ### **Project Branches**  
@@ -85,19 +87,21 @@ _(subject to change soon, Feb 2022)_
 
 ## Branch Types & Prefixes
 
+_Note: using YouTrack issue numbers is encouraged for all branch names and types._  
+
 ### **Hotfix Branches**  
 Hotfix branches are for a small changes that will be reviewed and deployed quickly.
 
 - Prefix: **hotfix-taskNumber**
 - Example branch names: hotfix-BR-121, hotfix-MCV20-216, hotfix-MT-82
 
-### **Bug fixing Branches**  
-Bug fixing branches are for bugs that will be code reviewed, tested and merged into staging. After a bug is found a new branch is 
-created from 'staging' branch, 'BR-number'. Bug is fixed on new branch and is ready for code review. Once reviewed, it goes into QA pipeline. 
+### **Bug Fix Branches**  
+Bug fix branches are for bugs that will be code reviewed, tested and merged into staging. After a bug is found a new branch is 
+created from 'staging' branch, 'bug-number'. Bug is fixed on new branch and is ready for code review. Once reviewed, it goes into QA pipeline. 
 If approved, it is merged into staging else fixed on the bug branch.
 
-- Prefix: **BR-**
-- Example branch names: BR-121
+- Prefix: **bug-**
+- Example branch names: bug-broken-edit-button, bug-121
 
 ### **Feature Branches**  
 Feature branches are for features and updates that require a significant amount of time and commits to finish. Typically, these
