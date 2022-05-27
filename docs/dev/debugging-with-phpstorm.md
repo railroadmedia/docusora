@@ -3,9 +3,14 @@
 
 [back](../../README.md)
 
+## Table Of Contents
+
+* [TL;DR | Checklist](#tl-dr---checklist)
 * [File Structure](#file-structure)
 * [Step 1, "Deployment" settings](#step-1---deployment--settings)
 * [Step 2, "PHP" settings](#step-2---php--settings)
+  + [CLI Interpreter](#cli-interpreter)
+  + [Server](#server)
 * [Step 3, debugging](#step-3--debugging)
   + [Basic](#basic)
   + [Debugging controls](#debugging-controls)
@@ -18,6 +23,23 @@
 
 Also see "[PHPUnit Testing Configuration in PHPStorm](/docs/dev/phpunit-testing-config-in-phpstorm.md)"
 
+## TL;DR | Checklist
+
+* "Deployment"
+  * type: SFTP
+  * SSH Configuration
+    * Host: `127.0.0.1`
+    * Port: `222`
+    * Username: `root`
+    * Authentication type: `Password`
+    * Password itself can be anything
+  * Root path: `/`
+* PHP → CLI Interpreter "From Docker, Vagrant, VM, WSL, Remote..."
+* PHP → "Server"
+  * host: `127.0.0.1`
+  * port: `80` (I don't know if this actually does anything)
+  * Debugger: XDebug
+  * set up appropriate path mapping
 
 ## File Structure 
 
@@ -109,7 +131,9 @@ Go to "PHP":
 
 (Note that in newer versions of PHPStorm, this is it's own top-level category in the settings, but in earlier versions it's nested in "Languages & Frameworks". This can troll you recently updated and if you try just navigating there instead of using the search)
 
-Set version accordingly, right now we're on 7.3.
+Set version accordingly. Old stuff if probably 5.6 or 7.3, new stuff is probably 8.x.
+
+### CLI Interpreter
 
 Select the 3-lil-dots for the "CLI Interpreter" field
 
@@ -143,6 +167,14 @@ Then set "PHP Interpreter Path", probably to "/usr/bin/php". You can also naviga
 
 Click "ok" for everything as you exit the menus and then go and see if this worked...
 
+### Server
+
+* host: `127.0.0.1`
+* port: `80` (I don't know if this actually does anything)
+* Debugger: XDebug
+* set up appropriate path mapping
+
+<img alt="image" src="../../images/debugging-with-phpstorm/2022-05-27 14:26:49 Screenshot 1006x755.png"/>
 
 ## Step 3, debugging
 
