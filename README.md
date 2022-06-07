@@ -41,8 +41,8 @@ Job Openings: - [Musora Jobs](https://www.musora.com/jobs)
 ## Internal Product Team Docs
 
 ### Sysops/Devops
-[Musora Web Platform Back End Infrastructure Docs](docs/devops-sysops/musora-web-platform-back-end-infrustructure-docs.md)
-[Musora Web Platform How To Deploy - Deployment Guide](docs/devops-sysops/musora-web-platform-environments-and-deployment-docs.md)
+[Musora Web Platform Back End Infrastructure Docs](docs/devops-sysops/musora-web-platform-back-end-infrustructure-docs.md)  
+[Musora Web Platform How To Deploy - Deployment Guide](docs/devops-sysops/musora-web-platform-environments-and-deployment-docs.md)  
 [Railtracker Error Reporting Data Guide](docs/devops-sysops/railtracker-error-reporting-data-guide.md)
 
 ### Meetings & Scheduling
