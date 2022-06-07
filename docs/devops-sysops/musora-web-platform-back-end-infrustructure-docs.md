@@ -1,24 +1,24 @@
 # Deployment Guide
 
-This guide provides a general overview of our server infrastructure, and a detailed guide about how to deploy changes 
-to our musora web platform environment. It also includes information about where to look for potential post-deployment 
+This guide provides a general overview of our server infrastructure.
+It also includes information about where to look for potential post-deployment 
 issues and what to do if things go wrong.
 
 <br>
 
-## Our Server Infrastructure
-
-Our infrastructure is powered by Laravel Vapor. Vapor is essentially just a front-end management tool for various
+Our infrastructure is managed by Laravel Vapor. Vapor is essentially a front-end management tool for various
 AWS services. It uses AWS Lambda to process the http requests. Laravel Vapor has a powerful CLI tool which we use
 to manage our infrastructure.
 
 [Laravel Vapor Docs](https://docs.vapor.build/)
 
-Here is a list of the primary AWS services we use:
-- Lambda (for our actual web servers, managed by Laravel Vapor)
-- RDS (for our mysql databases)
-- SQS (for queue processing, managed by Laravel Vapor)
-- Elasticache (for our redis databases)
+Here is a list of the primary AWS services we use, most of which are managed by Vapor:
+- Lambda (for our actual web servers, managed by Vapor)
+- RDS (for our mysql databases, sometimes managed by Vapor)
+- SQS (for queue processing, managed by Vapor)
+- Cloudwatch (for logs, managed by Vapor)
+- Route53 (for internal DNS, managed by Vapor)
+- Elasticache (for our redis databases, sometimes managed by Vapor)
 - OpsWorks (for our older legacy websites)
 - S3 (data and asset storage)
 - Cloudfront (asset CDN)
