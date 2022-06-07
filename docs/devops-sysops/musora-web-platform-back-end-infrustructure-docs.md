@@ -1,4 +1,4 @@
-# Deployment Guide
+# Our Server Infrastructure
 
 This guide provides a general overview of our server infrastructure.
 It also includes information about where to look for potential post-deployment 
