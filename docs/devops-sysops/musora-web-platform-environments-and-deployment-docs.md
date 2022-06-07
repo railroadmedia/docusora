@@ -16,6 +16,20 @@ We have 11 total environments:
 Each environment deploys a specific branch in the musora-web-platform repository under the same name as the environment 
 **except for 'production' which deploys the 'master' branch**.
 
+## Web URLs
+
+- [https://www.musora.com/](https://www.musora.com/)
+- [https://pre-production.musora.com/](https://pre-production.musora.com/)
+- [https://beta-testing.musora.com/](https://beta-testing.musora.com/)
+- [https://web-staging-one.musora.com/](https://web-staging-one.musora.com/)
+- [https://web-staging-two.musora.com/](https://web-staging-two.musora.com/)
+- [https://web-staging-three.musora.com/](https://web-staging-three.musora.com/)
+- [https://web-staging-four.musora.com/](https://web-staging-four.musora.com/)
+- [https://web-staging-five.musora.com/](https://web-staging-five.musora.com/)
+- [https://app-staging-one.musora.com/](https://app-staging-one.musora.com/)
+- [https://app-staging-two.musora.com/](https://app-staging-two.musora.com/)
+- [https://app-staging-three.musora.com/](https://app-staging-three.musora.com/)
+
 # How To Deploy
 
 ## Any Staging/Testing/Beta/Pre Environment
