@@ -60,11 +60,13 @@ to compare against. With large project launches we often want to do code review 
 master branch. When there is no other branch to compare against we need to make one so a PR can be submitted.  
 
 **You can set up a PR for the changes between any 2 commits in the commit history on a single branch like this:**
-1. Start with the branch which has the commits you wish to review, for example 'master'
-1. Make a new branch based on this branch, for example: 'master-project-z-code-review'
-1. On this new branch, 
-   [hard reset](https://stackoverflow.com/questions/9529078/how-do-i-use-git-reset-hard-head-to-revert-to-a-previous-commit/9530204) 
-   it back to the commit you wish to compare against the current state
-1. Push the branch
-1. Create a new PR on github. Set the 'base' branch as your new reset branch 'master-project-z-code-review'. Set the compare branch as your original final state branch 'master'
-1. PR can now be used for code review
+1. Start with the branch which has the commits you wish to review, for example 'master'.
+1. Make a new branch based on this branch, for example: 'master-project-z-code-review'.
+1. On this new branch, 'soft' reset back to the commit you wish to compare against the current state. 
+   This will leave all the changes between your 2 branches in your working tree.
+1. Discard the working changes for any files or updates you do want to include in the code review. 
+1. If this code review is only for the back end team for example you can discard all the changes for the PHP files. 
+   Since you discarded the changes for your selected files, those will be the only changes between your branches.
+1. Commit your working tree. Push the branch. 
+1. Create a new PR on github. Set the 'base' branch as your new reset branch 'master-project-z-code-review'. Set the compare branch as your original final state branch 'master'.
+1. PR can now be used for code review.
