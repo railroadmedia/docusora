@@ -169,12 +169,26 @@ Click "ok" for everything as you exit the menus and then go and see if this work
 
 ### Server
 
-* host: `127.0.0.1`
-* port: `80` (I don't know if this actually does anything)
-* Debugger: XDebug
-* set up appropriate path mapping
+You don't need to set this up before you start debugging. When all the other settings are set up correctly, you have debugging enabled, and you run the application, you'll be shown an "Incoming Connection From Xdebug" settings prompt.
 
-<img alt="image" src="../../images/debugging-with-phpstorm/2022-05-27 14:26:49 Screenshot 1006x755.png"/>
+For "Configure local file path", the option that should be selected is "Import mappings from deployment". In there, the Deployment you created earlier should be slected.
+
+Click "Accept" to proceed.
+
+You should then be debugging.
+
+This will create a "Server" in the "PHP -> Servers" settings. It the expected setting details are noted below. Subseqent times you run the same application you will not be prompted and should be able to debug without interuption.
+
+When you debug a new application you'll be prompted again.
+
+Example of server settings, assuming the application is Drumeo and the local url is dev.drumeo.com
+
+* host: `dev.drumeo.com`
+* port: `443`
+* Debugger: Xdebug
+* "use path mapping" selected, with your local `applications/` directory* (the one that contains your cloned repos) mapped to the `/app/` directory in your remote file system used the railenvironment containers.
+
+\* for example, the absolute path on your actual machine might be `/home/your-name/railenv/applications/`.
 
 ## Step 3, debugging
 
