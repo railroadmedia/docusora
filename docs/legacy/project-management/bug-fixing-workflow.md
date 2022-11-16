@@ -2,31 +2,32 @@
 
 ## Step By Step
 
-1. **Bug is reported in basecamp or through gchat, email, or in person**
+1. **Bug is reported in the "B - Bug Reports" project in YouTrack, following the "Bug Reporting Guide and Examples" documentation. The initial report will be categorized under "Initial Report".**
+<br>
 <br>
 
-2. **QA (or a developer in some cases) creates YouTrack issue inside the 'PM - Bug Reports' board**
-    - Title from report -> youtrack title
-    - Brand/app from report -> equivalent youtrack project
-    - Severity -> youtrack severity field
-    - Youtrack type field -> 'Bug'
-    - Paste entire report from basecamp to the youtrack description
-    - Paste thread URL in the youtrack description
-    - QA assigns issue to them self
+2. **QA will review the report promptly, whereupon valid reports will be reclassified into the "Accepted" column.**
+    - Reports that are lacking sufficient information will have a comment appended to it requesting more information from the appropriate parties, and will not be accepted until all required information is present.
+    - Reported issues that are not bugs, are duplicates of existing reports, non-replicable or remain missing crucial information after further prompts for it will be marked as "Rejected/Unreplicable" and closed. In the event that a report in this classification need to be re-opened, it can be dragged back into the "Initial Report" column. Rejection and closure can occur at any point along the process and will be accompanied with an explanation as to why. 
+    - The priority of a bug report determines how quickly a report passes through this initial review. Reports marked as high priority are typically reviewed same day, whereas medium and low priority may take as long as 3 to 5 business days respectively.
+<br>
 <br>
 
-3. **QA tests and tried to replicate issue, adds details to the issue** 
-    - QA assigns to Caleb or the relevant developer after its been tested
-    - QA may need to change the priority on how they best see fit
+3. **QA starts in-depth investigation into the issue, moving the report into the "Reproduction/Investigation" state.** 
+    - This step often raises additional questions regarding the parameters surrounding the bug, either for the initial reporter or occasionally a developer. The parties in question will be tagged in the comments here.
+    - Should this step not be required, it may be skipped and the report continues onto the next step immediately. 
+<br>
 <br>
 
-4. **Developers look in to and try to fix the bug depending on the severity**
-    - HIGH: Immediately!
-    - MEDIUM: In the next few days, usually the following Friday
-    - LOW: In the new few weeks or months depending on the issue
+4. **The bug report and all investigation findings are assigned to the appropriate department for development, and moved into the "Pending Fix" state.**
+   - Department leads will add these tasks to their sprints and assign a developer.
+<br>
 <br>
 
-5. **Issue progresses through the normal SCRUM states: To Do, In Development, ..., On Production, Complete**
-<br>
+5. **Development work begins on the issue, and the report moves into the "In Development" state.**
+   - Should further QA testing be required prior to deployment, tasks will stay in this state until the testing is completed.
+   <br>
+   <br>
 
-6. **Once an issue is On Production or Complete, QA reports back to support in the basecamp thread**
+6. **Bug fix is deployed, report is marked as "Deployed/Completed" and closed.**
+   - Any post-fix tasks can be performed at this point.

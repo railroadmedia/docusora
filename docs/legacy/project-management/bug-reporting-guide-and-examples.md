@@ -8,10 +8,11 @@ Bug Reporting Form: [https://musoraproduct.myjetbrains.com/youtrack/newIssue?pro
 ## Who, Where, and What To Do
 
 - **If the priority is HIGH:**
-    - Contact Caleb or another available developer immediately over Slack/email, or in person
-    
+
     - Create a new issue using the Bug Reporting Form following the template below. Under the "Priority" field, select "High".
 
+    - Contact Caleb or another available developer immediately over Slack/email, or in person
+    
     - Feel free to post the newly created issue in the pr-bugs channel, and include a link to the issue.
 <br>
 
@@ -121,7 +122,7 @@ Bug Reporting Form: [https://musoraproduct.myjetbrains.com/youtrack/newIssue?pro
 - Brand: Musora/Crossbrand
 - Report Count: Blank (all users)
 - Description: User has product "pianote-1-month-membership", expiry date cannot be edited. Attempting to change date results in "Error editing user product".
-users email: caleb@drumeo.com, user product: pianote-1-month-membership. User product needs top be expired once bug is fixed.
+users email: caleb@drumeo.com, user product: pianote-1-month-membership. User product needs to be expired once bug is fixed.
 
 
 ---
