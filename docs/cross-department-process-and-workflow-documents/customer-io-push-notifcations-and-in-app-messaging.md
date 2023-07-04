@@ -67,6 +67,18 @@ In-app Messaging allows us to send a modal-type notification to users that are h
 **TIP: Make the message dynamic with [variables](https://customer.io/docs/in-app-messages/#template-variables)! Use `{{customer.<variable>}}` in the fields to make the messaging unique the user.**
 ![](https://github.com/railroadmedia/docusora/blob/master/docs/images/customer-io-variables.png)
 
+## Deeplinks in In-App Messages
+
+Deeplinks are a powerful tool that allows us to direct our users to any (supported) page in our app. In order to use deeplinks in In-App messages, we need to use Custom Actions when creating the In-App Message.
+
+**To include a Deeplink in an In-App message...**
+1. Head to [this page](https://fly.customer.io/workspaces/101782/journeys/in-app-messages) and either create a new message from a template or edit an existing message. See the message "Example Deeplink" for reference. 
+2. In the desired Action component, ensure the Action type is "Custom Action."
+3. In the field below the Action type, insert the desired URL to open inside the app.
+4. **IMPORTANT** Finally, name the action "deeplink" with NO CAPITALS and one word. If this is incorrect, the action will not work.
+
+![](https://raw.githubusercontent.com/railroadmedia/docusora/master/docs/images/Screenshot%202023-07-04%20at%2011.24.26%20AM.png)
+
 ## List of in-app pages
 
 These app pages are case sensitive, so make sure you enter the correct capitalization into the **Page Rule** section!
