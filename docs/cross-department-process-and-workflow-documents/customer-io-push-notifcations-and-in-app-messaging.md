@@ -69,7 +69,9 @@ In-app Messaging allows us to send a modal-type notification to users that are h
 
 ## Deeplinks in In-App Messages
 
-Deeplinks are a powerful tool that allows us to direct our users to any (supported) page in our app. In order to use deeplinks in In-App messages, we need to use Custom Actions when creating the In-App Message.
+***ONLY SUPPORTED BY MUSORA APP v1.5.2, DRUMEO APP v2.2.2, PIANOTE APP v2.2.2, AND LATER VERSIONS***
+
+Deeplinks are a powerful tool that allows us to direct our users to any (supported) page in our app. To use deeplinks in In-App messages, we must use Custom Actions when creating the In-App Message.
 
 **To include a Deeplink in an In-App message...**
 1. Head to [this page](https://fly.customer.io/workspaces/101782/journeys/in-app-messages) and either create a new message from a template or edit an existing message. See the message "Example Deeplink" for reference. 
