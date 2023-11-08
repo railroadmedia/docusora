@@ -29,7 +29,7 @@ Also see "[PHPUnit Testing Configuration in PHPStorm](/docs/dev/phpunit-testing-
   * type: SFTP
   * SSH Configuration
     * Host: `127.0.0.1`
-    * Port: `222`
+    * Port: `8222` #port 222 is php7
     * Username: `root`
     * Authentication type: `Password`
     * Password itself can be anything
@@ -49,7 +49,7 @@ I have also previously created the "super" project with the railenv/applications
 
 In PHPStorm it looks like this:
 
-<img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 13:47:36 291x1004.png"/>
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_005.png"/>
 
 ## Step 1, "Deployment" settings 
 
@@ -90,7 +90,7 @@ And enter these details:
 | label               | value you set or select                                                                          |
 |---------------------|--------------------------------------------------------------------------------------------------|
 | Host                | `127.0.0.1`                                                                                      |
-| Port                | `222`                                                                                            |
+| Port                | `8222` --port222 is php7                                                                         |
 | Username            | `root`                                                                                           |
 | Authentication type | Password                                                                                         |
 | Password            | (can be anything, including blank, but "pass" or "root" is best for reasons mentioned elsewhere) |
@@ -109,17 +109,17 @@ You can verify this and even select this by clicking on the little "folder" icon
 
 And you'll see something like this:
 
-<img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:19:25 620x658.png"/>
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_002.png"/>
 
 Note that those files are the same as what you'd see in your railenv manager container if you go and poke around with `cd` and `ls -l`
 
-<img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:25:49 587x373.png"/>
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_003.png"/>
 
 Set "Web Server URL" to `http://127.0.0.1`
 
-Click on the "Mapping" tab and set the "Deployment Path" to just `/`. Local path and web path should already be set. It'll look like this:
+Click on the "Mapping" tab and set the "Deployment Path" to just `/`. Update local path to point to the applications folder. The web path should already be set. It'll look like this:
 
-<img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:28:07 909x340.png"/>
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_006.png"/>
 
 Click "Apply" to save everything so far.
 
@@ -155,7 +155,7 @@ And you'll get this:
 
 The one just created in Step 1 above should be available in that drop-down menu:
 
-<img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:40:23 598x225.png"/>
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_008.png"/>
 
 Select the one you created above.
 
@@ -165,38 +165,34 @@ Then set "PHP Interpreter Path", probably to "/usr/bin/php". You can also naviga
 
 <img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:40:57 620x867.png"/>
 
+Update the PHPVersion and verify the `Path Mapping` is shown correctly. 
+If these are incorrect you will get an `no suitable deployment configuration was found` when setting up the server in the next step.  
+They are controlled by the Deployment `Root Path` and Deployment mapping `Local Path` values. 
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_009.png"/>
+
 Click "ok" for everything as you exit the menus and then go and see if this worked...
 
 ### Server
 
-You don't need to set this up before you start debugging. When all the other settings are set up correctly, you have debugging enabled, and you run the application, you'll be shown an "Incoming Connection From Xdebug" settings prompt.
+Start the next step and this should trigger automatically. This details the expected output.   
+When all the other settings are set up correctly, you have debugging enabled, and you run the application, you'll be shown an "Incoming Connection From Xdebug" settings prompt.
 
 For "Configure local file path", the option that should be selected is "Import mappings from deployment". In there, the Deployment you created earlier should be slected.
 
 Click "Accept" to proceed.
 
-You should then be debugging.
+You should then be debugging. (Whohoo!)
 
 This will create a "Server" in the "PHP -> Servers" settings. It the expected setting details are noted below. Subseqent times you run the same application you will not be prompted and should be able to debug without interuption.
-
-When you debug a new application you'll be prompted again.
-
-Example of server settings, assuming the application is Drumeo and the local url is dev.drumeo.com
-
-* host: `dev.drumeo.com`
-* port: `443`
-* Debugger: Xdebug
-* "use path mapping" selected, with your local `applications/` directory* (the one that contains your cloned repos) mapped to the `/app/` directory in your remote file system used the railenvironment containers.
-
-\* for example, the absolute path on your actual machine might be `/home/your-name/railenv/applications/`.
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_011.png"/>
 
 ## Step 3, debugging
 
 ### Basic
 
-Pick a page you can visit locally, for example `dev.drumeo.com/members`
+Pick a page you can visit locally, for example `https://dev.musora.com:8443/`
 
-<img alt="image" src="../../images/debugging-with-phpstorm/Screenshot 2021-12-16 14:50:36 957x1089.png"/>
+<img alt="image" src="../../images/debugging-with-phpstorm/Selection_012.png"/>
 
 Go to the "Run" menu (or press alt + u) and select both the "Start listening for PHP Debug Connctions" option (so that it's green and grey without any red), and the "Break at first lines in PHP scripts".
 
