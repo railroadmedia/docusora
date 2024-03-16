@@ -76,53 +76,65 @@ Deeplinks are a powerful tool that allows us to direct our users to any (support
 **To include a Deeplink in an In-App message...**
 1. Head to [this page](https://fly.customer.io/workspaces/101782/journeys/in-app-messages) and either create a new message from a template or edit an existing message. See the message "Example Deeplink" for reference. 
 2. In the desired Action component, ensure the Action type is "Custom Action."
-3. In the field below the Action type, insert the desired URL to open inside the app.
+3. In the field below the Action type, insert the desired URL to open inside the app. See [this guide](https://github.com/railroadmedia/docusora/blob/master/docs/cross-department-process-and-workflow-documents/mobile-app-deeplinks.md) for a list of supported deeplinks! 
 4. **IMPORTANT** Finally, name the action "deeplink" with NO CAPITALS and one word. If this is incorrect, the action will not work.
 
 ![](https://raw.githubusercontent.com/railroadmedia/docusora/master/docs/images/Screenshot%202023-07-04%20at%2011.24.26%20AM.png)
 
 ## List of in-app pages
 
-These app pages are case sensitive, so make sure you enter the correct capitalization into the **Page Rule** section!
+The **Page Name** column is what you will use for the **Page Rules** section when setting up an in-app message. These app pages are _case-sensitive_, so ensure you enter the correct capitalization!
 
-| Page Name | Clarification |
-| --- | --- |
-| SignUp | |
-| Login | |
-| SignupOnboarding | The onboarding screens when a user logs into the unified app for the first time |
-| Home | |
-| ExpiredMembershipCatalogue | This is the expired membership home page |
-| PackCatalogue | This is the pack-only user home page |
-| Shows | |
-| SearchScreen| |
-| Coaches | |
-| CoachOverview | |
-| Method | |
-| MethodLevel | The overview for a method level |
-| Foundation | |
-| CourseOverview | |
-| ShowOverview | |
-| QuickTips | |
-| Podcast | |
-| Bootcamps | |
-| Profile | |
-| ProfileMenu | |
-| NotificationSettings | |
-| ProfileUpdate | |
-| Packs | |
-| PackOverview | |
-| Lessons| This is Guitareo's lessons page |
-| Downloads | |
-| MyList | |
-| Notifications | |
-| Lesson | This is any lesson page |
-| Song | This is a lesson page, but for songs |
-| GuitarQuest | |
-| 500Songs | |
-| Forum | |
-| Settings | |
-| DeleteAccount | |
-| Support | |
-| Routines | |
+| Page Name | Image | Additional Info |
+| --- | --- | --- |
+| LaunchScreen | | |
+| SignUp | | |
+| Login | | |
+| SignupOnboarding | | The onboarding screens when a user logs into the unified app for the first time. |
+| Welcome | | |
+| Home | | |
+| ExpiredMembershipCatalogue | | This is the expired membership home page. |
+| PackCatalogue | | This is the pack-only user home page. |
+| Courses | | |
+| Songs | | |
+| PlayAlongs | | |
+| StudentFocus | | |
+| Schedule | | |
+| Rudiments | | |
+| Archives | | |
+| SongTutorials | | |
+| Shows | | |
+| SeeAll | | |
+| SeeAll2 | | |
+| SearchScreen| | |
+| Coaches | | |
+| CoachOverview | | |
+| Method | | |
+| MethodLevel | | The overview for a method level. |
+| CourseOverview | | |
+| Foundation | | |
+| ShowOverview | | |
+| QuickTips | | |
+| Podcast | | |
+| Bootcamps | | |
+| Profile | | |
+| ProfileMenu | | |
+| NotificationSettings | | |
+| ProfileUpdate | | |
+| Packs | | |
+| PackOverview | | |
+| Lessons | | This is Guitareo's lessons page. |
+| Downloads | | |
+| MyList | | |
+| Notifications | | |
+| Lesson | | This is any lesson page. |
+| Song | | This is a lesson page, but for songs. |
+| GuitarQuest | | |
+| 500Songs | | |
+| Forum | | |
+| Settings | | |
+| DeleteAccount | | |
+| Support | | |
+| Routines | | |
 
 If you don't see the page you are looking for, let Joel know and he can add it to this list.
