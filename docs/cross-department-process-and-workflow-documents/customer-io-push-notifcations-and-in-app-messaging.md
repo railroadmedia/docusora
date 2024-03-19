@@ -87,54 +87,58 @@ The **Page Name** column is what you will use for the **Page Rules** section whe
 
 | Page Name | Image | Additional Info |
 | --- | --- | --- |
-| LaunchScreen | | |
-| SignUp | | |
-| Login | | |
-| SignupOnboarding | | The onboarding screens when a user logs into the unified app for the first time. |
-| Welcome | | |
 | Home | | |
 | ExpiredMembershipCatalogue | | This is the expired membership home page. |
 | PackCatalogue | | This is the pack-only user home page. |
 | Courses | | |
 | Songs | | |
 | PlayAlongs | | |
-| StudentFocus | | |
+| StudentFocus | | This is a Drumeo Only screen. The Student Focus menu item on all other brands opens the "Shows" screen. |
 | Schedule | | |
 | Rudiments | | |
-| Archives | | |
-| SongTutorials | | |
-| Shows | | |
-| SeeAll | | |
-| SeeAll2 | | |
+| Archives | | Guitareo only screen. |
+| SongTutorials | | Pianote only screen.|
+| Shows | | This screen is also used as the "Student Focus" screen on Pianote, Guitareo, and Singeo. |
+| SeeAll | | Any list that has a "See All" button will open the SeeAll screen |
+| SeeAll2 | | Same as SeeAll, but this screen design is slightly different. Currently used only for browsing Challenges. |
 | SearchScreen| | |
 | Coaches | | |
-| CoachOverview | | |
-| Method | | |
-| MethodLevel | | The overview for a method level. |
-| CourseOverview | | |
-| Foundation | | |
-| ShowOverview | | |
-| QuickTips | | |
-| Podcast | | |
-| Bootcamps | | |
-| Profile | | |
-| ProfileMenu | | |
-| NotificationSettings | | |
-| ProfileUpdate | | |
-| Packs | | |
-| PackOverview | | |
-| Lessons | | This is Guitareo's lessons page. |
-| Downloads | | |
-| MyList | | |
-| Notifications | | |
-| Lesson | | This is any lesson page. |
-| Song | | This is a lesson page, but for songs. |
+| CoachOverview | | All Coaches share this screen. We cannot differentiate this screen by specific Coaches. |
+| Method | | The first Method screen on all brands that lists the levels. |
+| MethodLevel | | The overview for Drumeo & Pianote method levels. Since Guitareo & Singeo levels only have 1 depth of child lessons, their levels are displayed with the CourseOverview screen. |
+| CourseOverview | | All courses and Drumeo & Pianote method-level-parts (i.e. Level 2.3) use this screen. Guitareo & Singeo levels use this component, too. |
+| Foundation | | Pianote only. Foundations learning path main page. |
+| ShowOverview | | Includes all Drumeo Shows and P G S Student Reviews and Q&As. |
+| QuickTips | | The QuickTips screen is accessed from the menu. If accessed from the Drumeo Shows screen, it uses the ShowOverview screen instead. (weird, I know) |
+| Podcast | | Pianote only. The Podcast screen is accessed from the Pianote menu. |
+| Bootcamps | | Pianote only. The Bootcamps screen is accessed from the Pianote menu. |
+| Lessons | | Guitareo only. This Lessons screen is accessed from the Guitareo menu.. |
 | GuitarQuest | | |
 | 500Songs | | |
-| Forum | | |
+| Routines | | |
+| Playlists | | |
+| Playlist | | |
+| PlaylistCRUD | | |
+| PlaylistMenu | | |
+| PlaylistItemMenu | | |
+| PlaylistItemRename | | |
+| PlaylistPin | | |
+| AddToPlaylist | | |
+| Packs | | |
+| PackOverview | | |
+| Downloads | | |
+| Profile | | |
+| ProfileMenu | | |
 | Settings | | |
+| ProfileUpdate | | |
+| Notifications | | |
+| NotificationSettings | | |
+| Lesson | | This is any lesson page. |
+| Song | | This is a lesson page, but for songs. |
+| LessonHistory | | |
+| Collection | | |
+| Forum | | |
 | DeleteAccount | | |
 | Support | | |
-| Routines | | |
 
 If you don't see the page you are looking for, let Joel know and he can add it to this list.
